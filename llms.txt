@@ -170,6 +170,8 @@
 
 - [RunPod](https://runpod.io): GPU cloud platform with on-demand instances, serverless endpoints, and a community GPU marketplace — priced for AI workloads. ✓
   - llms.txt: https://docs.runpod.io/llms.txt
+- [xAI](https://x.ai): xAI's Grok API — Grok 4.1 Fast Reasoning and Non-reasoning currently the best raw-intelligence-per-dollar offering on the market. ✓
+  - llms.txt: https://docs.x.ai/llms.txt
 - [Fireworks AI](https://fireworks.ai): Production inference platform for open-source models with industry-leading speed for DeepSeek, Llama, Qwen. ✗
 - [Groq](https://groq.com): Ultra-low-latency LLM inference on custom LPU silicon — sub-second complete responses and OpenAI-compatible API. ✗
 - [Modal](https://modal.com): Serverless cloud platform for Python with first-class GPU support — deploy LLMs, training jobs, and batch pipelines from code. ✗

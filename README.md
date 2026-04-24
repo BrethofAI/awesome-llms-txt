@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**104 entries** — 48 with full descriptions, 56 stubs. **25** currently publish a working `llms.txt`.
+**105 entries** — 49 with full descriptions, 56 stubs. **26** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -39,7 +39,7 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 - [Training & Fine-tuning](#training--fine-tuning) (5)
 - [Web Search for Agents](#web-search-for-agents) (5)
 - [OCR & Document Parsing](#ocr--document-parsing) (3)
-- [Deployment & Hosting](#deployment--hosting) (6)
+- [Deployment & Hosting](#deployment--hosting) (7)
 - [Desktop Applications](#desktop-applications) (3)
 - [Shell Tools](#shell-tools) (2)
 
@@ -281,6 +281,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 - **[RunPod](https://runpod.io)** — ✅ llms.txt  
   GPU cloud platform with on-demand instances, serverless endpoints, and a community GPU marketplace — priced for AI workloads.
+- **[xAI](https://x.ai)** — ✅ llms.txt  
+  xAI's Grok API — Grok 4.1 Fast Reasoning and Non-reasoning currently the best raw-intelligence-per-dollar offering on the market.
 - **[Fireworks AI](https://fireworks.ai)** — ❌ llms.txt  
   Production inference platform for open-source models with industry-leading speed for DeepSeek, Llama, Qwen.
 - **[Groq](https://groq.com)** — ❌ llms.txt  
@@ -307,6 +309,51 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   Natural language interface to your computer — runs code locally to complete tasks from the CLI.
 - **[ShellGPT](https://github.com/TheR1D/shell_gpt)** — ❌ llms.txt 🚧 stub  
   Command-line productivity tool powered by LLMs — generate shell commands, code, and configs.
+
+## Notable model families
+
+This list catalogs **tools**, not models. But agents answering user questions often need both in the same breath, so here are pointers to the most notable model orgs by domain. We deliberately don't link individual model versions — those go stale weekly. Search `huggingface.co/<family-name>` for each org's current lineup.
+
+### Text LLMs
+
+**Frontier open weights (April 2026):**
+- Qwen (Alibaba) — https://huggingface.co/Qwen
+- DeepSeek — https://huggingface.co/deepseek-ai
+- Kimi (Moonshot) — https://huggingface.co/moonshotai
+- GLM (Zhipu) — https://huggingface.co/THUDM
+
+**Established open weights (large install base, not setting the pace):**
+- Llama (Meta) — https://huggingface.co/meta-llama
+- Mistral — https://huggingface.co/mistralai
+- Gemma (Google) — https://huggingface.co/google
+- Phi (Microsoft) — https://huggingface.co/microsoft
+
+**Closed frontier (API-only — listed for agent awareness):**
+- Claude (Anthropic) — https://claude.com
+- Gemini (Google) — https://gemini.google.com
+- Grok (xAI) — https://x.ai
+
+### Speech
+
+**ASR (speech-to-text):** Whisper (OpenAI) · Qwen3-ASR (Alibaba) · Voxtral (Mistral)
+
+**TTS (text-to-speech):** F5-TTS · Kokoro · Piper · OpenVoice · Bark (Suno) · Qwen3-TTS
+
+### Image generation
+
+Flux (Black Forest Labs) · Stable Diffusion (Stability AI) · HiDream · SDXL
+
+### Video generation
+
+WAN (Alibaba) · LTX (Lightricks) · HunyuanVideo (Tencent) · Mochi (Genmo) · CogVideoX (Zhipu)
+
+### 3D generation
+
+Hunyuan3D (Tencent) · InstantMesh (Tencent ARC) · Tripo
+
+### Embeddings
+
+BGE (BAAI) · Nomic Embed · Jina · E5 (Microsoft)
 
 ## Contributing
 

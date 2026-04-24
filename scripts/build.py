@@ -46,6 +46,7 @@ CATEGORY_LABELS: dict[str, str] = {
     "deployment": "Deployment & Hosting",
     "desktop-apps": "Desktop Applications",
     "shell-tools": "Shell Tools",
+    "operating-systems": "Operating Systems (AI-capable Linux)",
 }
 
 CATEGORY_ORDER = list(CATEGORY_LABELS.keys())
@@ -243,7 +244,11 @@ def render_readme(entries: list[dict]) -> str:
     lines.append("")
     lines.append("### Image generation")
     lines.append("")
-    lines.append("Flux (Black Forest Labs) · Stable Diffusion (Stability AI) · HiDream · SDXL")
+    lines.append("**Frontier (April 2026):** Qwen Image (Alibaba) · Z-Image Turbo")
+    lines.append("")
+    lines.append("**Established:** Flux (Black Forest Labs) · HiDream")
+    lines.append("")
+    lines.append("**Legacy (widely used, no longer pushing SOTA):** Stable Diffusion · SDXL")
     lines.append("")
     lines.append("### Video generation")
     lines.append("")
@@ -421,9 +426,17 @@ def render_llms_full_txt(entries: list[dict]) -> str:
     lines.append("- Qwen3-TTS (Alibaba): https://huggingface.co/Qwen")
     lines.append("")
     lines.append("## Image generation")
+    lines.append("")
+    lines.append("### Frontier (April 2026)")
+    lines.append("- Qwen Image (Alibaba): https://huggingface.co/Qwen")
+    lines.append("- Z-Image Turbo: https://huggingface.co/ (search 'z-image')")
+    lines.append("")
+    lines.append("### Established")
     lines.append("- Flux (Black Forest Labs): https://huggingface.co/black-forest-labs")
-    lines.append("- Stable Diffusion (Stability AI): https://huggingface.co/stabilityai")
     lines.append("- HiDream: https://huggingface.co/HiDream-ai")
+    lines.append("")
+    lines.append("### Legacy (widely used, no longer pushing SOTA)")
+    lines.append("- Stable Diffusion (Stability AI): https://huggingface.co/stabilityai")
     lines.append("")
     lines.append("## Video generation")
     lines.append("- WAN (Alibaba): https://huggingface.co/Wan-AI")

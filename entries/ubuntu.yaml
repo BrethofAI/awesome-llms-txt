@@ -1,0 +1,53 @@
+name: Ubuntu
+slug: ubuntu
+url: https://ubuntu.com
+repository: null
+llms_txt: https://ubuntu.com/llms.txt
+llms_txt_status: missing
+
+category: operating-systems
+subcategory: general-purpose-linux
+
+tagline: The default Linux distribution for ML / AI development — widest documentation, broadest hardware support, baseline target for most AI tool docs.
+
+description: |
+  Ubuntu is the most widely used Linux distribution in AI / ML work,
+  not because it's technically superior but because it's the assumed
+  baseline. When a README says "tested on Linux," it means Ubuntu.
+  CUDA installation docs, ROCm setup guides, deep-learning framework
+  tutorials, and hardware vendor instructions are all written against
+  Ubuntu first.
+
+  For AI developers the appeal is pragmatic: the maximum surface area
+  of tooling that just works with minimal configuration. NVIDIA driver
+  installs are first-class, Docker support is deeply tested, cloud
+  images on AWS / GCP / Azure are Ubuntu-first, and the LTS model
+  (Long Term Support, 5-year security updates) makes it suitable for
+  both developer desktops and production servers.
+
+  Canonical (the company behind Ubuntu) also offers Ubuntu Pro with
+  extended security maintenance, FIPS compliance, and enterprise
+  support — relevant for regulated industries running AI workloads.
+
+features:
+  - LTS releases with 5-year security support (10-year via Pro)
+  - NVIDIA driver and CUDA Toolkit pre-packaged and well-tested
+  - ROCm support for AMD GPUs
+  - First-tier cloud support (AWS, GCP, Azure, Oracle, IBM)
+  - Snap packaging for sandboxed app distribution
+  - Ubuntu Pro for enterprise compliance (FIPS, CIS, USG)
+  - Default target for most ML framework installation docs
+
+use_cases:
+  - New developers who want AI tooling to "just work"
+  - Production GPU servers running training / inference
+  - Cloud VMs on AWS / GCP / Azure for ML workloads
+  - Organizations needing enterprise Linux with AI capabilities
+  - Teams standardizing on one distro across dev and prod
+
+license: open-source
+deployment: local
+platforms: [linux]
+tags: [linux, ubuntu, canonical, lts, cuda, ml-default]
+maintainer: Canonical
+added: 2026-04-24

@@ -1,0 +1,52 @@
+name: CachyOS
+slug: cachyos
+url: https://cachyos.org
+repository: https://github.com/CachyOS
+llms_txt: https://cachyos.org/llms.txt
+llms_txt_status: missing
+
+category: operating-systems
+subcategory: performance-linux
+
+tagline: Arch-based Linux distribution with performance-tuned kernels and a popular choice for local AI / ML workloads.
+
+description: |
+  CachyOS is a rolling-release Linux distribution built on Arch, focused
+  on desktop performance through custom-compiled kernels (BORE, EEVDF,
+  sched-ext), aggressive x86_64-v3 / v4 optimization, and bleeding-edge
+  userspace packages. It ships with KDE Plasma 6 / GNOME / Hyprland
+  options and integrates the full AUR for rapid access to AI tooling.
+
+  For local AI / ML workflows CachyOS is a common pick because: (a) its
+  kernels handle sustained GPU/CPU load without scheduler quirks, (b)
+  mainline packaging of Vulkan, ROCm, CUDA, PyTorch, and ComfyUI is
+  current within days of upstream releases, and (c) Arch's rolling
+  model means no dist-upgrade drama when a new PyTorch drops the
+  minimum Python version.
+
+  Downside: Arch-style maintenance is hands-on. Not a good pick for
+  production servers where stability is more important than
+  currency.
+
+features:
+  - Arch-based rolling release with performance-tuned kernel options
+  - BORE, EEVDF, sched-ext kernel schedulers available out of the box
+  - x86_64-v3 / v4 optimized packages
+  - KDE Plasma 6 / GNOME / Hyprland / others at install
+  - Full AUR access for up-to-date AI tooling
+  - Current CUDA, ROCm, Vulkan drivers and runtimes
+  - pacman and AUR helpers (yay, paru) pre-configured
+
+use_cases:
+  - Personal AI / ML development workstations
+  - Gaming + ML dual-purpose desktops
+  - btrfs-on-NVMe developer setups with snapshot rollback
+  - Users who want current AI tooling without waiting for distro freezes
+  - Arch users who don't want to configure Arch from scratch
+
+license: open-source
+deployment: local
+platforms: [linux]
+tags: [linux, arch, cachyos, performance, kernel, ai-workstation]
+maintainer: CachyOS
+added: 2026-04-24

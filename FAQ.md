@@ -83,6 +83,22 @@ Yes, MIT license means you can do pretty much anything. Mirror, fork, ingest int
 
 The `llms.txt` and `llms-full.txt` at the repo root are written for LLM consumption: no navigation chrome, no ads, every tool described in a paragraph + feature list + use-case list, with URLs an agent can immediately follow. When a user asks an agent "what are good open-source local LLM runtimes," an agent that fetched `awesome-llms-txt/llms-full.txt` has accurate, current, typed data for 20+ candidate tools. That's the goal.
 
+## Why are Linux distros on an "AI tools" list?
+
+AI tools run on operating systems, and the distro choice materially
+affects what works out of the box. Agents get asked "which Linux for
+ML development" often enough that a small, curated set of AI-capable
+distros saves the user a lot of low-signal searching.
+
+Our bar for `operating-systems` entries: **the distro documents AI/ML
+workflows as a first-class use case, ships or packages the full ML
+stack with minimal setup, and has meaningful adoption in ML
+developer communities.** We're not listing every Linux distro — just
+ones that are known-good targets for AI tooling.
+
+We don't list Docker, Kubernetes, CUDA Toolkit, Python, WSL2, etc.
+under this category — they're adjacent infrastructure, not OSes.
+
 ## What's not on the list?
 
 Intentionally excluded:

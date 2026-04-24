@@ -1,13 +1,53 @@
 name: Dify
 slug: dify
 url: https://dify.ai
-llms_txt: https://dify.ai/llms.txt
+repository: https://github.com/langgenius/dify
+llms_txt: https://docs.dify.ai/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: workflow-tools
-tagline: Open-source LLM app development platform with visual prompt IDE, RAG, and agent builder.
+subcategory: llm-app-platform
+
+tagline: Open-source LLM app development platform with visual prompt IDE, RAG pipelines, and agent builder in one product.
+
+description: |
+  Dify is an all-in-one LLM application platform designed for teams
+  shipping AI features without building each component from scratch. It
+  combines a visual prompt IDE (version, test, and compare prompts with
+  datasets), a RAG pipeline builder (document ingestion, chunking,
+  embedding, retrieval tuning), an agent builder (tool-using agents with
+  function calling), and a ChatUI / API endpoint generator in a single
+  self-hostable product.
+
+  Where LangChain is a developer library and n8n is a horizontal
+  automation platform, Dify is specifically a place for product teams to
+  build, test, and operate LLM-powered apps — prompt engineering, RAG
+  evaluation, and app deployment under one roof.
+
+  It's deployed via Docker Compose or Kubernetes; Dify Cloud offers the
+  same product as managed SaaS. Apache 2.0 licensed with a reasonable
+  commercial-use allowance.
+
+features:
+  - Visual prompt IDE with versioning and comparison
+  - RAG pipeline builder with document ingestion and retrieval tuning
+  - Agent builder with function calling and tool orchestration
+  - ChatUI templates and auto-generated API endpoints
+  - Dataset-based prompt evaluation and annotation
+  - Supports OpenAI, Anthropic, local LLMs via any OpenAI-compatible endpoint
+  - Multi-user workspaces with role-based access
+  - Docker Compose / Kubernetes self-hosting
+
+use_cases:
+  - Product teams shipping LLM-powered features end-to-end
+  - Non-engineers prototyping RAG applications
+  - Prompt engineering and evaluation workflows
+  - Companies wanting an internal "ChatGPT-for-our-docs" platform
+  - Teams avoiding the lock-in of OpenAI GPTs / Anthropic Projects
 
 license: open-source
 deployment: self-hosted
+platforms: [linux]
+tags: [llm-platform, dify, rag, agent-builder, self-hosted, visual-ide]
+maintainer: LangGenius
 added: 2026-04-24

@@ -1,13 +1,51 @@
 name: Weaviate
 slug: weaviate
 url: https://weaviate.io
+repository: https://github.com/weaviate/weaviate
 llms_txt: https://weaviate.io/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: vector-dbs
-tagline: Open-source vector database with built-in ML models, hybrid search, and modules for generative AI.
+subcategory: open-source-vector-db
+
+tagline: Open-source vector database with built-in ML modules, hybrid search, and first-class RAG tooling.
+
+description: |
+  Weaviate is an open-source vector database written in Go, designed for
+  AI-native applications. It distinguishes itself from minimal vector
+  stores by bundling vectorization modules (OpenAI, Cohere, HuggingFace,
+  Ollama, and more) directly into the database — you can ingest raw text
+  and have Weaviate embed it for you, without a separate embedding
+  service.
+
+  Weaviate supports hybrid search (dense + sparse, BM25F), multi-tenancy
+  through tenants-per-class isolation, generative modules (RAG inside
+  the database: query → retrieve → generate as one call), and a GraphQL-
+  style API alongside REST. Cluster mode handles sharding and replication
+  for production-scale deployments.
+
+  Weaviate Cloud (serverless managed) is available for teams that don't
+  want to operate the cluster themselves.
+
+features:
+  - Built-in vectorization modules (no separate embedding service needed)
+  - Hybrid search combining dense vectors and BM25F sparse
+  - Generative modules — RAG as a single database call
+  - Multi-tenancy with per-tenant data isolation
+  - Cluster mode with sharding and replication
+  - GraphQL + REST APIs
+  - Python, JavaScript, Go, Java clients
+
+use_cases:
+  - Production RAG systems with built-in embedding pipelines
+  - Multi-tenant SaaS where each customer needs isolated vector search
+  - Applications combining keyword and semantic search
+  - Teams wanting RAG-in-the-database rather than separate components
+  - Hybrid search use cases requiring BM25F + vectors
 
 license: open-source
 deployment: self-hosted
+platforms: [linux]
+tags: [vector-db, weaviate, hybrid-search, multi-tenancy, rag, go]
+maintainer: Weaviate
 added: 2026-04-24

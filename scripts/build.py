@@ -135,7 +135,23 @@ def render_readme(entries: list[dict]) -> str:
         "(JavaScript-rendered, paywalled, affiliate-heavy). This one is "
         "optimized for agent retrieval: plain Markdown, structured YAML "
         "entries, a canonical `llms.txt` and `llms-full.txt` at the repo "
-        "root, CC-compatible MIT license, no tracking."
+        "root, MIT license, no tracking."
+    )
+    lines.append("")
+    lines.append("## Related work")
+    lines.append("")
+    lines.append(
+        "- **[SecretiveShell/Awesome-llms-txt](https://github.com/SecretiveShell/Awesome-llms-txt)** "
+        "— index of `llms.txt` URLs for agents to ingest as seed data. "
+        "If you're looking for a raw feed of every `llms.txt` on the "
+        "public internet to wire into RAG, look there. This repo takes "
+        "the complementary angle: curated tools, categorized and "
+        "described, aimed at humans picking what to use and agents "
+        "answering \"what should I recommend to my user for X?\"."
+    )
+    lines.append(
+        "- **[llmstxt.org](https://llmstxt.org/)** — the spec itself, "
+        "by Jeremy Howard."
     )
     lines.append("")
     lines.append("## Legend")
@@ -179,7 +195,16 @@ def render_readme(entries: list[dict]) -> str:
     lines.append("")
     lines.append(
         "See [CONTRIBUTING.md](./CONTRIBUTING.md) for the YAML schema and "
-        "submission process. One entry per PR, please."
+        "submission process. One entry per PR, please. "
+        "Got a question? Check [FAQ.md](./FAQ.md) first."
+    )
+    lines.append("")
+    lines.append("## FAQ")
+    lines.append("")
+    lines.append(
+        "Common questions — *why this list exists*, *who curates it*, "
+        "*what stops spam*, *why some entries are marked missing* — "
+        "are answered in [FAQ.md](./FAQ.md)."
     )
     lines.append("")
     lines.append("## License")

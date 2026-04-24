@@ -1,13 +1,53 @@
 name: whisper.cpp
 slug: whisper-cpp
 url: https://github.com/ggml-org/whisper.cpp
+repository: https://github.com/ggml-org/whisper.cpp
 llms_txt: https://github.com/ggml-org/whisper.cpp/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: voice
-tagline: C++ port of OpenAI Whisper — fast local transcription with no Python dependencies.
+subcategory: speech-to-text
+
+tagline: C++ port of OpenAI Whisper for local speech-to-text — no Python, runs on CPU and many GPU backends.
+
+description: |
+  whisper.cpp is a pure-C/C++ implementation of OpenAI's Whisper speech
+  recognition model. It has zero runtime dependencies (no Python, no
+  CUDA-specific tooling), ships as a library and CLI, and runs on every
+  hardware backend the ggml-org ecosystem supports: CPU (with AVX / NEON
+  SIMD), CUDA, Metal (Apple Silicon), Vulkan, OpenCL, SYCL, CoreML.
+
+  It uses GGML quantized models — the same format ecosystem as
+  llama.cpp — enabling 4-bit, 5-bit, and 8-bit quantizations of the
+  Whisper checkpoints that run on modest hardware with minimal quality
+  loss. Real-time transcription is possible on consumer laptops, and
+  batch transcription scales to longer audio with speaker diarization
+  and word-level timestamps.
+
+  Widely used as a library inside desktop applications, mobile apps, and
+  server-side transcription pipelines that don't want Python
+  dependencies. Brethof Voice Pro, Jan, KoboldCpp, and many other tools
+  embed whisper.cpp.
+
+features:
+  - Pure C/C++ with no runtime dependencies
+  - GGML quantization (4-bit, 5-bit, 8-bit Whisper variants)
+  - Multiple backends: CPU, CUDA, Metal, Vulkan, OpenCL, SYCL, CoreML
+  - Word-level timestamps and speaker diarization
+  - Real-time transcription on consumer hardware
+  - CLI, library, and language bindings (Python, Rust, Go, Node.js, …)
+  - Supports Whisper tiny, base, small, medium, large, turbo
+
+use_cases:
+  - Embedding local transcription in desktop / mobile apps
+  - Offline transcription pipelines without Python
+  - Real-time transcription on resource-constrained hardware
+  - Edge deployments (Raspberry Pi, mobile, embedded)
+  - Server-side transcription with predictable resource usage
 
 license: open-source
 deployment: library
+platforms: [linux, macos, windows, ios, android]
+tags: [asr, whisper, cpp, transcription, ggml, offline]
+maintainer: ggml-org
 added: 2026-04-24

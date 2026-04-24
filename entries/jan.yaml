@@ -1,13 +1,53 @@
 name: Jan
 slug: jan
 url: https://jan.ai
+repository: https://github.com/menloresearch/jan
 llms_txt: https://jan.ai/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: inference-runtimes
-tagline: Open-source ChatGPT alternative desktop app with local model support.
+subcategory: desktop-chat-app
+
+tagline: Open-source desktop ChatGPT alternative that runs local LLMs — privacy-first, no cloud, no account.
+
+description: |
+  Jan is a desktop application that provides a ChatGPT-like interface
+  backed entirely by locally-running open-weight LLMs. It bundles a
+  llama.cpp-based inference engine, model discovery (curated HuggingFace
+  models with one-click install), a conversation interface, and an
+  OpenAI-compatible local server — all in a single installable app for
+  Linux, macOS, and Windows.
+
+  Jan's positioning is privacy-first: no account needed, no data sent to
+  any cloud, fully functional offline after install. Its codebase is
+  AGPLv3 open-source and actively developed by Menlo Research, with
+  frequent model library updates tracking the open-weight state of the
+  art.
+
+  The OpenAI-compatible server means Jan doubles as a local backend for
+  other tools — coding assistants, agent frameworks, or any application
+  that speaks the OpenAI API can point at `http://localhost:1337` and use
+  whatever model Jan has loaded.
+
+features:
+  - ChatGPT-style desktop UI with conversation history
+  - llama.cpp backend with GGUF model support
+  - Curated model library with one-click download
+  - Built-in OpenAI-compatible local server
+  - NVIDIA CUDA, AMD ROCm, Apple Metal, CPU backends
+  - Extensions system for custom integrations
+  - Fully offline after install; no telemetry
+
+use_cases:
+  - Privacy-conscious users wanting ChatGPT UX without cloud
+  - Non-technical users running local LLMs without CLI
+  - Teams piloting local LLMs on consumer hardware
+  - Local backend for coding assistants and agent frameworks
+  - Offline work environments
 
 license: open-source
 deployment: local
+platforms: [linux, macos, windows]
+tags: [inference, chat-ui, jan, local, privacy, llama-cpp]
+maintainer: Menlo Research
 added: 2026-04-24

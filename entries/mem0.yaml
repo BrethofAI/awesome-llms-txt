@@ -1,13 +1,53 @@
 name: Mem0
 slug: mem0
 url: https://mem0.ai
-llms_txt: https://mem0.ai/llms.txt
+repository: https://github.com/mem0ai/mem0
+llms_txt: https://docs.mem0.ai/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: rag-frameworks
-tagline: Memory layer for AI agents — persistent user preferences and context across sessions.
+subcategory: agent-memory-layer
+
+tagline: Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions.
+
+description: |
+  Mem0 is a memory framework that gives AI agents persistent, queryable
+  memory across conversations. It extracts facts from each interaction
+  ("the user's dog is named Rex", "the user prefers Python over
+  JavaScript"), stores them in a vector + graph hybrid index, and
+  retrieves relevant memories when the agent needs context for a new
+  query.
+
+  Compared to raw vector databases where applications manage their own
+  schema, Mem0 provides an opinionated memory abstraction: user-scoped
+  memories, automatic fact extraction, memory updates (the dog's name
+  changed? the old fact gets superseded), and ranked retrieval tuned for
+  the agent-memory use case specifically.
+
+  It integrates with LangChain, LlamaIndex, CrewAI, and any OpenAI-
+  compatible client. Open-source core under Apache 2.0 with a managed
+  hosted tier (Mem0 Cloud) for teams that don't want to operate the
+  storage layer.
+
+features:
+  - Automatic fact extraction from conversation turns
+  - User-scoped memories with updates and deletions
+  - Vector + graph hybrid retrieval
+  - Integrations with LangChain, LlamaIndex, CrewAI, raw OpenAI SDK
+  - Multiple storage backends (Qdrant, Weaviate, pgvector, Chroma)
+  - Open-source core (Apache 2.0) + managed cloud tier
+  - Python and TypeScript SDKs
+
+use_cases:
+  - Personalized chat assistants that remember user preferences
+  - Customer support agents that track interaction history
+  - Long-running agents that accumulate project-specific context
+  - Multi-session agent workflows without bloating each prompt
+  - Replacing ad-hoc "memory in the system prompt" with structured storage
 
 license: freemium
 deployment: library
+platforms: [linux, macos, windows]
+tags: [memory, agents, mem0, personalization, rag, long-term-memory]
+maintainer: Mem0
 added: 2026-04-24

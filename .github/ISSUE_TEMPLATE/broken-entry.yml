@@ -1,0 +1,36 @@
+name: Broken / outdated entry
+description: Report an entry with a dead link, wrong status, or stale info
+title: "Broken: <tool name>"
+labels: ["broken-entry"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Entry slug
+      description: The filename under entries/ (without .yaml)
+      placeholder: "e.g. ollama"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong?
+      options:
+        - Homepage URL 404s or redirects wrong
+        - llms_txt URL is 404 but status says published
+        - llms_txt URL returns 200 but status says missing (should be upgraded)
+        - Tool is dead / abandoned / acquired
+        - Tagline or description is factually wrong
+        - Category is wrong
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What did you check? What did you see? What's the expected state?
+    validations:
+      required: true

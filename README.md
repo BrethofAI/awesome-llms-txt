@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**101 entries** — 45 with full descriptions, 56 stubs. **22** currently publish a working `llms.txt`.
+**104 entries** — 48 with full descriptions, 56 stubs. **25** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -31,7 +31,7 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 - [Workflow Tools](#workflow-tools) (5)
 - [Voice (STT / TTS)](#voice-stt--tts) (7)
 - [Image Generation](#image-generation) (5)
-- [Vector Databases](#vector-databases) (6)
+- [Vector Databases](#vector-databases) (8)
 - [RAG Frameworks](#rag-frameworks) (6)
 - [Embeddings](#embeddings) (3)
 - [Observability](#observability) (5)
@@ -39,7 +39,7 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 - [Training & Fine-tuning](#training--fine-tuning) (5)
 - [Web Search for Agents](#web-search-for-agents) (5)
 - [OCR & Document Parsing](#ocr--document-parsing) (3)
-- [Deployment & Hosting](#deployment--hosting) (5)
+- [Deployment & Hosting](#deployment--hosting) (6)
 - [Desktop Applications](#desktop-applications) (3)
 - [Shell Tools](#shell-tools) (2)
 
@@ -181,8 +181,12 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 - **[Chroma](https://www.trychroma.com)** — ✅ llms.txt  
   Open-source embedding database designed for LLM applications — runs embedded, as a server, or in the cloud.
+- **[Pinecone](https://www.pinecone.io)** — ✅ llms.txt  
+  Fully managed serverless vector database — the original SaaS option for production-scale vector search.
 - **[Qdrant](https://qdrant.tech)** — ✅ llms.txt  
   Open-source, Rust-written vector database built for production scale — rich filtering, hybrid search, and multi-tenancy.
+- **[SurrealDB](https://surrealdb.com)** — ✅ llms.txt  
+  Multi-model database written in Rust combining document, graph, key-value, time-series, and vector in one engine.
 - **[Milvus](https://milvus.io)** — ❌ llms.txt  
   Open-source cloud-native vector database built for billion-scale similarity search with separation of storage and compute.
 - **[pgvector](https://github.com/pgvector/pgvector)** — ❌ llms.txt  
@@ -275,6 +279,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 ## Deployment & Hosting
 
+- **[RunPod](https://runpod.io)** — ✅ llms.txt  
+  GPU cloud platform with on-demand instances, serverless endpoints, and a community GPU marketplace — priced for AI workloads.
 - **[Fireworks AI](https://fireworks.ai)** — ❌ llms.txt  
   Production inference platform for open-source models with industry-leading speed for DeepSeek, Llama, Qwen.
 - **[Groq](https://groq.com)** — ❌ llms.txt  

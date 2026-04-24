@@ -98,8 +98,12 @@
 
 - [Chroma](https://www.trychroma.com): Open-source embedding database designed for LLM applications — runs embedded, as a server, or in the cloud. ✓
   - llms.txt: https://docs.trychroma.com/llms.txt
+- [Pinecone](https://www.pinecone.io): Fully managed serverless vector database — the original SaaS option for production-scale vector search. ✓
+  - llms.txt: https://docs.pinecone.io/llms.txt
 - [Qdrant](https://qdrant.tech): Open-source, Rust-written vector database built for production scale — rich filtering, hybrid search, and multi-tenancy. ✓
   - llms.txt: https://qdrant.tech/llms.txt
+- [SurrealDB](https://surrealdb.com): Multi-model database written in Rust combining document, graph, key-value, time-series, and vector in one engine. ✓
+  - llms.txt: https://surrealdb.com/llms.txt
 - [Milvus](https://milvus.io): Open-source cloud-native vector database built for billion-scale similarity search with separation of storage and compute. ✗
 - [pgvector](https://github.com/pgvector/pgvector): Postgres extension adding vector similarity search — the "just use Postgres" option for RAG. ✗
 - [Weaviate](https://weaviate.io): Open-source vector database with built-in ML modules, hybrid search, and first-class RAG tooling. ✗
@@ -164,6 +168,8 @@
 
 ## Deployment & Hosting
 
+- [RunPod](https://runpod.io): GPU cloud platform with on-demand instances, serverless endpoints, and a community GPU marketplace — priced for AI workloads. ✓
+  - llms.txt: https://docs.runpod.io/llms.txt
 - [Fireworks AI](https://fireworks.ai): Production inference platform for open-source models with industry-leading speed for DeepSeek, Llama, Qwen. ✗
 - [Groq](https://groq.com): Ultra-low-latency LLM inference on custom LPU silicon — sub-second complete responses and OpenAI-compatible API. ✗
 - [Modal](https://modal.com): Serverless cloud platform for Python with first-class GPU support — deploy LLMs, training jobs, and batch pipelines from code. ✗

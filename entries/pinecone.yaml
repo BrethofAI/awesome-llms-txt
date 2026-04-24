@@ -1,0 +1,56 @@
+name: Pinecone
+slug: pinecone
+url: https://www.pinecone.io
+repository: null
+llms_txt: https://docs.pinecone.io/llms.txt
+llms_txt_status: published
+
+category: vector-dbs
+subcategory: managed-vector-db
+
+tagline: Fully managed serverless vector database — the original SaaS option for production-scale vector search.
+
+description: |
+  Pinecone is the original managed vector database and remains the most
+  widely adopted SaaS option for production vector search. Its
+  serverless architecture abstracts away every operational concern:
+  no cluster sizing, no replication config, no reindexing during
+  scaling events. Queries return in single-digit milliseconds at
+  billion-vector scale.
+
+  Pinecone's product expanded beyond pure vector search to include
+  Assistant (hosted RAG as a service — upload documents, get a chatbot
+  endpoint), embedding inference (text → embedding via the same API
+  that stores them), and reranking. For teams that want a complete
+  managed RAG stack without operating any infrastructure, Pinecone's
+  breadth is hard to match.
+
+  Trade-offs: proprietary (closed-source), most expensive option at
+  scale versus self-hosted Qdrant/Milvus/Weaviate, and vendor lock-in
+  for teams building on its Assistant layer. For small indexes it's
+  often cheaper than self-hosting; for very large indexes the
+  calculus shifts.
+
+features:
+  - Serverless — no cluster management, automatic scaling
+  - Sub-10ms query latency at billion-vector scale
+  - Metadata filtering with complex boolean queries
+  - Hybrid search (dense + sparse vectors)
+  - Pinecone Assistant: managed RAG as an API
+  - Built-in embedding inference and reranking
+  - Multi-region deployment for latency
+  - Clients in Python, JavaScript, Go, Java, .NET, Rust
+
+use_cases:
+  - Production RAG without operating vector-DB infrastructure
+  - Applications needing sub-10ms vector query SLOs
+  - Teams that want a complete managed RAG stack (DB + embeddings + RAG)
+  - Companies where ops time is more expensive than storage cost
+  - Multi-region vector search for global applications
+
+license: commercial
+deployment: saas
+platforms: [linux, macos, windows]
+tags: [vector-db, pinecone, saas, managed, serverless, rag]
+maintainer: Pinecone
+added: 2026-04-24

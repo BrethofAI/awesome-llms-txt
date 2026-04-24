@@ -1,0 +1,57 @@
+name: SurrealDB
+slug: surrealdb
+url: https://surrealdb.com
+repository: https://github.com/surrealdb/surrealdb
+llms_txt: https://surrealdb.com/llms.txt
+llms_txt_status: published
+
+category: vector-dbs
+subcategory: multi-model-database
+
+tagline: Multi-model database written in Rust combining document, graph, key-value, time-series, and vector in one engine.
+
+description: |
+  SurrealDB is a multi-model database that unifies document, graph,
+  key-value, time-series, and vector workloads in a single Rust-written
+  engine. Where traditional RAG stacks glue a vector database to a
+  relational database to a graph store, SurrealDB lets a single query
+  span all of them — joining user data, embeddings, and graph
+  relationships without cross-system synchronization.
+
+  For AI applications the vector search capability supports HNSW and
+  MTree indexes alongside scalar filters and full graph traversal. The
+  same query can filter users by attribute, retrieve their document
+  embeddings by cosine similarity, and walk the graph of their social
+  connections — all in one SurrealQL statement.
+
+  SurrealDB runs embedded (in-process, WASM-compatible for browser /
+  Node.js), as a standalone server, or in distributed cluster mode
+  (SurrealDB Cloud, or self-hosted with TiKV). It's used increasingly
+  as the backing store for agent memory, RAG systems, and real-time
+  applications that need multi-model data without the operational
+  overhead of multiple databases.
+
+features:
+  - Document, graph, key-value, time-series, and vector in one engine
+  - HNSW and MTree vector indexes with cosine / Euclidean / Manhattan
+  - SurrealQL — one query language across all models
+  - Embedded (in-process) or standalone server modes
+  - Live queries with real-time change notifications
+  - Native graph traversal with SELECT on edges
+  - WebAssembly builds for browser and Node.js
+  - Schemaless or schemafull tables, per your preference
+
+use_cases:
+  - Agent memory stores combining facts, relationships, and embeddings
+  - RAG applications that need relational context alongside vectors
+  - Real-time applications with live-query subscriptions
+  - Graph-heavy AI workflows (knowledge graphs, entity linking)
+  - Replacing a vector-DB + Postgres + Redis stack with one system
+  - Embedded database for desktop AI apps (WASM / single-binary)
+
+license: open-source
+deployment: self-hosted
+platforms: [linux, macos, windows, web]
+tags: [database, multi-model, vector, graph, document, surrealdb, rust]
+maintainer: SurrealDB
+added: 2026-04-24

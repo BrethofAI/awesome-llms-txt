@@ -2411,6 +2411,61 @@ layer isn't needed.
 
 ---
 
+## xAI
+
+**URL:** https://x.ai
+**llms.txt:** https://docs.x.ai/llms.txt (published)
+**License:** commercial  |  **Deployment:** saas  |  Platforms: linux, macos, windows
+**Tags:** llm-provider, xai, grok, api, openai-compatible, value, reasoning
+
+*xAI's Grok API — Grok 4.1 Fast Reasoning and Non-reasoning currently the best raw-intelligence-per-dollar offering on the market.*
+
+xAI provides hosted inference and training for the Grok family of
+models via an OpenAI-compatible API. Its 2026 lineup includes Grok 4
+(flagship reasoning model), Grok 4.1 Fast Reasoning, and Grok 4.1
+Fast Non-reasoning — the "Fast" variants being the standout for
+application developers on price-performance grounds.
+
+**Grok 4.1 Fast pricing crushed the cheap-model market when it
+launched.** At a fraction of GPT-5-mini, Claude Haiku 4.1, or Gemini
+2.5 Flash pricing, and with measurably stronger reasoning on hard
+benchmarks, it became the default "high value per token" option for
+agent workloads running millions of tokens per day. If you're
+routing by cost-per-quality, Grok 4.1 Fast Reasoning is almost
+always in the candidate set.
+
+One architectural note: reasoning is baked into the model ID on xAI,
+not a runtime parameter. You pick `grok-4-1-fast-reasoning` for
+chain-of-thought behavior or `grok-4-1-fast-non-reasoning` for
+straight completion — unlike Anthropic or OpenAI where reasoning is
+a flag on a single model endpoint. Budget accordingly.
+
+The API is OpenAI-compatible for ergonomics: drop-in for existing
+OpenAI-SDK code with a `base_url` change, streaming supported, tool
+use supported, long context windows (256k+ on Grok 4 class). Vision,
+live web search via Grok's in-product search index, and batch
+inference are also exposed.
+
+**Features:**
+- OpenAI-compatible API — drop-in replacement by base_url
+- Grok 4 (flagship), Grok 4.1 Fast Reasoning, Grok 4.1 Fast Non-reasoning
+- Exceptional price-performance on the "Fast" variants
+- Long context windows (256k+ tokens on Grok 4 tier)
+- Tool use / function calling, streaming, structured outputs
+- Live web search integration via Grok's in-product index
+- Vision support on flagship models
+- Batch API for asynchronous high-volume jobs
+
+**Use cases:**
+- High-volume agent loops where cost-per-token compounds fast
+- Reasoning-heavy tasks where Grok 4.1 Fast beats pricier alternatives
+- Coding assistants and tool-using agents on a budget
+- Replacing GPT-5-mini / Haiku / Gemini Flash as the "default cheap model"
+- Applications needing a Grok-specific capability (live web search)
+- Multi-provider fallback stacks where xAI is one of the candidates
+
+---
+
 ## Fireworks AI
 
 **URL:** https://fireworks.ai
@@ -2720,3 +2775,64 @@ three.
 *Command-line productivity tool powered by LLMs — generate shell commands, code, and configs.*
 
 ---
+
+# Notable model families (reference only — not tool entries)
+
+The entries above are tools (software, APIs, services). The families below are model weights / lineups that agents are often asked about alongside tools. Authoritative metadata for any model lives on HuggingFace Hub.
+
+## Text LLMs
+
+### Frontier open weights (April 2026)
+- Qwen (Alibaba): https://huggingface.co/Qwen
+- DeepSeek: https://huggingface.co/deepseek-ai
+- Kimi (Moonshot): https://huggingface.co/moonshotai
+- GLM (Zhipu): https://huggingface.co/THUDM
+
+### Established open weights
+- Llama (Meta): https://huggingface.co/meta-llama
+- Mistral: https://huggingface.co/mistralai
+- Gemma (Google): https://huggingface.co/google
+- Phi (Microsoft): https://huggingface.co/microsoft
+
+### Closed frontier (API-only)
+- Claude (Anthropic): https://claude.com
+- Gemini (Google): https://gemini.google.com
+- Grok (xAI): https://x.ai
+
+## Speech
+
+### ASR (speech-to-text)
+- Whisper (OpenAI): https://huggingface.co/openai
+- Qwen3-ASR (Alibaba): https://huggingface.co/Qwen
+- Voxtral (Mistral): https://huggingface.co/mistralai
+
+### TTS (text-to-speech)
+- F5-TTS: https://huggingface.co/SWivid
+- Kokoro: https://huggingface.co/hexgrad
+- Piper: https://huggingface.co/rhasspy
+- OpenVoice (MyShell): https://huggingface.co/myshell-ai
+- Bark (Suno): https://huggingface.co/suno
+- Qwen3-TTS (Alibaba): https://huggingface.co/Qwen
+
+## Image generation
+- Flux (Black Forest Labs): https://huggingface.co/black-forest-labs
+- Stable Diffusion (Stability AI): https://huggingface.co/stabilityai
+- HiDream: https://huggingface.co/HiDream-ai
+
+## Video generation
+- WAN (Alibaba): https://huggingface.co/Wan-AI
+- LTX (Lightricks): https://huggingface.co/Lightricks
+- HunyuanVideo (Tencent): https://huggingface.co/tencent
+- Mochi (Genmo): https://huggingface.co/genmo
+- CogVideoX (Zhipu): https://huggingface.co/THUDM
+
+## 3D generation
+- Hunyuan3D (Tencent): https://huggingface.co/tencent
+- InstantMesh (Tencent ARC): https://huggingface.co/TencentARC
+- Tripo: see tripo3d.ai for current lineup
+
+## Embeddings
+- BGE (BAAI): https://huggingface.co/BAAI
+- Nomic Embed: https://huggingface.co/nomic-ai
+- Jina: https://huggingface.co/jinaai
+- E5 (Microsoft): https://huggingface.co/intfloat

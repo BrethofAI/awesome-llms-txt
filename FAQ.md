@@ -87,7 +87,7 @@ The `llms.txt` and `llms-full.txt` at the repo root are written for LLM consumpt
 
 Intentionally excluded:
 
-- **Models.** Llama 3.1, Qwen3, DeepSeek R1 are models, not tools. They live on HuggingFace Hub; no need to duplicate.
+- **Models as first-class entries.** Llama 3.1, Qwen3, DeepSeek R1 are models, not tools. They live on HuggingFace Hub; no need to duplicate the model cards. We do maintain a compact "Notable model families" appendix at the bottom of the README as a reference pointer, but individual models aren't entries in `entries/`.
 - **Hosted chatbots.** ChatGPT, Claude.ai, Perplexity are end-user products, not developer tools. (Their APIs and SDKs are in the list.)
 - **Datasets.** Out of scope.
 - **Academic papers.** Out of scope.

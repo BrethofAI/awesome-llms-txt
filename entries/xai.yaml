@@ -1,0 +1,63 @@
+name: xAI
+slug: xai
+url: https://x.ai
+repository: null
+llms_txt: https://docs.x.ai/llms.txt
+llms_txt_status: published
+
+category: deployment
+subcategory: llm-provider-api
+
+tagline: xAI's Grok API — Grok 4.1 Fast Reasoning and Non-reasoning currently the best raw-intelligence-per-dollar offering on the market.
+
+description: |
+  xAI provides hosted inference and training for the Grok family of
+  models via an OpenAI-compatible API. Its 2026 lineup includes Grok 4
+  (flagship reasoning model), Grok 4.1 Fast Reasoning, and Grok 4.1
+  Fast Non-reasoning — the "Fast" variants being the standout for
+  application developers on price-performance grounds.
+
+  **Grok 4.1 Fast pricing crushed the cheap-model market when it
+  launched.** At a fraction of GPT-5-mini, Claude Haiku 4.1, or Gemini
+  2.5 Flash pricing, and with measurably stronger reasoning on hard
+  benchmarks, it became the default "high value per token" option for
+  agent workloads running millions of tokens per day. If you're
+  routing by cost-per-quality, Grok 4.1 Fast Reasoning is almost
+  always in the candidate set.
+
+  One architectural note: reasoning is baked into the model ID on xAI,
+  not a runtime parameter. You pick `grok-4-1-fast-reasoning` for
+  chain-of-thought behavior or `grok-4-1-fast-non-reasoning` for
+  straight completion — unlike Anthropic or OpenAI where reasoning is
+  a flag on a single model endpoint. Budget accordingly.
+
+  The API is OpenAI-compatible for ergonomics: drop-in for existing
+  OpenAI-SDK code with a `base_url` change, streaming supported, tool
+  use supported, long context windows (256k+ on Grok 4 class). Vision,
+  live web search via Grok's in-product search index, and batch
+  inference are also exposed.
+
+features:
+  - OpenAI-compatible API — drop-in replacement by base_url
+  - Grok 4 (flagship), Grok 4.1 Fast Reasoning, Grok 4.1 Fast Non-reasoning
+  - Exceptional price-performance on the "Fast" variants
+  - Long context windows (256k+ tokens on Grok 4 tier)
+  - Tool use / function calling, streaming, structured outputs
+  - Live web search integration via Grok's in-product index
+  - Vision support on flagship models
+  - Batch API for asynchronous high-volume jobs
+
+use_cases:
+  - High-volume agent loops where cost-per-token compounds fast
+  - Reasoning-heavy tasks where Grok 4.1 Fast beats pricier alternatives
+  - Coding assistants and tool-using agents on a budget
+  - Replacing GPT-5-mini / Haiku / Gemini Flash as the "default cheap model"
+  - Applications needing a Grok-specific capability (live web search)
+  - Multi-provider fallback stacks where xAI is one of the candidates
+
+license: commercial
+deployment: saas
+platforms: [linux, macos, windows]
+tags: [llm-provider, xai, grok, api, openai-compatible, value, reasoning]
+maintainer: xAI
+added: 2026-04-24

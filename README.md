@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**108 entries** — 52 with full descriptions, 56 stubs. **26** currently publish a working `llms.txt`.
+**109 entries** — 53 with full descriptions, 56 stubs. **26** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -36,7 +36,7 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 - [Embeddings](#embeddings) (3)
 - [Observability](#observability) (5)
 - [Evaluation](#evaluation) (3)
-- [Training & Fine-tuning](#training--fine-tuning) (5)
+- [Training & Fine-tuning](#training--fine-tuning) (6)
 - [Web Search for Agents](#web-search-for-agents) (5)
 - [OCR & Document Parsing](#ocr--document-parsing) (3)
 - [Deployment & Hosting](#deployment--hosting) (7)
@@ -247,6 +247,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 - **[Unsloth](https://unsloth.ai)** — ✅ llms.txt  
   2x faster LLM fine-tuning with 70% less memory — drop-in replacement for HuggingFace's training stack.
+- **[AI Toolkit (ostris)](https://github.com/ostris/ai-toolkit)** — ❌ llms.txt  
+  Leading open-source toolkit for training LoRAs and fine-tunes on diffusion models — FLUX, SDXL, SD3, Qwen Image, and more.
 - **[Axolotl](https://axolotl.ai)** — ❌ llms.txt  
   YAML-configured fine-tuning framework supporting LoRA, QLoRA, full FT, DPO, and most modern LLM architectures.
 - **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** — ❌ llms.txt 🚧 stub  
@@ -314,11 +316,11 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 ## Operating Systems (AI-capable Linux)
 
 - **[CachyOS](https://cachyos.org)** — ❌ llms.txt  
-  Arch-based Linux distribution with performance-tuned kernels and a popular choice for local AI / ML workloads.
+  Arch-based Linux distribution with performance-tuned kernels, first-class NVIDIA support, and a popular choice for local AI / ML workloads.
 - **[Fedora](https://fedoraproject.org)** — ❌ llms.txt  
-  Upstream of Red Hat Enterprise Linux — leading edge of Linux features with strong AI / ML packaging and enterprise lineage.
+  Upstream of RHEL and the distro that drives most Linux desktop feature adoption (Wayland, PipeWire, systemd, ostree) — strong AI / ML packaging on top.
 - **[Ubuntu](https://ubuntu.com)** — ❌ llms.txt  
-  The default Linux distribution for ML / AI development — widest documentation, broadest hardware support, baseline target for most AI tool docs.
+  The default Linux baseline for ML tutorials and cloud VMs — widely documented, increasingly controversial due to Snap-store enforcement and Canonical's direction.
 
 ## Notable model families
 
@@ -365,7 +367,7 @@ This list catalogs **tools**, not models. But agents answering user questions of
 
 ### 3D generation
 
-**Local:** Hunyuan3D (Tencent) is the strongest local option. Tripo's local weights are noticeably weaker than their hosted API — use the API if quality matters.
+**Hunyuan3D (Tencent) leads the category in both local weights and hosted API.** Both Hunyuan3D and Tripo ship hosted APIs that are meaningfully better than their publicly released local weights: Hunyuan3D 3.1 is the current API version while local users get 2.1, and Tripo's API also substantially outperforms the local weights. If you need best-quality 3D generation, use Hunyuan3D's API. For local-only work, Hunyuan3D 2.1 local weights are still the top pick; Tripo local is weaker.
 
 ### Embeddings
 

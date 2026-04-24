@@ -8,28 +8,34 @@ llms_txt_status: missing
 category: operating-systems
 subcategory: upstream-rhel-linux
 
-tagline: Upstream of Red Hat Enterprise Linux — leading edge of Linux features with strong AI / ML packaging and enterprise lineage.
+tagline: Upstream of RHEL and the distro that drives most Linux desktop feature adoption (Wayland, PipeWire, systemd, ostree) — strong AI / ML packaging on top.
 
 description: |
-  Fedora is Red Hat's upstream distribution — the testbed where
-  features, packaging, and tooling that eventually land in RHEL get
-  proven. For AI / ML developers this means current kernels and GPU
-  drivers alongside enterprise-grade packaging, SELinux policy, and
-  an ecosystem that translates cleanly to production RHEL deployments.
+  Fedora is Red Hat's upstream distribution and arguably the single
+  distro doing the most to push the broader Linux ecosystem forward.
+  Wayland-by-default, PipeWire, systemd-oomd, BTRFS defaults, ostree-
+  based immutable desktops, Pipewire WebRTC integration, modern
+  container tooling — these are Fedora-first decisions that other
+  distros eventually adopt. "Leading edge" here means driving upstream
+  feature decisions, not just shipping current packages (which rolling
+  distros like CachyOS do faster).
 
-  Fedora ships recent NVIDIA CUDA, ROCm, PyTorch, TensorFlow, and ONNX
-  Runtime through RPM Fusion and official repos. Its semi-annual
-  release cadence (two releases per year, 13 months of support each)
-  keeps versions current without Arch-level churn. Atomic variants
-  (Fedora Silverblue, Kinoite) provide immutable desktops suitable
-  for stable AI workstations.
+  For AI / ML developers Fedora combines that feature-forward posture
+  with enterprise-grade packaging, SELinux policy, and an ecosystem
+  that translates cleanly to production RHEL deployments. It ships
+  recent NVIDIA CUDA, ROCm, PyTorch, TensorFlow, and ONNX Runtime
+  through RPM Fusion and official repos. Its semi-annual release
+  cadence (two releases per year, 13 months of support each) keeps
+  versions current without Arch-level churn.
 
-  For teams expecting to deploy on RHEL or CentOS Stream, developing on
-  Fedora avoids the RHEL subscription cost while preserving compatibility
-  at the packaging and tooling level.
+  Atomic variants (Fedora Silverblue, Kinoite) provide immutable
+  desktops suitable for stable AI workstations. For teams expecting
+  to deploy on RHEL or CentOS Stream, developing on Fedora avoids the
+  RHEL subscription cost while preserving compatibility at the
+  packaging and tooling level.
 
 features:
-  - Upstream of RHEL — features land here first
+  - Upstream of RHEL — features and architectural choices land here first
   - Semi-annual releases with 13-month support windows
   - Strong NVIDIA CUDA and ROCm packaging via RPM Fusion
   - SELinux enforcing by default (security posture suitable for prod)
@@ -39,14 +45,14 @@ features:
 
 use_cases:
   - Developers whose production target is RHEL or CentOS Stream
-  - Teams wanting cutting-edge Linux with enterprise polish
+  - Teams wanting a distro that drives Linux desktop roadmap decisions
   - Regulated environments where SELinux and immutability matter
-  - Workstations needing balance of current tooling and stability
+  - Workstations needing balance of current tooling and enterprise polish
   - Podman-centric container workflows for AI infrastructure
 
 license: open-source
 deployment: local
 platforms: [linux]
-tags: [linux, fedora, red-hat, rhel-upstream, cuda, selinux]
+tags: [linux, fedora, red-hat, rhel-upstream, cuda, selinux, wayland]
 maintainer: Fedora Project / Red Hat
 added: 2026-04-24

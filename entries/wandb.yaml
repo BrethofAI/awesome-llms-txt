@@ -1,0 +1,13 @@
+name: Weights & Biases
+slug: wandb
+url: https://wandb.ai
+llms_txt: https://wandb.ai/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: observability
+tagline: Leading ML experiment tracking platform with dedicated LLM observability (Weave).
+
+license: freemium
+deployment: saas
+added: 2026-04-24

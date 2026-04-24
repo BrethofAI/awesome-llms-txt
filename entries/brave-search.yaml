@@ -1,0 +1,13 @@
+name: Brave Search API
+slug: brave-search
+url: https://brave.com/search/api/
+llms_txt: https://brave.com/search/api/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: web-search-for-agents
+tagline: Independent web search API with no tracking — alternative to Google / Bing for agent use.
+
+license: freemium
+deployment: saas
+added: 2026-04-24

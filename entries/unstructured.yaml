@@ -1,0 +1,13 @@
+name: Unstructured
+slug: unstructured
+url: https://unstructured.io
+llms_txt: https://unstructured.io/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: ocr-doc-parsing
+tagline: Library for ingesting PDF, HTML, DOCX, XLSX, and 25+ formats into RAG-ready chunks.
+
+license: open-source
+deployment: library
+added: 2026-04-24

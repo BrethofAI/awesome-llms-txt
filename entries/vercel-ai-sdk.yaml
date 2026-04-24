@@ -1,0 +1,13 @@
+name: Vercel AI SDK
+slug: vercel-ai-sdk
+url: https://ai-sdk.dev
+llms_txt: https://ai-sdk.dev/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: agent-frameworks
+tagline: TypeScript toolkit for building AI apps with unified APIs across providers and framework helpers.
+
+license: open-source
+deployment: library
+added: 2026-04-24

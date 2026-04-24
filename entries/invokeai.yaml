@@ -1,0 +1,13 @@
+name: InvokeAI
+slug: invokeai
+url: https://invoke.com
+llms_txt: https://invoke.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: image-gen
+tagline: Professional-grade Stable Diffusion with unified canvas, workflows, and team features.
+
+license: freemium
+deployment: local
+added: 2026-04-24

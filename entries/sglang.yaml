@@ -1,0 +1,13 @@
+name: SGLang
+slug: sglang
+url: https://sgl-project.github.io
+llms_txt: https://sgl-project.github.io/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: inference-runtimes
+tagline: Fast LLM and VLM serving runtime with RadixAttention cache and structured output support.
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

@@ -1,0 +1,53 @@
+name: LlamaIndex
+slug: llamaindex
+url: https://www.llamaindex.ai
+repository: https://github.com/run-llama/llama_index
+llms_txt: https://docs.llamaindex.ai/llms.txt
+llms_full_txt: https://docs.llamaindex.ai/llms-full.txt
+llms_txt_status: published
+
+category: rag-frameworks
+subcategory: retrieval-augmented-generation
+
+tagline: Leading RAG framework for connecting LLMs to private data — document loaders, indexes, retrievers, and agents.
+
+description: |
+  LlamaIndex is a data framework for building LLM applications over private
+  data. Where LangChain is general-purpose, LlamaIndex is specifically
+  optimized for retrieval-augmented generation (RAG): ingesting documents,
+  building indexes, retrieving relevant chunks at query time, and composing
+  them into prompts.
+
+  It provides high-level abstractions for common RAG patterns (summary
+  index, vector index, tree index, keyword index, knowledge graph index)
+  and lower-level primitives for developers who want custom retrieval
+  pipelines. Integrations span hundreds of data sources (PDFs, Notion,
+  Slack, Google Drive, databases) and vector stores (Chroma, Qdrant,
+  Weaviate, Pinecone, pgvector, LanceDB, …).
+
+  LlamaIndex Agents extend the framework with tool-using agents that can
+  query multiple indexes, call APIs, and compose results. LlamaCloud
+  provides a hosted version with managed ingestion and evaluation.
+
+features:
+  - Document loaders for 200+ data sources
+  - Multiple index types (vector, summary, tree, keyword, knowledge graph)
+  - Query engines with advanced retrieval (HyDE, re-ranking, query decomposition)
+  - Agent framework built on top of indexes and tools
+  - Structured data extraction via the LlamaParse parser
+  - Integrations with all major vector stores and LLM providers
+  - Python and TypeScript implementations
+
+use_cases:
+  - RAG applications over corporate document collections
+  - Chatbots answering questions from manuals, wikis, support articles
+  - Structured data extraction from PDFs, scanned documents
+  - Agents querying multiple private knowledge sources
+  - Research assistants over academic paper collections
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [rag, llamaindex, retrieval, indexes, python, typescript, knowledge]
+maintainer: LlamaIndex
+added: 2026-04-24

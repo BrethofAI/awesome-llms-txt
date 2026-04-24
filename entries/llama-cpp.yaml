@@ -1,0 +1,51 @@
+name: llama.cpp
+slug: llama-cpp
+url: https://github.com/ggml-org/llama.cpp
+repository: https://github.com/ggml-org/llama.cpp
+llms_txt: https://github.com/ggml-org/llama.cpp/llms.txt
+llms_txt_status: missing
+
+category: inference-runtimes
+subcategory: c-plus-plus-inference-engine
+
+tagline: Reference C++ implementation for running LLaMA-family and other transformer models with GGUF quantization.
+
+description: |
+  llama.cpp is the foundational open-source C++ inference engine that made
+  local LLM execution practical on consumer hardware. It defined the GGUF
+  model format now used across the ecosystem, pioneered aggressive
+  quantization techniques (Q4_K_M, Q5_K_S, Q8_0, and dozens of variants),
+  and supports more hardware backends than any other runtime: CPU (AVX,
+  AVX2, AVX-512, NEON), CUDA, ROCm, Vulkan, Metal, SYCL, CANN, Kompute.
+
+  It ships as a library, a CLI (`llama-cli`), a server (`llama-server`) with
+  an OpenAI-compatible API, and bindings for nearly every programming
+  language. Projects like Ollama, LM Studio, KoboldCpp, text-generation-webui,
+  Jan, and LocalAI are all built on or around llama.cpp.
+
+  For developers who want the lowest-level local inference or need to target
+  unusual hardware (embedded, edge, non-CUDA GPUs), llama.cpp is the direct
+  answer.
+
+features:
+  - GGUF format (the de facto standard for quantized open-weight models)
+  - 20+ quantization variants for quality/size tradeoffs
+  - Backends for CPU, CUDA, ROCm, Vulkan, Metal, SYCL, CANN, Kompute
+  - Built-in OpenAI-compatible HTTP server
+  - Speculative decoding, prompt caching, continuous batching
+  - Grammar-constrained generation (JSON Schema, custom grammars)
+  - Language bindings for Python, Node.js, Go, Rust, Java, C#, and more
+
+use_cases:
+  - Embedding local LLM inference in applications (the library path)
+  - Running LLMs on hardware without CUDA (Vulkan, ROCm, Metal)
+  - Resource-constrained deployments (edge, embedded, low-VRAM)
+  - Building higher-level tools on top of a battle-tested inference core
+  - Quantizing new models and publishing them in GGUF format
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [inference, gguf, cpp, quantization, llama, vulkan, cuda, rocm, metal]
+maintainer: ggml-org
+added: 2026-04-24

@@ -1,0 +1,13 @@
+name: SD.Next
+slug: sd-next
+url: https://github.com/vladmandic/sdnext
+llms_txt: https://github.com/vladmandic/sdnext/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: image-gen
+tagline: Advanced fork of SD WebUI with broader model support (Flux, Lumina, Kolors, more).
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

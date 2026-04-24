@@ -1,0 +1,13 @@
+name: LLaMA-Factory
+slug: llama-factory
+url: https://github.com/hiyouga/LLaMA-Factory
+llms_txt: https://github.com/hiyouga/LLaMA-Factory/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: training
+tagline: WebUI-based fine-tuning framework supporting 100+ models with LoRA, QLoRA, DPO, and more.
+
+license: open-source
+deployment: library
+added: 2026-04-24

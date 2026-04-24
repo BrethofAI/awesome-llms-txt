@@ -1,0 +1,48 @@
+name: Anthropic SDK
+slug: anthropic-sdk
+url: https://docs.claude.com/en/api/overview
+repository: https://github.com/anthropics/anthropic-sdk-python
+llms_txt: https://docs.claude.com/llms.txt
+llms_full_txt: https://docs.claude.com/llms-full.txt
+llms_txt_status: published
+
+category: agent-sdks
+subcategory: raw-api-sdk
+
+tagline: Official Anthropic client libraries for the Claude API in Python, TypeScript, Java, Go, and Ruby.
+
+description: |
+  The Anthropic SDK is the lower-level, direct interface to the Claude API.
+  Where the Claude Agent SDK provides a full agent loop with tool dispatch
+  and subagents, the Anthropic SDK gives developers raw access to the
+  messages API — single turns, streaming, tool calling, prompt caching,
+  vision, and the full range of Claude models.
+
+  It's the right choice for applications that want Claude's raw capabilities
+  without the agent-loop abstraction: chatbots, content generation, one-shot
+  classification, structured extraction, and any integration where the
+  developer wants to own the control flow.
+
+features:
+  - Messages API with streaming, tool use, and vision support
+  - Prompt caching for 90% cost reduction on repeated prefixes
+  - Extended thinking mode for reasoning models
+  - Batch API for high-volume asynchronous workloads
+  - Support for Claude Sonnet, Opus, and Haiku model families
+  - SDKs for Python, TypeScript, Java, Go, Ruby
+  - Built-in error handling and retries
+
+use_cases:
+  - Production chatbots and conversational interfaces
+  - Structured data extraction and classification at scale
+  - Content generation pipelines (summarization, translation, copy)
+  - Document and image analysis via the vision API
+  - Tool-calling integrations where the developer owns the orchestration
+  - High-throughput batch processing via the Batch API
+
+license: commercial
+deployment: library
+platforms: [linux, macos, windows]
+tags: [api, anthropic, claude, sdk, python, typescript, llm]
+maintainer: Anthropic
+added: 2026-04-24

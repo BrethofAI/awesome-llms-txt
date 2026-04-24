@@ -1,0 +1,13 @@
+name: Pydantic AI
+slug: pydantic-ai
+url: https://ai.pydantic.dev
+llms_txt: https://ai.pydantic.dev/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: agent-frameworks
+tagline: Agent framework built on Pydantic with type-safe tool use and structured responses.
+
+license: open-source
+deployment: library
+added: 2026-04-24

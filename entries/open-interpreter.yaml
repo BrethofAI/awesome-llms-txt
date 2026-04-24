@@ -1,0 +1,13 @@
+name: Open Interpreter
+slug: open-interpreter
+url: https://www.openinterpreter.com
+llms_txt: https://www.openinterpreter.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: shell-tools
+tagline: Natural language interface to your computer — runs code locally to complete tasks from the CLI.
+
+license: open-source
+deployment: cli
+added: 2026-04-24

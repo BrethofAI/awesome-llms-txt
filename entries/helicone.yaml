@@ -1,0 +1,13 @@
+name: Helicone
+slug: helicone
+url: https://helicone.ai
+llms_txt: https://helicone.ai/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: observability
+tagline: Open-source observability for LLM apps — traces, prompts, evaluations, usage analytics.
+
+license: freemium
+deployment: saas
+added: 2026-04-24

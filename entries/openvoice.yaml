@@ -1,0 +1,13 @@
+name: OpenVoice
+slug: openvoice
+url: https://github.com/myshell-ai/OpenVoice
+llms_txt: https://github.com/myshell-ai/OpenVoice/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: voice
+tagline: Versatile instant voice cloning with cross-lingual synthesis and granular style control.
+
+license: open-source
+deployment: library
+added: 2026-04-24

@@ -1,0 +1,13 @@
+name: Piper
+slug: piper
+url: https://github.com/rhasspy/piper
+llms_txt: https://github.com/rhasspy/piper/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: voice
+tagline: Fast, local neural text-to-speech with dozens of voices — optimized for Raspberry Pi.
+
+license: open-source
+deployment: library
+added: 2026-04-24

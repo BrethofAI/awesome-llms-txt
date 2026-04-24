@@ -1,0 +1,13 @@
+name: Milvus
+slug: milvus
+url: https://milvus.io
+llms_txt: https://milvus.io/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: vector-dbs
+tagline: Open-source cloud-native vector database built for billion-scale similarity search.
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

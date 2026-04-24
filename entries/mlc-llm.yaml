@@ -1,0 +1,13 @@
+name: MLC LLM
+slug: mlc-llm
+url: https://llm.mlc.ai
+llms_txt: https://llm.mlc.ai/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: inference-runtimes
+tagline: Universal LLM deployment via compiled kernels — runs on iOS, Android, WebGPU, Vulkan, CUDA.
+
+license: open-source
+deployment: library
+added: 2026-04-24

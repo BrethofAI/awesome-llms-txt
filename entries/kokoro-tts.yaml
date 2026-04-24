@@ -1,0 +1,13 @@
+name: Kokoro TTS
+slug: kokoro-tts
+url: https://github.com/hexgrad/kokoro
+llms_txt: https://github.com/hexgrad/kokoro/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: voice
+tagline: Lightweight open-weight TTS model — surprisingly natural output at small model size.
+
+license: open-source
+deployment: library
+added: 2026-04-24

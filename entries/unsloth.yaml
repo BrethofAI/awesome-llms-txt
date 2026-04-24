@@ -1,0 +1,52 @@
+name: Unsloth
+slug: unsloth
+url: https://unsloth.ai
+repository: https://github.com/unslothai/unsloth
+llms_txt: https://docs.unsloth.ai/llms.txt
+llms_full_txt: https://docs.unsloth.ai/llms-full.txt
+llms_txt_status: published
+
+category: training
+subcategory: llm-fine-tuning
+
+tagline: 2x faster LLM fine-tuning with 70% less memory — drop-in replacement for HuggingFace's training stack.
+
+description: |
+  Unsloth is a fine-tuning library that rewrites HuggingFace's training
+  code with hand-tuned Triton kernels and careful memory management to
+  achieve roughly 2x speedups and 70% memory savings versus vanilla
+  Transformers + PEFT. It supports LoRA, QLoRA, full fine-tuning, and
+  continued pretraining across Llama, Qwen, Mistral, Gemma, Phi, and most
+  modern architectures.
+
+  The project is known for free, working Colab notebooks that take users
+  from zero to a fine-tuned model in under an hour — genuine entry-point
+  material for the LLM fine-tuning community. It's compatible with the
+  HuggingFace ecosystem: PEFT adapters, Trainer API, TRL DPO, datasets,
+  and every output format (LoRA, merged, GGUF, AWQ) downstream tools
+  expect.
+
+  A Pro tier adds multi-GPU training and priority support.
+
+features:
+  - 2x faster LoRA and QLoRA fine-tuning vs vanilla Transformers
+  - 70% memory reduction through careful gradient management
+  - Support for Llama, Qwen, Mistral, Gemma, Phi, and more
+  - LoRA, QLoRA, full fine-tuning, continued pretraining
+  - DPO, ORPO, KTO via TRL integration
+  - Export to GGUF, AWQ, merged, or LoRA-only formats
+  - Free Colab notebooks for common fine-tuning recipes
+
+use_cases:
+  - Fine-tuning LLMs on consumer GPUs (24GB and below)
+  - Cost-effective domain adaptation for internal applications
+  - Teaching / learning fine-tuning with working starter notebooks
+  - Rapid iteration on fine-tunes before scaling to multi-GPU
+  - Reducing training costs on cloud GPU providers
+
+license: open-source
+deployment: library
+platforms: [linux, windows]
+tags: [fine-tuning, training, lora, qlora, unsloth, triton, python]
+maintainer: Unsloth AI
+added: 2026-04-24

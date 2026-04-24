@@ -1,0 +1,13 @@
+name: SerpAPI
+slug: serpapi
+url: https://serpapi.com
+llms_txt: https://serpapi.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: web-search-for-agents
+tagline: Scraping API for Google, Bing, DuckDuckGo and 15+ search engines — structured JSON results.
+
+license: commercial
+deployment: saas
+added: 2026-04-24

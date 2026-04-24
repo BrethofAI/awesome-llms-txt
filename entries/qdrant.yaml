@@ -1,0 +1,51 @@
+name: Qdrant
+slug: qdrant
+url: https://qdrant.tech
+repository: https://github.com/qdrant/qdrant
+llms_txt: https://qdrant.tech/llms.txt
+llms_full_txt: https://qdrant.tech/llms-full.txt
+llms_txt_status: published
+
+category: vector-dbs
+subcategory: production-vector-db
+
+tagline: Open-source, Rust-written vector database built for production scale — rich filtering, hybrid search, and multi-tenancy.
+
+description: |
+  Qdrant is a production-oriented vector database written in Rust, designed
+  for organizations serving vector search at scale. It emphasizes advanced
+  filtering (complex boolean queries on metadata alongside vector search),
+  multi-tenancy (isolated collections per customer), hybrid search (dense
+  + sparse), and memory efficiency (quantization on-disk).
+
+  It offers a REST API, gRPC, and clients for Python, JavaScript, Rust,
+  Go, Java, and C#. Qdrant Cloud provides managed hosting; self-hosted
+  deployments scale horizontally through Qdrant's sharded cluster mode.
+
+  Compared to Chroma's "get started in five minutes" positioning, Qdrant
+  targets production: teams that know they'll need 10M+ vectors, complex
+  filters, and SLOs from the start.
+
+features:
+  - Rust core for performance and memory safety
+  - Advanced payload filtering with complex boolean logic
+  - Hybrid search (dense + sparse vectors)
+  - On-disk storage with scalar / product / binary quantization
+  - Distributed mode with sharding and replication
+  - REST API, gRPC, and clients in 6+ languages
+  - Multi-tenancy through isolated collections
+  - Snapshot and restore for backup
+
+use_cases:
+  - Production vector search at 10M+ vectors
+  - Multi-tenant SaaS needing per-customer isolation
+  - Hybrid retrieval combining semantic and keyword search
+  - Memory-constrained deployments using quantization
+  - RAG systems with complex metadata filtering requirements
+
+license: open-source
+deployment: self-hosted
+platforms: [linux, macos, windows]
+tags: [vector-db, qdrant, rust, production, hybrid-search, self-hosted]
+maintainer: Qdrant
+added: 2026-04-24

@@ -1,0 +1,13 @@
+name: BGE (BAAI General Embedding)
+slug: bge
+url: https://huggingface.co/BAAI
+llms_txt: https://huggingface.co/BAAI/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: embeddings
+tagline: Leading open embedding models from BAAI — top of MTEB for multiple languages.
+
+license: open-source
+deployment: library
+added: 2026-04-24

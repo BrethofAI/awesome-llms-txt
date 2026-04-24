@@ -1,0 +1,51 @@
+name: Ollama
+slug: ollama
+url: https://ollama.com
+repository: https://github.com/ollama/ollama
+llms_txt: https://ollama.com/llms.txt
+llms_txt_status: missing
+
+category: inference-runtimes
+subcategory: local-llm-server
+
+tagline: Run large language models locally via a single-binary server with a built-in model library.
+
+description: |
+  Ollama is the most widely adopted tool for running open-weight LLMs on
+  personal hardware. It bundles model download, quantization, a server
+  exposing an OpenAI-compatible API, and a CLI into a single binary with
+  zero-config defaults. The built-in model library covers Llama, Qwen,
+  Gemma, Mistral, DeepSeek, and dozens of others with preconfigured
+  quantizations.
+
+  Its appeal is friction: `ollama run llama3.1` downloads the model and
+  drops you into a chat in one command. The OpenAI-compatible API makes
+  Ollama a drop-in backend for thousands of tools originally built against
+  OpenAI — switching from cloud to local becomes a URL change.
+
+  Ollama runs on CPU, NVIDIA CUDA, AMD ROCm, and Apple Silicon, and serves
+  as the default "local inference" option for open-source agent frameworks,
+  chat UIs, and coding assistants.
+
+features:
+  - Single-binary install with built-in model library
+  - OpenAI-compatible HTTP API (/v1/chat/completions)
+  - Automatic GPU detection and offload (CUDA, ROCm, Metal)
+  - Quantization support (Q4, Q5, Q8, FP16)
+  - Modelfile system for customizing prompts and parameters
+  - Multimodal support for vision models
+  - macOS, Linux, Windows native builds
+
+use_cases:
+  - Local development against open-weight LLMs without cloud costs
+  - Air-gapped or privacy-constrained deployments
+  - Dev teams that need shared internal inference with consistent config
+  - Backend for local coding assistants and agent frameworks
+  - Experimenting with new open-weight models as they release
+
+license: open-source
+deployment: local
+platforms: [linux, macos, windows]
+tags: [inference, llm, local, quantization, ollama, cuda, rocm, metal]
+maintainer: Ollama
+added: 2026-04-24

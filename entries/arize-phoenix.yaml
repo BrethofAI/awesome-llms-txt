@@ -1,0 +1,13 @@
+name: Arize Phoenix
+slug: arize-phoenix
+url: https://phoenix.arize.com
+llms_txt: https://phoenix.arize.com/llms.txt
+llms_txt_status: published
+status: stub
+
+category: observability
+tagline: Open-source ML and LLM observability platform with OpenTelemetry-based tracing.
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

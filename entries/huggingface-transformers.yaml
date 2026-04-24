@@ -1,0 +1,52 @@
+name: HuggingFace Transformers
+slug: huggingface-transformers
+url: https://huggingface.co/docs/transformers
+repository: https://github.com/huggingface/transformers
+llms_txt: https://huggingface.co/llms.txt
+llms_txt_status: missing
+
+category: inference-runtimes
+subcategory: ml-framework
+
+tagline: Foundational Python library for loading and running thousands of transformer models in PyTorch, TensorFlow, and JAX.
+
+description: |
+  Transformers is HuggingFace's foundational Python library for working
+  with transformer-based models. It provides unified `from_pretrained()`
+  APIs for loading thousands of models from the HuggingFace Hub — LLMs,
+  vision models, audio models, multimodal models — and running them for
+  inference, fine-tuning, and research.
+
+  While Transformers isn't an inference server in the vLLM / Ollama sense
+  (it's a library, not a server), it's the entry point most researchers
+  and engineers use when working with a new model before it has dedicated
+  runtime support elsewhere. It's the canonical reference implementation
+  that every inference server (vLLM, llama.cpp, MLC, TGI) compares
+  against for correctness.
+
+  The library is deeply integrated with the rest of the HuggingFace stack:
+  Datasets, Accelerate, PEFT, TRL, and the Hub itself — together forming
+  the dominant open-source ML ecosystem.
+
+features:
+  - Unified API for thousands of models on the HuggingFace Hub
+  - PyTorch, TensorFlow, and JAX backends
+  - Pipelines for common tasks (text generation, classification, ASR, …)
+  - Tokenizers, processors, and feature extractors included
+  - Integration with Accelerate, PEFT, TRL, Datasets
+  - Quantization via bitsandbytes, GPTQ, AWQ
+  - Active weekly releases with day-zero support for new architectures
+
+use_cases:
+  - Research and experimentation with new model architectures
+  - Fine-tuning LLMs and vision models on custom data
+  - Building inference pipelines before moving to a dedicated runtime
+  - Teaching / learning transformer internals
+  - Any ML workflow that starts with "download this model from the Hub"
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [transformers, pytorch, huggingface, inference, training, library]
+maintainer: HuggingFace
+added: 2026-04-24

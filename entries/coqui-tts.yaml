@@ -1,0 +1,13 @@
+name: Coqui TTS
+slug: coqui-tts
+url: https://github.com/coqui-ai/TTS
+llms_txt: https://github.com/coqui-ai/TTS/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: voice
+tagline: Deep-learning toolkit for TTS with multi-speaker models and voice cloning.
+
+license: open-source
+deployment: library
+added: 2026-04-24

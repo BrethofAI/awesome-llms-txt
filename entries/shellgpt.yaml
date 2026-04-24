@@ -1,0 +1,13 @@
+name: ShellGPT
+slug: shellgpt
+url: https://github.com/TheR1D/shell_gpt
+llms_txt: https://github.com/TheR1D/shell_gpt/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: shell-tools
+tagline: Command-line productivity tool powered by LLMs — generate shell commands, code, and configs.
+
+license: open-source
+deployment: cli
+added: 2026-04-24

@@ -1,0 +1,52 @@
+name: LiteLLM
+slug: litellm
+url: https://www.litellm.ai
+repository: https://github.com/BerriAI/litellm
+llms_txt: https://docs.litellm.ai/llms.txt
+llms_full_txt: https://docs.litellm.ai/llms-full.txt
+llms_txt_status: published
+
+category: llm-gateways
+subcategory: multi-provider-llm-proxy
+
+tagline: Unified OpenAI-compatible proxy and SDK that routes calls across 100+ LLM providers with load balancing, fallbacks, and cost tracking.
+
+description: |
+  LiteLLM solves the "every LLM provider has a slightly different API"
+  problem by exposing a single OpenAI-compatible interface that internally
+  translates to 100+ providers: OpenAI, Anthropic, Google, Azure, AWS
+  Bedrock, Cohere, Mistral, OpenRouter, Together, Fireworks, Groq, xAI,
+  Ollama, vLLM, and many more.
+
+  It ships in two forms: a Python SDK for embedding in applications, and a
+  standalone proxy server (LiteLLM Proxy) that accepts OpenAI-format requests
+  and routes them across providers with load balancing, automatic retries,
+  fallback chains, cost tracking, rate limiting, and virtual API key
+  management for multi-team / multi-user deployments.
+
+  LiteLLM is often the backbone piece in organizations that want provider
+  flexibility — swapping models without touching application code, or
+  automatically failing over from a cloud provider to a local one.
+
+features:
+  - Unified OpenAI-compatible API across 100+ providers
+  - Proxy server with load balancing and automatic fallbacks
+  - Cost tracking per user / team / virtual API key
+  - Rate limiting and budget enforcement
+  - Caching (Redis, in-memory) for identical requests
+  - Embedding, chat completion, and image generation support
+  - Integration with LangFuse, LangSmith, Helicone for tracing
+
+use_cases:
+  - Multi-provider LLM applications with automatic fallback
+  - Centralized LLM gateway for organizations with multiple dev teams
+  - Cost attribution and budget control across many consumers
+  - Migrating between LLM providers without code changes
+  - Hybrid deployments routing between cloud and local inference
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [proxy, gateway, llm, openai-compatible, load-balancing, multi-provider]
+maintainer: BerriAI
+added: 2026-04-24

@@ -1,0 +1,13 @@
+name: Text Generation WebUI
+slug: text-generation-webui
+url: https://github.com/oobabooga/text-generation-webui
+llms_txt: https://github.com/oobabooga/text-generation-webui/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: inference-runtimes
+tagline: Gradio-based web UI for local LLMs supporting GGUF, GPTQ, AWQ, ExLlamaV2.
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

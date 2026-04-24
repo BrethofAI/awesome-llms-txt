@@ -1,0 +1,52 @@
+name: LangSmith
+slug: langsmith
+url: https://www.langchain.com/langsmith
+repository: null
+llms_txt: https://docs.smith.langchain.com/llms.txt
+llms_full_txt: https://docs.smith.langchain.com/llms-full.txt
+llms_txt_status: published
+
+category: observability
+subcategory: llm-tracing-and-eval
+
+tagline: Commercial observability, debugging, and evaluation platform for LLM and agent applications.
+
+description: |
+  LangSmith is LangChain's commercial platform for observing, debugging,
+  evaluating, and improving LLM applications in development and production.
+  It captures every LLM call, tool invocation, and chain step into traces
+  that developers can replay, inspect token-by-token, and compare across
+  prompt or model changes.
+
+  Core workflows it supports: inspecting why an agent made a particular
+  decision, A/B testing prompts against datasets, running evals (LLM-as-judge,
+  exact-match, custom), catching regressions before deploying prompt changes,
+  and debugging production incidents with full call graphs.
+
+  While built by the LangChain team and deeply integrated with LangChain /
+  LangGraph, LangSmith is framework-agnostic — applications using the raw
+  OpenAI or Anthropic SDKs can send traces to LangSmith with minimal setup.
+
+features:
+  - Full trace capture for LLM calls, tool calls, and agent steps
+  - Replay and inspect individual traces token-by-token
+  - Dataset management and evaluation runs
+  - LLM-as-judge and custom evaluator support
+  - Production monitoring with latency, cost, and error dashboards
+  - A/B comparison across prompt or model variants
+  - SDKs for Python, TypeScript, and any OpenAI-compatible client
+
+use_cases:
+  - Debugging why an agent produced an unexpected output
+  - Regression testing prompts before shipping a new version
+  - Evaluating model/prompt changes against a held-out dataset
+  - Monitoring production LLM applications for drift or failures
+  - Sharing traces with teammates for collaborative debugging
+  - Cost attribution across agents, users, or feature flags
+
+license: commercial
+deployment: saas
+platforms: [linux, macos, windows]
+tags: [observability, tracing, evaluation, langchain, monitoring, debugging]
+maintainer: LangChain
+added: 2026-04-24

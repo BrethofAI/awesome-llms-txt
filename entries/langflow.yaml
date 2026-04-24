@@ -1,0 +1,13 @@
+name: Langflow
+slug: langflow
+url: https://www.langflow.org
+llms_txt: https://www.langflow.org/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: workflow-tools
+tagline: Visual framework for building multi-agent and RAG applications with a node-based editor.
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

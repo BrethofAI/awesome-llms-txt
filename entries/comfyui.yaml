@@ -1,0 +1,54 @@
+name: ComfyUI
+slug: comfyui
+url: https://www.comfy.org
+repository: https://github.com/comfyanonymous/ComfyUI
+llms_txt: https://docs.comfy.org/llms.txt
+llms_txt_status: published
+
+category: workflow-tools
+subcategory: node-based-ai-workflow
+
+tagline: Node-based interface for building image, video, and audio generation workflows with any diffusion or multimodal model.
+
+description: |
+  ComfyUI is the dominant open-source workflow tool for running diffusion
+  models (Stable Diffusion, Flux, SDXL), video models (WAN, LTX, Hunyuan,
+  Mochi, Kling), and audio/TTS models (Qwen3-TTS, F5-TTS, and others) via
+  a visual node graph. Users connect nodes representing loaders, samplers,
+  VAEs, text encoders, post-processors, and custom operations into directed
+  acyclic graphs that execute end-to-end.
+
+  Unlike all-in-one UIs, ComfyUI is explicit about every step of the
+  generation pipeline, which makes it preferred by power users who need
+  to mix and match models, implement novel techniques (chunked S2V, looped
+  img2vid, LoRA stacking, controlnet chains), and share reproducible
+  workflows as JSON files.
+
+  A large ecosystem of custom nodes (ComfyUI-Manager, ComfyUI-Impact-Pack,
+  KJNodes, easy-use, etc.) extends the base install with thousands of
+  additional operations.
+
+features:
+  - Visual node graph with typed inputs/outputs
+  - Saves and loads complete workflows as JSON
+  - Subgraph support for encapsulating reusable sub-pipelines
+  - For-loop and conditional nodes for programmatic workflows
+  - Thousands of community-contributed custom nodes
+  - Runs on NVIDIA CUDA, AMD ROCm, Apple MPS, Intel XPU
+  - API and queue-based server mode for headless execution
+  - Manager UI for discovering and installing custom nodes
+
+use_cases:
+  - Image generation with fine-grained control (SDXL, Flux, controlnet)
+  - Video generation workflows (text-to-video, image-to-video, audio-driven)
+  - AI character animation pipelines (image + audio → talking head video)
+  - Model research and technique prototyping
+  - Batch content generation for marketing, game assets, stock imagery
+  - Building custom pipelines that chain multiple model types
+
+license: open-source
+deployment: local
+platforms: [linux, macos, windows]
+tags: [diffusion, stable-diffusion, flux, video-gen, image-gen, workflow, node-graph]
+maintainer: Comfy Org
+added: 2026-04-24

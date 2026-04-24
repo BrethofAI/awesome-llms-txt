@@ -1,0 +1,49 @@
+name: Claude Agent SDK
+slug: claude-agent-sdk
+url: https://docs.claude.com/en/api/agent-sdk/overview
+repository: https://github.com/anthropics/claude-agent-sdk-python
+llms_txt: https://docs.claude.com/llms.txt
+llms_full_txt: https://docs.claude.com/llms-full.txt
+llms_txt_status: published
+
+category: agent-sdks
+subcategory: agent-building-sdk
+
+tagline: Anthropic's official SDK for building custom agents on top of Claude with tool use, subagents, and hooks.
+
+description: |
+  The Claude Agent SDK is Anthropic's library for building AI agents powered
+  by Claude. It exposes the same primitives Claude Code is built on — tool
+  use, subagents, hooks, background tasks, session persistence, MCP servers —
+  as a Python/TypeScript library developers can embed in their own products.
+
+  The SDK handles the agent loop, tool dispatch, error recovery, and context
+  management. Developers define tools (functions the agent can call), subagent
+  types (specialized agents for parallel subtasks), and hooks (policies that
+  shape agent behavior) and the SDK orchestrates the rest.
+
+  It's the right choice when a project needs agent capabilities embedded in
+  its own UI or CLI rather than running Claude Code in a terminal.
+
+features:
+  - Tool-use loop with automatic retries and error recovery
+  - Subagent system for parallel specialized workers
+  - Hook system for pre/post-tool-call behavior shaping
+  - MCP (Model Context Protocol) server integration
+  - Background task support with async completion notifications
+  - Session persistence and context window management
+  - Python and TypeScript implementations
+
+use_cases:
+  - Embedding an AI assistant in an existing product's CLI or web UI
+  - Building specialized agents for narrow domains (legal, medical, code review)
+  - Orchestrating multi-agent workflows within a single application
+  - Adding Claude-powered automation to internal developer tools
+  - Replacing ad-hoc Claude API loops with a structured agent framework
+
+license: commercial
+deployment: library
+platforms: [linux, macos, windows]
+tags: [agent-sdk, anthropic, claude, python, typescript, mcp, tool-use]
+maintainer: Anthropic
+added: 2026-04-24

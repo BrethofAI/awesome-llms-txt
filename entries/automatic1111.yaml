@@ -1,0 +1,13 @@
+name: AUTOMATIC1111
+slug: automatic1111
+url: https://github.com/AUTOMATIC1111/stable-diffusion-webui
+llms_txt: https://github.com/AUTOMATIC1111/stable-diffusion-webui/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: image-gen
+tagline: Most widely-used web UI for Stable Diffusion — extensive extension ecosystem.
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

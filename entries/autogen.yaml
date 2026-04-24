@@ -1,0 +1,51 @@
+name: AutoGen
+slug: autogen
+url: https://microsoft.github.io/autogen/
+repository: https://github.com/microsoft/autogen
+llms_txt: https://microsoft.github.io/autogen/llms.txt
+llms_txt_status: missing
+
+category: agent-frameworks
+subcategory: conversational-multi-agent
+
+tagline: Microsoft's framework for building multi-agent conversations with customizable agents and conversation patterns.
+
+description: |
+  AutoGen (from Microsoft Research) is an agent framework built around the
+  abstraction of agents that communicate with each other through natural-
+  language conversations. Developers define agent types (AssistantAgent,
+  UserProxyAgent, GroupChatManager, etc.), wire them together, and AutoGen
+  orchestrates the back-and-forth dialogue until a task completes.
+
+  AutoGen 0.4+ rewrote the core around an async actor-style runtime, making
+  it more suitable for long-running and distributed agent systems than the
+  earlier synchronous versions. It integrates with any OpenAI-compatible
+  model provider and has first-class support for code execution, tool use,
+  and human-in-the-loop.
+
+  AutoGen Studio is a visual playground for building and testing agent
+  setups without writing code; useful for prototyping before dropping down
+  to the Python API.
+
+features:
+  - Async, actor-based multi-agent runtime (0.4+)
+  - Built-in agent types (Assistant, UserProxy, GroupChatManager, …)
+  - Code execution in Docker sandboxes or local environments
+  - Teachability and memory modules
+  - AutoGen Studio visual agent builder
+  - Provider-agnostic model backends
+  - Python-first, .NET bindings available
+
+use_cases:
+  - Research prototypes exploring multi-agent coordination patterns
+  - Code generation and self-correcting agent loops
+  - Teachable agents that improve across sessions
+  - Distributed agent systems via the actor runtime
+  - Microsoft ecosystem integration (Azure, M365 agents)
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [multi-agent, autogen, microsoft, async, conversation, python]
+maintainer: Microsoft
+added: 2026-04-24

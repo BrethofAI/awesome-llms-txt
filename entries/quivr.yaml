@@ -1,0 +1,13 @@
+name: Quivr
+slug: quivr
+url: https://www.quivr.com
+llms_txt: https://www.quivr.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: rag-frameworks
+tagline: "Opinionated RAG framework: plug in your LLM, vector store, and files and get a chatbot."
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

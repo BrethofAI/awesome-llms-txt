@@ -1,0 +1,13 @@
+name: OpenAI Swarm
+slug: openai-swarm
+url: https://github.com/openai/swarm
+llms_txt: https://github.com/openai/swarm/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: agent-frameworks
+tagline: OpenAI's lightweight educational framework for multi-agent orchestration.
+
+license: open-source
+deployment: library
+added: 2026-04-24

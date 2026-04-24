@@ -1,0 +1,52 @@
+name: Langfuse
+slug: langfuse
+url: https://langfuse.com
+repository: https://github.com/langfuse/langfuse
+llms_txt: https://langfuse.com/llms.txt
+llms_full_txt: https://langfuse.com/llms-full.txt
+llms_txt_status: published
+
+category: observability
+subcategory: open-source-llm-observability
+
+tagline: Open-source LLM engineering platform for tracing, evaluation, prompt management, and observability — self-host or cloud.
+
+description: |
+  Langfuse is the leading open-source alternative to LangSmith and Helicone.
+  It provides the same observability stack — traces, evaluations, prompt
+  versioning, datasets, cost tracking — but under a permissive MIT license
+  with a straightforward self-hosted deployment option for teams that need
+  data sovereignty.
+
+  It integrates with LangChain, LangGraph, Llama-Index, OpenAI SDK,
+  Anthropic SDK, LiteLLM, and any HTTP-based LLM call via its OpenTelemetry
+  support. Traces capture full LLM inputs/outputs, tool calls, latencies,
+  and costs. The prompt management UI lets product teams iterate on prompts
+  outside of code and deploy changes without shipping releases.
+
+  Langfuse publishes both `llms.txt` and `llms-full.txt` at well-known
+  paths, making it easy for agents to answer questions about its APIs and
+  usage patterns.
+
+features:
+  - Full trace capture (LLM calls, tool calls, sessions, users)
+  - Prompt management with versioning, labels, and A/B rollouts
+  - Dataset and evaluation runs (LLM-as-judge, custom, exact-match)
+  - Cost and latency analytics dashboards
+  - OpenTelemetry-based instrumentation; framework-agnostic
+  - Self-host (Docker Compose, Kubernetes) or Langfuse Cloud
+  - MIT license for the core platform
+
+use_cases:
+  - Open-source observability for LLM apps
+  - Self-hosted deployments where data can't leave the org
+  - Prompt A/B testing and versioned rollouts
+  - Cost monitoring across many agents / features / users
+  - Replacing paid observability with a self-operated stack
+
+license: open-source
+deployment: self-hosted
+platforms: [linux]
+tags: [observability, tracing, open-source, self-hosted, evaluation, prompt-management]
+maintainer: Langfuse
+added: 2026-04-24

@@ -1,0 +1,13 @@
+name: ExLlamaV2
+slug: exllamav2
+url: https://github.com/turboderp-org/exllamav2
+llms_txt: https://github.com/turboderp-org/exllamav2/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: inference-runtimes
+tagline: Fast inference library for quantized LLMs optimized for consumer NVIDIA GPUs.
+
+license: open-source
+deployment: library
+added: 2026-04-24

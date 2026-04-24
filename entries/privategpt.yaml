@@ -1,0 +1,13 @@
+name: PrivateGPT
+slug: privategpt
+url: https://github.com/zylon-ai/private-gpt
+llms_txt: https://github.com/zylon-ai/private-gpt/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: desktop-apps
+tagline: Privacy-first local AI over your documents — fully offline RAG chatbot.
+
+license: open-source
+deployment: local
+added: 2026-04-24

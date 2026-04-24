@@ -1,0 +1,13 @@
+name: Perplexity API
+slug: perplexity-api
+url: https://docs.perplexity.ai
+llms_txt: https://docs.perplexity.ai/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: web-search-for-agents
+tagline: API access to Perplexity's search-augmented LLMs — Sonar models with live citations.
+
+license: commercial
+deployment: saas
+added: 2026-04-24

@@ -1,0 +1,13 @@
+name: Mem0
+slug: mem0
+url: https://mem0.ai
+llms_txt: https://mem0.ai/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: rag-frameworks
+tagline: Memory layer for AI agents — persistent user preferences and context across sessions.
+
+license: freemium
+deployment: library
+added: 2026-04-24

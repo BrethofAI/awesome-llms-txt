@@ -1,0 +1,13 @@
+name: Krita AI Diffusion
+slug: krita-ai-diffusion
+url: https://github.com/Acly/krita-ai-diffusion
+llms_txt: https://github.com/Acly/krita-ai-diffusion/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: image-gen
+tagline: Krita plugin for Stable Diffusion — inpaint, img2img, and generative layers inside Krita.
+
+license: open-source
+deployment: local
+added: 2026-04-24

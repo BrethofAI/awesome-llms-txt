@@ -1,0 +1,13 @@
+name: DeepEval
+slug: deepeval
+url: https://www.deepeval.com
+llms_txt: https://www.deepeval.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: evaluation
+tagline: Pytest-style LLM evaluation framework with 14+ metrics and CI/CD integration.
+
+license: open-source
+deployment: library
+added: 2026-04-24

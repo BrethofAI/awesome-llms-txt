@@ -1,0 +1,13 @@
+name: Fooocus
+slug: fooocus
+url: https://github.com/lllyasviel/Fooocus
+llms_txt: https://github.com/lllyasviel/Fooocus/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: image-gen
+tagline: Simplified Stable Diffusion UI focused on ease-of-use — Midjourney-like experience locally.
+
+license: open-source
+deployment: local
+added: 2026-04-24

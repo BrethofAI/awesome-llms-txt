@@ -1,0 +1,13 @@
+name: Agno
+slug: agno
+url: https://docs.agno.com
+llms_txt: https://docs.agno.com/llms.txt
+llms_txt_status: published
+status: stub
+
+category: agent-frameworks
+tagline: High-performance multi-agent framework with memory, reasoning, and 20+ model integrations.
+
+license: open-source
+deployment: library
+added: 2026-04-24

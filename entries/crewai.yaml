@@ -1,0 +1,52 @@
+name: CrewAI
+slug: crewai
+url: https://www.crewai.com
+repository: https://github.com/crewAIInc/crewAI
+llms_txt: https://docs.crewai.com/llms.txt
+llms_full_txt: https://docs.crewai.com/llms-full.txt
+llms_txt_status: published
+
+category: agent-frameworks
+subcategory: multi-agent-framework
+
+tagline: Python framework for orchestrating role-based multi-agent systems with sequential and hierarchical workflows.
+
+description: |
+  CrewAI is an agent framework centered on the metaphor of a "crew" —
+  multiple specialized agents (roles) collaborating on a task (a crew).
+  Developers define agents with a role, goal, and backstory, then compose
+  them into tasks with explicit dependencies. CrewAI handles the delegation,
+  inter-agent messaging, and result aggregation.
+
+  Compared to LangGraph's explicit-graph approach, CrewAI is higher-level
+  and more opinionated: it targets developers who want a ready-made pattern
+  for "researcher + writer + reviewer" style workflows without hand-rolling
+  state machines. Its Flows feature adds event-driven workflows and
+  deterministic control flow for production deployments.
+
+  The framework has significant adoption for content-generation pipelines,
+  research assistants, and business-process automation where the task
+  naturally decomposes into specialized agent roles.
+
+features:
+  - Role-based agents with goals, backstories, and tools
+  - Sequential and hierarchical process modes
+  - Flows API for event-driven and conditional workflows
+  - Tool integration (web search, code execution, custom tools)
+  - Memory: short-term, long-term, entity-level
+  - Provider-agnostic (works with any LiteLLM-supported model)
+  - CrewAI Enterprise for production deployments
+
+use_cases:
+  - Multi-step content generation (research → outline → draft → edit)
+  - Business workflow automation with role separation
+  - Research assistants that decompose questions across specialists
+  - Customer-facing agents with internal supervisor oversight
+  - Rapid prototyping of multi-agent patterns
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [multi-agent, crewai, python, role-based, orchestration]
+maintainer: CrewAI
+added: 2026-04-24

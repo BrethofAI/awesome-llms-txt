@@ -1,0 +1,52 @@
+name: vLLM
+slug: vllm
+url: https://docs.vllm.ai
+repository: https://github.com/vllm-project/vllm
+llms_txt: https://docs.vllm.ai/llms.txt
+llms_txt_status: missing
+
+category: inference-runtimes
+subcategory: production-inference-server
+
+tagline: High-throughput, memory-efficient LLM inference engine with PagedAttention and continuous batching.
+
+description: |
+  vLLM is the leading open-source inference engine for serving LLMs in
+  production. It introduced PagedAttention (a memory management technique
+  adapted from virtual memory in operating systems) that dramatically
+  reduces GPU memory fragmentation when serving many concurrent requests,
+  along with continuous batching that maximizes GPU utilization by folding
+  new requests into in-flight batches.
+
+  vLLM exposes an OpenAI-compatible HTTP API, supports virtually every
+  open-weight architecture (Llama, Qwen, DeepSeek, Mistral, Gemma, Phi,
+  MPT, Falcon, Yi, Cohere, and dozens more), handles both dense and MoE
+  models, and scales to multi-GPU and multi-node deployments with tensor
+  and pipeline parallelism.
+
+  Where Ollama targets single-user local use, vLLM targets server-side
+  production: high request concurrency, low latency, and maximum throughput
+  per dollar of GPU.
+
+features:
+  - PagedAttention for efficient KV-cache memory management
+  - Continuous batching for high request concurrency
+  - OpenAI-compatible API with streaming and tool calling
+  - Tensor and pipeline parallelism for multi-GPU serving
+  - FP16, BF16, FP8, INT8, AWQ, GPTQ quantization support
+  - Speculative decoding and prefix caching
+  - Extensive model support (Llama, Qwen, DeepSeek, Mistral, Gemma, …)
+
+use_cases:
+  - Serving open-weight LLMs in production behind a load balancer
+  - High-QPS inference for internal developer tools or customer products
+  - Multi-GPU deployments of large models (70B+, 405B)
+  - Cost-optimized inference infrastructure replacing closed APIs
+  - Research throughput benchmarking
+
+license: open-source
+deployment: self-hosted
+platforms: [linux]
+tags: [inference, serving, paged-attention, vllm, production, cuda, rocm]
+maintainer: vLLM Project
+added: 2026-04-24

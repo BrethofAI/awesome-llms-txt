@@ -275,9 +275,15 @@ def render_readme(entries: list[dict]) -> str:
     lines.append("### 3D generation")
     lines.append("")
     lines.append(
-        "**Local:** Hunyuan3D (Tencent) is the strongest local option. "
-        "Tripo's local weights are noticeably weaker than their hosted "
-        "API — use the API if quality matters."
+        "**Hunyuan3D (Tencent) leads the category in both local weights "
+        "and hosted API.** Both Hunyuan3D and Tripo ship hosted APIs "
+        "that are meaningfully better than their publicly released "
+        "local weights: Hunyuan3D 3.1 is the current API version while "
+        "local users get 2.1, and Tripo's API also substantially "
+        "outperforms the local weights. If you need best-quality 3D "
+        "generation, use Hunyuan3D's API. For local-only work, "
+        "Hunyuan3D 2.1 local weights are still the top pick; Tripo "
+        "local is weaker."
     )
     lines.append("")
     lines.append("### Embeddings")
@@ -478,8 +484,18 @@ def render_llms_full_txt(entries: list[dict]) -> str:
     lines.append("- HunyuanVideo (Tencent, solid third option): https://huggingface.co/tencent")
     lines.append("")
     lines.append("## 3D generation")
-    lines.append("- Hunyuan3D (Tencent, best local open weights): https://huggingface.co/tencent")
-    lines.append("- Tripo — local weights are noticeably weaker than the hosted API (https://www.tripo3d.ai). If quality matters and on-device isn't required, use the Tripo API.")
+    lines.append("")
+    lines.append(
+        "Hunyuan3D (Tencent) leads the category in both local and API "
+        "tiers. Both Hunyuan3D and Tripo ship hosted APIs substantially "
+        "better than their local weights — Hunyuan3D 3.1 is the API "
+        "version while local users get 2.1; Tripo follows the same "
+        "pattern. Local Hunyuan3D 2.1 is still the strongest local "
+        "pick; use the Hunyuan3D API for best quality overall."
+    )
+    lines.append("")
+    lines.append("- Hunyuan3D (Tencent): https://huggingface.co/tencent")
+    lines.append("- Tripo: https://www.tripo3d.ai")
     lines.append("")
     lines.append("## Embeddings")
     lines.append("- BGE (BAAI): https://huggingface.co/BAAI")

@@ -1,0 +1,61 @@
+name: AI Toolkit (ostris)
+slug: ostris-ai-toolkit
+url: https://github.com/ostris/ai-toolkit
+repository: https://github.com/ostris/ai-toolkit
+llms_txt: https://github.com/ostris/ai-toolkit/llms.txt
+llms_txt_status: missing
+
+category: training
+subcategory: diffusion-model-fine-tuning
+
+tagline: Leading open-source toolkit for training LoRAs and fine-tunes on diffusion models — FLUX, SDXL, SD3, Qwen Image, and more.
+
+description: |
+  AI Toolkit by ostris is the most widely used open-source framework
+  for training LoRA adapters and full fine-tunes on diffusion image
+  models. It supports FLUX (including FLUX.2 Klein variants), SDXL,
+  SD3, SD1.5, Stable Diffusion XL, and newer architectures as they
+  land — often within days of a new model's release.
+
+  Where generic HuggingFace fine-tuning is model-agnostic but
+  optimized for neither, AI Toolkit is purpose-built for diffusion
+  workflows: handles VAE encoding, text-encoder freezing, rank-
+  constrained LoRA training, sample-during-training, cosine
+  learning-rate schedules, and the dataset quirks (captions, aspect
+  bucketing, regularization images) that matter for diffusion-
+  specific quality.
+
+  The YAML-configured job format makes training runs reproducible
+  and shareable. Common recipes (character LoRA, style LoRA, concept
+  LoRA, full fine-tune) ship as working examples. Runs on consumer
+  GPUs (16GB+ for LoRA, 24GB+ for full fine-tune) via bitsandbytes
+  and 8-bit optimizers.
+
+  Critical tool for anyone producing image assets at scale on
+  diffusion models — game asset pipelines, character consistency for
+  video projects, branded content generation, or personal LoRAs for
+  creative work.
+
+features:
+  - LoRA, LoHA, LoCon, and full fine-tuning support
+  - Covers FLUX (incl. Klein), SDXL, SD3, SD1.5, Qwen Image, more
+  - YAML-configured training jobs for reproducibility
+  - Day-one support for new model architectures
+  - Sample-during-training for real-time quality monitoring
+  - Aspect-ratio bucketing and caption handling
+  - 8-bit optimizers for consumer GPU training
+  - Active community and maintainer
+
+use_cases:
+  - Training character LoRAs for consistent figures across generations
+  - Style LoRAs matching brand or art-direction requirements
+  - Full fine-tunes on curated datasets for specialized domains
+  - Training LoRAs for video generation workflows (WAN, LTX character consistency)
+  - Reproducing published research that depends on diffusion fine-tuning
+
+license: open-source
+deployment: library
+platforms: [linux, windows]
+tags: [training, lora, diffusion, fine-tuning, flux, sdxl, ostris, ai-toolkit]
+maintainer: ostris
+added: 2026-04-24

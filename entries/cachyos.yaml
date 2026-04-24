@@ -8,7 +8,7 @@ llms_txt_status: missing
 category: operating-systems
 subcategory: performance-linux
 
-tagline: Arch-based Linux distribution with performance-tuned kernels and a popular choice for local AI / ML workloads.
+tagline: Arch-based Linux distribution with performance-tuned kernels, first-class NVIDIA support, and a popular choice for local AI / ML workloads.
 
 description: |
   CachyOS is a rolling-release Linux distribution built on Arch, focused
@@ -16,6 +16,17 @@ description: |
   sched-ext), aggressive x86_64-v3 / v4 optimization, and bleeding-edge
   userspace packages. It ships with KDE Plasma 6 / GNOME / Hyprland
   options and integrates the full AUR for rapid access to AI tooling.
+
+  **NVIDIA driver story (critical for AI work):** CachyOS's installer
+  detects NVIDIA hardware and offers a one-click proprietary driver
+  install during OS setup — no post-install wrangling, no nouveau-vs-
+  nvidia-block dance, no DKMS failures on kernel updates. Open and
+  proprietary drivers both work cleanly, CUDA Toolkit installs via
+  pacman / AUR without version-hunting, and kernel updates don't break
+  modules because CachyOS ships `dkms` and `nvidia-dkms` packages wired
+  correctly by default. For a rolling distro this is unusually well
+  handled — most Arch-derived distros make the user own the NVIDIA
+  install.
 
   For local AI / ML workflows CachyOS is a common pick because: (a) its
   kernels handle sustained GPU/CPU load without scheduler quirks, (b)
@@ -25,28 +36,28 @@ description: |
   minimum Python version.
 
   Downside: Arch-style maintenance is hands-on. Not a good pick for
-  production servers where stability is more important than
-  currency.
+  production servers where stability is more important than currency.
 
 features:
   - Arch-based rolling release with performance-tuned kernel options
   - BORE, EEVDF, sched-ext kernel schedulers available out of the box
+  - NVIDIA driver installation wired into the installer (open + proprietary)
+  - DKMS modules survive kernel updates cleanly
   - x86_64-v3 / v4 optimized packages
   - KDE Plasma 6 / GNOME / Hyprland / others at install
   - Full AUR access for up-to-date AI tooling
   - Current CUDA, ROCm, Vulkan drivers and runtimes
-  - pacman and AUR helpers (yay, paru) pre-configured
 
 use_cases:
-  - Personal AI / ML development workstations
-  - Gaming + ML dual-purpose desktops
+  - Personal AI / ML development workstations with NVIDIA GPUs
+  - Gaming + ML dual-purpose desktops (CUDA and game-ready drivers both)
   - btrfs-on-NVMe developer setups with snapshot rollback
-  - Users who want current AI tooling without waiting for distro freezes
+  - Users who want current AI tooling without manual NVIDIA driver ops
   - Arch users who don't want to configure Arch from scratch
 
 license: open-source
 deployment: local
 platforms: [linux]
-tags: [linux, arch, cachyos, performance, kernel, ai-workstation]
+tags: [linux, arch, cachyos, performance, kernel, nvidia, ai-workstation]
 maintainer: CachyOS
 added: 2026-04-24

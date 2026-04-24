@@ -1,0 +1,55 @@
+name: RunPod
+slug: runpod
+url: https://runpod.io
+repository: null
+llms_txt: https://docs.runpod.io/llms.txt
+llms_txt_status: published
+
+category: deployment
+subcategory: gpu-cloud
+
+tagline: GPU cloud platform with on-demand instances, serverless endpoints, and a community GPU marketplace — priced for AI workloads.
+
+description: |
+  RunPod is a GPU cloud provider focused on AI workloads. It offers
+  three deployment modes: Pods (long-running GPU instances, similar to
+  bare-metal rentals), Serverless (auto-scaling API endpoints that bill
+  per-second of inference), and Secure Cloud vs Community Cloud (the
+  latter being excess capacity from third-party hosts at lower prices,
+  with the tradeoff of less guaranteed availability).
+
+  Its pricing is consistently among the lowest for consumer and
+  enterprise GPUs (RTX 4090, A100, H100, H200, L4, L40S), and the
+  Serverless tier makes it practical to host inference APIs without
+  paying for idle GPU time. Pre-built templates cover common AI stacks
+  (ComfyUI, Automatic1111, vLLM, SGLang, Ollama), so new instances can
+  launch with a running application in one click.
+
+  RunPod is a common pick for indie AI builders, researchers, and
+  teams running bursty inference where Modal / Replicate's managed
+  layer isn't needed.
+
+features:
+  - Pods (long-running GPU instances) and Serverless endpoints
+  - Community Cloud for lowest-cost GPU rentals
+  - Pre-built templates: ComfyUI, vLLM, Ollama, SGLang, Stable Diffusion
+  - Consumer (RTX 3090/4090/5090) and enterprise (A100/H100/H200) GPUs
+  - Per-second billing on Serverless
+  - Network volume storage persistent across pods
+  - API and CLI for programmatic pod / endpoint management
+  - Global datacenters for latency-sensitive workloads
+
+use_cases:
+  - GPU workloads priced lower than AWS / GCP / Azure
+  - Serverless hosting for custom fine-tuned models
+  - Running ComfyUI or Stable Diffusion at scale without local GPU
+  - Research and experimentation on latest consumer/enterprise GPUs
+  - Burst capacity for training or batch inference jobs
+  - Deploying vLLM / SGLang behind a stable endpoint
+
+license: commercial
+deployment: saas
+platforms: [linux, macos, windows]
+tags: [gpu-cloud, runpod, serverless, inference, training, deployment]
+maintainer: RunPod
+added: 2026-04-24

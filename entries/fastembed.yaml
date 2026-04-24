@@ -1,0 +1,13 @@
+name: FastEmbed
+slug: fastembed
+url: https://github.com/qdrant/fastembed
+llms_txt: https://github.com/qdrant/fastembed/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: embeddings
+tagline: Lightweight, CPU-friendly embedding library from Qdrant — no torch dependency.
+
+license: open-source
+deployment: library
+added: 2026-04-24

@@ -1,0 +1,13 @@
+name: F5-TTS
+slug: f5-tts
+url: https://github.com/SWivid/F5-TTS
+llms_txt: https://github.com/SWivid/F5-TTS/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: voice
+tagline: High-quality open-source TTS with voice cloning from short audio reference.
+
+license: open-source
+deployment: library
+added: 2026-04-24

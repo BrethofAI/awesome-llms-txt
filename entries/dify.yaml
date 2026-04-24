@@ -1,0 +1,13 @@
+name: Dify
+slug: dify
+url: https://dify.ai
+llms_txt: https://dify.ai/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: workflow-tools
+tagline: Open-source LLM app development platform with visual prompt IDE, RAG, and agent builder.
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

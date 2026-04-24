@@ -1,0 +1,13 @@
+name: Verba
+slug: verba
+url: https://github.com/weaviate/verba
+llms_txt: https://github.com/weaviate/verba/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: rag-frameworks
+tagline: Weaviate's open-source RAG chatbot — Golden RAGtriever reference implementation.
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

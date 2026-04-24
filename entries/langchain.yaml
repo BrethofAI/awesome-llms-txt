@@ -1,0 +1,54 @@
+name: LangChain
+slug: langchain
+url: https://www.langchain.com
+repository: https://github.com/langchain-ai/langchain
+llms_txt: https://python.langchain.com/llms.txt
+llms_full_txt: https://python.langchain.com/llms-full.txt
+llms_txt_status: published
+
+category: agent-frameworks
+subcategory: llm-orchestration-framework
+
+tagline: Widely adopted framework for building LLM applications with chains, agents, retrievers, and memory.
+
+description: |
+  LangChain is one of the original and most widely used frameworks for
+  building applications powered by large language models. It provides
+  abstractions over prompts, chains (sequences of LLM calls and tool uses),
+  retrievers, memory, document loaders, vector stores, and output parsers —
+  along with hundreds of integrations spanning every major LLM provider,
+  database, and third-party service.
+
+  The Python and JavaScript implementations share the same mental model but
+  evolve independently. The framework famously moved fast and accumulated
+  API churn in its early years; recent versions (0.3+) have stabilized and
+  the companion library LangGraph provides a lower-level graph-based
+  primitive for agent control flow where LangChain's older abstractions
+  felt opaque.
+
+  LangChain publishes both `llms.txt` and `llms-full.txt` for its Python
+  docs — a reference implementation of agent-discoverable documentation.
+
+features:
+  - Chains: composable pipelines of prompts, LLMs, parsers, tools
+  - Hundreds of integrations (OpenAI, Anthropic, local, vector DBs, APIs)
+  - Retrieval-augmented generation (RAG) primitives out of the box
+  - Memory abstractions for conversational state
+  - Agents with tool use (though LangGraph now preferred for new code)
+  - LangSmith observability hooks native
+  - Python and TypeScript implementations
+
+use_cases:
+  - RAG applications over internal document collections
+  - Chatbots with multi-turn memory and tool use
+  - Structured data extraction from unstructured text
+  - Orchestrating multiple LLM calls with parsing and validation between
+  - Rapid prototyping of LLM-powered features
+  - Teaching / learning LLM application patterns
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [framework, rag, agents, langchain, python, typescript, llm]
+maintainer: LangChain
+added: 2026-04-24

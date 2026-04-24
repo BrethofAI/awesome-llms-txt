@@ -1,0 +1,51 @@
+name: Axolotl
+slug: axolotl
+url: https://axolotl.ai
+repository: https://github.com/axolotl-ai-cloud/axolotl
+llms_txt: https://docs.axolotl.ai/llms.txt
+llms_txt_status: missing
+
+category: training
+subcategory: llm-fine-tuning-framework
+
+tagline: YAML-configured fine-tuning framework supporting LoRA, QLoRA, full FT, DPO, and most modern LLM architectures.
+
+description: |
+  Axolotl is a full-featured open-source fine-tuning framework that wraps
+  HuggingFace Transformers, PEFT, and TRL into a YAML-configured CLI.
+  Users define their training run (model, dataset, hyperparameters,
+  adapter type) in a config file and launch with `accelerate launch -m
+  axolotl.cli.train config.yml`.
+
+  Compared to Unsloth's speed focus, Axolotl prioritizes breadth: broader
+  architecture support (Llama, Qwen, Mistral, Gemma, Phi, DeepSeek, Yi,
+  Cohere, StableLM, and more), more training methods (LoRA, QLoRA, full
+  FT, ReLoRA, continued pretraining, DPO, KTO, ORPO, GRPO), and richer
+  dataset formats (SharePT, Alpaca, ChatML, raw, completion, many more).
+
+  It's a common choice for production fine-tuning pipelines where
+  reproducibility and config-as-code matter more than squeezing the last
+  percent of speed.
+
+features:
+  - YAML-configured training runs (no code required for common recipes)
+  - Supports 20+ base model architectures
+  - LoRA, QLoRA, full FT, ReLoRA, DPO, KTO, ORPO, GRPO
+  - Multi-GPU via Accelerate and DeepSpeed
+  - FlashAttention and sample packing for efficiency
+  - Direct integration with WandB and MLflow for tracking
+  - Docker images for reproducible training environments
+
+use_cases:
+  - Production fine-tuning pipelines with config-as-code
+  - Multi-GPU / multi-node training runs
+  - Preference tuning via DPO, KTO, ORPO, GRPO
+  - Continued pretraining on domain corpora
+  - Teams wanting reproducible training via version-controlled YAMLs
+
+license: open-source
+deployment: library
+platforms: [linux]
+tags: [fine-tuning, training, axolotl, lora, dpo, yaml, python]
+maintainer: Axolotl AI
+added: 2026-04-24

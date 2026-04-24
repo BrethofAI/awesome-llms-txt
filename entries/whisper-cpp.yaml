@@ -1,0 +1,13 @@
+name: whisper.cpp
+slug: whisper-cpp
+url: https://github.com/ggml-org/whisper.cpp
+llms_txt: https://github.com/ggml-org/whisper.cpp/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: voice
+tagline: C++ port of OpenAI Whisper — fast local transcription with no Python dependencies.
+
+license: open-source
+deployment: library
+added: 2026-04-24

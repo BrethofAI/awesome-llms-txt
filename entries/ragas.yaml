@@ -1,0 +1,13 @@
+name: Ragas
+slug: ragas
+url: https://docs.ragas.io
+llms_txt: https://docs.ragas.io/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: evaluation
+tagline: Framework for evaluating RAG pipelines with metrics like faithfulness, answer relevance.
+
+license: open-source
+deployment: library
+added: 2026-04-24

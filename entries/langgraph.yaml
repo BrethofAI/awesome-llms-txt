@@ -1,0 +1,49 @@
+name: LangGraph
+slug: langgraph
+url: https://langchain-ai.github.io/langgraph/
+repository: https://github.com/langchain-ai/langgraph
+llms_txt: https://langchain-ai.github.io/langgraph/llms.txt
+llms_full_txt: https://langchain-ai.github.io/langgraph/llms-full.txt
+llms_txt_status: published
+
+category: agent-frameworks
+subcategory: graph-based-agent-orchestration
+
+tagline: Graph-based library for building stateful multi-agent workflows with explicit control flow and durability.
+
+description: |
+  LangGraph is LangChain's successor-style library for building agents and
+  multi-step LLM workflows as explicit directed graphs. Where classic
+  LangChain agents abstract control flow behind a reactive loop, LangGraph
+  makes nodes, edges, state, and branching first-class — letting developers
+  write agents that look more like state machines than magic boxes.
+
+  Its standout features are durability (graphs can pause, persist state, and
+  resume after arbitrary interruptions — critical for long-running agent
+  workflows) and first-class support for human-in-the-loop patterns (nodes
+  that suspend execution until a human approves or edits the next step).
+  LangGraph Cloud / LangGraph Platform turns graphs into deployed long-
+  running services with built-in checkpointing.
+
+features:
+  - Nodes and edges define explicit agent control flow
+  - Durable state with pluggable checkpointers (SQLite, Postgres, Redis)
+  - Pause/resume for human-in-the-loop and async workflows
+  - Streaming of intermediate state to the client
+  - Multi-agent supervisor and swarm patterns built-in
+  - Integrates with any LLM provider (via LangChain's model abstractions)
+  - LangGraph Platform for production deployment
+
+use_cases:
+  - Complex agent workflows with explicit branching and retries
+  - Long-running agent tasks that need to survive process restarts
+  - Human-in-the-loop review gates in agent pipelines
+  - Multi-agent systems (supervisor, swarm, hierarchical)
+  - Replacing ad-hoc LangChain AgentExecutor setups
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [agent-framework, graph, state-machine, langgraph, durable, hitl]
+maintainer: LangChain
+added: 2026-04-24

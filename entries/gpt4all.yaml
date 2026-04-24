@@ -1,0 +1,13 @@
+name: GPT4All
+slug: gpt4all
+url: https://www.nomic.ai/gpt4all
+llms_txt: https://www.nomic.ai/gpt4all/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: inference-runtimes
+tagline: Privacy-first desktop chatbot running local LLMs on CPU with a Python SDK.
+
+license: open-source
+deployment: local
+added: 2026-04-24

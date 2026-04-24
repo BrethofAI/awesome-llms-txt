@@ -1,0 +1,13 @@
+name: DSPy
+slug: dspy
+url: https://dspy.ai
+llms_txt: https://dspy.ai/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: agent-frameworks
+tagline: Framework for programming rather than prompting LLMs — composable modules with optimizers.
+
+license: open-source
+deployment: library
+added: 2026-04-24

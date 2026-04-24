@@ -1,0 +1,13 @@
+name: Magentic
+slug: magentic
+url: https://magentic.dev
+llms_txt: https://magentic.dev/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: agent-frameworks
+tagline: Type-safe Python library for building LLM-powered functions with structured outputs.
+
+license: open-source
+deployment: library
+added: 2026-04-24

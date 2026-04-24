@@ -1,0 +1,13 @@
+name: Exa
+slug: exa
+url: https://exa.ai
+llms_txt: https://exa.ai/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: web-search-for-agents
+tagline: Neural search API built for AI agents — semantic search across the web with content retrieval.
+
+license: freemium
+deployment: saas
+added: 2026-04-24

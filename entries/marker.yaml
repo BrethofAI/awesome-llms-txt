@@ -1,0 +1,13 @@
+name: Marker
+slug: marker
+url: https://github.com/VikParuchuri/marker
+llms_txt: https://github.com/VikParuchuri/marker/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: ocr-doc-parsing
+tagline: Fast, accurate PDF-to-markdown conversion — tables, equations, and structure preserved.
+
+license: open-source
+deployment: library
+added: 2026-04-24

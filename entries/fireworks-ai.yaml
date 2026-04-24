@@ -1,0 +1,13 @@
+name: Fireworks AI
+slug: fireworks-ai
+url: https://fireworks.ai
+llms_txt: https://fireworks.ai/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: deployment
+tagline: Production inference platform for open models — fastest-on-market serving for DeepSeek, Llama.
+
+license: commercial
+deployment: saas
+added: 2026-04-24

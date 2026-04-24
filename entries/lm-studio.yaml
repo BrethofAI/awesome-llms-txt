@@ -1,0 +1,50 @@
+name: LM Studio
+slug: lm-studio
+url: https://lmstudio.ai
+repository: null
+llms_txt: https://lmstudio.ai/llms.txt
+llms_txt_status: missing
+
+category: inference-runtimes
+subcategory: desktop-llm-runtime
+
+tagline: Desktop application for discovering, downloading, and running local LLMs with a polished UI and OpenAI-compatible server.
+
+description: |
+  LM Studio is a free desktop application for running open-weight LLMs
+  entirely on-device with a consumer-friendly interface. It handles model
+  discovery (integrated HuggingFace browser), download, quantization
+  selection, GPU offload configuration, and chat — all without editing
+  config files or the command line.
+
+  Under the hood it's a GUI wrapper around llama.cpp and MLX with
+  thoughtful defaults. Its built-in OpenAI-compatible server lets other
+  applications connect to whatever model the user has loaded, making LM
+  Studio a popular local-inference backend for coding agents, chat apps,
+  and research tools.
+
+  Where Ollama targets developers and CLI workflows, LM Studio targets
+  knowledge workers who want local LLMs without touching a terminal.
+
+features:
+  - Desktop GUI for HuggingFace model browsing and download
+  - Per-model config (context length, GPU layers, quantization)
+  - Built-in chat UI with conversation history
+  - OpenAI-compatible local server
+  - llama.cpp and MLX backends
+  - NVIDIA CUDA, AMD ROCm, Apple MLX support
+  - Speculative decoding for faster inference
+
+use_cases:
+  - Non-CLI users who want to run local LLMs with a GUI
+  - Evaluating models side-by-side before committing to one
+  - Private chat assistants for knowledge work
+  - Local backend for coding assistants (Continue, Cursor via OpenAI proxy)
+  - Teams piloting local LLMs before deploying server-side
+
+license: freemium
+deployment: local
+platforms: [linux, macos, windows]
+tags: [inference, llm, local, desktop, gui, llama-cpp, mlx]
+maintainer: LM Studio
+added: 2026-04-24

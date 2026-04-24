@@ -1,0 +1,13 @@
+name: smolagents
+slug: smolagents
+url: https://huggingface.co/docs/smolagents
+llms_txt: https://huggingface.co/docs/smolagents/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: agent-frameworks
+tagline: Minimal agent library from HuggingFace centered on code-writing agents.
+
+license: open-source
+deployment: library
+added: 2026-04-24

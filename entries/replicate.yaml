@@ -1,0 +1,13 @@
+name: Replicate
+slug: replicate
+url: https://replicate.com
+llms_txt: https://replicate.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: deployment
+tagline: Run open-source ML models via simple API calls — thousands of public models, custom deploys.
+
+license: commercial
+deployment: saas
+added: 2026-04-24

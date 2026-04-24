@@ -1,0 +1,13 @@
+name: Raycast AI
+slug: raycast-ai
+url: https://www.raycast.com/ai
+llms_txt: https://www.raycast.com/ai/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: desktop-apps
+tagline: macOS launcher with integrated AI commands, chat, and custom quicklinks.
+
+license: commercial
+deployment: local
+added: 2026-04-24

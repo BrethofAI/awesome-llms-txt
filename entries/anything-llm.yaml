@@ -1,0 +1,13 @@
+name: AnythingLLM
+slug: anything-llm
+url: https://anythingllm.com
+llms_txt: https://anythingllm.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: rag-frameworks
+tagline: All-in-one desktop and Docker RAG app — document ingestion, agents, multi-user.
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

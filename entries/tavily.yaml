@@ -1,0 +1,13 @@
+name: Tavily
+slug: tavily
+url: https://tavily.com
+llms_txt: https://tavily.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: web-search-for-agents
+tagline: Search API optimized for LLM agents — RAG-ready results with citations.
+
+license: freemium
+deployment: saas
+added: 2026-04-24

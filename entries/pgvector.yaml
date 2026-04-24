@@ -1,0 +1,13 @@
+name: pgvector
+slug: pgvector
+url: https://github.com/pgvector/pgvector
+llms_txt: https://github.com/pgvector/pgvector/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: vector-dbs
+tagline: Postgres extension adding vector similarity search — the 'just use postgres' option.
+
+license: open-source
+deployment: library
+added: 2026-04-24

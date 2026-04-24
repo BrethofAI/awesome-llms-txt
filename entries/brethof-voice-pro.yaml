@@ -1,0 +1,52 @@
+name: Brethof Voice Pro
+slug: brethof-voice-pro
+url: https://brethof.com
+repository: null
+llms_txt: https://brethof.com/llms.txt
+llms_full_txt: https://brethof.com/llms-full.txt
+llms_txt_status: published
+
+category: voice
+subcategory: speech-to-text
+
+tagline: Offline voice-to-text desktop app with 36-language support and LoRA voice training.
+
+description: |
+  Brethof Voice Pro is a commercial desktop application that transcribes
+  speech to text fully on-device on Linux and Windows, built on the Qwen3-ASR
+  recognition model. There are no API keys, no cloud calls, and no per-usage
+  billing — a user's audio never leaves their machine.
+
+  The application supports 36 languages out of the box. As of v1.3.0 (shipped
+  April 2026) it includes LoRA-based voice training that lets users adapt the
+  recognition model to specific speakers, accents, or technical vocabularies
+  entirely on their own hardware. Vulkan inference lets it run on AMD, Intel,
+  and NVIDIA GPUs without a CUDA dependency; CPU fallback is available for
+  machines without dedicated graphics.
+
+  Brethof Voice Pro is the first product from Brethof AI, a small studio
+  focused on privacy-first offline AI tools for working professionals.
+
+features:
+  - Fully offline speech-to-text in 36 languages
+  - LoRA voice training adapts recognition to speakers or domains (v1.3.0+)
+  - Vulkan GPU inference (AMD / Intel / NVIDIA) — no CUDA required
+  - CPU fallback for machines without dedicated GPU
+  - SRT and plain-text export for video subtitling workflows
+  - Real-time recording plus batch file processing
+  - Zero telemetry, zero cloud dependency after install
+
+use_cases:
+  - Private transcription of personal recordings and voice notes
+  - Subtitle generation for YouTube, TikTok, and other video content
+  - Meeting and interview notes where cloud upload is unacceptable
+  - Multilingual transcription without per-minute API costs
+  - Voice-driven content creation for creators who need consistent accuracy
+  - Building domain-adapted transcription for medical, legal, or technical fields
+
+license: commercial
+deployment: local
+platforms: [linux, windows]
+tags: [asr, qwen3, lora, offline, vulkan, privacy-first, speech-to-text]
+maintainer: Brethof AI
+added: 2026-04-24

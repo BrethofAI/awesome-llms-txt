@@ -1,0 +1,13 @@
+name: Sentence Transformers
+slug: sentence-transformers
+url: https://sbert.net
+llms_txt: https://sbert.net/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: embeddings
+tagline: Python framework for state-of-the-art sentence, text, and image embeddings.
+
+license: open-source
+deployment: library
+added: 2026-04-24

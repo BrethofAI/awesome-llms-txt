@@ -1,0 +1,50 @@
+name: OpenClaw
+slug: openclaw
+url: https://github.com/openclaw/openclaw
+repository: https://github.com/openclaw/openclaw
+llms_txt: https://openclaw.dev/llms.txt
+llms_txt_status: missing
+
+category: agent-frameworks
+subcategory: computer-use-agent
+
+tagline: Open-source framework for running browser-automation agents with persistent profiles and human-in-the-loop review.
+
+description: |
+  OpenClaw is an open-source framework for building and operating AI agents
+  that drive a real web browser on the user's behalf — marketing posting,
+  account management, form-filling, research at scale. It bundles a
+  Chromium-based browser, a gateway that exposes the browser to agents over
+  a typed API (`/navigate`, `/snapshot`, `/act`, `/screenshot`), a chat UI
+  for supervising the agent, and a device-pairing model that keeps the agent
+  bound to an approved session.
+
+  Unlike hosted agent products, OpenClaw runs entirely on the operator's
+  infrastructure: a self-hosted VPS or local machine, under the operator's
+  identity and credentials. Agents see exactly what the operator sees and
+  post under accounts the operator owns.
+
+  OpenClaw is provider-agnostic at the LLM layer: out of the box it supports
+  Anthropic Claude, xAI Grok, OpenRouter, and any OpenAI-compatible endpoint.
+
+features:
+  - Chromium-in-Docker with CDP exposed to agents on a structured API
+  - Persistent browser profiles per account, cookies survive restarts
+  - Device pairing + chat UI for human review and takeover
+  - Pluggable LLM providers (Anthropic, xAI, OpenRouter, OpenAI-compatible)
+  - Skills system for packaging repeated workflows (SKILL.md + exec tools)
+  - VNC fallback for visual debugging and manual intervention
+
+use_cases:
+  - Marketing automation across forums where persistent accounts matter
+  - Competitive research and monitoring at human-scale pacing
+  - Form-filling and account maintenance across many venues
+  - Long-running agent workflows that need to recover from browser wedges
+  - Any agent task where hosted services are unsuitable due to privacy
+
+license: open-source
+deployment: self-hosted
+platforms: [linux]
+tags: [browser-automation, agent, self-hosted, cdp, playwright, chromium]
+maintainer: OpenClaw
+added: 2026-04-24

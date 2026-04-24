@@ -1,0 +1,51 @@
+name: Open WebUI
+slug: openwebui
+url: https://openwebui.com
+repository: https://github.com/open-webui/open-webui
+llms_txt: https://docs.openwebui.com/llms.txt
+llms_txt_status: missing
+
+category: inference-runtimes
+subcategory: self-hosted-chat-ui
+
+tagline: Self-hosted, feature-rich chat interface for local and cloud LLMs — the "ChatGPT clone" of the open-source world.
+
+description: |
+  Open WebUI is a self-hosted web interface for chatting with LLMs,
+  supporting Ollama, any OpenAI-compatible endpoint, and cloud providers.
+  It's visually and functionally comparable to ChatGPT's UI: conversation
+  history, folder organization, model picker, custom system prompts,
+  multimodal input (images, documents, audio), code interpreter, web
+  search, and a plugin/tool system.
+
+  It's deployed as a single Docker container and commonly paired with
+  Ollama to give non-technical users a friendly front-end to local LLMs.
+  Multi-user support with role-based access makes it suitable for teams or
+  family setups on a shared home server.
+
+  The project has strong momentum among self-hosters and privacy-conscious
+  users who want the ChatGPT experience without sending data to OpenAI.
+
+features:
+  - ChatGPT-like web UI with conversation history
+  - Multi-user with role-based access control (admin, user, pending)
+  - Works with Ollama, any OpenAI-compatible API, or cloud providers
+  - Multimodal input: images, documents, audio
+  - RAG with local document uploads and web search
+  - Custom models (system prompts) via the UI
+  - Plugin/tool system (Functions, Pipelines)
+  - Docker Compose deployment
+
+use_cases:
+  - Self-hosted ChatGPT replacement for home or team use
+  - Privacy-conscious individuals running local LLMs daily
+  - Non-technical users accessing local inference via a web UI
+  - Multi-user deployments where each person gets isolated history
+  - Research environments comparing many models with the same UI
+
+license: open-source
+deployment: self-hosted
+platforms: [linux]
+tags: [chat-ui, self-hosted, open-webui, ollama, multi-user, privacy]
+maintainer: Open WebUI
+added: 2026-04-24

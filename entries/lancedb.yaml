@@ -1,0 +1,13 @@
+name: LanceDB
+slug: lancedb
+url: https://lancedb.com
+llms_txt: https://lancedb.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: vector-dbs
+tagline: Serverless vector DB on the Lance columnar format — embedded or cloud, multimodal-ready.
+
+license: open-source
+deployment: library
+added: 2026-04-24

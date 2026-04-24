@@ -1,0 +1,13 @@
+name: Groq
+slug: groq
+url: https://groq.com
+llms_txt: https://groq.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: deployment
+tagline: Ultra-low-latency inference on custom LPU chips — sub-second complete responses for chat models.
+
+license: commercial
+deployment: saas
+added: 2026-04-24

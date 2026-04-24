@@ -1,0 +1,13 @@
+name: Weaviate
+slug: weaviate
+url: https://weaviate.io
+llms_txt: https://weaviate.io/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: vector-dbs
+tagline: Open-source vector database with built-in ML models, hybrid search, and modules for generative AI.
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

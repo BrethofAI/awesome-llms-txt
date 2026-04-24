@@ -1,0 +1,13 @@
+name: Jan
+slug: jan
+url: https://jan.ai
+llms_txt: https://jan.ai/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: inference-runtimes
+tagline: Open-source ChatGPT alternative desktop app with local model support.
+
+license: open-source
+deployment: local
+added: 2026-04-24

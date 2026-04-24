@@ -1,0 +1,13 @@
+name: GitHub Copilot
+slug: github-copilot
+url: https://github.com/features/copilot
+llms_txt: https://github.com/features/copilot/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: coding-agents
+tagline: GitHub's native AI pair programmer with chat, autocomplete, and agent mode across major IDEs.
+
+license: commercial
+deployment: local
+added: 2026-04-24

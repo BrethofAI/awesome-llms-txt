@@ -1,0 +1,54 @@
+name: Haystack
+slug: haystack
+url: https://haystack.deepset.ai
+repository: https://github.com/deepset-ai/haystack
+llms_txt: https://docs.haystack.deepset.ai/llms.txt
+llms_full_txt: https://docs.haystack.deepset.ai/llms-full.txt
+llms_txt_status: published
+
+category: rag-frameworks
+subcategory: pipeline-based-rag
+
+tagline: Production-oriented Python framework for building RAG, search, and agent pipelines with composable components.
+
+description: |
+  Haystack (from deepset) is an open-source Python framework for building
+  LLM-powered pipelines — RAG, semantic search, question answering, and
+  agents — out of composable, typed components. Its core abstraction is
+  the Pipeline: a directed graph of components (retrievers, rankers,
+  generators, prompt builders, validators) connected by typed edges, with
+  full control over execution order and branching.
+
+  Haystack predates the LLM gold rush (originally a NLP QA toolkit) and
+  its design reflects production priorities: typed I/O, explicit
+  observability, easy component swapping, and deployment as Kubernetes-
+  ready services. Its 2.x rewrite modernized the framework around the
+  Pipeline abstraction and deepened integrations with LLM providers,
+  vector stores, and document processors.
+
+  It's a common choice for teams who find LangChain too abstract and
+  LangGraph too low-level, wanting a middle-ground framework with
+  production defaults.
+
+features:
+  - Composable Pipeline abstraction with typed components
+  - 100+ integrations (LLMs, vector stores, retrievers, rankers)
+  - Branching, looping, and conditional pipelines
+  - Evaluation harness built into the framework
+  - deepset Cloud for hosted pipeline deployment
+  - REST API generation for deployed pipelines
+  - Python-only (no JavaScript port)
+
+use_cases:
+  - Production RAG systems with strict latency / cost requirements
+  - Semantic search over large document collections
+  - Hybrid retrieval combining dense and sparse methods
+  - Agent pipelines with clear, inspectable control flow
+  - Teams wanting a more disciplined framework than LangChain
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [rag, haystack, deepset, pipeline, semantic-search, python]
+maintainer: deepset
+added: 2026-04-24

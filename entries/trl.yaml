@@ -1,0 +1,13 @@
+name: TRL (HuggingFace)
+slug: trl
+url: https://huggingface.co/docs/trl
+llms_txt: https://huggingface.co/docs/trl/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: training
+tagline: HuggingFace's library for reinforcement-learning based LLM training (DPO, PPO, SFT, KTO).
+
+license: open-source
+deployment: library
+added: 2026-04-24

@@ -1,0 +1,13 @@
+name: KoboldCpp
+slug: koboldcpp
+url: https://github.com/LostRuins/koboldcpp
+llms_txt: https://github.com/LostRuins/koboldcpp/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: inference-runtimes
+tagline: Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP.
+
+license: open-source
+deployment: local
+added: 2026-04-24

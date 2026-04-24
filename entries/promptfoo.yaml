@@ -1,0 +1,13 @@
+name: Promptfoo
+slug: promptfoo
+url: https://www.promptfoo.dev
+llms_txt: https://www.promptfoo.dev/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: evaluation
+tagline: Open-source tool for testing, evaluating, and red-teaming LLM apps via config files.
+
+license: open-source
+deployment: library
+added: 2026-04-24

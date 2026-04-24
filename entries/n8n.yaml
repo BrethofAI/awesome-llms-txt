@@ -1,0 +1,13 @@
+name: n8n
+slug: n8n
+url: https://n8n.io
+llms_txt: https://n8n.io/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: workflow-tools
+tagline: Fair-code workflow automation with native AI nodes — self-hostable automation platform.
+
+license: source-available
+deployment: self-hosted
+added: 2026-04-24

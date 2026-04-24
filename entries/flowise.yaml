@@ -1,0 +1,13 @@
+name: Flowise
+slug: flowise
+url: https://flowiseai.com
+llms_txt: https://flowiseai.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: workflow-tools
+tagline: Drag-and-drop UI for building LLM workflows and agents — open-source, self-hostable.
+
+license: open-source
+deployment: self-hosted
+added: 2026-04-24

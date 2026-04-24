@@ -1,0 +1,49 @@
+name: LocalAI
+slug: localai
+url: https://localai.io
+repository: https://github.com/mudler/LocalAI
+llms_txt: https://localai.io/llms.txt
+llms_txt_status: missing
+
+category: inference-runtimes
+subcategory: drop-in-openai-replacement
+
+tagline: Self-hosted, OpenAI-compatible inference server for text, image, audio, and embedding models — runs anywhere.
+
+description: |
+  LocalAI is a self-hosted, OpenAI-compatible inference server designed as
+  a drop-in replacement for the OpenAI API. It supports text generation,
+  chat completions, embeddings, transcription (Whisper), text-to-speech,
+  image generation (Stable Diffusion), and function calling — all via the
+  same HTTP endpoints applications already use with OpenAI.
+
+  It ships as a single binary or Docker container and runs on consumer CPUs
+  (no GPU required), NVIDIA CUDA, AMD ROCm, Vulkan, and Intel GPUs.
+  Under the hood it dispatches to multiple backends: llama.cpp, whisper.cpp,
+  Stable Diffusion, Bark, and others — unified behind one API.
+
+  LocalAI is a common pick for organizations migrating existing OpenAI-
+  dependent applications to on-premise inference without rewriting them.
+
+features:
+  - OpenAI-compatible API (chat, completion, embeddings, images, audio, TTS)
+  - Multi-backend (llama.cpp, whisper.cpp, Stable Diffusion, Bark, …)
+  - CPU, CUDA, ROCm, Vulkan, Intel backends
+  - Function calling / tool use
+  - Model gallery with one-command installs
+  - Single binary or Docker / Kubernetes deployment
+  - No GPU required for meaningful usage
+
+use_cases:
+  - Drop-in replacement for OpenAI API in existing applications
+  - Self-hosted AI infrastructure for organizations with data constraints
+  - Unified inference server covering text, image, and audio models
+  - Edge and on-prem deployments without cloud dependencies
+  - CPU-only environments needing local inference
+
+license: open-source
+deployment: self-hosted
+platforms: [linux, macos, windows]
+tags: [inference, openai-compatible, self-hosted, multi-modal, whisper, stable-diffusion]
+maintainer: LocalAI
+added: 2026-04-24

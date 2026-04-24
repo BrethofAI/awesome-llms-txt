@@ -1,0 +1,13 @@
+name: Modal
+slug: modal
+url: https://modal.com
+llms_txt: https://modal.com/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: deployment
+tagline: Serverless cloud platform for Python with first-class GPU support — deploy LLMs from code.
+
+license: commercial
+deployment: saas
+added: 2026-04-24

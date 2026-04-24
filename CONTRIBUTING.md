@@ -100,6 +100,7 @@ Use one of these exact strings for `category`:
 - `deployment` — hosting platforms and model endpoints
 - `desktop-apps` — end-user AI applications
 - `shell-tools` — CLI / shell integrations
+- `operating-systems` — Linux distributions that actively support AI/ML workflows as first-class (not every distro — only ones that are documented-and-tested targets for AI tooling)
 
 Need a category that isn't listed? Open an issue — we'll add it.
 

@@ -189,3 +189,9 @@
 
 - [Open Interpreter](https://www.openinterpreter.com): Natural language interface to your computer — runs code locally to complete tasks from the CLI. ✗
 - [ShellGPT](https://github.com/TheR1D/shell_gpt): Command-line productivity tool powered by LLMs — generate shell commands, code, and configs. ✗
+
+## Operating Systems (AI-capable Linux)
+
+- [CachyOS](https://cachyos.org): Arch-based Linux distribution with performance-tuned kernels and a popular choice for local AI / ML workloads. ✗
+- [Fedora](https://fedoraproject.org): Upstream of Red Hat Enterprise Linux — leading edge of Linux features with strong AI / ML packaging and enterprise lineage. ✗
+- [Ubuntu](https://ubuntu.com): The default Linux distribution for ML / AI development — widest documentation, broadest hardware support, baseline target for most AI tool docs. ✗

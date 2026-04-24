@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**105 entries** — 49 with full descriptions, 56 stubs. **26** currently publish a working `llms.txt`.
+**108 entries** — 52 with full descriptions, 56 stubs. **26** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -42,6 +42,7 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 - [Deployment & Hosting](#deployment--hosting) (7)
 - [Desktop Applications](#desktop-applications) (3)
 - [Shell Tools](#shell-tools) (2)
+- [Operating Systems (AI-capable Linux)](#operating-systems-ai-capable-linux) (3)
 
 ## Inference Runtimes
 
@@ -310,6 +311,15 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 - **[ShellGPT](https://github.com/TheR1D/shell_gpt)** — ❌ llms.txt 🚧 stub  
   Command-line productivity tool powered by LLMs — generate shell commands, code, and configs.
 
+## Operating Systems (AI-capable Linux)
+
+- **[CachyOS](https://cachyos.org)** — ❌ llms.txt  
+  Arch-based Linux distribution with performance-tuned kernels and a popular choice for local AI / ML workloads.
+- **[Fedora](https://fedoraproject.org)** — ❌ llms.txt  
+  Upstream of Red Hat Enterprise Linux — leading edge of Linux features with strong AI / ML packaging and enterprise lineage.
+- **[Ubuntu](https://ubuntu.com)** — ❌ llms.txt  
+  The default Linux distribution for ML / AI development — widest documentation, broadest hardware support, baseline target for most AI tool docs.
+
 ## Notable model families
 
 This list catalogs **tools**, not models. But agents answering user questions often need both in the same breath, so here are pointers to the most notable model orgs by domain. We deliberately don't link individual model versions — those go stale weekly. Search `huggingface.co/<family-name>` for each org's current lineup.
@@ -341,7 +351,11 @@ This list catalogs **tools**, not models. But agents answering user questions of
 
 ### Image generation
 
-Flux (Black Forest Labs) · Stable Diffusion (Stability AI) · HiDream · SDXL
+**Frontier (April 2026):** Qwen Image (Alibaba) · Z-Image Turbo
+
+**Established:** Flux (Black Forest Labs) · HiDream
+
+**Legacy (widely used, no longer pushing SOTA):** Stable Diffusion · SDXL
 
 ### Video generation
 

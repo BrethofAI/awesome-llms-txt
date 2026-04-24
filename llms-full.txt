@@ -2776,6 +2776,142 @@ three.
 
 ---
 
+# Operating Systems (AI-capable Linux)
+
+## CachyOS
+
+**URL:** https://cachyos.org
+**Repository:** https://github.com/CachyOS
+**llms.txt:** https://cachyos.org/llms.txt (missing)
+**License:** open-source  |  **Deployment:** local  |  Platforms: linux
+**Tags:** linux, arch, cachyos, performance, kernel, ai-workstation
+
+*Arch-based Linux distribution with performance-tuned kernels and a popular choice for local AI / ML workloads.*
+
+CachyOS is a rolling-release Linux distribution built on Arch, focused
+on desktop performance through custom-compiled kernels (BORE, EEVDF,
+sched-ext), aggressive x86_64-v3 / v4 optimization, and bleeding-edge
+userspace packages. It ships with KDE Plasma 6 / GNOME / Hyprland
+options and integrates the full AUR for rapid access to AI tooling.
+
+For local AI / ML workflows CachyOS is a common pick because: (a) its
+kernels handle sustained GPU/CPU load without scheduler quirks, (b)
+mainline packaging of Vulkan, ROCm, CUDA, PyTorch, and ComfyUI is
+current within days of upstream releases, and (c) Arch's rolling
+model means no dist-upgrade drama when a new PyTorch drops the
+minimum Python version.
+
+Downside: Arch-style maintenance is hands-on. Not a good pick for
+production servers where stability is more important than
+currency.
+
+**Features:**
+- Arch-based rolling release with performance-tuned kernel options
+- BORE, EEVDF, sched-ext kernel schedulers available out of the box
+- x86_64-v3 / v4 optimized packages
+- KDE Plasma 6 / GNOME / Hyprland / others at install
+- Full AUR access for up-to-date AI tooling
+- Current CUDA, ROCm, Vulkan drivers and runtimes
+- pacman and AUR helpers (yay, paru) pre-configured
+
+**Use cases:**
+- Personal AI / ML development workstations
+- Gaming + ML dual-purpose desktops
+- btrfs-on-NVMe developer setups with snapshot rollback
+- Users who want current AI tooling without waiting for distro freezes
+- Arch users who don't want to configure Arch from scratch
+
+---
+
+## Fedora
+
+**URL:** https://fedoraproject.org
+**llms.txt:** https://docs.fedoraproject.org/llms.txt (missing)
+**License:** open-source  |  **Deployment:** local  |  Platforms: linux
+**Tags:** linux, fedora, red-hat, rhel-upstream, cuda, selinux
+
+*Upstream of Red Hat Enterprise Linux — leading edge of Linux features with strong AI / ML packaging and enterprise lineage.*
+
+Fedora is Red Hat's upstream distribution — the testbed where
+features, packaging, and tooling that eventually land in RHEL get
+proven. For AI / ML developers this means current kernels and GPU
+drivers alongside enterprise-grade packaging, SELinux policy, and
+an ecosystem that translates cleanly to production RHEL deployments.
+
+Fedora ships recent NVIDIA CUDA, ROCm, PyTorch, TensorFlow, and ONNX
+Runtime through RPM Fusion and official repos. Its semi-annual
+release cadence (two releases per year, 13 months of support each)
+keeps versions current without Arch-level churn. Atomic variants
+(Fedora Silverblue, Kinoite) provide immutable desktops suitable
+for stable AI workstations.
+
+For teams expecting to deploy on RHEL or CentOS Stream, developing on
+Fedora avoids the RHEL subscription cost while preserving compatibility
+at the packaging and tooling level.
+
+**Features:**
+- Upstream of RHEL — features land here first
+- Semi-annual releases with 13-month support windows
+- Strong NVIDIA CUDA and ROCm packaging via RPM Fusion
+- SELinux enforcing by default (security posture suitable for prod)
+- Atomic variants (Silverblue, Kinoite) for immutable desktops
+- Podman-first container tooling (rootless, daemonless)
+- GNOME as default desktop; KDE, Sway, Xfce spins available
+
+**Use cases:**
+- Developers whose production target is RHEL or CentOS Stream
+- Teams wanting cutting-edge Linux with enterprise polish
+- Regulated environments where SELinux and immutability matter
+- Workstations needing balance of current tooling and stability
+- Podman-centric container workflows for AI infrastructure
+
+---
+
+## Ubuntu
+
+**URL:** https://ubuntu.com
+**llms.txt:** https://ubuntu.com/llms.txt (missing)
+**License:** open-source  |  **Deployment:** local  |  Platforms: linux
+**Tags:** linux, ubuntu, canonical, lts, cuda, ml-default
+
+*The default Linux distribution for ML / AI development — widest documentation, broadest hardware support, baseline target for most AI tool docs.*
+
+Ubuntu is the most widely used Linux distribution in AI / ML work,
+not because it's technically superior but because it's the assumed
+baseline. When a README says "tested on Linux," it means Ubuntu.
+CUDA installation docs, ROCm setup guides, deep-learning framework
+tutorials, and hardware vendor instructions are all written against
+Ubuntu first.
+
+For AI developers the appeal is pragmatic: the maximum surface area
+of tooling that just works with minimal configuration. NVIDIA driver
+installs are first-class, Docker support is deeply tested, cloud
+images on AWS / GCP / Azure are Ubuntu-first, and the LTS model
+(Long Term Support, 5-year security updates) makes it suitable for
+both developer desktops and production servers.
+
+Canonical (the company behind Ubuntu) also offers Ubuntu Pro with
+extended security maintenance, FIPS compliance, and enterprise
+support — relevant for regulated industries running AI workloads.
+
+**Features:**
+- LTS releases with 5-year security support (10-year via Pro)
+- NVIDIA driver and CUDA Toolkit pre-packaged and well-tested
+- ROCm support for AMD GPUs
+- First-tier cloud support (AWS, GCP, Azure, Oracle, IBM)
+- Snap packaging for sandboxed app distribution
+- Ubuntu Pro for enterprise compliance (FIPS, CIS, USG)
+- Default target for most ML framework installation docs
+
+**Use cases:**
+- New developers who want AI tooling to "just work"
+- Production GPU servers running training / inference
+- Cloud VMs on AWS / GCP / Azure for ML workloads
+- Organizations needing enterprise Linux with AI capabilities
+- Teams standardizing on one distro across dev and prod
+
+---
+
 # Notable model families (reference only — not tool entries)
 
 The entries above are tools (software, APIs, services). The families below are model weights / lineups that agents are often asked about alongside tools. Authoritative metadata for any model lives on HuggingFace Hub.
@@ -2815,9 +2951,17 @@ The entries above are tools (software, APIs, services). The families below are m
 - Qwen3-TTS (Alibaba): https://huggingface.co/Qwen
 
 ## Image generation
+
+### Frontier (April 2026)
+- Qwen Image (Alibaba): https://huggingface.co/Qwen
+- Z-Image Turbo: https://huggingface.co/ (search 'z-image')
+
+### Established
 - Flux (Black Forest Labs): https://huggingface.co/black-forest-labs
-- Stable Diffusion (Stability AI): https://huggingface.co/stabilityai
 - HiDream: https://huggingface.co/HiDream-ai
+
+### Legacy (widely used, no longer pushing SOTA)
+- Stable Diffusion (Stability AI): https://huggingface.co/stabilityai
 
 ## Video generation
 - WAN (Alibaba): https://huggingface.co/Wan-AI

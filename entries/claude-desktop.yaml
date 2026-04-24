@@ -1,0 +1,56 @@
+name: Claude Desktop
+slug: claude-desktop
+url: https://claude.com/download
+repository: null
+llms_txt: https://docs.claude.com/llms.txt
+llms_full_txt: https://docs.claude.com/llms-full.txt
+llms_txt_status: published
+
+category: desktop-apps
+subcategory: ai-assistant-app
+
+tagline: Anthropic's native desktop app for Claude — MCP server support, skills, agent mode, and deep OS integration.
+
+description: |
+  Claude Desktop is Anthropic's official native application for macOS,
+  Windows, and Linux. It runs on top of Claude's models (Sonnet, Opus,
+  Haiku) with features that go well beyond the claude.ai web interface:
+  MCP (Model Context Protocol) server support for connecting external
+  tools and data, a skills system for packaging custom workflows, agent
+  mode for autonomous multi-step tasks, and native OS integrations
+  (global shortcuts, file uploads, clipboard, voice input on supported
+  platforms).
+
+  For power users, Claude Desktop is the most capable consumer-facing
+  Claude product: it exposes the full tool-use loop, handles long
+  conversations, persists chat history locally, and accepts MCP servers
+  that extend it into nearly any workflow (GitHub, databases, APIs,
+  browser, local filesystem).
+
+  It shares documentation and the underlying API with the Claude Agent
+  SDK and Claude Code, meaning `llms.txt` at docs.claude.com serves all
+  three.
+
+features:
+  - Native apps for macOS, Windows, and Linux
+  - MCP (Model Context Protocol) server integration
+  - Skills system for reusable custom workflows
+  - Agent mode for autonomous multi-step tasks
+  - Native OS integrations (shortcuts, clipboard, file uploads)
+  - Long-form chat with local history persistence
+  - Supports Sonnet, Opus, Haiku model families
+  - Voice input on supported platforms
+
+use_cases:
+  - Daily AI assistant with access to local files and tools via MCP
+  - Power-user chat with full tool use (browser, shell, APIs)
+  - Workflow automation via custom skills
+  - Research, writing, and coding assistance at the desktop
+  - Users who want Claude's capabilities beyond the web UI
+
+license: commercial
+deployment: local
+platforms: [linux, macos, windows]
+tags: [desktop-app, claude, anthropic, mcp, skills, agent, assistant]
+maintainer: Anthropic
+added: 2026-04-24

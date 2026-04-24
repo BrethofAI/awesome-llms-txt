@@ -4,26 +4,6 @@
 
 # Inference Runtimes
 
-## ExLlamaV2
-
-**URL:** https://github.com/turboderp-org/exllamav2
-**llms.txt:** https://github.com/turboderp-org/exllamav2/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
-
-*Fast inference library for quantized LLMs optimized for consumer NVIDIA GPUs.*
-
----
-
-## GPT4All
-
-**URL:** https://www.nomic.ai/gpt4all
-**llms.txt:** https://www.nomic.ai/gpt4all/llms.txt (missing)
-**License:** open-source  |  **Deployment:** local
-
-*Privacy-first desktop chatbot running local LLMs on CPU with a Python SDK.*
-
----
-
 ## HuggingFace Transformers
 
 **URL:** https://huggingface.co/docs/transformers
@@ -112,16 +92,6 @@ whatever model Jan has loaded.
 - Teams piloting local LLMs on consumer hardware
 - Local backend for coding assistants and agent frameworks
 - Offline work environments
-
----
-
-## KoboldCpp
-
-**URL:** https://github.com/LostRuins/koboldcpp
-**llms.txt:** https://github.com/LostRuins/koboldcpp/llms.txt (missing)
-**License:** open-source  |  **Deployment:** local
-
-*Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP.*
 
 ---
 
@@ -253,16 +223,6 @@ dependent applications to on-premise inference without rewriting them.
 
 ---
 
-## MLC LLM
-
-**URL:** https://llm.mlc.ai
-**llms.txt:** https://llm.mlc.ai/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
-
-*Universal LLM deployment via compiled kernels — runs on iOS, Android, WebGPU, Vulkan, CUDA.*
-
----
-
 ## Ollama
 
 **URL:** https://ollama.com
@@ -351,26 +311,6 @@ users who want the ChatGPT experience without sending data to OpenAI.
 
 ---
 
-## SGLang
-
-**URL:** https://sgl-project.github.io
-**llms.txt:** https://sgl-project.github.io/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*Fast LLM and VLM serving runtime with RadixAttention cache and structured output support.*
-
----
-
-## Text Generation WebUI
-
-**URL:** https://github.com/oobabooga/text-generation-webui
-**llms.txt:** https://github.com/oobabooga/text-generation-webui/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*Gradio-based web UI for local LLMs supporting GGUF, GPTQ, AWQ, ExLlamaV2.*
-
----
-
 ## vLLM
 
 **URL:** https://docs.vllm.ai
@@ -413,6 +353,66 @@ per dollar of GPU.
 - Multi-GPU deployments of large models (70B+, 405B)
 - Cost-optimized inference infrastructure replacing closed APIs
 - Research throughput benchmarking
+
+---
+
+## ExLlamaV2
+
+**URL:** https://github.com/turboderp-org/exllamav2
+**llms.txt:** https://github.com/turboderp-org/exllamav2/llms.txt (missing)
+**License:** open-source  |  **Deployment:** library
+
+*Fast inference library for quantized LLMs optimized for consumer NVIDIA GPUs.*
+
+---
+
+## GPT4All
+
+**URL:** https://www.nomic.ai/gpt4all
+**llms.txt:** https://www.nomic.ai/gpt4all/llms.txt (missing)
+**License:** open-source  |  **Deployment:** local
+
+*Privacy-first desktop chatbot running local LLMs on CPU with a Python SDK.*
+
+---
+
+## KoboldCpp
+
+**URL:** https://github.com/LostRuins/koboldcpp
+**llms.txt:** https://github.com/LostRuins/koboldcpp/llms.txt (missing)
+**License:** open-source  |  **Deployment:** local
+
+*Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP.*
+
+---
+
+## MLC LLM
+
+**URL:** https://llm.mlc.ai
+**llms.txt:** https://llm.mlc.ai/llms.txt (missing)
+**License:** open-source  |  **Deployment:** library
+
+*Universal LLM deployment via compiled kernels — runs on iOS, Android, WebGPU, Vulkan, CUDA.*
+
+---
+
+## SGLang
+
+**URL:** https://sgl-project.github.io
+**llms.txt:** https://sgl-project.github.io/llms.txt (missing)
+**License:** open-source  |  **Deployment:** self-hosted
+
+*Fast LLM and VLM serving runtime with RadixAttention cache and structured output support.*
+
+---
+
+## Text Generation WebUI
+
+**URL:** https://github.com/oobabooga/text-generation-webui
+**llms.txt:** https://github.com/oobabooga/text-generation-webui/llms.txt (missing)
+**License:** open-source  |  **Deployment:** self-hosted
+
+*Gradio-based web UI for local LLMs supporting GGUF, GPTQ, AWQ, ExLlamaV2.*
 
 ---
 
@@ -464,60 +464,6 @@ automatically failing over from a cloud provider to a local one.
 
 # Agent Frameworks
 
-## Agno
-
-**URL:** https://docs.agno.com
-**llms.txt:** https://docs.agno.com/llms.txt (published)
-**License:** open-source  |  **Deployment:** library
-
-*High-performance multi-agent framework with memory, reasoning, and 20+ model integrations.*
-
----
-
-## AutoGen
-
-**URL:** https://microsoft.github.io/autogen/
-**Repository:** https://github.com/microsoft/autogen
-**llms.txt:** https://microsoft.github.io/autogen/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows
-**Tags:** multi-agent, autogen, microsoft, async, conversation, python
-
-*Microsoft's framework for building multi-agent conversations with customizable agents and conversation patterns.*
-
-AutoGen (from Microsoft Research) is an agent framework built around the
-abstraction of agents that communicate with each other through natural-
-language conversations. Developers define agent types (AssistantAgent,
-UserProxyAgent, GroupChatManager, etc.), wire them together, and AutoGen
-orchestrates the back-and-forth dialogue until a task completes.
-
-AutoGen 0.4+ rewrote the core around an async actor-style runtime, making
-it more suitable for long-running and distributed agent systems than the
-earlier synchronous versions. It integrates with any OpenAI-compatible
-model provider and has first-class support for code execution, tool use,
-and human-in-the-loop.
-
-AutoGen Studio is a visual playground for building and testing agent
-setups without writing code; useful for prototyping before dropping down
-to the Python API.
-
-**Features:**
-- Async, actor-based multi-agent runtime (0.4+)
-- Built-in agent types (Assistant, UserProxy, GroupChatManager, …)
-- Code execution in Docker sandboxes or local environments
-- Teachability and memory modules
-- AutoGen Studio visual agent builder
-- Provider-agnostic model backends
-- Python-first, .NET bindings available
-
-**Use cases:**
-- Research prototypes exploring multi-agent coordination patterns
-- Code generation and self-correcting agent loops
-- Teachable agents that improve across sessions
-- Distributed agent systems via the actor runtime
-- Microsoft ecosystem integration (Azure, M365 agents)
-
----
-
 ## CrewAI
 
 **URL:** https://www.crewai.com
@@ -559,16 +505,6 @@ naturally decomposes into specialized agent roles.
 - Research assistants that decompose questions across specialists
 - Customer-facing agents with internal supervisor oversight
 - Rapid prototyping of multi-agent patterns
-
----
-
-## DSPy
-
-**URL:** https://dspy.ai
-**llms.txt:** https://dspy.ai/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
-
-*Framework for programming rather than prompting LLMs — composable modules with optimizers.*
 
 ---
 
@@ -659,23 +595,47 @@ running services with built-in checkpointing.
 
 ---
 
-## Magentic
+## AutoGen
 
-**URL:** https://magentic.dev
-**llms.txt:** https://magentic.dev/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
+**URL:** https://microsoft.github.io/autogen/
+**Repository:** https://github.com/microsoft/autogen
+**llms.txt:** https://microsoft.github.io/autogen/llms.txt (missing)
+**License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows
+**Tags:** multi-agent, autogen, microsoft, async, conversation, python
 
-*Type-safe Python library for building LLM-powered functions with structured outputs.*
+*Microsoft's framework for building multi-agent conversations with customizable agents and conversation patterns.*
 
----
+AutoGen (from Microsoft Research) is an agent framework built around the
+abstraction of agents that communicate with each other through natural-
+language conversations. Developers define agent types (AssistantAgent,
+UserProxyAgent, GroupChatManager, etc.), wire them together, and AutoGen
+orchestrates the back-and-forth dialogue until a task completes.
 
-## OpenAI Swarm
+AutoGen 0.4+ rewrote the core around an async actor-style runtime, making
+it more suitable for long-running and distributed agent systems than the
+earlier synchronous versions. It integrates with any OpenAI-compatible
+model provider and has first-class support for code execution, tool use,
+and human-in-the-loop.
 
-**URL:** https://github.com/openai/swarm
-**llms.txt:** https://github.com/openai/swarm/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
+AutoGen Studio is a visual playground for building and testing agent
+setups without writing code; useful for prototyping before dropping down
+to the Python API.
 
-*OpenAI's lightweight educational framework for multi-agent orchestration.*
+**Features:**
+- Async, actor-based multi-agent runtime (0.4+)
+- Built-in agent types (Assistant, UserProxy, GroupChatManager, …)
+- Code execution in Docker sandboxes or local environments
+- Teachability and memory modules
+- AutoGen Studio visual agent builder
+- Provider-agnostic model backends
+- Python-first, .NET bindings available
+
+**Use cases:**
+- Research prototypes exploring multi-agent coordination patterns
+- Code generation and self-correcting agent loops
+- Teachable agents that improve across sessions
+- Distributed agent systems via the actor runtime
+- Microsoft ecosystem integration (Azure, M365 agents)
 
 ---
 
@@ -719,6 +679,46 @@ Anthropic Claude, xAI Grok, OpenRouter, and any OpenAI-compatible endpoint.
 - Form-filling and account maintenance across many venues
 - Long-running agent workflows that need to recover from browser wedges
 - Any agent task where hosted services are unsuitable due to privacy
+
+---
+
+## Agno
+
+**URL:** https://docs.agno.com
+**llms.txt:** https://docs.agno.com/llms.txt (published)
+**License:** open-source  |  **Deployment:** library
+
+*High-performance multi-agent framework with memory, reasoning, and 20+ model integrations.*
+
+---
+
+## DSPy
+
+**URL:** https://dspy.ai
+**llms.txt:** https://dspy.ai/llms.txt (missing)
+**License:** open-source  |  **Deployment:** library
+
+*Framework for programming rather than prompting LLMs — composable modules with optimizers.*
+
+---
+
+## Magentic
+
+**URL:** https://magentic.dev
+**llms.txt:** https://magentic.dev/llms.txt (missing)
+**License:** open-source  |  **Deployment:** library
+
+*Type-safe Python library for building LLM-powered functions with structured outputs.*
+
+---
+
+## OpenAI Swarm
+
+**URL:** https://github.com/openai/swarm
+**llms.txt:** https://github.com/openai/swarm/llms.txt (missing)
+**License:** open-source  |  **Deployment:** library
+
+*OpenAI's lightweight educational framework for multi-agent orchestration.*
 
 ---
 
@@ -837,61 +837,6 @@ its own UI or CLI rather than running Claude Code in a terminal.
 
 # Coding Agents
 
-## Aider
-
-**URL:** https://aider.chat
-**Repository:** https://github.com/Aider-AI/aider
-**llms.txt:** https://aider.chat/llms.txt (missing)
-**License:** open-source  |  **Deployment:** cli  |  Platforms: linux, macos, windows
-**Tags:** coding-agent, cli, aider, git, open-source, pair-programming
-
-*AI pair programming in your terminal — edits code across your git repo with commit-per-change discipline.*
-
-Aider is an open-source CLI coding assistant that edits code in an
-existing git repository under the developer's direction. It's known for
-two core design choices: it operates on git (every change becomes a
-discrete commit with an auto-generated message, making rollback trivial),
-and it builds a "repo map" of the codebase so the model always has
-context for where functions and types live across files.
-
-It supports any LLM provider — Anthropic Claude, OpenAI GPT, local models
-via Ollama or OpenAI-compatible servers, DeepSeek, xAI. Unlike IDE-coupled
-assistants, Aider lives in the terminal and plays well with any editor
-the developer already uses.
-
-The `/architect` mode separates planning (using a reasoning model) from
-editing (using a fast edit model) for complex changes. The benchmark
-leaderboard Aider maintains is a widely-cited reference for LLM coding
-performance.
-
-**Features:**
-- Git-first workflow with automatic commits per change
-- Repo-map context for large codebase awareness
-- Any LLM provider (Claude, GPT, local, DeepSeek, xAI)
-- {'Architect mode': 'reasoning model plans, edit model executes'}
-- Voice input support
-- In-chat commands for file management, linting, testing
-- Language-agnostic (Python, JS, Rust, Go, Java, C++, … )
-
-**Use cases:**
-- Pair programming in the terminal without IDE lock-in
-- Refactoring across multi-file changes with git discipline
-- Adding features to existing codebases with reviewable commits
-- Running local LLMs as coding assistants
-- Developers who prefer vim / emacs over IDE-integrated assistants
-
----
-
-## Amazon Q Developer
-
-**URL:** https://aws.amazon.com/q/developer/
-**llms.txt:** https://aws.amazon.com/q/developer/llms.txt (missing)
-**License:** commercial  |  **Deployment:** local
-
-*AWS's AI coding assistant with deep integration into AWS services and enterprise compliance.*
-
----
-
 ## Claude Code
 
 **URL:** https://claude.com/claude-code
@@ -931,16 +876,6 @@ references available to other AI assistants.
 - Writing new features with reviewed commits and CI awareness
 - Onboarding to unfamiliar repos via guided exploration
 - Building and testing in one loop without leaving the terminal
-
----
-
-## Codeium
-
-**URL:** https://codeium.com
-**llms.txt:** https://codeium.com/llms.txt (missing)
-**License:** freemium  |  **Deployment:** local
-
-*Free AI autocomplete extension for 40+ editors — from the makers of Windsurf.*
 
 ---
 
@@ -1030,6 +965,92 @@ significant.
 
 ---
 
+## Windsurf
+
+**URL:** https://windsurf.com
+**llms.txt:** https://docs.windsurf.com/llms.txt (published)
+**License:** commercial  |  **Deployment:** local  |  Platforms: linux, macos, windows
+**Tags:** coding-agent, windsurf, codeium, ide, agent-mode, commercial
+
+*AI-native IDE from Codeium with Cascade agent mode, deep indexing, and real-time code awareness.*
+
+Windsurf (formerly Codeium) is a commercial AI-native IDE and VS Code
+fork competing directly with Cursor. Its flagship feature is Cascade —
+an agent mode that combines chat, multi-file edits, and codebase
+understanding into a single conversational interface that can execute
+long-running tasks with user approval.
+
+Windsurf emphasizes real-time awareness of the developer's actions (what
+they just edited, what they're looking at) to feed context into agent
+responses. Its indexing of large codebases is a recurring strength in
+benchmarks against comparable AI IDEs.
+
+Windsurf shares roots with the Codeium autocomplete extension, which
+remains available as a standalone plugin for VS Code, JetBrains, Vim,
+Emacs, and many more.
+
+**Features:**
+- VS Code-based IDE with Cascade agent mode
+- Real-time context awareness of developer actions
+- Multi-file edit planning and execution
+- Deep codebase indexing (fast on large repos)
+- Supervised agent with user-approval gates
+- Standalone Codeium autocomplete for 40+ editors
+- Team plans with shared context / custom instructions
+
+**Use cases:**
+- Developers who want Cursor-style AI IDE with a different polish model
+- Large-codebase work where indexing quality matters
+- Teams standardizing on an AI-native IDE
+- Users of Codeium autocomplete who want the full Cascade experience
+
+---
+
+## Aider
+
+**URL:** https://aider.chat
+**Repository:** https://github.com/Aider-AI/aider
+**llms.txt:** https://aider.chat/llms.txt (missing)
+**License:** open-source  |  **Deployment:** cli  |  Platforms: linux, macos, windows
+**Tags:** coding-agent, cli, aider, git, open-source, pair-programming
+
+*AI pair programming in your terminal — edits code across your git repo with commit-per-change discipline.*
+
+Aider is an open-source CLI coding assistant that edits code in an
+existing git repository under the developer's direction. It's known for
+two core design choices: it operates on git (every change becomes a
+discrete commit with an auto-generated message, making rollback trivial),
+and it builds a "repo map" of the codebase so the model always has
+context for where functions and types live across files.
+
+It supports any LLM provider — Anthropic Claude, OpenAI GPT, local models
+via Ollama or OpenAI-compatible servers, DeepSeek, xAI. Unlike IDE-coupled
+assistants, Aider lives in the terminal and plays well with any editor
+the developer already uses.
+
+The `/architect` mode separates planning (using a reasoning model) from
+editing (using a fast edit model) for complex changes. The benchmark
+leaderboard Aider maintains is a widely-cited reference for LLM coding
+performance.
+
+**Features:**
+- Git-first workflow with automatic commits per change
+- Repo-map context for large codebase awareness
+- Any LLM provider (Claude, GPT, local, DeepSeek, xAI)
+- {'Architect mode': 'reasoning model plans, edit model executes'}
+- Voice input support
+- In-chat commands for file management, linting, testing
+- Language-agnostic (Python, JS, Rust, Go, Java, C++, … )
+
+**Use cases:**
+- Pair programming in the terminal without IDE lock-in
+- Refactoring across multi-file changes with git discipline
+- Adding features to existing codebases with reviewable commits
+- Running local LLMs as coding assistants
+- Developers who prefer vim / emacs over IDE-integrated assistants
+
+---
+
 ## GitHub Copilot
 
 **URL:** https://github.com/features/copilot
@@ -1072,6 +1093,26 @@ external traffic — the most mature enterprise posture in the category.
 
 ---
 
+## Amazon Q Developer
+
+**URL:** https://aws.amazon.com/q/developer/
+**llms.txt:** https://aws.amazon.com/q/developer/llms.txt (missing)
+**License:** commercial  |  **Deployment:** local
+
+*AWS's AI coding assistant with deep integration into AWS services and enterprise compliance.*
+
+---
+
+## Codeium
+
+**URL:** https://codeium.com
+**llms.txt:** https://codeium.com/llms.txt (missing)
+**License:** freemium  |  **Deployment:** local
+
+*Free AI autocomplete extension for 40+ editors — from the makers of Windsurf.*
+
+---
+
 ## Sourcegraph Cody
 
 **URL:** https://sourcegraph.com/cody
@@ -1079,47 +1120,6 @@ external traffic — the most mature enterprise posture in the category.
 **License:** commercial  |  **Deployment:** local
 
 *AI coding assistant with enterprise-grade code search context across massive codebases.*
-
----
-
-## Windsurf
-
-**URL:** https://windsurf.com
-**llms.txt:** https://docs.windsurf.com/llms.txt (published)
-**License:** commercial  |  **Deployment:** local  |  Platforms: linux, macos, windows
-**Tags:** coding-agent, windsurf, codeium, ide, agent-mode, commercial
-
-*AI-native IDE from Codeium with Cascade agent mode, deep indexing, and real-time code awareness.*
-
-Windsurf (formerly Codeium) is a commercial AI-native IDE and VS Code
-fork competing directly with Cursor. Its flagship feature is Cascade —
-an agent mode that combines chat, multi-file edits, and codebase
-understanding into a single conversational interface that can execute
-long-running tasks with user approval.
-
-Windsurf emphasizes real-time awareness of the developer's actions (what
-they just edited, what they're looking at) to feed context into agent
-responses. Its indexing of large codebases is a recurring strength in
-benchmarks against comparable AI IDEs.
-
-Windsurf shares roots with the Codeium autocomplete extension, which
-remains available as a standalone plugin for VS Code, JetBrains, Vim,
-Emacs, and many more.
-
-**Features:**
-- VS Code-based IDE with Cascade agent mode
-- Real-time context awareness of developer actions
-- Multi-file edit planning and execution
-- Deep codebase indexing (fast on large repos)
-- Supervised agent with user-approval gates
-- Standalone Codeium autocomplete for 40+ editors
-- Team plans with shared context / custom instructions
-
-**Use cases:**
-- Developers who want Cursor-style AI IDE with a different polish model
-- Large-codebase work where indexing quality matters
-- Teams standardizing on an AI-native IDE
-- Users of Codeium autocomplete who want the full Cascade experience
 
 ---
 
@@ -1218,26 +1218,6 @@ commercial-use allowance.
 
 ---
 
-## Flowise
-
-**URL:** https://flowiseai.com
-**llms.txt:** https://flowiseai.com/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*Drag-and-drop UI for building LLM workflows and agents — open-source, self-hostable.*
-
----
-
-## Langflow
-
-**URL:** https://www.langflow.org
-**llms.txt:** https://www.langflow.org/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*Visual framework for building multi-agent and RAG applications with a node-based editor.*
-
----
-
 ## n8n
 
 **URL:** https://n8n.io
@@ -1283,6 +1263,26 @@ provides managed hosting for teams that don't want to run Docker.
 
 ---
 
+## Flowise
+
+**URL:** https://flowiseai.com
+**llms.txt:** https://flowiseai.com/llms.txt (missing)
+**License:** open-source  |  **Deployment:** self-hosted
+
+*Drag-and-drop UI for building LLM workflows and agents — open-source, self-hostable.*
+
+---
+
+## Langflow
+
+**URL:** https://www.langflow.org
+**llms.txt:** https://www.langflow.org/llms.txt (missing)
+**License:** open-source  |  **Deployment:** self-hosted
+
+*Visual framework for building multi-agent and RAG applications with a node-based editor.*
+
+---
+
 # Voice (STT / TTS)
 
 ## Brethof Voice Pro
@@ -1325,6 +1325,52 @@ focused on privacy-first offline AI tools for working professionals.
 - Multilingual transcription without per-minute API costs
 - Voice-driven content creation for creators who need consistent accuracy
 - Building domain-adapted transcription for medical, legal, or technical fields
+
+---
+
+## whisper.cpp
+
+**URL:** https://github.com/ggml-org/whisper.cpp
+**Repository:** https://github.com/ggml-org/whisper.cpp
+**llms.txt:** https://github.com/ggml-org/whisper.cpp/llms.txt (missing)
+**License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows, ios, android
+**Tags:** asr, whisper, cpp, transcription, ggml, offline
+
+*C++ port of OpenAI Whisper for local speech-to-text — no Python, runs on CPU and many GPU backends.*
+
+whisper.cpp is a pure-C/C++ implementation of OpenAI's Whisper speech
+recognition model. It has zero runtime dependencies (no Python, no
+CUDA-specific tooling), ships as a library and CLI, and runs on every
+hardware backend the ggml-org ecosystem supports: CPU (with AVX / NEON
+SIMD), CUDA, Metal (Apple Silicon), Vulkan, OpenCL, SYCL, CoreML.
+
+It uses GGML quantized models — the same format ecosystem as
+llama.cpp — enabling 4-bit, 5-bit, and 8-bit quantizations of the
+Whisper checkpoints that run on modest hardware with minimal quality
+loss. Real-time transcription is possible on consumer laptops, and
+batch transcription scales to longer audio with speaker diarization
+and word-level timestamps.
+
+Widely used as a library inside desktop applications, mobile apps, and
+server-side transcription pipelines that don't want Python
+dependencies. Brethof Voice Pro, Jan, KoboldCpp, and many other tools
+embed whisper.cpp.
+
+**Features:**
+- Pure C/C++ with no runtime dependencies
+- GGML quantization (4-bit, 5-bit, 8-bit Whisper variants)
+- {'Multiple backends': 'CPU, CUDA, Metal, Vulkan, OpenCL, SYCL, CoreML'}
+- Word-level timestamps and speaker diarization
+- Real-time transcription on consumer hardware
+- CLI, library, and language bindings (Python, Rust, Go, Node.js, …)
+- Supports Whisper tiny, base, small, medium, large, turbo
+
+**Use cases:**
+- Embedding local transcription in desktop / mobile apps
+- Offline transcription pipelines without Python
+- Real-time transcription on resource-constrained hardware
+- Edge deployments (Raspberry Pi, mobile, embedded)
+- Server-side transcription with predictable resource usage
 
 ---
 
@@ -1375,52 +1421,6 @@ focused on privacy-first offline AI tools for working professionals.
 **License:** open-source  |  **Deployment:** library
 
 *Fast, local neural text-to-speech with dozens of voices — optimized for Raspberry Pi.*
-
----
-
-## whisper.cpp
-
-**URL:** https://github.com/ggml-org/whisper.cpp
-**Repository:** https://github.com/ggml-org/whisper.cpp
-**llms.txt:** https://github.com/ggml-org/whisper.cpp/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows, ios, android
-**Tags:** asr, whisper, cpp, transcription, ggml, offline
-
-*C++ port of OpenAI Whisper for local speech-to-text — no Python, runs on CPU and many GPU backends.*
-
-whisper.cpp is a pure-C/C++ implementation of OpenAI's Whisper speech
-recognition model. It has zero runtime dependencies (no Python, no
-CUDA-specific tooling), ships as a library and CLI, and runs on every
-hardware backend the ggml-org ecosystem supports: CPU (with AVX / NEON
-SIMD), CUDA, Metal (Apple Silicon), Vulkan, OpenCL, SYCL, CoreML.
-
-It uses GGML quantized models — the same format ecosystem as
-llama.cpp — enabling 4-bit, 5-bit, and 8-bit quantizations of the
-Whisper checkpoints that run on modest hardware with minimal quality
-loss. Real-time transcription is possible on consumer laptops, and
-batch transcription scales to longer audio with speaker diarization
-and word-level timestamps.
-
-Widely used as a library inside desktop applications, mobile apps, and
-server-side transcription pipelines that don't want Python
-dependencies. Brethof Voice Pro, Jan, KoboldCpp, and many other tools
-embed whisper.cpp.
-
-**Features:**
-- Pure C/C++ with no runtime dependencies
-- GGML quantization (4-bit, 5-bit, 8-bit Whisper variants)
-- {'Multiple backends': 'CPU, CUDA, Metal, Vulkan, OpenCL, SYCL, CoreML'}
-- Word-level timestamps and speaker diarization
-- Real-time transcription on consumer hardware
-- CLI, library, and language bindings (Python, Rust, Go, Node.js, …)
-- Supports Whisper tiny, base, small, medium, large, turbo
-
-**Use cases:**
-- Embedding local transcription in desktop / mobile apps
-- Offline transcription pipelines without Python
-- Real-time transcription on resource-constrained hardware
-- Edge deployments (Raspberry Pi, mobile, embedded)
-- Server-side transcription with predictable resource usage
 
 ---
 
@@ -1521,13 +1521,46 @@ RAG projects.
 
 ---
 
-## LanceDB
+## Qdrant
 
-**URL:** https://lancedb.com
-**llms.txt:** https://lancedb.com/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
+**URL:** https://qdrant.tech
+**Repository:** https://github.com/qdrant/qdrant
+**llms.txt:** https://qdrant.tech/llms.txt (published)
+**License:** open-source  |  **Deployment:** self-hosted  |  Platforms: linux, macos, windows
+**Tags:** vector-db, qdrant, rust, production, hybrid-search, self-hosted
 
-*Serverless vector DB on the Lance columnar format — embedded or cloud, multimodal-ready.*
+*Open-source, Rust-written vector database built for production scale — rich filtering, hybrid search, and multi-tenancy.*
+
+Qdrant is a production-oriented vector database written in Rust, designed
+for organizations serving vector search at scale. It emphasizes advanced
+filtering (complex boolean queries on metadata alongside vector search),
+multi-tenancy (isolated collections per customer), hybrid search (dense
++ sparse), and memory efficiency (quantization on-disk).
+
+It offers a REST API, gRPC, and clients for Python, JavaScript, Rust,
+Go, Java, and C#. Qdrant Cloud provides managed hosting; self-hosted
+deployments scale horizontally through Qdrant's sharded cluster mode.
+
+Compared to Chroma's "get started in five minutes" positioning, Qdrant
+targets production: teams that know they'll need 10M+ vectors, complex
+filters, and SLOs from the start.
+
+**Features:**
+- Rust core for performance and memory safety
+- Advanced payload filtering with complex boolean logic
+- Hybrid search (dense + sparse vectors)
+- On-disk storage with scalar / product / binary quantization
+- Distributed mode with sharding and replication
+- REST API, gRPC, and clients in 6+ languages
+- Multi-tenancy through isolated collections
+- Snapshot and restore for backup
+
+**Use cases:**
+- Production vector search at 10M+ vectors
+- Multi-tenant SaaS needing per-customer isolation
+- Hybrid retrieval combining semantic and keyword search
+- Memory-constrained deployments using quantization
+- RAG systems with complex metadata filtering requirements
 
 ---
 
@@ -1621,49 +1654,6 @@ don't have billion-scale vector requirements.
 
 ---
 
-## Qdrant
-
-**URL:** https://qdrant.tech
-**Repository:** https://github.com/qdrant/qdrant
-**llms.txt:** https://qdrant.tech/llms.txt (published)
-**License:** open-source  |  **Deployment:** self-hosted  |  Platforms: linux, macos, windows
-**Tags:** vector-db, qdrant, rust, production, hybrid-search, self-hosted
-
-*Open-source, Rust-written vector database built for production scale — rich filtering, hybrid search, and multi-tenancy.*
-
-Qdrant is a production-oriented vector database written in Rust, designed
-for organizations serving vector search at scale. It emphasizes advanced
-filtering (complex boolean queries on metadata alongside vector search),
-multi-tenancy (isolated collections per customer), hybrid search (dense
-+ sparse), and memory efficiency (quantization on-disk).
-
-It offers a REST API, gRPC, and clients for Python, JavaScript, Rust,
-Go, Java, and C#. Qdrant Cloud provides managed hosting; self-hosted
-deployments scale horizontally through Qdrant's sharded cluster mode.
-
-Compared to Chroma's "get started in five minutes" positioning, Qdrant
-targets production: teams that know they'll need 10M+ vectors, complex
-filters, and SLOs from the start.
-
-**Features:**
-- Rust core for performance and memory safety
-- Advanced payload filtering with complex boolean logic
-- Hybrid search (dense + sparse vectors)
-- On-disk storage with scalar / product / binary quantization
-- Distributed mode with sharding and replication
-- REST API, gRPC, and clients in 6+ languages
-- Multi-tenancy through isolated collections
-- Snapshot and restore for backup
-
-**Use cases:**
-- Production vector search at 10M+ vectors
-- Multi-tenant SaaS needing per-customer isolation
-- Hybrid retrieval combining semantic and keyword search
-- Memory-constrained deployments using quantization
-- RAG systems with complex metadata filtering requirements
-
----
-
 ## Weaviate
 
 **URL:** https://weaviate.io
@@ -1708,17 +1698,17 @@ want to operate the cluster themselves.
 
 ---
 
-# RAG Frameworks
+## LanceDB
 
-## AnythingLLM
+**URL:** https://lancedb.com
+**llms.txt:** https://lancedb.com/llms.txt (missing)
+**License:** open-source  |  **Deployment:** library
 
-**URL:** https://anythingllm.com
-**llms.txt:** https://anythingllm.com/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*All-in-one desktop and Docker RAG app — document ingestion, agents, multi-user.*
+*Serverless vector DB on the Lance columnar format — embedded or cloud, multimodal-ready.*
 
 ---
+
+# RAG Frameworks
 
 ## Haystack
 
@@ -1857,6 +1847,16 @@ storage layer.
 
 ---
 
+## AnythingLLM
+
+**URL:** https://anythingllm.com
+**llms.txt:** https://anythingllm.com/llms.txt (missing)
+**License:** open-source  |  **Deployment:** self-hosted
+
+*All-in-one desktop and Docker RAG app — document ingestion, agents, multi-user.*
+
+---
+
 ## Quivr
 
 **URL:** https://www.quivr.com
@@ -1910,26 +1910,6 @@ storage layer.
 ---
 
 # Observability
-
-## Arize Phoenix
-
-**URL:** https://phoenix.arize.com
-**llms.txt:** https://phoenix.arize.com/llms.txt (published)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*Open-source ML and LLM observability platform with OpenTelemetry-based tracing.*
-
----
-
-## Helicone
-
-**URL:** https://helicone.ai
-**llms.txt:** https://helicone.ai/llms.txt (missing)
-**License:** freemium  |  **Deployment:** saas
-
-*Open-source observability for LLM apps — traces, prompts, evaluations, usage analytics.*
-
----
 
 ## Langfuse
 
@@ -2018,6 +1998,26 @@ OpenAI or Anthropic SDKs can send traces to LangSmith with minimal setup.
 
 ---
 
+## Arize Phoenix
+
+**URL:** https://phoenix.arize.com
+**llms.txt:** https://phoenix.arize.com/llms.txt (published)
+**License:** open-source  |  **Deployment:** self-hosted
+
+*Open-source ML and LLM observability platform with OpenTelemetry-based tracing.*
+
+---
+
+## Helicone
+
+**URL:** https://helicone.ai
+**llms.txt:** https://helicone.ai/llms.txt (missing)
+**License:** freemium  |  **Deployment:** saas
+
+*Open-source observability for LLM apps — traces, prompts, evaluations, usage analytics.*
+
+---
+
 ## Weights & Biases
 
 **URL:** https://wandb.ai
@@ -2061,6 +2061,50 @@ OpenAI or Anthropic SDKs can send traces to LangSmith with minimal setup.
 ---
 
 # Training & Fine-tuning
+
+## Unsloth
+
+**URL:** https://unsloth.ai
+**Repository:** https://github.com/unslothai/unsloth
+**llms.txt:** https://docs.unsloth.ai/llms.txt (published)
+**License:** open-source  |  **Deployment:** library  |  Platforms: linux, windows
+**Tags:** fine-tuning, training, lora, qlora, unsloth, triton, python
+
+*2x faster LLM fine-tuning with 70% less memory — drop-in replacement for HuggingFace's training stack.*
+
+Unsloth is a fine-tuning library that rewrites HuggingFace's training
+code with hand-tuned Triton kernels and careful memory management to
+achieve roughly 2x speedups and 70% memory savings versus vanilla
+Transformers + PEFT. It supports LoRA, QLoRA, full fine-tuning, and
+continued pretraining across Llama, Qwen, Mistral, Gemma, Phi, and most
+modern architectures.
+
+The project is known for free, working Colab notebooks that take users
+from zero to a fine-tuned model in under an hour — genuine entry-point
+material for the LLM fine-tuning community. It's compatible with the
+HuggingFace ecosystem: PEFT adapters, Trainer API, TRL DPO, datasets,
+and every output format (LoRA, merged, GGUF, AWQ) downstream tools
+expect.
+
+A Pro tier adds multi-GPU training and priority support.
+
+**Features:**
+- 2x faster LoRA and QLoRA fine-tuning vs vanilla Transformers
+- 70% memory reduction through careful gradient management
+- Support for Llama, Qwen, Mistral, Gemma, Phi, and more
+- LoRA, QLoRA, full fine-tuning, continued pretraining
+- DPO, ORPO, KTO via TRL integration
+- Export to GGUF, AWQ, merged, or LoRA-only formats
+- Free Colab notebooks for common fine-tuning recipes
+
+**Use cases:**
+- Fine-tuning LLMs on consumer GPUs (24GB and below)
+- Cost-effective domain adaptation for internal applications
+- Teaching / learning fine-tuning with working starter notebooks
+- Rapid iteration on fine-tunes before scaling to multi-GPU
+- Reducing training costs on cloud GPU providers
+
+---
 
 ## Axolotl
 
@@ -2133,50 +2177,6 @@ percent of speed.
 **License:** open-source  |  **Deployment:** library
 
 *HuggingFace's library for reinforcement-learning based LLM training (DPO, PPO, SFT, KTO).*
-
----
-
-## Unsloth
-
-**URL:** https://unsloth.ai
-**Repository:** https://github.com/unslothai/unsloth
-**llms.txt:** https://docs.unsloth.ai/llms.txt (published)
-**License:** open-source  |  **Deployment:** library  |  Platforms: linux, windows
-**Tags:** fine-tuning, training, lora, qlora, unsloth, triton, python
-
-*2x faster LLM fine-tuning with 70% less memory — drop-in replacement for HuggingFace's training stack.*
-
-Unsloth is a fine-tuning library that rewrites HuggingFace's training
-code with hand-tuned Triton kernels and careful memory management to
-achieve roughly 2x speedups and 70% memory savings versus vanilla
-Transformers + PEFT. It supports LoRA, QLoRA, full fine-tuning, and
-continued pretraining across Llama, Qwen, Mistral, Gemma, Phi, and most
-modern architectures.
-
-The project is known for free, working Colab notebooks that take users
-from zero to a fine-tuned model in under an hour — genuine entry-point
-material for the LLM fine-tuning community. It's compatible with the
-HuggingFace ecosystem: PEFT adapters, Trainer API, TRL DPO, datasets,
-and every output format (LoRA, merged, GGUF, AWQ) downstream tools
-expect.
-
-A Pro tier adds multi-GPU training and priority support.
-
-**Features:**
-- 2x faster LoRA and QLoRA fine-tuning vs vanilla Transformers
-- 70% memory reduction through careful gradient management
-- Support for Llama, Qwen, Mistral, Gemma, Phi, and more
-- LoRA, QLoRA, full fine-tuning, continued pretraining
-- DPO, ORPO, KTO via TRL integration
-- Export to GGUF, AWQ, merged, or LoRA-only formats
-- Free Colab notebooks for common fine-tuning recipes
-
-**Use cases:**
-- Fine-tuning LLMs on consumer GPUs (24GB and below)
-- Cost-effective domain adaptation for internal applications
-- Teaching / learning fine-tuning with working starter notebooks
-- Rapid iteration on fine-tunes before scaling to multi-GPU
-- Reducing training costs on cloud GPU providers
 
 ---
 
@@ -2486,6 +2486,53 @@ OpenAI trivial.
 ---
 
 # Desktop Applications
+
+## Claude Desktop
+
+**URL:** https://claude.com/download
+**llms.txt:** https://docs.claude.com/llms.txt (published)
+**License:** commercial  |  **Deployment:** local  |  Platforms: linux, macos, windows
+**Tags:** desktop-app, claude, anthropic, mcp, skills, agent, assistant
+
+*Anthropic's native desktop app for Claude — MCP server support, skills, agent mode, and deep OS integration.*
+
+Claude Desktop is Anthropic's official native application for macOS,
+Windows, and Linux. It runs on top of Claude's models (Sonnet, Opus,
+Haiku) with features that go well beyond the claude.ai web interface:
+MCP (Model Context Protocol) server support for connecting external
+tools and data, a skills system for packaging custom workflows, agent
+mode for autonomous multi-step tasks, and native OS integrations
+(global shortcuts, file uploads, clipboard, voice input on supported
+platforms).
+
+For power users, Claude Desktop is the most capable consumer-facing
+Claude product: it exposes the full tool-use loop, handles long
+conversations, persists chat history locally, and accepts MCP servers
+that extend it into nearly any workflow (GitHub, databases, APIs,
+browser, local filesystem).
+
+It shares documentation and the underlying API with the Claude Agent
+SDK and Claude Code, meaning `llms.txt` at docs.claude.com serves all
+three.
+
+**Features:**
+- Native apps for macOS, Windows, and Linux
+- MCP (Model Context Protocol) server integration
+- Skills system for reusable custom workflows
+- Agent mode for autonomous multi-step tasks
+- Native OS integrations (shortcuts, clipboard, file uploads)
+- Long-form chat with local history persistence
+- Supports Sonnet, Opus, Haiku model families
+- Voice input on supported platforms
+
+**Use cases:**
+- Daily AI assistant with access to local files and tools via MCP
+- Power-user chat with full tool use (browser, shell, APIs)
+- Workflow automation via custom skills
+- Research, writing, and coding assistance at the desktop
+- Users who want Claude's capabilities beyond the web UI
+
+---
 
 ## PrivateGPT
 

@@ -65,6 +65,23 @@ def load_entries() -> list[dict[str, Any]]:
     return entries
 
 
+def _quality_sort_key(e: dict) -> tuple:
+    """Rank within a category:
+
+    1. Full (non-stub) entries before stubs.
+    2. llms_txt_status: published before missing before unknown.
+    3. Alphabetical by name.
+
+    Rewards entries that actually have their act together — a working
+    llms.txt and a full description. This is what agents and humans
+    should see first.
+    """
+    is_stub = 1 if e.get("status") == "stub" else 0
+    status = e.get("llms_txt_status", "")
+    status_rank = {"published": 0, "missing": 1}.get(status, 2)
+    return (is_stub, status_rank, e.get("name", "").lower())
+
+
 def group_by_category(entries: list[dict]) -> dict[str, list[dict]]:
     buckets: dict[str, list[dict]] = {c: [] for c in CATEGORY_ORDER}
     unknown: dict[str, list[dict]] = {}
@@ -74,12 +91,10 @@ def group_by_category(entries: list[dict]) -> dict[str, list[dict]]:
             buckets[cat].append(e)
         else:
             unknown.setdefault(cat, []).append(e)
-    # Sort each bucket by name for deterministic output
     for lst in buckets.values():
-        lst.sort(key=lambda x: x.get("name", "").lower())
+        lst.sort(key=_quality_sort_key)
     for lst in unknown.values():
-        lst.sort(key=lambda x: x.get("name", "").lower())
-    # Merge unknown categories at the end, alphabetically
+        lst.sort(key=_quality_sort_key)
     for k in sorted(unknown.keys()):
         buckets[k] = unknown[k]
     return buckets

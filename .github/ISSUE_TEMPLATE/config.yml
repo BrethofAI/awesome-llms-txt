@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: New category request
+    url: https://github.com/BrethofAI/awesome-llms-txt/discussions/new?category=ideas
+    about: Category not in the current list? Start a Discussion.
+  - name: Read CONTRIBUTING.md
+    url: https://github.com/BrethofAI/awesome-llms-txt/blob/main/CONTRIBUTING.md
+    about: YAML schema and PR workflow for adding entries directly.

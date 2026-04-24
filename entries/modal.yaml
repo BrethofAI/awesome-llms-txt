@@ -1,13 +1,54 @@
 name: Modal
 slug: modal
 url: https://modal.com
-llms_txt: https://modal.com/llms.txt
+repository: null
+llms_txt: https://modal.com/docs/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: deployment
-tagline: Serverless cloud platform for Python with first-class GPU support — deploy LLMs from code.
+subcategory: serverless-gpu-platform
+
+tagline: Serverless cloud platform for Python with first-class GPU support — deploy LLMs, training jobs, and batch pipelines from code.
+
+description: |
+  Modal is a serverless compute platform designed for Python workloads
+  that need GPUs: LLM inference, model training, batch image generation,
+  data processing, and long-running AI pipelines. You write functions in
+  Python with decorators that specify container image, GPU type, memory,
+  and schedule — Modal handles the rest: cold starts in seconds, billing
+  per-second, auto-scaling to zero when idle.
+
+  The developer experience is the differentiator. Locally-written Python
+  functions deploy to cloud GPUs without leaving the editor: `modal run
+  my_script.py` executes on an A100 or H100, `modal deploy` exposes it as
+  an HTTPS endpoint. Popular use cases include hosting vLLM or SGLang for
+  inference, running Unsloth fine-tuning jobs, and dispatching ComfyUI
+  workflows at scale.
+
+  Modal is used heavily by AI startups that want cloud GPUs without
+  managing Kubernetes, and by teams that need bursty capacity without
+  reserving hardware.
+
+features:
+  - Serverless Python functions on cloud GPUs (A100, H100, L4, L40S, …)
+  - Sub-10-second cold starts with container snapshotting
+  - Auto-scaling: scale to zero when idle, scale up under load
+  - Per-second billing, no reserved capacity required
+  - Built-in web endpoints, scheduled jobs, and WebSocket support
+  - Volumes, secrets, and distributed dicts for state
+  - CPU-only functions also supported for pipeline orchestration
+
+use_cases:
+  - Serverless LLM inference hosting (vLLM, SGLang, TGI)
+  - Fine-tuning jobs that need a GPU for a few hours, then shut down
+  - Batch image / video generation with ComfyUI or diffusers
+  - AI application backends where traffic is spiky
+  - Replacing Kubernetes + GPU nodes for AI workloads
+  - Webhooks, scheduled jobs, and event-driven AI pipelines
 
 license: commercial
 deployment: saas
+platforms: [linux, macos, windows]
+tags: [serverless, gpu, python, modal, inference, training, saas]
+maintainer: Modal
 added: 2026-04-24

@@ -1,13 +1,52 @@
 name: Milvus
 slug: milvus
 url: https://milvus.io
+repository: https://github.com/milvus-io/milvus
 llms_txt: https://milvus.io/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: vector-dbs
-tagline: Open-source cloud-native vector database built for billion-scale similarity search.
+subcategory: distributed-vector-db
+
+tagline: Open-source cloud-native vector database built for billion-scale similarity search with separation of storage and compute.
+
+description: |
+  Milvus is a distributed vector database designed for the largest vector
+  workloads — billions of vectors, hundreds of billions of searches per
+  day. Its architecture separates storage, compute, and coordination into
+  independent services, letting each scale horizontally. At the cost of
+  more operational complexity than smaller vector DBs, Milvus handles
+  scale few other options reach.
+
+  Milvus supports multiple index types optimized for different trade-offs
+  (IVF_FLAT, IVF_SQ8, HNSW, SCANN, DISKANN, GPU_IVF_FLAT for GPU-accelerated
+  search), multiple distance metrics, hybrid search, and filtered search
+  with complex boolean predicates. Attu provides a graphical admin UI for
+  cluster operations.
+
+  For teams with smaller scale requirements, Milvus Lite ships as an
+  embedded Python library using the same API as the full cluster — start
+  local, graduate to distributed when the workload demands it.
+
+features:
+  - Distributed architecture: separated storage, compute, coordination
+  - Multiple index types (IVF, HNSW, SCANN, DISKANN, GPU-accelerated)
+  - Hybrid search: dense + sparse vectors + filters
+  - Multi-tenancy through partitions and databases
+  - Milvus Lite for embedded / local use with same API
+  - GPU search support for large-scale low-latency workloads
+  - Attu admin UI and CLI tools
+
+use_cases:
+  - Vector search at 1B+ scale
+  - High-QPS inference products with sub-50ms retrieval SLOs
+  - Multi-tenant vector search in a single deployment
+  - GPU-accelerated similarity search
+  - Teams graduating from Milvus Lite (local) to production cluster
 
 license: open-source
 deployment: self-hosted
+platforms: [linux]
+tags: [vector-db, milvus, distributed, billion-scale, gpu, rag]
+maintainer: Milvus / Zilliz
 added: 2026-04-24

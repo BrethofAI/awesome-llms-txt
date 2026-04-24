@@ -1,13 +1,51 @@
 name: Groq
 slug: groq
 url: https://groq.com
-llms_txt: https://groq.com/llms.txt
+repository: null
+llms_txt: https://console.groq.com/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: deployment
-tagline: Ultra-low-latency inference on custom LPU chips — sub-second complete responses for chat models.
+subcategory: ultra-low-latency-inference
+
+tagline: Ultra-low-latency LLM inference on custom LPU silicon — sub-second complete responses and OpenAI-compatible API.
+
+description: |
+  Groq operates a cloud inference service built on its own custom "Language
+  Processing Unit" (LPU) silicon, designed specifically for transformer
+  inference. The result is inference speeds measured in hundreds of tokens
+  per second for models like Llama, Qwen, DeepSeek, and Kimi — fast enough
+  that full multi-paragraph responses complete before a human reader can
+  finish the first sentence.
+
+  The API is OpenAI-compatible, so any application using the OpenAI client
+  can point at Groq's endpoint with a base URL change. Pricing is
+  per-million-tokens and competitive with other serverless inference
+  providers, with the key differentiator being latency.
+
+  Groq is a common pick for real-time applications: voice agents, live
+  coding assistants, streaming chat UIs, and any use case where response
+  latency (not token throughput) is the bottleneck.
+
+features:
+  - Custom LPU silicon purpose-built for LLM inference
+  - 300-800+ tokens/sec on popular open-weight models
+  - OpenAI-compatible API with streaming and tool use
+  - Function calling and structured output support
+  - Model catalog: Llama 3/4, Qwen, DeepSeek, Kimi, Gemma, Whisper
+  - Free tier with generous rate limits for prototyping
+  - Batch API for async high-volume jobs
+
+use_cases:
+  - Real-time voice agents and conversational AI
+  - Streaming chat UIs where time-to-first-token matters
+  - Agent loops with many sequential LLM calls (speed compounds)
+  - Live coding assistants (inline autocomplete, fast chat)
+  - High-throughput inference pipelines with latency SLOs
 
 license: commercial
 deployment: saas
+platforms: [linux, macos, windows]
+tags: [inference, lpu, groq, saas, low-latency, openai-compatible]
+maintainer: Groq
 added: 2026-04-24

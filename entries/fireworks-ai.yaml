@@ -1,13 +1,50 @@
 name: Fireworks AI
 slug: fireworks-ai
 url: https://fireworks.ai
-llms_txt: https://fireworks.ai/llms.txt
+repository: null
+llms_txt: https://docs.fireworks.ai/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: deployment
-tagline: Production inference platform for open models — fastest-on-market serving for DeepSeek, Llama.
+subcategory: production-inference
+
+tagline: Production inference platform for open-source models with industry-leading speed for DeepSeek, Llama, Qwen.
+
+description: |
+  Fireworks AI is a production inference platform specializing in
+  serving open-source LLMs at low latency and high throughput. Its
+  inference stack (in-house optimized, built on FireAttention) regularly
+  benchmarks as the fastest provider for DeepSeek-R1 / V3, Llama 3/4,
+  Qwen 3, and other large open-weight models.
+
+  Beyond serverless inference, Fireworks offers dedicated deployments
+  (guaranteed capacity, custom models, SLA), fine-tuning as a managed
+  service, and agent-oriented features like structured outputs, function
+  calling, and JSON mode across every hosted model.
+
+  It's a common pick for AI products that need open-weight models in
+  production with strict latency requirements — voice agents, real-time
+  coding assistants, high-QPS chat applications.
+
+features:
+  - Optimized inference stack with industry-leading tokens/sec benchmarks
+  - 100+ open-source models (DeepSeek, Llama, Qwen, Mixtral, Mistral)
+  - OpenAI-compatible API with streaming, tools, JSON mode
+  - Fine-tuning as a service with managed serving
+  - Dedicated deployments for guaranteed capacity and SLAs
+  - Multimodal: text, vision, image generation, embedding, speech
+  - Per-million-tokens and per-GPU-hour pricing tiers
+
+use_cases:
+  - Production applications with strict latency requirements
+  - Real-time AI products (voice agents, live coding, streaming chat)
+  - Serving fine-tuned DeepSeek or Llama variants at scale
+  - Migrating off OpenAI / Anthropic for cost reasons
+  - Multi-model inference behind a single bill and dashboard
 
 license: commercial
 deployment: saas
+platforms: [linux, macos, windows]
+tags: [inference, fireworks, serverless, fast, openai-compatible, fine-tuning]
+maintainer: Fireworks AI
 added: 2026-04-24

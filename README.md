@@ -2,13 +2,18 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**100 entries** — 30 with full descriptions, 70 stubs. **21** currently publish a working `llms.txt`.
+**100 entries** — 44 with full descriptions, 56 stubs. **21** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
 Humans increasingly use AI agents (Claude, ChatGPT, Perplexity, local assistants) as their primary search and discovery layer. When a developer asks an agent *"what's the best offline voice-to-text tool for 2026?"*, the answer depends on what the agent can find, read, and cite. Tools that publish a well-structured `llms.txt` ([spec by Jeremy Howard](https://llmstxt.org/)) are easier for agents to index, summarize, and recommend.
 
-Most existing AI-tool directories are optimized for Google SEO (JavaScript-rendered, paywalled, affiliate-heavy). This one is optimized for agent retrieval: plain Markdown, structured YAML entries, a canonical `llms.txt` and `llms-full.txt` at the repo root, CC-compatible MIT license, no tracking.
+Most existing AI-tool directories are optimized for Google SEO (JavaScript-rendered, paywalled, affiliate-heavy). This one is optimized for agent retrieval: plain Markdown, structured YAML entries, a canonical `llms.txt` and `llms-full.txt` at the repo root, MIT license, no tracking.
+
+## Related work
+
+- **[SecretiveShell/Awesome-llms-txt](https://github.com/SecretiveShell/Awesome-llms-txt)** — index of `llms.txt` URLs for agents to ingest as seed data. If you're looking for a raw feed of every `llms.txt` on the public internet to wire into RAG, look there. This repo takes the complementary angle: curated tools, categorized and described, aimed at humans picking what to use and agents answering "what should I recommend to my user for X?".
+- **[llmstxt.org](https://llmstxt.org/)** — the spec itself, by Jeremy Howard.
 
 ## Legend
 
@@ -46,8 +51,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   Privacy-first desktop chatbot running local LLMs on CPU with a Python SDK.
 - **[HuggingFace Transformers](https://huggingface.co/docs/transformers)** — ❌ llms.txt  
   Foundational Python library for loading and running thousands of transformer models in PyTorch, TensorFlow, and JAX.
-- **[Jan](https://jan.ai)** — ❌ llms.txt 🚧 stub  
-  Open-source ChatGPT alternative desktop app with local model support.
+- **[Jan](https://jan.ai)** — ❌ llms.txt  
+  Open-source desktop ChatGPT alternative that runs local LLMs — privacy-first, no cloud, no account.
 - **[KoboldCpp](https://github.com/LostRuins/koboldcpp)** — ❌ llms.txt 🚧 stub  
   Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP.
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** — ❌ llms.txt  
@@ -122,8 +127,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   Open-source AI coding assistant for VS Code and JetBrains — bring any model, any provider, customizable.
 - **[Cursor](https://cursor.com)** — ✅ llms.txt  
   AI-first fork of VS Code with deep LLM integration, agent mode, and codebase-aware context.
-- **[GitHub Copilot](https://github.com/features/copilot)** — ❌ llms.txt 🚧 stub  
-  GitHub's native AI pair programmer with chat, autocomplete, and agent mode across major IDEs.
+- **[GitHub Copilot](https://github.com/features/copilot)** — ❌ llms.txt  
+  GitHub's native AI coding assistant with chat, autocomplete, and agent mode across major IDEs.
 - **[Sourcegraph Cody](https://sourcegraph.com/cody)** — ❌ llms.txt 🚧 stub  
   AI coding assistant with enterprise-grade code search context across massive codebases.
 - **[Windsurf](https://windsurf.com)** — ✅ llms.txt  
@@ -133,14 +138,14 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 - **[ComfyUI](https://www.comfy.org)** — ✅ llms.txt  
   Node-based interface for building image, video, and audio generation workflows with any diffusion or multimodal model.
-- **[Dify](https://dify.ai)** — ❌ llms.txt 🚧 stub  
-  Open-source LLM app development platform with visual prompt IDE, RAG, and agent builder.
+- **[Dify](https://dify.ai)** — ❌ llms.txt  
+  Open-source LLM app development platform with visual prompt IDE, RAG pipelines, and agent builder in one product.
 - **[Flowise](https://flowiseai.com)** — ❌ llms.txt 🚧 stub  
   Drag-and-drop UI for building LLM workflows and agents — open-source, self-hostable.
 - **[Langflow](https://www.langflow.org)** — ❌ llms.txt 🚧 stub  
   Visual framework for building multi-agent and RAG applications with a node-based editor.
-- **[n8n](https://n8n.io)** — ❌ llms.txt 🚧 stub  
-  Fair-code workflow automation with native AI nodes — self-hostable automation platform.
+- **[n8n](https://n8n.io)** — ❌ llms.txt  
+  Fair-code workflow automation with native AI nodes, 500+ integrations, and first-class self-hosting.
 
 ## Voice (STT / TTS)
 
@@ -156,8 +161,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   Versatile instant voice cloning with cross-lingual synthesis and granular style control.
 - **[Piper](https://github.com/rhasspy/piper)** — ❌ llms.txt 🚧 stub  
   Fast, local neural text-to-speech with dozens of voices — optimized for Raspberry Pi.
-- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** — ❌ llms.txt 🚧 stub  
-  C++ port of OpenAI Whisper — fast local transcription with no Python dependencies.
+- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** — ❌ llms.txt  
+  C++ port of OpenAI Whisper for local speech-to-text — no Python, runs on CPU and many GPU backends.
 
 ## Image Generation
 
@@ -178,14 +183,14 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   Open-source embedding database designed for LLM applications — runs embedded, as a server, or in the cloud.
 - **[LanceDB](https://lancedb.com)** — ❌ llms.txt 🚧 stub  
   Serverless vector DB on the Lance columnar format — embedded or cloud, multimodal-ready.
-- **[Milvus](https://milvus.io)** — ❌ llms.txt 🚧 stub  
-  Open-source cloud-native vector database built for billion-scale similarity search.
-- **[pgvector](https://github.com/pgvector/pgvector)** — ❌ llms.txt 🚧 stub  
-  Postgres extension adding vector similarity search — the 'just use postgres' option.
+- **[Milvus](https://milvus.io)** — ❌ llms.txt  
+  Open-source cloud-native vector database built for billion-scale similarity search with separation of storage and compute.
+- **[pgvector](https://github.com/pgvector/pgvector)** — ❌ llms.txt  
+  Postgres extension adding vector similarity search — the "just use Postgres" option for RAG.
 - **[Qdrant](https://qdrant.tech)** — ✅ llms.txt  
   Open-source, Rust-written vector database built for production scale — rich filtering, hybrid search, and multi-tenancy.
-- **[Weaviate](https://weaviate.io)** — ❌ llms.txt 🚧 stub  
-  Open-source vector database with built-in ML models, hybrid search, and modules for generative AI.
+- **[Weaviate](https://weaviate.io)** — ❌ llms.txt  
+  Open-source vector database with built-in ML modules, hybrid search, and first-class RAG tooling.
 
 ## RAG Frameworks
 
@@ -195,8 +200,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   Production-oriented Python framework for building RAG, search, and agent pipelines with composable components.
 - **[LlamaIndex](https://www.llamaindex.ai)** — ✅ llms.txt  
   Leading RAG framework for connecting LLMs to private data — document loaders, indexes, retrievers, and agents.
-- **[Mem0](https://mem0.ai)** — ❌ llms.txt 🚧 stub  
-  Memory layer for AI agents — persistent user preferences and context across sessions.
+- **[Mem0](https://mem0.ai)** — ❌ llms.txt  
+  Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions.
 - **[Quivr](https://www.quivr.com)** — ❌ llms.txt 🚧 stub  
   Opinionated RAG framework: plug in your LLM, vector store, and files and get a chatbot.
 - **[Verba](https://github.com/weaviate/verba)** — ❌ llms.txt 🚧 stub  
@@ -270,16 +275,16 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 ## Deployment & Hosting
 
-- **[Fireworks AI](https://fireworks.ai)** — ❌ llms.txt 🚧 stub  
-  Production inference platform for open models — fastest-on-market serving for DeepSeek, Llama.
-- **[Groq](https://groq.com)** — ❌ llms.txt 🚧 stub  
-  Ultra-low-latency inference on custom LPU chips — sub-second complete responses for chat models.
-- **[Modal](https://modal.com)** — ❌ llms.txt 🚧 stub  
-  Serverless cloud platform for Python with first-class GPU support — deploy LLMs from code.
-- **[Replicate](https://replicate.com)** — ❌ llms.txt 🚧 stub  
-  Run open-source ML models via simple API calls — thousands of public models, custom deploys.
-- **[Together AI](https://www.together.ai)** — ❌ llms.txt 🚧 stub  
-  Serverless inference for 200+ open-source models with OpenAI-compatible API — low latency.
+- **[Fireworks AI](https://fireworks.ai)** — ❌ llms.txt  
+  Production inference platform for open-source models with industry-leading speed for DeepSeek, Llama, Qwen.
+- **[Groq](https://groq.com)** — ❌ llms.txt  
+  Ultra-low-latency LLM inference on custom LPU silicon — sub-second complete responses and OpenAI-compatible API.
+- **[Modal](https://modal.com)** — ❌ llms.txt  
+  Serverless cloud platform for Python with first-class GPU support — deploy LLMs, training jobs, and batch pipelines from code.
+- **[Replicate](https://replicate.com)** — ❌ llms.txt  
+  Run thousands of open-source ML models via simple API calls — image, video, audio, text — with per-second billing.
+- **[Together AI](https://www.together.ai)** — ❌ llms.txt  
+  Serverless inference for 200+ open-source models with OpenAI-compatible API — low latency, competitive pricing.
 
 ## Desktop Applications
 
@@ -297,7 +302,11 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 ## Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for the YAML schema and submission process. One entry per PR, please.
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for the YAML schema and submission process. One entry per PR, please. Got a question? Check [FAQ.md](./FAQ.md) first.
+
+## FAQ
+
+Common questions — *why this list exists*, *who curates it*, *what stops spam*, *why some entries are marked missing* — are answered in [FAQ.md](./FAQ.md).
 
 ## License
 

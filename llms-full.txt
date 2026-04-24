@@ -72,10 +72,46 @@ the dominant open-source ML ecosystem.
 ## Jan
 
 **URL:** https://jan.ai
+**Repository:** https://github.com/menloresearch/jan
 **llms.txt:** https://jan.ai/llms.txt (missing)
-**License:** open-source  |  **Deployment:** local
+**License:** open-source  |  **Deployment:** local  |  Platforms: linux, macos, windows
+**Tags:** inference, chat-ui, jan, local, privacy, llama-cpp
 
-*Open-source ChatGPT alternative desktop app with local model support.*
+*Open-source desktop ChatGPT alternative that runs local LLMs — privacy-first, no cloud, no account.*
+
+Jan is a desktop application that provides a ChatGPT-like interface
+backed entirely by locally-running open-weight LLMs. It bundles a
+llama.cpp-based inference engine, model discovery (curated HuggingFace
+models with one-click install), a conversation interface, and an
+OpenAI-compatible local server — all in a single installable app for
+Linux, macOS, and Windows.
+
+Jan's positioning is privacy-first: no account needed, no data sent to
+any cloud, fully functional offline after install. Its codebase is
+AGPLv3 open-source and actively developed by Menlo Research, with
+frequent model library updates tracking the open-weight state of the
+art.
+
+The OpenAI-compatible server means Jan doubles as a local backend for
+other tools — coding assistants, agent frameworks, or any application
+that speaks the OpenAI API can point at `http://localhost:1337` and use
+whatever model Jan has loaded.
+
+**Features:**
+- ChatGPT-style desktop UI with conversation history
+- llama.cpp backend with GGUF model support
+- Curated model library with one-click download
+- Built-in OpenAI-compatible local server
+- NVIDIA CUDA, AMD ROCm, Apple Metal, CPU backends
+- Extensions system for custom integrations
+- Fully offline after install; no telemetry
+
+**Use cases:**
+- Privacy-conscious users wanting ChatGPT UX without cloud
+- Non-technical users running local LLMs without CLI
+- Teams piloting local LLMs on consumer hardware
+- Local backend for coding assistants and agent frameworks
+- Offline work environments
 
 ---
 
@@ -997,10 +1033,42 @@ significant.
 ## GitHub Copilot
 
 **URL:** https://github.com/features/copilot
-**llms.txt:** https://github.com/features/copilot/llms.txt (missing)
-**License:** commercial  |  **Deployment:** local
+**llms.txt:** https://docs.github.com/llms.txt (missing)
+**License:** commercial  |  **Deployment:** local  |  Platforms: linux, macos, windows
+**Tags:** coding-agent, github, copilot, ide, enterprise, commercial
 
-*GitHub's native AI pair programmer with chat, autocomplete, and agent mode across major IDEs.*
+*GitHub's native AI coding assistant with chat, autocomplete, and agent mode across major IDEs.*
+
+GitHub Copilot is the original and most widely deployed AI coding
+assistant, integrated natively into VS Code, Visual Studio, JetBrains
+IDEs, Neovim, Xcode, and GitHub itself. It offers inline code completion,
+chat, a multi-file agent mode, pull-request summaries, and command-line
+assistance via `gh copilot`.
+
+Under the hood Copilot routes to multiple LLMs — GPT, Claude Sonnet,
+Gemini — with model choice exposed to users on the paid tiers. Its
+reach within the GitHub platform (issues, PRs, code review, Actions)
+makes it a practical default for teams already on GitHub.
+
+For enterprise deployments, Copilot offers SOC 2 compliance, data
+residency, code reference filtering, and the ability to restrict
+external traffic — the most mature enterprise posture in the category.
+
+**Features:**
+- VS Code, Visual Studio, JetBrains, Neovim, Xcode integrations
+- Inline autocomplete, chat, and multi-file agent mode
+- Pull-request and code-review assistance on GitHub
+- Multiple model backends (GPT, Claude, Gemini)
+- `gh copilot` CLI for command-line help
+- Enterprise tier with SOC 2, data residency, content filtering
+- Free tier available for open-source maintainers and students
+
+**Use cases:**
+- Professional development at organizations already on GitHub
+- Teams needing enterprise compliance posture out of the box
+- Users who want PR / issue / code-review AI integrated into Git workflow
+- Cross-IDE consistency (one subscription, many editors)
+- Students and OSS maintainers on the free tier
 
 ---
 
@@ -1107,10 +1175,46 @@ additional operations.
 ## Dify
 
 **URL:** https://dify.ai
-**llms.txt:** https://dify.ai/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
+**Repository:** https://github.com/langgenius/dify
+**llms.txt:** https://docs.dify.ai/llms.txt (missing)
+**License:** open-source  |  **Deployment:** self-hosted  |  Platforms: linux
+**Tags:** llm-platform, dify, rag, agent-builder, self-hosted, visual-ide
 
-*Open-source LLM app development platform with visual prompt IDE, RAG, and agent builder.*
+*Open-source LLM app development platform with visual prompt IDE, RAG pipelines, and agent builder in one product.*
+
+Dify is an all-in-one LLM application platform designed for teams
+shipping AI features without building each component from scratch. It
+combines a visual prompt IDE (version, test, and compare prompts with
+datasets), a RAG pipeline builder (document ingestion, chunking,
+embedding, retrieval tuning), an agent builder (tool-using agents with
+function calling), and a ChatUI / API endpoint generator in a single
+self-hostable product.
+
+Where LangChain is a developer library and n8n is a horizontal
+automation platform, Dify is specifically a place for product teams to
+build, test, and operate LLM-powered apps — prompt engineering, RAG
+evaluation, and app deployment under one roof.
+
+It's deployed via Docker Compose or Kubernetes; Dify Cloud offers the
+same product as managed SaaS. Apache 2.0 licensed with a reasonable
+commercial-use allowance.
+
+**Features:**
+- Visual prompt IDE with versioning and comparison
+- RAG pipeline builder with document ingestion and retrieval tuning
+- Agent builder with function calling and tool orchestration
+- ChatUI templates and auto-generated API endpoints
+- Dataset-based prompt evaluation and annotation
+- Supports OpenAI, Anthropic, local LLMs via any OpenAI-compatible endpoint
+- Multi-user workspaces with role-based access
+- Docker Compose / Kubernetes self-hosting
+
+**Use cases:**
+- Product teams shipping LLM-powered features end-to-end
+- Non-engineers prototyping RAG applications
+- Prompt engineering and evaluation workflows
+- Companies wanting an internal "ChatGPT-for-our-docs" platform
+- Teams avoiding the lock-in of OpenAI GPTs / Anthropic Projects
 
 ---
 
@@ -1137,10 +1241,45 @@ additional operations.
 ## n8n
 
 **URL:** https://n8n.io
-**llms.txt:** https://n8n.io/llms.txt (missing)
-**License:** source-available  |  **Deployment:** self-hosted
+**Repository:** https://github.com/n8n-io/n8n
+**llms.txt:** https://docs.n8n.io/llms.txt (missing)
+**License:** source-available  |  **Deployment:** self-hosted  |  Platforms: linux
+**Tags:** workflow, automation, n8n, langchain, self-hosted, low-code
 
-*Fair-code workflow automation with native AI nodes — self-hostable automation platform.*
+*Fair-code workflow automation with native AI nodes, 500+ integrations, and first-class self-hosting.*
+
+n8n is a workflow automation platform — think Zapier or Make, but
+self-hostable, source-available, and extended with first-class AI
+nodes. Users build workflows visually by connecting nodes representing
+triggers (webhooks, schedules, email, Slack), integrations (500+ across
+databases, APIs, SaaS), and AI operations (LangChain-powered agents,
+LLM calls, vector store queries, retrievers).
+
+The AI toolkit makes n8n one of the most pragmatic options for non-
+engineers building agent-style workflows: a "retrieve from Slack →
+summarize with Claude → post to Notion" flow is a 5-minute drag-and-drop
+job. For engineers, n8n's custom-code nodes let you drop into Python or
+JavaScript when the visual builder isn't enough.
+
+Fair-code license means free for individual and internal business use,
+with commercial restrictions on building competing products. n8n Cloud
+provides managed hosting for teams that don't want to run Docker.
+
+**Features:**
+- Visual workflow builder with 500+ integration nodes
+- {'Native AI nodes': 'LangChain agents, LLM calls, embeddings, vector stores'}
+- Webhook, schedule, and event triggers
+- Custom Python / JavaScript nodes for bespoke logic
+- Self-host via Docker or use n8n Cloud
+- Fair-code license (free for personal and internal commercial use)
+- Active community-contributed node catalog
+
+**Use cases:**
+- Agent workflows for non-engineers (Slack + Claude + Notion)
+- Internal business automation with AI steps woven in
+- ETL pipelines with LLM-powered data transformation
+- RAG applications without writing Python
+- Replacing Zapier with a self-hosted, AI-aware equivalent
 
 ---
 
@@ -1242,10 +1381,46 @@ focused on privacy-first offline AI tools for working professionals.
 ## whisper.cpp
 
 **URL:** https://github.com/ggml-org/whisper.cpp
+**Repository:** https://github.com/ggml-org/whisper.cpp
 **llms.txt:** https://github.com/ggml-org/whisper.cpp/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
+**License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows, ios, android
+**Tags:** asr, whisper, cpp, transcription, ggml, offline
 
-*C++ port of OpenAI Whisper — fast local transcription with no Python dependencies.*
+*C++ port of OpenAI Whisper for local speech-to-text — no Python, runs on CPU and many GPU backends.*
+
+whisper.cpp is a pure-C/C++ implementation of OpenAI's Whisper speech
+recognition model. It has zero runtime dependencies (no Python, no
+CUDA-specific tooling), ships as a library and CLI, and runs on every
+hardware backend the ggml-org ecosystem supports: CPU (with AVX / NEON
+SIMD), CUDA, Metal (Apple Silicon), Vulkan, OpenCL, SYCL, CoreML.
+
+It uses GGML quantized models — the same format ecosystem as
+llama.cpp — enabling 4-bit, 5-bit, and 8-bit quantizations of the
+Whisper checkpoints that run on modest hardware with minimal quality
+loss. Real-time transcription is possible on consumer laptops, and
+batch transcription scales to longer audio with speaker diarization
+and word-level timestamps.
+
+Widely used as a library inside desktop applications, mobile apps, and
+server-side transcription pipelines that don't want Python
+dependencies. Brethof Voice Pro, Jan, KoboldCpp, and many other tools
+embed whisper.cpp.
+
+**Features:**
+- Pure C/C++ with no runtime dependencies
+- GGML quantization (4-bit, 5-bit, 8-bit Whisper variants)
+- {'Multiple backends': 'CPU, CUDA, Metal, Vulkan, OpenCL, SYCL, CoreML'}
+- Word-level timestamps and speaker diarization
+- Real-time transcription on consumer hardware
+- CLI, library, and language bindings (Python, Rust, Go, Node.js, …)
+- Supports Whisper tiny, base, small, medium, large, turbo
+
+**Use cases:**
+- Embedding local transcription in desktop / mobile apps
+- Offline transcription pipelines without Python
+- Real-time transcription on resource-constrained hardware
+- Edge deployments (Raspberry Pi, mobile, embedded)
+- Server-side transcription with predictable resource usage
 
 ---
 
@@ -1359,20 +1534,90 @@ RAG projects.
 ## Milvus
 
 **URL:** https://milvus.io
+**Repository:** https://github.com/milvus-io/milvus
 **llms.txt:** https://milvus.io/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
+**License:** open-source  |  **Deployment:** self-hosted  |  Platforms: linux
+**Tags:** vector-db, milvus, distributed, billion-scale, gpu, rag
 
-*Open-source cloud-native vector database built for billion-scale similarity search.*
+*Open-source cloud-native vector database built for billion-scale similarity search with separation of storage and compute.*
+
+Milvus is a distributed vector database designed for the largest vector
+workloads — billions of vectors, hundreds of billions of searches per
+day. Its architecture separates storage, compute, and coordination into
+independent services, letting each scale horizontally. At the cost of
+more operational complexity than smaller vector DBs, Milvus handles
+scale few other options reach.
+
+Milvus supports multiple index types optimized for different trade-offs
+(IVF_FLAT, IVF_SQ8, HNSW, SCANN, DISKANN, GPU_IVF_FLAT for GPU-accelerated
+search), multiple distance metrics, hybrid search, and filtered search
+with complex boolean predicates. Attu provides a graphical admin UI for
+cluster operations.
+
+For teams with smaller scale requirements, Milvus Lite ships as an
+embedded Python library using the same API as the full cluster — start
+local, graduate to distributed when the workload demands it.
+
+**Features:**
+- {'Distributed architecture': 'separated storage, compute, coordination'}
+- Multiple index types (IVF, HNSW, SCANN, DISKANN, GPU-accelerated)
+- {'Hybrid search': 'dense + sparse vectors + filters'}
+- Multi-tenancy through partitions and databases
+- Milvus Lite for embedded / local use with same API
+- GPU search support for large-scale low-latency workloads
+- Attu admin UI and CLI tools
+
+**Use cases:**
+- Vector search at 1B+ scale
+- High-QPS inference products with sub-50ms retrieval SLOs
+- Multi-tenant vector search in a single deployment
+- GPU-accelerated similarity search
+- Teams graduating from Milvus Lite (local) to production cluster
 
 ---
 
 ## pgvector
 
 **URL:** https://github.com/pgvector/pgvector
+**Repository:** https://github.com/pgvector/pgvector
 **llms.txt:** https://github.com/pgvector/pgvector/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
+**License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows
+**Tags:** vector-db, postgres, pgvector, extension, rag, hnsw
 
-*Postgres extension adding vector similarity search — the 'just use postgres' option.*
+*Postgres extension adding vector similarity search — the "just use Postgres" option for RAG.*
+
+pgvector is a PostgreSQL extension that adds vector similarity search
+to any Postgres database. It supports L2, inner product, and cosine
+distance; exact and approximate nearest-neighbor search via IVFFlat and
+HNSW indexes; and integrates with every Postgres client library on
+every platform.
+
+The appeal is simplicity: organizations already running Postgres can
+add vector search without provisioning a separate vector database,
+managing a second replication topology, or introducing a new client
+library. ACID transactions that join vector data with traditional
+relational data work out of the box.
+
+pgvector is supported by every major managed Postgres provider
+(Supabase, Neon, AWS RDS, GCP Cloud SQL, Azure Database for PostgreSQL,
+Crunchy Bridge), making it a safe default for RAG applications that
+don't have billion-scale vector requirements.
+
+**Features:**
+- Native Postgres extension — vectors as a first-class column type
+- Exact and approximate search (IVFFlat, HNSW indexes)
+- L2, inner product, and cosine distance
+- Integrates with every Postgres driver and ORM
+- ACID transactions joining vector and relational data
+- Supported by all major managed Postgres providers
+- Up to 16,000 dimensions per vector
+
+**Use cases:**
+- RAG applications where Postgres is already in the stack
+- Teams avoiding the operational burden of a dedicated vector DB
+- Applications mixing relational queries with vector search
+- Small-to-medium RAG (up to low-millions of vectors per table)
+- Rapid prototyping using free-tier Supabase / Neon
 
 ---
 
@@ -1422,10 +1667,44 @@ filters, and SLOs from the start.
 ## Weaviate
 
 **URL:** https://weaviate.io
+**Repository:** https://github.com/weaviate/weaviate
 **llms.txt:** https://weaviate.io/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
+**License:** open-source  |  **Deployment:** self-hosted  |  Platforms: linux
+**Tags:** vector-db, weaviate, hybrid-search, multi-tenancy, rag, go
 
-*Open-source vector database with built-in ML models, hybrid search, and modules for generative AI.*
+*Open-source vector database with built-in ML modules, hybrid search, and first-class RAG tooling.*
+
+Weaviate is an open-source vector database written in Go, designed for
+AI-native applications. It distinguishes itself from minimal vector
+stores by bundling vectorization modules (OpenAI, Cohere, HuggingFace,
+Ollama, and more) directly into the database — you can ingest raw text
+and have Weaviate embed it for you, without a separate embedding
+service.
+
+Weaviate supports hybrid search (dense + sparse, BM25F), multi-tenancy
+through tenants-per-class isolation, generative modules (RAG inside
+the database: query → retrieve → generate as one call), and a GraphQL-
+style API alongside REST. Cluster mode handles sharding and replication
+for production-scale deployments.
+
+Weaviate Cloud (serverless managed) is available for teams that don't
+want to operate the cluster themselves.
+
+**Features:**
+- Built-in vectorization modules (no separate embedding service needed)
+- Hybrid search combining dense vectors and BM25F sparse
+- Generative modules — RAG as a single database call
+- Multi-tenancy with per-tenant data isolation
+- Cluster mode with sharding and replication
+- GraphQL + REST APIs
+- Python, JavaScript, Go, Java clients
+
+**Use cases:**
+- Production RAG systems with built-in embedding pipelines
+- Multi-tenant SaaS where each customer needs isolated vector search
+- Applications combining keyword and semantic search
+- Teams wanting RAG-in-the-database rather than separate components
+- Hybrid search use cases requiring BM25F + vectors
 
 ---
 
@@ -1535,10 +1814,46 @@ provides a hosted version with managed ingestion and evaluation.
 ## Mem0
 
 **URL:** https://mem0.ai
-**llms.txt:** https://mem0.ai/llms.txt (missing)
-**License:** freemium  |  **Deployment:** library
+**Repository:** https://github.com/mem0ai/mem0
+**llms.txt:** https://docs.mem0.ai/llms.txt (missing)
+**License:** freemium  |  **Deployment:** library  |  Platforms: linux, macos, windows
+**Tags:** memory, agents, mem0, personalization, rag, long-term-memory
 
-*Memory layer for AI agents — persistent user preferences and context across sessions.*
+*Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions.*
+
+Mem0 is a memory framework that gives AI agents persistent, queryable
+memory across conversations. It extracts facts from each interaction
+("the user's dog is named Rex", "the user prefers Python over
+JavaScript"), stores them in a vector + graph hybrid index, and
+retrieves relevant memories when the agent needs context for a new
+query.
+
+Compared to raw vector databases where applications manage their own
+schema, Mem0 provides an opinionated memory abstraction: user-scoped
+memories, automatic fact extraction, memory updates (the dog's name
+changed? the old fact gets superseded), and ranked retrieval tuned for
+the agent-memory use case specifically.
+
+It integrates with LangChain, LlamaIndex, CrewAI, and any OpenAI-
+compatible client. Open-source core under Apache 2.0 with a managed
+hosted tier (Mem0 Cloud) for teams that don't want to operate the
+storage layer.
+
+**Features:**
+- Automatic fact extraction from conversation turns
+- User-scoped memories with updates and deletions
+- Vector + graph hybrid retrieval
+- Integrations with LangChain, LlamaIndex, CrewAI, raw OpenAI SDK
+- Multiple storage backends (Qdrant, Weaviate, pgvector, Chroma)
+- Open-source core (Apache 2.0) + managed cloud tier
+- Python and TypeScript SDKs
+
+**Use cases:**
+- Personalized chat assistants that remember user preferences
+- Customer support agents that track interaction history
+- Long-running agents that accumulate project-specific context
+- Multi-session agent workflows without bloating each prompt
+- Replacing ad-hoc "memory in the system prompt" with structured storage
 
 ---
 
@@ -1954,50 +2269,219 @@ A Pro tier adds multi-GPU training and priority support.
 ## Fireworks AI
 
 **URL:** https://fireworks.ai
-**llms.txt:** https://fireworks.ai/llms.txt (missing)
-**License:** commercial  |  **Deployment:** saas
+**llms.txt:** https://docs.fireworks.ai/llms.txt (missing)
+**License:** commercial  |  **Deployment:** saas  |  Platforms: linux, macos, windows
+**Tags:** inference, fireworks, serverless, fast, openai-compatible, fine-tuning
 
-*Production inference platform for open models — fastest-on-market serving for DeepSeek, Llama.*
+*Production inference platform for open-source models with industry-leading speed for DeepSeek, Llama, Qwen.*
+
+Fireworks AI is a production inference platform specializing in
+serving open-source LLMs at low latency and high throughput. Its
+inference stack (in-house optimized, built on FireAttention) regularly
+benchmarks as the fastest provider for DeepSeek-R1 / V3, Llama 3/4,
+Qwen 3, and other large open-weight models.
+
+Beyond serverless inference, Fireworks offers dedicated deployments
+(guaranteed capacity, custom models, SLA), fine-tuning as a managed
+service, and agent-oriented features like structured outputs, function
+calling, and JSON mode across every hosted model.
+
+It's a common pick for AI products that need open-weight models in
+production with strict latency requirements — voice agents, real-time
+coding assistants, high-QPS chat applications.
+
+**Features:**
+- Optimized inference stack with industry-leading tokens/sec benchmarks
+- 100+ open-source models (DeepSeek, Llama, Qwen, Mixtral, Mistral)
+- OpenAI-compatible API with streaming, tools, JSON mode
+- Fine-tuning as a service with managed serving
+- Dedicated deployments for guaranteed capacity and SLAs
+- {'Multimodal': 'text, vision, image generation, embedding, speech'}
+- Per-million-tokens and per-GPU-hour pricing tiers
+
+**Use cases:**
+- Production applications with strict latency requirements
+- Real-time AI products (voice agents, live coding, streaming chat)
+- Serving fine-tuned DeepSeek or Llama variants at scale
+- Migrating off OpenAI / Anthropic for cost reasons
+- Multi-model inference behind a single bill and dashboard
 
 ---
 
 ## Groq
 
 **URL:** https://groq.com
-**llms.txt:** https://groq.com/llms.txt (missing)
-**License:** commercial  |  **Deployment:** saas
+**llms.txt:** https://console.groq.com/llms.txt (missing)
+**License:** commercial  |  **Deployment:** saas  |  Platforms: linux, macos, windows
+**Tags:** inference, lpu, groq, saas, low-latency, openai-compatible
 
-*Ultra-low-latency inference on custom LPU chips — sub-second complete responses for chat models.*
+*Ultra-low-latency LLM inference on custom LPU silicon — sub-second complete responses and OpenAI-compatible API.*
+
+Groq operates a cloud inference service built on its own custom "Language
+Processing Unit" (LPU) silicon, designed specifically for transformer
+inference. The result is inference speeds measured in hundreds of tokens
+per second for models like Llama, Qwen, DeepSeek, and Kimi — fast enough
+that full multi-paragraph responses complete before a human reader can
+finish the first sentence.
+
+The API is OpenAI-compatible, so any application using the OpenAI client
+can point at Groq's endpoint with a base URL change. Pricing is
+per-million-tokens and competitive with other serverless inference
+providers, with the key differentiator being latency.
+
+Groq is a common pick for real-time applications: voice agents, live
+coding assistants, streaming chat UIs, and any use case where response
+latency (not token throughput) is the bottleneck.
+
+**Features:**
+- Custom LPU silicon purpose-built for LLM inference
+- 300-800+ tokens/sec on popular open-weight models
+- OpenAI-compatible API with streaming and tool use
+- Function calling and structured output support
+- {'Model catalog': 'Llama 3/4, Qwen, DeepSeek, Kimi, Gemma, Whisper'}
+- Free tier with generous rate limits for prototyping
+- Batch API for async high-volume jobs
+
+**Use cases:**
+- Real-time voice agents and conversational AI
+- Streaming chat UIs where time-to-first-token matters
+- Agent loops with many sequential LLM calls (speed compounds)
+- Live coding assistants (inline autocomplete, fast chat)
+- High-throughput inference pipelines with latency SLOs
 
 ---
 
 ## Modal
 
 **URL:** https://modal.com
-**llms.txt:** https://modal.com/llms.txt (missing)
-**License:** commercial  |  **Deployment:** saas
+**llms.txt:** https://modal.com/docs/llms.txt (missing)
+**License:** commercial  |  **Deployment:** saas  |  Platforms: linux, macos, windows
+**Tags:** serverless, gpu, python, modal, inference, training, saas
 
-*Serverless cloud platform for Python with first-class GPU support — deploy LLMs from code.*
+*Serverless cloud platform for Python with first-class GPU support — deploy LLMs, training jobs, and batch pipelines from code.*
+
+Modal is a serverless compute platform designed for Python workloads
+that need GPUs: LLM inference, model training, batch image generation,
+data processing, and long-running AI pipelines. You write functions in
+Python with decorators that specify container image, GPU type, memory,
+and schedule — Modal handles the rest: cold starts in seconds, billing
+per-second, auto-scaling to zero when idle.
+
+The developer experience is the differentiator. Locally-written Python
+functions deploy to cloud GPUs without leaving the editor: `modal run
+my_script.py` executes on an A100 or H100, `modal deploy` exposes it as
+an HTTPS endpoint. Popular use cases include hosting vLLM or SGLang for
+inference, running Unsloth fine-tuning jobs, and dispatching ComfyUI
+workflows at scale.
+
+Modal is used heavily by AI startups that want cloud GPUs without
+managing Kubernetes, and by teams that need bursty capacity without
+reserving hardware.
+
+**Features:**
+- Serverless Python functions on cloud GPUs (A100, H100, L4, L40S, …)
+- Sub-10-second cold starts with container snapshotting
+- {'Auto-scaling': 'scale to zero when idle, scale up under load'}
+- Per-second billing, no reserved capacity required
+- Built-in web endpoints, scheduled jobs, and WebSocket support
+- Volumes, secrets, and distributed dicts for state
+- CPU-only functions also supported for pipeline orchestration
+
+**Use cases:**
+- Serverless LLM inference hosting (vLLM, SGLang, TGI)
+- Fine-tuning jobs that need a GPU for a few hours, then shut down
+- Batch image / video generation with ComfyUI or diffusers
+- AI application backends where traffic is spiky
+- Replacing Kubernetes + GPU nodes for AI workloads
+- Webhooks, scheduled jobs, and event-driven AI pipelines
 
 ---
 
 ## Replicate
 
 **URL:** https://replicate.com
-**llms.txt:** https://replicate.com/llms.txt (missing)
-**License:** commercial  |  **Deployment:** saas
+**llms.txt:** https://replicate.com/docs/llms.txt (missing)
+**License:** commercial  |  **Deployment:** saas  |  Platforms: linux, macos, windows
+**Tags:** inference, replicate, api, open-source-models, saas, cog
 
-*Run open-source ML models via simple API calls — thousands of public models, custom deploys.*
+*Run thousands of open-source ML models via simple API calls — image, video, audio, text — with per-second billing.*
+
+Replicate is a cloud platform that hosts open-source ML models behind
+a unified REST API. Thousands of public models — Stable Diffusion,
+Flux, SDXL, LLaMA, Whisper, MusicGen, video generation, speech
+synthesis, CLIP embeddings, vision models, voice cloning — are
+immediately runnable without provisioning GPUs.
+
+Its differentiator is breadth over depth: where Groq and Fireworks
+optimize for a curated set of LLMs, Replicate covers the whole
+open-source ML landscape, including image / video / audio models that
+inference-only LLM platforms don't touch. Pricing is per-second of GPU
+time.
+
+Replicate also hosts custom model deploys (package your code + weights
+into a Cog container, push, get an endpoint) — useful for teams that
+want Replicate's serving infrastructure for their own fine-tuned or
+private models.
+
+**Features:**
+- Unified REST API across thousands of open-source models
+- {'Coverage': 'image, video, audio, text, vision, embeddings'}
+- {'Cog': 'containerize your own model and deploy to Replicate'}
+- Per-second GPU billing, scale-to-zero
+- Webhooks for long-running inference
+- Python, JavaScript, Go, Elixir, Swift clients
+- Integrations with LangChain, LlamaIndex, Vercel AI SDK
+
+**Use cases:**
+- Building apps that need multiple model types (text + image + audio)
+- Creative tools — image generation, voice synthesis, video
+- Hosting custom fine-tuned models without infrastructure
+- Prototyping with many different models before committing to one
+- Applications that can tolerate cold-start latencies (~10-30 seconds)
 
 ---
 
 ## Together AI
 
 **URL:** https://www.together.ai
-**llms.txt:** https://www.together.ai/llms.txt (missing)
-**License:** commercial  |  **Deployment:** saas
+**llms.txt:** https://docs.together.ai/llms.txt (missing)
+**License:** commercial  |  **Deployment:** saas  |  Platforms: linux, macos, windows
+**Tags:** inference, together, serverless, openai-compatible, fine-tuning
 
-*Serverless inference for 200+ open-source models with OpenAI-compatible API — low latency.*
+*Serverless inference for 200+ open-source models with OpenAI-compatible API — low latency, competitive pricing.*
+
+Together AI is a serverless inference platform for open-source LLMs.
+It hosts 200+ models including the Llama, Qwen, DeepSeek, Mistral,
+Gemma, and Mixtral families, along with image models (FLUX, SD3) and
+embedding models — all behind a unified OpenAI-compatible API.
+
+Together's positioning is "run open-source at production speed without
+operating GPUs." Its inference stack is tuned on top of vLLM and
+in-house optimizations, delivering competitive tokens-per-second and
+cost-per-million-tokens among the serverless providers (Fireworks,
+Groq, DeepInfra, Replicate).
+
+Together also hosts fine-tuning jobs (upload dataset → get a
+fine-tuned checkpoint → serve it on the same platform) and dedicated
+endpoints for teams needing isolated capacity. Their open-source
+`together` Python client and OpenAI compatibility make migration from
+OpenAI trivial.
+
+**Features:**
+- Serverless inference for 200+ open-source models
+- OpenAI-compatible API with streaming, tool use, structured outputs
+- Per-million-tokens pricing with tiered rate limits
+- Managed fine-tuning (LoRA and full FT)
+- Dedicated endpoints for enterprise isolation
+- Image generation (FLUX, Stable Diffusion 3)
+- Embedding and reranking models
+
+**Use cases:**
+- Production applications needing open-source LLMs without GPU ops
+- Cost-optimized inference as an OpenAI alternative
+- Fine-tuning pipelines with managed training + serving
+- Multi-model architectures (chat + embeddings + image in one bill)
+- Teams wanting open-weight model access without self-hosting
 
 ---
 

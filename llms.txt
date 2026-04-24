@@ -7,7 +7,7 @@
 - [ExLlamaV2](https://github.com/turboderp-org/exllamav2): Fast inference library for quantized LLMs optimized for consumer NVIDIA GPUs. ✗
 - [GPT4All](https://www.nomic.ai/gpt4all): Privacy-first desktop chatbot running local LLMs on CPU with a Python SDK. ✗
 - [HuggingFace Transformers](https://huggingface.co/docs/transformers): Foundational Python library for loading and running thousands of transformer models in PyTorch, TensorFlow, and JAX. ✗
-- [Jan](https://jan.ai): Open-source ChatGPT alternative desktop app with local model support. ✗
+- [Jan](https://jan.ai): Open-source desktop ChatGPT alternative that runs local LLMs — privacy-first, no cloud, no account. ✗
 - [KoboldCpp](https://github.com/LostRuins/koboldcpp): Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP. ✗
 - [llama.cpp](https://github.com/ggml-org/llama.cpp): Reference C++ implementation for running LLaMA-family and other transformer models with GGUF quantization. ✗
 - [LM Studio](https://lmstudio.ai): Desktop application for discovering, downloading, and running local LLMs with a polished UI and OpenAI-compatible server. ✗
@@ -61,7 +61,7 @@
   - llms.txt: https://docs.continue.dev/llms.txt
 - [Cursor](https://cursor.com): AI-first fork of VS Code with deep LLM integration, agent mode, and codebase-aware context. ✓
   - llms.txt: https://docs.cursor.com/llms.txt
-- [GitHub Copilot](https://github.com/features/copilot): GitHub's native AI pair programmer with chat, autocomplete, and agent mode across major IDEs. ✗
+- [GitHub Copilot](https://github.com/features/copilot): GitHub's native AI coding assistant with chat, autocomplete, and agent mode across major IDEs. ✗
 - [Sourcegraph Cody](https://sourcegraph.com/cody): AI coding assistant with enterprise-grade code search context across massive codebases. ✗
 - [Windsurf](https://windsurf.com): AI-native IDE from Codeium with Cascade agent mode, deep indexing, and real-time code awareness. ✓
   - llms.txt: https://docs.windsurf.com/llms.txt
@@ -70,10 +70,10 @@
 
 - [ComfyUI](https://www.comfy.org): Node-based interface for building image, video, and audio generation workflows with any diffusion or multimodal model. ✓
   - llms.txt: https://docs.comfy.org/llms.txt
-- [Dify](https://dify.ai): Open-source LLM app development platform with visual prompt IDE, RAG, and agent builder. ✗
+- [Dify](https://dify.ai): Open-source LLM app development platform with visual prompt IDE, RAG pipelines, and agent builder in one product. ✗
 - [Flowise](https://flowiseai.com): Drag-and-drop UI for building LLM workflows and agents — open-source, self-hostable. ✗
 - [Langflow](https://www.langflow.org): Visual framework for building multi-agent and RAG applications with a node-based editor. ✗
-- [n8n](https://n8n.io): Fair-code workflow automation with native AI nodes — self-hostable automation platform. ✗
+- [n8n](https://n8n.io): Fair-code workflow automation with native AI nodes, 500+ integrations, and first-class self-hosting. ✗
 
 ## Voice (STT / TTS)
 
@@ -84,7 +84,7 @@
 - [Kokoro TTS](https://github.com/hexgrad/kokoro): Lightweight open-weight TTS model — surprisingly natural output at small model size. ✗
 - [OpenVoice](https://github.com/myshell-ai/OpenVoice): Versatile instant voice cloning with cross-lingual synthesis and granular style control. ✗
 - [Piper](https://github.com/rhasspy/piper): Fast, local neural text-to-speech with dozens of voices — optimized for Raspberry Pi. ✗
-- [whisper.cpp](https://github.com/ggml-org/whisper.cpp): C++ port of OpenAI Whisper — fast local transcription with no Python dependencies. ✗
+- [whisper.cpp](https://github.com/ggml-org/whisper.cpp): C++ port of OpenAI Whisper for local speech-to-text — no Python, runs on CPU and many GPU backends. ✗
 
 ## Image Generation
 
@@ -99,11 +99,11 @@
 - [Chroma](https://www.trychroma.com): Open-source embedding database designed for LLM applications — runs embedded, as a server, or in the cloud. ✓
   - llms.txt: https://docs.trychroma.com/llms.txt
 - [LanceDB](https://lancedb.com): Serverless vector DB on the Lance columnar format — embedded or cloud, multimodal-ready. ✗
-- [Milvus](https://milvus.io): Open-source cloud-native vector database built for billion-scale similarity search. ✗
-- [pgvector](https://github.com/pgvector/pgvector): Postgres extension adding vector similarity search — the 'just use postgres' option. ✗
+- [Milvus](https://milvus.io): Open-source cloud-native vector database built for billion-scale similarity search with separation of storage and compute. ✗
+- [pgvector](https://github.com/pgvector/pgvector): Postgres extension adding vector similarity search — the "just use Postgres" option for RAG. ✗
 - [Qdrant](https://qdrant.tech): Open-source, Rust-written vector database built for production scale — rich filtering, hybrid search, and multi-tenancy. ✓
   - llms.txt: https://qdrant.tech/llms.txt
-- [Weaviate](https://weaviate.io): Open-source vector database with built-in ML models, hybrid search, and modules for generative AI. ✗
+- [Weaviate](https://weaviate.io): Open-source vector database with built-in ML modules, hybrid search, and first-class RAG tooling. ✗
 
 ## RAG Frameworks
 
@@ -112,7 +112,7 @@
   - llms.txt: https://docs.haystack.deepset.ai/llms.txt
 - [LlamaIndex](https://www.llamaindex.ai): Leading RAG framework for connecting LLMs to private data — document loaders, indexes, retrievers, and agents. ✓
   - llms.txt: https://docs.llamaindex.ai/llms.txt
-- [Mem0](https://mem0.ai): Memory layer for AI agents — persistent user preferences and context across sessions. ✗
+- [Mem0](https://mem0.ai): Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions. ✗
 - [Quivr](https://www.quivr.com): Opinionated RAG framework: plug in your LLM, vector store, and files and get a chatbot. ✗
 - [Verba](https://github.com/weaviate/verba): Weaviate's open-source RAG chatbot — Golden RAGtriever reference implementation. ✗
 
@@ -164,11 +164,11 @@
 
 ## Deployment & Hosting
 
-- [Fireworks AI](https://fireworks.ai): Production inference platform for open models — fastest-on-market serving for DeepSeek, Llama. ✗
-- [Groq](https://groq.com): Ultra-low-latency inference on custom LPU chips — sub-second complete responses for chat models. ✗
-- [Modal](https://modal.com): Serverless cloud platform for Python with first-class GPU support — deploy LLMs from code. ✗
-- [Replicate](https://replicate.com): Run open-source ML models via simple API calls — thousands of public models, custom deploys. ✗
-- [Together AI](https://www.together.ai): Serverless inference for 200+ open-source models with OpenAI-compatible API — low latency. ✗
+- [Fireworks AI](https://fireworks.ai): Production inference platform for open-source models with industry-leading speed for DeepSeek, Llama, Qwen. ✗
+- [Groq](https://groq.com): Ultra-low-latency LLM inference on custom LPU silicon — sub-second complete responses and OpenAI-compatible API. ✗
+- [Modal](https://modal.com): Serverless cloud platform for Python with first-class GPU support — deploy LLMs, training jobs, and batch pipelines from code. ✗
+- [Replicate](https://replicate.com): Run thousands of open-source ML models via simple API calls — image, video, audio, text — with per-second billing. ✗
+- [Together AI](https://www.together.ai): Serverless inference for 200+ open-source models with OpenAI-compatible API — low latency, competitive pricing. ✗
 
 ## Desktop Applications
 

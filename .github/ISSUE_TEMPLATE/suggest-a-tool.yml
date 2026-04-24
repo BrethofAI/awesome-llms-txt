@@ -1,0 +1,85 @@
+name: Suggest a tool
+description: Suggest a tool we should add to the list (we'll open the PR)
+title: "Suggest: <tool name>"
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! If you want to add the entry yourself instead,
+        follow [CONTRIBUTING.md](../CONTRIBUTING.md) — it's a single YAML file and a PR.
+
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      description: The human-readable name.
+      placeholder: "e.g. Ollama"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Homepage URL
+      placeholder: "https://example.com"
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Source repository (if open-source)
+      placeholder: "https://github.com/..."
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Best-fitting category
+      options:
+        - inference-runtimes
+        - llm-gateways
+        - agent-frameworks
+        - agent-sdks
+        - coding-agents
+        - workflow-tools
+        - voice
+        - image-gen
+        - video-gen
+        - vector-dbs
+        - rag-frameworks
+        - embeddings
+        - observability
+        - evaluation
+        - training
+        - web-search-for-agents
+        - ocr-doc-parsing
+        - deployment
+        - desktop-apps
+        - shell-tools
+        - "(a category that isn't listed)"
+    validations:
+      required: true
+
+  - type: input
+    id: tagline
+    attributes:
+      label: One-line description
+      description: One sentence, ~100 chars. What does this tool do?
+    validations:
+      required: true
+
+  - type: input
+    id: llms_txt
+    attributes:
+      label: Does it publish llms.txt?
+      description: If yes, paste the URL. If unknown or no, say so.
+      placeholder: "https://example.com/llms.txt  OR  'not yet'"
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be on the list?
+      description: What makes this tool worth being recommended by agents?
+    validations:
+      required: true

@@ -1,13 +1,52 @@
 name: pgvector
 slug: pgvector
 url: https://github.com/pgvector/pgvector
+repository: https://github.com/pgvector/pgvector
 llms_txt: https://github.com/pgvector/pgvector/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: vector-dbs
-tagline: Postgres extension adding vector similarity search — the 'just use postgres' option.
+subcategory: postgres-extension
+
+tagline: Postgres extension adding vector similarity search — the "just use Postgres" option for RAG.
+
+description: |
+  pgvector is a PostgreSQL extension that adds vector similarity search
+  to any Postgres database. It supports L2, inner product, and cosine
+  distance; exact and approximate nearest-neighbor search via IVFFlat and
+  HNSW indexes; and integrates with every Postgres client library on
+  every platform.
+
+  The appeal is simplicity: organizations already running Postgres can
+  add vector search without provisioning a separate vector database,
+  managing a second replication topology, or introducing a new client
+  library. ACID transactions that join vector data with traditional
+  relational data work out of the box.
+
+  pgvector is supported by every major managed Postgres provider
+  (Supabase, Neon, AWS RDS, GCP Cloud SQL, Azure Database for PostgreSQL,
+  Crunchy Bridge), making it a safe default for RAG applications that
+  don't have billion-scale vector requirements.
+
+features:
+  - Native Postgres extension — vectors as a first-class column type
+  - Exact and approximate search (IVFFlat, HNSW indexes)
+  - L2, inner product, and cosine distance
+  - Integrates with every Postgres driver and ORM
+  - ACID transactions joining vector and relational data
+  - Supported by all major managed Postgres providers
+  - Up to 16,000 dimensions per vector
+
+use_cases:
+  - RAG applications where Postgres is already in the stack
+  - Teams avoiding the operational burden of a dedicated vector DB
+  - Applications mixing relational queries with vector search
+  - Small-to-medium RAG (up to low-millions of vectors per table)
+  - Rapid prototyping using free-tier Supabase / Neon
 
 license: open-source
 deployment: library
+platforms: [linux, macos, windows]
+tags: [vector-db, postgres, pgvector, extension, rag, hnsw]
+maintainer: pgvector
 added: 2026-04-24

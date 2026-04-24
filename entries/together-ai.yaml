@@ -1,13 +1,52 @@
 name: Together AI
 slug: together-ai
 url: https://www.together.ai
-llms_txt: https://www.together.ai/llms.txt
+repository: null
+llms_txt: https://docs.together.ai/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: deployment
-tagline: Serverless inference for 200+ open-source models with OpenAI-compatible API — low latency.
+subcategory: serverless-inference
+
+tagline: Serverless inference for 200+ open-source models with OpenAI-compatible API — low latency, competitive pricing.
+
+description: |
+  Together AI is a serverless inference platform for open-source LLMs.
+  It hosts 200+ models including the Llama, Qwen, DeepSeek, Mistral,
+  Gemma, and Mixtral families, along with image models (FLUX, SD3) and
+  embedding models — all behind a unified OpenAI-compatible API.
+
+  Together's positioning is "run open-source at production speed without
+  operating GPUs." Its inference stack is tuned on top of vLLM and
+  in-house optimizations, delivering competitive tokens-per-second and
+  cost-per-million-tokens among the serverless providers (Fireworks,
+  Groq, DeepInfra, Replicate).
+
+  Together also hosts fine-tuning jobs (upload dataset → get a
+  fine-tuned checkpoint → serve it on the same platform) and dedicated
+  endpoints for teams needing isolated capacity. Their open-source
+  `together` Python client and OpenAI compatibility make migration from
+  OpenAI trivial.
+
+features:
+  - Serverless inference for 200+ open-source models
+  - OpenAI-compatible API with streaming, tool use, structured outputs
+  - Per-million-tokens pricing with tiered rate limits
+  - Managed fine-tuning (LoRA and full FT)
+  - Dedicated endpoints for enterprise isolation
+  - Image generation (FLUX, Stable Diffusion 3)
+  - Embedding and reranking models
+
+use_cases:
+  - Production applications needing open-source LLMs without GPU ops
+  - Cost-optimized inference as an OpenAI alternative
+  - Fine-tuning pipelines with managed training + serving
+  - Multi-model architectures (chat + embeddings + image in one bill)
+  - Teams wanting open-weight model access without self-hosting
 
 license: commercial
 deployment: saas
+platforms: [linux, macos, windows]
+tags: [inference, together, serverless, openai-compatible, fine-tuning]
+maintainer: Together AI
 added: 2026-04-24

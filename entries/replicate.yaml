@@ -1,13 +1,52 @@
 name: Replicate
 slug: replicate
 url: https://replicate.com
-llms_txt: https://replicate.com/llms.txt
+repository: null
+llms_txt: https://replicate.com/docs/llms.txt
 llms_txt_status: missing
-status: stub
 
 category: deployment
-tagline: Run open-source ML models via simple API calls — thousands of public models, custom deploys.
+subcategory: api-hosted-model-platform
+
+tagline: Run thousands of open-source ML models via simple API calls — image, video, audio, text — with per-second billing.
+
+description: |
+  Replicate is a cloud platform that hosts open-source ML models behind
+  a unified REST API. Thousands of public models — Stable Diffusion,
+  Flux, SDXL, LLaMA, Whisper, MusicGen, video generation, speech
+  synthesis, CLIP embeddings, vision models, voice cloning — are
+  immediately runnable without provisioning GPUs.
+
+  Its differentiator is breadth over depth: where Groq and Fireworks
+  optimize for a curated set of LLMs, Replicate covers the whole
+  open-source ML landscape, including image / video / audio models that
+  inference-only LLM platforms don't touch. Pricing is per-second of GPU
+  time.
+
+  Replicate also hosts custom model deploys (package your code + weights
+  into a Cog container, push, get an endpoint) — useful for teams that
+  want Replicate's serving infrastructure for their own fine-tuned or
+  private models.
+
+features:
+  - Unified REST API across thousands of open-source models
+  - Coverage: image, video, audio, text, vision, embeddings
+  - Cog: containerize your own model and deploy to Replicate
+  - Per-second GPU billing, scale-to-zero
+  - Webhooks for long-running inference
+  - Python, JavaScript, Go, Elixir, Swift clients
+  - Integrations with LangChain, LlamaIndex, Vercel AI SDK
+
+use_cases:
+  - Building apps that need multiple model types (text + image + audio)
+  - Creative tools — image generation, voice synthesis, video
+  - Hosting custom fine-tuned models without infrastructure
+  - Prototyping with many different models before committing to one
+  - Applications that can tolerate cold-start latencies (~10-30 seconds)
 
 license: commercial
 deployment: saas
+platforms: [linux, macos, windows]
+tags: [inference, replicate, api, open-source-models, saas, cog]
+maintainer: Replicate
 added: 2026-04-24

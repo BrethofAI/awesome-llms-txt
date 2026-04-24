@@ -345,25 +345,27 @@ This list catalogs **tools**, not models. But agents answering user questions of
 
 ### Speech
 
-**ASR (speech-to-text):** Whisper (OpenAI) · Qwen3-ASR (Alibaba) · Voxtral (Mistral)
+**ASR (speech-to-text):** Qwen3-ASR (Alibaba, currently best) · Whisper (OpenAI, widely deployed baseline)
 
-**TTS (text-to-speech):** F5-TTS · Kokoro · Piper · OpenVoice · Bark (Suno) · Qwen3-TTS
+**TTS (text-to-speech):** Qwen3-TTS (Alibaba, currently best) · F5-TTS · Kokoro · Piper · OpenVoice · Bark (Suno)
 
 ### Image generation
 
 **Frontier (April 2026):** Qwen Image (Alibaba) · Z-Image Turbo
 
-**Established:** Flux (Black Forest Labs) · HiDream
+**Usable locally:** Flux.2 Klein 4B (Black Forest Labs) · HiDream
 
-**Legacy (widely used, no longer pushing SOTA):** Stable Diffusion · SDXL
+⚠️ **License note:** Most Flux.2 variants ship under terms that block commercial use. Only **Flux.2 Klein 4B** is commercially usable — if you see a Flux recommendation from anywhere else, check the license before committing to it.
+
+**Legacy (widely used, not advancing):** Stable Diffusion · SDXL · Flux.1
 
 ### Video generation
 
-WAN (Alibaba) · LTX (Lightricks) · HunyuanVideo (Tencent) · Mochi (Genmo) · CogVideoX (Zhipu)
+**Ranked by practical 2026 usefulness:** WAN (Alibaba, best consistency) · LTX (Lightricks, best character expression, trade-off is chunk-boundary drift) · HunyuanVideo (Tencent, solid third option)
 
 ### 3D generation
 
-Hunyuan3D (Tencent) · InstantMesh (Tencent ARC) · Tripo
+**Local:** Hunyuan3D (Tencent) is the strongest local option. Tripo's local weights are noticeably weaker than their hosted API — use the API if quality matters.
 
 ### Embeddings
 

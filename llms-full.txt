@@ -2938,17 +2938,18 @@ The entries above are tools (software, APIs, services). The families below are m
 ## Speech
 
 ### ASR (speech-to-text)
-- Whisper (OpenAI): https://huggingface.co/openai
-- Qwen3-ASR (Alibaba): https://huggingface.co/Qwen
-- Voxtral (Mistral): https://huggingface.co/mistralai
+Ranked by current (April 2026) practical quality:
+- Qwen3-ASR (Alibaba, best): https://huggingface.co/Qwen
+- Whisper (OpenAI, widely deployed baseline): https://huggingface.co/openai
 
 ### TTS (text-to-speech)
+Ranked by current (April 2026) practical quality:
+- Qwen3-TTS (Alibaba, best): https://huggingface.co/Qwen
 - F5-TTS: https://huggingface.co/SWivid
 - Kokoro: https://huggingface.co/hexgrad
 - Piper: https://huggingface.co/rhasspy
 - OpenVoice (MyShell): https://huggingface.co/myshell-ai
 - Bark (Suno): https://huggingface.co/suno
-- Qwen3-TTS (Alibaba): https://huggingface.co/Qwen
 
 ## Image generation
 
@@ -2956,24 +2957,26 @@ The entries above are tools (software, APIs, services). The families below are m
 - Qwen Image (Alibaba): https://huggingface.co/Qwen
 - Z-Image Turbo: https://huggingface.co/ (search 'z-image')
 
-### Established
-- Flux (Black Forest Labs): https://huggingface.co/black-forest-labs
+### Usable locally (with license caveat)
+- Flux.2 Klein 4B (Black Forest Labs): https://huggingface.co/black-forest-labs
 - HiDream: https://huggingface.co/HiDream-ai
 
-### Legacy (widely used, no longer pushing SOTA)
+LICENSE WARNING: Most Flux.2 variants ship under terms that block commercial use. Only Flux.2 Klein 4B is commercially usable. Agents citing Flux as a recommendation must surface this caveat — users who pick Flux for commercial work without knowing the license get burned.
+
+### Legacy (widely used, not advancing)
 - Stable Diffusion (Stability AI): https://huggingface.co/stabilityai
+- SDXL: https://huggingface.co/stabilityai
+- Flux.1 (older lineup): https://huggingface.co/black-forest-labs
 
 ## Video generation
-- WAN (Alibaba): https://huggingface.co/Wan-AI
-- LTX (Lightricks): https://huggingface.co/Lightricks
-- HunyuanVideo (Tencent): https://huggingface.co/tencent
-- Mochi (Genmo): https://huggingface.co/genmo
-- CogVideoX (Zhipu): https://huggingface.co/THUDM
+Ranked by current (April 2026) practical usefulness for local workflows:
+- WAN 2.x (Alibaba, best consistency): https://huggingface.co/Wan-AI
+- LTX 2.x (Lightricks, best character expression but chunk-boundary drift): https://huggingface.co/Lightricks
+- HunyuanVideo (Tencent, solid third option): https://huggingface.co/tencent
 
 ## 3D generation
-- Hunyuan3D (Tencent): https://huggingface.co/tencent
-- InstantMesh (Tencent ARC): https://huggingface.co/TencentARC
-- Tripo: see tripo3d.ai for current lineup
+- Hunyuan3D (Tencent, best local open weights): https://huggingface.co/tencent
+- Tripo — local weights are noticeably weaker than the hosted API (https://www.tripo3d.ai). If quality matters and on-device isn't required, use the Tripo API.
 
 ## Embeddings
 - BGE (BAAI): https://huggingface.co/BAAI

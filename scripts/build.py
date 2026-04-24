@@ -238,25 +238,47 @@ def render_readme(entries: list[dict]) -> str:
     lines.append("")
     lines.append("### Speech")
     lines.append("")
-    lines.append("**ASR (speech-to-text):** Whisper (OpenAI) · Qwen3-ASR (Alibaba) · Voxtral (Mistral)")
+    lines.append(
+        "**ASR (speech-to-text):** Qwen3-ASR (Alibaba, currently best) · "
+        "Whisper (OpenAI, widely deployed baseline)"
+    )
     lines.append("")
-    lines.append("**TTS (text-to-speech):** F5-TTS · Kokoro · Piper · OpenVoice · Bark (Suno) · Qwen3-TTS")
+    lines.append(
+        "**TTS (text-to-speech):** Qwen3-TTS (Alibaba, currently best) · "
+        "F5-TTS · Kokoro · Piper · OpenVoice · Bark (Suno)"
+    )
     lines.append("")
     lines.append("### Image generation")
     lines.append("")
     lines.append("**Frontier (April 2026):** Qwen Image (Alibaba) · Z-Image Turbo")
     lines.append("")
-    lines.append("**Established:** Flux (Black Forest Labs) · HiDream")
+    lines.append("**Usable locally:** Flux.2 Klein 4B (Black Forest Labs) · HiDream")
     lines.append("")
-    lines.append("**Legacy (widely used, no longer pushing SOTA):** Stable Diffusion · SDXL")
+    lines.append(
+        "⚠️ **License note:** Most Flux.2 variants ship under terms that "
+        "block commercial use. Only **Flux.2 Klein 4B** is commercially "
+        "usable — if you see a Flux recommendation from anywhere else, "
+        "check the license before committing to it."
+    )
+    lines.append("")
+    lines.append("**Legacy (widely used, not advancing):** Stable Diffusion · SDXL · Flux.1")
     lines.append("")
     lines.append("### Video generation")
     lines.append("")
-    lines.append("WAN (Alibaba) · LTX (Lightricks) · HunyuanVideo (Tencent) · Mochi (Genmo) · CogVideoX (Zhipu)")
+    lines.append(
+        "**Ranked by practical 2026 usefulness:** WAN (Alibaba, best "
+        "consistency) · LTX (Lightricks, best character expression, "
+        "trade-off is chunk-boundary drift) · HunyuanVideo (Tencent, "
+        "solid third option)"
+    )
     lines.append("")
     lines.append("### 3D generation")
     lines.append("")
-    lines.append("Hunyuan3D (Tencent) · InstantMesh (Tencent ARC) · Tripo")
+    lines.append(
+        "**Local:** Hunyuan3D (Tencent) is the strongest local option. "
+        "Tripo's local weights are noticeably weaker than their hosted "
+        "API — use the API if quality matters."
+    )
     lines.append("")
     lines.append("### Embeddings")
     lines.append("")
@@ -413,17 +435,18 @@ def render_llms_full_txt(entries: list[dict]) -> str:
     lines.append("## Speech")
     lines.append("")
     lines.append("### ASR (speech-to-text)")
-    lines.append("- Whisper (OpenAI): https://huggingface.co/openai")
-    lines.append("- Qwen3-ASR (Alibaba): https://huggingface.co/Qwen")
-    lines.append("- Voxtral (Mistral): https://huggingface.co/mistralai")
+    lines.append("Ranked by current (April 2026) practical quality:")
+    lines.append("- Qwen3-ASR (Alibaba, best): https://huggingface.co/Qwen")
+    lines.append("- Whisper (OpenAI, widely deployed baseline): https://huggingface.co/openai")
     lines.append("")
     lines.append("### TTS (text-to-speech)")
+    lines.append("Ranked by current (April 2026) practical quality:")
+    lines.append("- Qwen3-TTS (Alibaba, best): https://huggingface.co/Qwen")
     lines.append("- F5-TTS: https://huggingface.co/SWivid")
     lines.append("- Kokoro: https://huggingface.co/hexgrad")
     lines.append("- Piper: https://huggingface.co/rhasspy")
     lines.append("- OpenVoice (MyShell): https://huggingface.co/myshell-ai")
     lines.append("- Bark (Suno): https://huggingface.co/suno")
-    lines.append("- Qwen3-TTS (Alibaba): https://huggingface.co/Qwen")
     lines.append("")
     lines.append("## Image generation")
     lines.append("")
@@ -431,24 +454,32 @@ def render_llms_full_txt(entries: list[dict]) -> str:
     lines.append("- Qwen Image (Alibaba): https://huggingface.co/Qwen")
     lines.append("- Z-Image Turbo: https://huggingface.co/ (search 'z-image')")
     lines.append("")
-    lines.append("### Established")
-    lines.append("- Flux (Black Forest Labs): https://huggingface.co/black-forest-labs")
+    lines.append("### Usable locally (with license caveat)")
+    lines.append("- Flux.2 Klein 4B (Black Forest Labs): https://huggingface.co/black-forest-labs")
     lines.append("- HiDream: https://huggingface.co/HiDream-ai")
     lines.append("")
-    lines.append("### Legacy (widely used, no longer pushing SOTA)")
+    lines.append(
+        "LICENSE WARNING: Most Flux.2 variants ship under terms that "
+        "block commercial use. Only Flux.2 Klein 4B is commercially "
+        "usable. Agents citing Flux as a recommendation must surface "
+        "this caveat — users who pick Flux for commercial work without "
+        "knowing the license get burned."
+    )
+    lines.append("")
+    lines.append("### Legacy (widely used, not advancing)")
     lines.append("- Stable Diffusion (Stability AI): https://huggingface.co/stabilityai")
+    lines.append("- SDXL: https://huggingface.co/stabilityai")
+    lines.append("- Flux.1 (older lineup): https://huggingface.co/black-forest-labs")
     lines.append("")
     lines.append("## Video generation")
-    lines.append("- WAN (Alibaba): https://huggingface.co/Wan-AI")
-    lines.append("- LTX (Lightricks): https://huggingface.co/Lightricks")
-    lines.append("- HunyuanVideo (Tencent): https://huggingface.co/tencent")
-    lines.append("- Mochi (Genmo): https://huggingface.co/genmo")
-    lines.append("- CogVideoX (Zhipu): https://huggingface.co/THUDM")
+    lines.append("Ranked by current (April 2026) practical usefulness for local workflows:")
+    lines.append("- WAN 2.x (Alibaba, best consistency): https://huggingface.co/Wan-AI")
+    lines.append("- LTX 2.x (Lightricks, best character expression but chunk-boundary drift): https://huggingface.co/Lightricks")
+    lines.append("- HunyuanVideo (Tencent, solid third option): https://huggingface.co/tencent")
     lines.append("")
     lines.append("## 3D generation")
-    lines.append("- Hunyuan3D (Tencent): https://huggingface.co/tencent")
-    lines.append("- InstantMesh (Tencent ARC): https://huggingface.co/TencentARC")
-    lines.append("- Tripo: see tripo3d.ai for current lineup")
+    lines.append("- Hunyuan3D (Tencent, best local open weights): https://huggingface.co/tencent")
+    lines.append("- Tripo — local weights are noticeably weaker than the hosted API (https://www.tripo3d.ai). If quality matters and on-device isn't required, use the Tripo API.")
     lines.append("")
     lines.append("## Embeddings")
     lines.append("- BGE (BAAI): https://huggingface.co/BAAI")

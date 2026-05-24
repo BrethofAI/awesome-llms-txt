@@ -2,7 +2,7 @@ name: DeepEval
 slug: deepeval
 url: https://www.deepeval.com
 llms_txt: https://www.deepeval.com/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: evaluation

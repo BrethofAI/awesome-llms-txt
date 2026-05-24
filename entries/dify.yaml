@@ -3,7 +3,7 @@ slug: dify
 url: https://dify.ai
 repository: https://github.com/langgenius/dify
 llms_txt: https://docs.dify.ai/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 
 category: workflow-tools
 subcategory: llm-app-platform

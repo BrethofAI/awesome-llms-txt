@@ -2,7 +2,7 @@ name: Pydantic AI
 slug: pydantic-ai
 url: https://ai.pydantic.dev
 llms_txt: https://ai.pydantic.dev/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: agent-frameworks

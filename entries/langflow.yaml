@@ -2,7 +2,7 @@ name: Langflow
 slug: langflow
 url: https://www.langflow.org
 llms_txt: https://www.langflow.org/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: workflow-tools

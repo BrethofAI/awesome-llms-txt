@@ -3,7 +3,7 @@ slug: groq
 url: https://groq.com
 repository: null
 llms_txt: https://console.groq.com/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 
 category: deployment
 subcategory: ultra-low-latency-inference

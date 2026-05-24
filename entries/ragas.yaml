@@ -2,7 +2,7 @@ name: Ragas
 slug: ragas
 url: https://docs.ragas.io
 llms_txt: https://docs.ragas.io/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: evaluation

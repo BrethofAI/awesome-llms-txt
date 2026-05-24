@@ -3,7 +3,7 @@ slug: together-ai
 url: https://www.together.ai
 repository: null
 llms_txt: https://docs.together.ai/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 
 category: deployment
 subcategory: serverless-inference

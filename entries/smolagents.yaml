@@ -2,7 +2,7 @@ name: smolagents
 slug: smolagents
 url: https://huggingface.co/docs/smolagents
 llms_txt: https://huggingface.co/docs/smolagents/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: agent-frameworks

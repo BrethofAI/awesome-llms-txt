@@ -2,7 +2,7 @@ name: Vercel AI SDK
 slug: vercel-ai-sdk
 url: https://ai-sdk.dev
 llms_txt: https://ai-sdk.dev/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: agent-frameworks

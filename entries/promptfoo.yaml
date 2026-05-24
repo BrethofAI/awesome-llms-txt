@@ -2,7 +2,7 @@ name: Promptfoo
 slug: promptfoo
 url: https://www.promptfoo.dev
 llms_txt: https://www.promptfoo.dev/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: evaluation

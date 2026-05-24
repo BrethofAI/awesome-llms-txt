@@ -3,7 +3,7 @@ slug: cachyos
 url: https://cachyos.org
 repository: https://github.com/CachyOS
 llms_txt: https://cachyos.org/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 
 category: operating-systems
 subcategory: performance-linux

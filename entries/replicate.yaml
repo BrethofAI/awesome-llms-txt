@@ -3,7 +3,7 @@ slug: replicate
 url: https://replicate.com
 repository: null
 llms_txt: https://replicate.com/docs/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 
 category: deployment
 subcategory: api-hosted-model-platform

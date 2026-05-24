@@ -2,7 +2,7 @@ name: Perplexity API
 slug: perplexity-api
 url: https://docs.perplexity.ai
 llms_txt: https://docs.perplexity.ai/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: web-search-for-agents

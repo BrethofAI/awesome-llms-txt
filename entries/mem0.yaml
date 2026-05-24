@@ -3,7 +3,7 @@ slug: mem0
 url: https://mem0.ai
 repository: https://github.com/mem0ai/mem0
 llms_txt: https://docs.mem0.ai/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 
 category: rag-frameworks
 subcategory: agent-memory-layer

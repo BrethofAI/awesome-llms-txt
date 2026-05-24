@@ -3,7 +3,7 @@ slug: lm-studio
 url: https://lmstudio.ai
 repository: null
 llms_txt: https://lmstudio.ai/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 
 category: inference-runtimes
 subcategory: desktop-llm-runtime

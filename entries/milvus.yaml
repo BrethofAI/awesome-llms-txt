@@ -3,7 +3,7 @@ slug: milvus
 url: https://milvus.io
 repository: https://github.com/milvus-io/milvus
 llms_txt: https://milvus.io/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 
 category: vector-dbs
 subcategory: distributed-vector-db

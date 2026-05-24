@@ -2,7 +2,7 @@ name: SerpAPI
 slug: serpapi
 url: https://serpapi.com
 llms_txt: https://serpapi.com/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: web-search-for-agents

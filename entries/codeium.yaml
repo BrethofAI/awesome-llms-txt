@@ -2,7 +2,7 @@ name: Codeium
 slug: codeium
 url: https://codeium.com
 llms_txt: https://codeium.com/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: coding-agents

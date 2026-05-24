@@ -2,7 +2,7 @@ name: Tavily
 slug: tavily
 url: https://tavily.com
 llms_txt: https://tavily.com/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: web-search-for-agents

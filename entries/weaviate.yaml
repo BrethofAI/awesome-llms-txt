@@ -3,7 +3,7 @@ slug: weaviate
 url: https://weaviate.io
 repository: https://github.com/weaviate/weaviate
 llms_txt: https://weaviate.io/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 
 category: vector-dbs
 subcategory: open-source-vector-db

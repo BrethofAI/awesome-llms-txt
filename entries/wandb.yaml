@@ -2,7 +2,7 @@ name: Weights & Biases
 slug: wandb
 url: https://wandb.ai
 llms_txt: https://wandb.ai/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: observability

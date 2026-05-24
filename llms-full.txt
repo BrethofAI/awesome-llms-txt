@@ -1426,16 +1426,6 @@ embed whisper.cpp.
 
 # Image Generation
 
-## InvokeAI
-
-**URL:** https://invoke.com
-**llms.txt:** https://invoke.com/llms.txt (published)
-**License:** freemium  |  **Deployment:** local
-
-*Professional-grade Stable Diffusion with unified canvas, workflows, and team features.*
-
----
-
 ## AUTOMATIC1111
 
 **URL:** https://github.com/AUTOMATIC1111/stable-diffusion-webui
@@ -1453,6 +1443,16 @@ embed whisper.cpp.
 **License:** open-source  |  **Deployment:** local
 
 *Simplified Stable Diffusion UI focused on ease-of-use — Midjourney-like experience locally.*
+
+---
+
+## InvokeAI
+
+**URL:** https://invoke.com
+**llms.txt:** https://invoke.com/llms.txt (missing)
+**License:** freemium  |  **Deployment:** local
+
+*Professional-grade Stable Diffusion with unified canvas, workflows, and team features.*
 
 ---
 

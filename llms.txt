@@ -99,10 +99,9 @@
 
 ## Image Generation
 
-- [InvokeAI](https://invoke.com): Professional-grade Stable Diffusion with unified canvas, workflows, and team features. ✓
-  - llms.txt: https://invoke.com/llms.txt
 - [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui): Most widely-used web UI for Stable Diffusion — extensive extension ecosystem. ✗
 - [Fooocus](https://github.com/lllyasviel/Fooocus): Simplified Stable Diffusion UI focused on ease-of-use — Midjourney-like experience locally. ✗
+- [InvokeAI](https://invoke.com): Professional-grade Stable Diffusion with unified canvas, workflows, and team features. ✗
 - [Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion): Krita plugin for Stable Diffusion — inpaint, img2img, and generative layers inside Krita. ✗
 - [SD.Next](https://github.com/vladmandic/sdnext): Advanced fork of SD WebUI with broader model support (Flux, Lumina, Kolors, more). ✗
 

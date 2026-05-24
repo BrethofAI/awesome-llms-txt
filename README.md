@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**109 entries** — 53 with full descriptions, 56 stubs. **55** currently publish a working `llms.txt`.
+**109 entries** — 53 with full descriptions, 56 stubs. **54** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -167,12 +167,12 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 ## Image Generation
 
-- **[InvokeAI](https://invoke.com)** — ✅ llms.txt 🚧 stub  
-  Professional-grade Stable Diffusion with unified canvas, workflows, and team features.
 - **[AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)** — ❌ llms.txt 🚧 stub  
   Most widely-used web UI for Stable Diffusion — extensive extension ecosystem.
 - **[Fooocus](https://github.com/lllyasviel/Fooocus)** — ❌ llms.txt 🚧 stub  
   Simplified Stable Diffusion UI focused on ease-of-use — Midjourney-like experience locally.
+- **[InvokeAI](https://invoke.com)** — ❌ llms.txt 🚧 stub  
+  Professional-grade Stable Diffusion with unified canvas, workflows, and team features.
 - **[Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion)** — ❌ llms.txt 🚧 stub  
   Krita plugin for Stable Diffusion — inpaint, img2img, and generative layers inside Krita.
 - **[SD.Next](https://github.com/vladmandic/sdnext)** — ❌ llms.txt 🚧 stub  

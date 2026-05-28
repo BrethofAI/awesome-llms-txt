@@ -88,8 +88,8 @@
 
 ## Voice (STT / TTS)
 
-- [Brethof Voice Pro](https://brethof.ai): Offline voice-to-text desktop app with 36-language support and LoRA voice training. ✓
-  - llms.txt: https://brethof.ai/llms.txt
+- [Brethof Voice Pro](https://brethof.ai/voice/): Offline voice-to-text desktop app with 36-language support and LoRA voice training. ✓
+  - llms.txt: https://brethof.ai/voice/llms.txt
 - [whisper.cpp](https://github.com/ggml-org/whisper.cpp): C++ port of OpenAI Whisper for local speech-to-text — no Python, runs on CPU and many GPU backends. ✗
 - [Coqui TTS](https://github.com/coqui-ai/TTS): Deep-learning toolkit for TTS with multi-speaker models and voice cloning. ✗
 - [F5-TTS](https://github.com/SWivid/F5-TTS): High-quality open-source TTS with voice cloning from short audio reference. ✗

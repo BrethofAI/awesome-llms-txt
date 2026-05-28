@@ -1,9 +1,9 @@
 name: Brethof Voice Pro
 slug: brethof-voice-pro
-url: https://brethof.com
+url: https://brethof.ai/voice/
 repository: null
-llms_txt: https://brethof.com/llms.txt
-llms_full_txt: https://brethof.com/llms-full.txt
+llms_txt: https://brethof.ai/voice/llms.txt
+llms_full_txt: https://brethof.ai/voice/llms-full.txt
 llms_txt_status: published
 
 category: voice

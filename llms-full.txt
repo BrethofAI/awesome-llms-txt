@@ -1287,8 +1287,8 @@ provides managed hosting for teams that don't want to run Docker.
 
 ## Brethof Voice Pro
 
-**URL:** https://brethof.com
-**llms.txt:** https://brethof.com/llms.txt (published)
+**URL:** https://brethof.ai
+**llms.txt:** https://brethof.ai/llms.txt (published)
 **License:** commercial  |  **Deployment:** local  |  Platforms: linux, windows
 **Tags:** asr, qwen3, lora, offline, vulkan, privacy-first, speech-to-text
 

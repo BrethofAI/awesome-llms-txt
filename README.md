@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**109 entries** — 53 with full descriptions, 56 stubs. **54** currently publish a working `llms.txt`.
+**110 entries** — 54 with full descriptions, 56 stubs. **55** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -37,7 +37,7 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 - [Observability](#observability) (5)
 - [Evaluation](#evaluation) (3)
 - [Training & Fine-tuning](#training--fine-tuning) (6)
-- [Web Search for Agents](#web-search-for-agents) (5)
+- [Web Search for Agents](#web-search-for-agents) (6)
 - [OCR & Document Parsing](#ocr--document-parsing) (3)
 - [Deployment & Hosting](#deployment--hosting) (7)
 - [Desktop Applications](#desktop-applications) (3)
@@ -260,6 +260,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 ## Web Search for Agents
 
+- **[AnswerLens](https://app.sfdj.net)** — ✅ llms.txt  
+  B2B SaaS public-evidence audit for AEO/GEO readiness, comparison pages, proof, and llms.txt.
 - **[Perplexity API](https://docs.perplexity.ai)** — ✅ llms.txt 🚧 stub  
   API access to Perplexity's search-augmented LLMs — Sonar models with live citations.
 - **[SerpAPI](https://serpapi.com)** — ✅ llms.txt 🚧 stub  

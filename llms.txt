@@ -175,6 +175,8 @@
 
 ## Web Search for Agents
 
+- [AnswerLens](https://app.sfdj.net): B2B SaaS public-evidence audit for AEO/GEO readiness, comparison pages, proof, and llms.txt. ✓
+  - llms.txt: https://app.sfdj.net/llms.txt
 - [Perplexity API](https://docs.perplexity.ai): API access to Perplexity's search-augmented LLMs — Sonar models with live citations. ✓
   - llms.txt: https://docs.perplexity.ai/llms.txt
 - [SerpAPI](https://serpapi.com): Scraping API for Google, Bing, DuckDuckGo and 15+ search engines — structured JSON results. ✓

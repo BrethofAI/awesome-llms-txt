@@ -1,0 +1,34 @@
+name: AnswerLens
+slug: answerlens
+url: https://app.sfdj.net
+llms_txt: https://app.sfdj.net/llms.txt
+llms_txt_status: published
+
+category: web-search-for-agents
+subcategory: public-evidence-audit
+tagline: B2B SaaS public-evidence audit for AEO/GEO readiness, comparison pages, proof, and llms.txt.
+
+description: |
+  AnswerLens audits the public evidence layer of B2B SaaS websites. It checks whether a site has enough visible material for a person or an agent to understand the product, buyer, pricing boundaries, proof, docs, trust pages, competitor context, and llms.txt.
+
+  The reports focus on public pages, not private analytics or keyword data. A free report gives a diagnostic view; paid reports turn the findings into a validation brief, monitoring baseline, recovery check, or implementation-ready plan.
+
+features:
+  - Audits pricing, comparison, use-case, proof, docs/help, trust/security, sitemap, schema, canonical, freshness, and llms.txt signals.
+  - Produces source-backed free reports and paid implementation briefs for B2B SaaS operators.
+  - Helps teams decide whether a public-evidence gap needs content, technical cleanup, monitoring, or no action.
+  - Keeps private admin, dashboard, and report-detail routes out of crawler-facing guidance.
+
+use_cases:
+  - Reviewing whether a SaaS website has enough public evidence before starting AEO/GEO content work.
+  - Checking comparison, pricing, proof, and trust pages before a launch, repositioning, or recovery pass.
+  - Creating an agency client-intake baseline for public-evidence gaps without asking for analytics access.
+  - Maintaining a clean llms.txt and sitemap-backed public surface for agents and search systems.
+
+license: paid
+deployment: saas
+platforms: [web]
+tags: [aeo, geo, ai-search, saas, public-evidence, llms-txt]
+
+maintainer: AnswerLens
+added: 2026-07-04

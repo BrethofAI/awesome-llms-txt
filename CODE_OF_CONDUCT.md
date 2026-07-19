@@ -28,7 +28,7 @@ tools listed here.
 
 The repo maintainer (Brethof AI) reviews reports and may close PRs,
 lock issues, or block contributors as needed. For serious incidents,
-contact: marketing@brethofai.xyz
+contact: hello@brethof.ai
 
 ## Attribution
 

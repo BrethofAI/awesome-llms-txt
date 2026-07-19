@@ -1,0 +1,38 @@
+name: Xquik
+slug: xquik
+url: https://xquik.com
+llms_txt: https://xquik.com/llms.txt
+llms_full_txt: https://xquik.com/llms-full.txt
+llms_txt_status: published
+
+category: web-search-for-agents
+subcategory: x-data-and-automation
+tagline: X data and automation through REST, webhooks, MCP, and SDKs. Not affiliated with X Corp.
+
+description: |
+  Xquik supports public X data search, structured exports, account and topic
+  monitoring, signed webhooks, giveaway draws, and connected-account actions.
+  AI agents can use its hosted Streamable HTTP MCP endpoint, while applications
+  can integrate through its REST API, OpenAPI 3.1 schema, and public SDKs.
+
+  Xquik is an independent third-party service. Not affiliated with X Corp.
+  "Twitter" and "X" are trademarks of X Corp.
+
+features:
+  - Search public posts, accounts, replies, mentions, reposts, lists, and follower data
+  - Export results as CSV, XLSX, JSON, or Markdown
+  - Monitor accounts or topics and receive signed webhook events
+  - Connect AI agents through a hosted Streamable HTTP MCP endpoint
+  - Integrate through an OpenAPI 3.1 schema and public SDKs
+
+use_cases:
+  - Research public X conversations and accounts
+  - Automate monitoring, exports, and connected-account workflows
+  - Give AI agents access to structured X data and actions
+
+license: commercial
+deployment: saas
+platforms: [web]
+tags: [x, twitter, automation, mcp, api, webhooks, openapi]
+maintainer: Xquik
+added: 2026-06-23

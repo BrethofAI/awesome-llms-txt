@@ -56,7 +56,7 @@ def load_entries() -> list[dict[str, Any]]:
     """Load every *.yaml file under entries/ and return as a list of dicts."""
     entries: list[dict[str, Any]] = []
     for yaml_path in sorted(ENTRIES_DIR.glob("*.yaml")):
-        with yaml_path.open() as f:
+        with yaml_path.open(encoding="utf-8") as f:
             data = yaml.safe_load(f)
         if not isinstance(data, dict):
             print(f"  warn: {yaml_path.name} did not parse as dict, skipping")
@@ -514,9 +514,9 @@ def main() -> int:
         sys.exit("No entries found. Add at least one YAML to entries/.")
     print(f"loaded {len(entries)} entries")
 
-    README_OUT.write_text(render_readme(entries))
-    LLMS_OUT.write_text(render_llms_txt(entries))
-    LLMS_FULL_OUT.write_text(render_llms_full_txt(entries))
+    README_OUT.write_text(render_readme(entries), encoding="utf-8")
+    LLMS_OUT.write_text(render_llms_txt(entries), encoding="utf-8")
+    LLMS_FULL_OUT.write_text(render_llms_full_txt(entries), encoding="utf-8")
 
     print(f"wrote {README_OUT.name}   ({README_OUT.stat().st_size} bytes)")
     print(f"wrote {LLMS_OUT.name}       ({LLMS_OUT.stat().st_size} bytes)")

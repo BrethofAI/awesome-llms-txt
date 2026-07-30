@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**109 entries** — 53 with full descriptions, 56 stubs. **54** currently publish a working `llms.txt`.
+**109 entries** — 53 with full descriptions, 56 stubs. **52** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -118,8 +118,6 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 - **[Claude Code](https://claude.com/claude-code)** — ✅ llms.txt  
   Anthropic's terminal-first agentic coding assistant with deep tool use and codebase awareness.
-- **[Continue](https://www.continue.dev)** — ✅ llms.txt  
-  Open-source AI coding assistant for VS Code and JetBrains — bring any model, any provider, customizable.
 - **[Cursor](https://cursor.com)** — ✅ llms.txt  
   AI-first fork of VS Code with deep LLM integration, agent mode, and codebase-aware context.
 - **[GitHub Copilot](https://github.com/features/copilot)** — ✅ llms.txt  
@@ -128,10 +126,12 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   AI-native IDE from Codeium with Cascade agent mode, deep indexing, and real-time code awareness.
 - **[Aider](https://aider.chat)** — ❌ llms.txt  
   AI pair programming in your terminal — edits code across your git repo with commit-per-change discipline.
-- **[Codeium](https://codeium.com)** — ✅ llms.txt 🚧 stub  
-  Free AI autocomplete extension for 40+ editors — from the makers of Windsurf.
+- **[Continue](https://www.continue.dev)** — ❌ llms.txt  
+  Open-source AI coding assistant for VS Code and JetBrains — bring any model, any provider, customizable.
 - **[Amazon Q Developer](https://aws.amazon.com/q/developer/)** — ❌ llms.txt 🚧 stub  
   AWS's AI coding assistant with deep integration into AWS services and enterprise compliance.
+- **[Codeium](https://codeium.com)** — ❌ llms.txt 🚧 stub  
+  Free AI autocomplete extension for 40+ editors — from the makers of Windsurf.
 - **[Sourcegraph Cody](https://sourcegraph.com/cody)** — ❌ llms.txt 🚧 stub  
   AI coding assistant with enterprise-grade code search context across massive codebases.
 

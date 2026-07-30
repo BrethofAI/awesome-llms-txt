@@ -2,7 +2,9 @@ name: Codeium
 slug: codeium
 url: https://codeium.com
 llms_txt: https://codeium.com/llms.txt
-llms_txt_status: published
+# Returns HTTP 200 but serves the Next.js SPA shell (text/html), not an
+# llms.txt. A status-code-only check reads this as live; it is not.
+llms_txt_status: missing
 status: stub
 
 category: coding-agents

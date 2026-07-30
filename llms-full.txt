@@ -879,50 +879,6 @@ references available to other AI assistants.
 
 ---
 
-## Continue
-
-**URL:** https://www.continue.dev
-**Repository:** https://github.com/continuedev/continue
-**llms.txt:** https://docs.continue.dev/llms.txt (published)
-**License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows
-**Tags:** coding-agent, vscode, jetbrains, continue, open-source, local-llm
-
-*Open-source AI coding assistant for VS Code and JetBrains — bring any model, any provider, customizable.*
-
-Continue is an open-source AI coding assistant that runs as a VS Code or
-JetBrains extension. Unlike vendor-locked assistants, Continue is fully
-configurable: users bring their own model (cloud or local), their own
-provider (Anthropic, OpenAI, local via Ollama, vLLM, LM Studio, etc.),
-and define custom slash commands, context providers, and tools via a
-plain YAML config.
-
-It supports chat, inline autocomplete, tab-complete, edit-in-place, agent
-mode with tool use, codebase-aware retrieval, and team-shared configs. The
-extension works online or fully offline against local inference servers,
-making it a popular choice for organizations where code can't leave
-developer machines.
-
-Continue publishes `llms.txt` and `llms-full.txt` — a useful reference
-while building coding assistants on top of local or hybrid models.
-
-**Features:**
-- VS Code and JetBrains extensions
-- Bring-your-own-model (cloud or local)
-- Chat, autocomplete, edit-in-place, agent mode
-- Codebase retrieval and context providers
-- Custom slash commands and tools via YAML config
-- Team-shared configuration for consistent org-wide setups
-- Fully offline capable with local model servers
-
-**Use cases:**
-- IDE-integrated coding assistance without vendor lock-in
-- Air-gapped development teams using local LLMs
-- Organizations standardizing on a custom model + prompt setup
-- Developers who want Cursor-like features in vanilla VS Code
-- {'Hybrid setups': 'fast local completions, smart cloud chat'}
-
----
-
 ## Cursor
 
 **URL:** https://cursor.com
@@ -1093,13 +1049,48 @@ performance.
 
 ---
 
-## Codeium
+## Continue
 
-**URL:** https://codeium.com
-**llms.txt:** https://codeium.com/llms.txt (published)
-**License:** freemium  |  **Deployment:** local
+**URL:** https://www.continue.dev
+**Repository:** https://github.com/continuedev/continue
+**llms.txt:** https://docs.continue.dev/llms.txt (missing)
+**License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows
+**Tags:** coding-agent, vscode, jetbrains, continue, open-source, local-llm
 
-*Free AI autocomplete extension for 40+ editors — from the makers of Windsurf.*
+*Open-source AI coding assistant for VS Code and JetBrains — bring any model, any provider, customizable.*
+
+Continue is an open-source AI coding assistant that runs as a VS Code or
+JetBrains extension. Unlike vendor-locked assistants, Continue is fully
+configurable: users bring their own model (cloud or local), their own
+provider (Anthropic, OpenAI, local via Ollama, vLLM, LM Studio, etc.),
+and define custom slash commands, context providers, and tools via a
+plain YAML config.
+
+It supports chat, inline autocomplete, tab-complete, edit-in-place, agent
+mode with tool use, codebase-aware retrieval, and team-shared configs. The
+extension works online or fully offline against local inference servers,
+making it a popular choice for organizations where code can't leave
+developer machines.
+
+Continue used to publish `llms.txt` and `llms-full.txt`, but both have
+returned 404 since at least 2026-07-24. The docs site itself is still up
+at docs.continue.dev — only the machine-readable index went away.
+
+**Features:**
+- VS Code and JetBrains extensions
+- Bring-your-own-model (cloud or local)
+- Chat, autocomplete, edit-in-place, agent mode
+- Codebase retrieval and context providers
+- Custom slash commands and tools via YAML config
+- Team-shared configuration for consistent org-wide setups
+- Fully offline capable with local model servers
+
+**Use cases:**
+- IDE-integrated coding assistance without vendor lock-in
+- Air-gapped development teams using local LLMs
+- Organizations standardizing on a custom model + prompt setup
+- Developers who want Cursor-like features in vanilla VS Code
+- {'Hybrid setups': 'fast local completions, smart cloud chat'}
 
 ---
 
@@ -1110,6 +1101,16 @@ performance.
 **License:** commercial  |  **Deployment:** local
 
 *AWS's AI coding assistant with deep integration into AWS services and enterprise compliance.*
+
+---
+
+## Codeium
+
+**URL:** https://codeium.com
+**llms.txt:** https://codeium.com/llms.txt (missing)
+**License:** freemium  |  **Deployment:** local
+
+*Free AI autocomplete extension for 40+ editors — from the makers of Windsurf.*
 
 ---
 
@@ -2099,7 +2100,7 @@ OpenAI or Anthropic SDKs can send traces to LangSmith with minimal setup.
 ## Arize Phoenix
 
 **URL:** https://phoenix.arize.com
-**llms.txt:** https://phoenix.arize.com/llms.txt (published)
+**llms.txt:** https://arize.com/docs/phoenix/llms.txt (published)
 **License:** open-source  |  **Deployment:** self-hosted
 
 *Open-source ML and LLM observability platform with OpenTelemetry-based tracing.*

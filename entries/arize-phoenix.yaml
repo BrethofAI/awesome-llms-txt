@@ -1,7 +1,7 @@
 name: Arize Phoenix
 slug: arize-phoenix
 url: https://phoenix.arize.com
-llms_txt: https://phoenix.arize.com/llms.txt
+llms_txt: https://arize.com/docs/phoenix/llms.txt
 llms_txt_status: published
 status: stub
 

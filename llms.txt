@@ -60,8 +60,6 @@
 
 - [Claude Code](https://claude.com/claude-code): Anthropic's terminal-first agentic coding assistant with deep tool use and codebase awareness. ✓
   - llms.txt: https://docs.claude.com/llms.txt
-- [Continue](https://www.continue.dev): Open-source AI coding assistant for VS Code and JetBrains — bring any model, any provider, customizable. ✓
-  - llms.txt: https://docs.continue.dev/llms.txt
 - [Cursor](https://cursor.com): AI-first fork of VS Code with deep LLM integration, agent mode, and codebase-aware context. ✓
   - llms.txt: https://docs.cursor.com/llms.txt
 - [GitHub Copilot](https://github.com/features/copilot): GitHub's native AI coding assistant with chat, autocomplete, and agent mode across major IDEs. ✓
@@ -69,9 +67,9 @@
 - [Windsurf](https://windsurf.com): AI-native IDE from Codeium with Cascade agent mode, deep indexing, and real-time code awareness. ✓
   - llms.txt: https://docs.windsurf.com/llms.txt
 - [Aider](https://aider.chat): AI pair programming in your terminal — edits code across your git repo with commit-per-change discipline. ✗
-- [Codeium](https://codeium.com): Free AI autocomplete extension for 40+ editors — from the makers of Windsurf. ✓
-  - llms.txt: https://codeium.com/llms.txt
+- [Continue](https://www.continue.dev): Open-source AI coding assistant for VS Code and JetBrains — bring any model, any provider, customizable. ✗
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/): AWS's AI coding assistant with deep integration into AWS services and enterprise compliance. ✗
+- [Codeium](https://codeium.com): Free AI autocomplete extension for 40+ editors — from the makers of Windsurf. ✗
 - [Sourcegraph Cody](https://sourcegraph.com/cody): AI coding assistant with enterprise-grade code search context across massive codebases. ✗
 
 ## Workflow Tools
@@ -147,7 +145,7 @@
 - [LangSmith](https://www.langchain.com/langsmith): Commercial observability, debugging, and evaluation platform for LLM and agent applications. ✓
   - llms.txt: https://docs.smith.langchain.com/llms.txt
 - [Arize Phoenix](https://phoenix.arize.com): Open-source ML and LLM observability platform with OpenTelemetry-based tracing. ✓
-  - llms.txt: https://phoenix.arize.com/llms.txt
+  - llms.txt: https://arize.com/docs/phoenix/llms.txt
 - [Helicone](https://helicone.ai): Open-source observability for LLM apps — traces, prompts, evaluations, usage analytics. ✓
   - llms.txt: https://helicone.ai/llms.txt
 - [Weights & Biases](https://wandb.ai): Leading ML experiment tracking platform with dedicated LLM observability (Weave). ✓

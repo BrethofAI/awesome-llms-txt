@@ -90,6 +90,50 @@ chat UIs, and coding assistants.
 
 ---
 
+## Open WebUI
+
+**URL:** https://openwebui.com
+**Repository:** https://github.com/open-webui/open-webui
+**llms.txt:** https://docs.openwebui.com/llms.txt (published)
+**License:** open-source  |  **Deployment:** self-hosted  |  Platforms: linux
+**Tags:** chat-ui, self-hosted, open-webui, ollama, multi-user, privacy
+
+*Self-hosted, feature-rich chat interface for local and cloud LLMs — the "ChatGPT clone" of the open-source world.*
+
+Open WebUI is a self-hosted web interface for chatting with LLMs,
+supporting Ollama, any OpenAI-compatible endpoint, and cloud providers.
+It's visually and functionally comparable to ChatGPT's UI: conversation
+history, folder organization, model picker, custom system prompts,
+multimodal input (images, documents, audio), code interpreter, web
+search, and a plugin/tool system.
+
+It's deployed as a single Docker container and commonly paired with
+Ollama to give non-technical users a friendly front-end to local LLMs.
+Multi-user support with role-based access makes it suitable for teams or
+family setups on a shared home server.
+
+The project has strong momentum among self-hosters and privacy-conscious
+users who want the ChatGPT experience without sending data to OpenAI.
+
+**Features:**
+- ChatGPT-like web UI with conversation history
+- Multi-user with role-based access control (admin, user, pending)
+- Works with Ollama, any OpenAI-compatible API, or cloud providers
+- {'Multimodal input': 'images, documents, audio'}
+- RAG with local document uploads and web search
+- Custom models (system prompts) via the UI
+- Plugin/tool system (Functions, Pipelines)
+- Docker Compose deployment
+
+**Use cases:**
+- Self-hosted ChatGPT replacement for home or team use
+- Privacy-conscious individuals running local LLMs daily
+- Non-technical users accessing local inference via a web UI
+- Multi-user deployments where each person gets isolated history
+- Research environments comparing many models with the same UI
+
+---
+
 ## HuggingFace Transformers
 
 **URL:** https://huggingface.co/docs/transformers
@@ -264,50 +308,6 @@ dependent applications to on-premise inference without rewriting them.
 - Unified inference server covering text, image, and audio models
 - Edge and on-prem deployments without cloud dependencies
 - CPU-only environments needing local inference
-
----
-
-## Open WebUI
-
-**URL:** https://openwebui.com
-**Repository:** https://github.com/open-webui/open-webui
-**llms.txt:** https://docs.openwebui.com/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted  |  Platforms: linux
-**Tags:** chat-ui, self-hosted, open-webui, ollama, multi-user, privacy
-
-*Self-hosted, feature-rich chat interface for local and cloud LLMs — the "ChatGPT clone" of the open-source world.*
-
-Open WebUI is a self-hosted web interface for chatting with LLMs,
-supporting Ollama, any OpenAI-compatible endpoint, and cloud providers.
-It's visually and functionally comparable to ChatGPT's UI: conversation
-history, folder organization, model picker, custom system prompts,
-multimodal input (images, documents, audio), code interpreter, web
-search, and a plugin/tool system.
-
-It's deployed as a single Docker container and commonly paired with
-Ollama to give non-technical users a friendly front-end to local LLMs.
-Multi-user support with role-based access makes it suitable for teams or
-family setups on a shared home server.
-
-The project has strong momentum among self-hosters and privacy-conscious
-users who want the ChatGPT experience without sending data to OpenAI.
-
-**Features:**
-- ChatGPT-like web UI with conversation history
-- Multi-user with role-based access control (admin, user, pending)
-- Works with Ollama, any OpenAI-compatible API, or cloud providers
-- {'Multimodal input': 'images, documents, audio'}
-- RAG with local document uploads and web search
-- Custom models (system prompts) via the UI
-- Plugin/tool system (Functions, Pipelines)
-- Docker Compose deployment
-
-**Use cases:**
-- Self-hosted ChatGPT replacement for home or team use
-- Privacy-conscious individuals running local LLMs daily
-- Non-technical users accessing local inference via a web UI
-- Multi-user deployments where each person gets isolated history
-- Research environments comparing many models with the same UI
 
 ---
 
@@ -879,48 +879,6 @@ references available to other AI assistants.
 
 ---
 
-## Cursor
-
-**URL:** https://cursor.com
-**llms.txt:** https://docs.cursor.com/llms.txt (published)
-**License:** commercial  |  **Deployment:** local  |  Platforms: linux, macos, windows
-**Tags:** coding-agent, cursor, ide, vscode-fork, agent-mode, commercial
-
-*AI-first fork of VS Code with deep LLM integration, agent mode, and codebase-aware context.*
-
-Cursor is a commercial fork of VS Code that puts AI coding assistance at
-the center of the editor rather than as an extension. It ships chat,
-inline edits, multi-file rewrites, autocomplete, an agent mode for
-autonomous task execution, and codebase-wide context retrieval out of the
-box — all tuned against Claude and GPT models.
-
-Cursor differentiates on UX polish: @-mentions to reference files and
-symbols, diff-style inline edits, a native command palette for AI
-actions, and proprietary context-selection heuristics tuned for the
-provided models. Its agent mode (formerly "Composer") can execute
-multi-step refactors across many files with user approval gates.
-
-It's closed-source and subscription-based, with a free tier that has
-meaningful limits. Commercial adoption among professional developers is
-significant.
-
-**Features:**
-- VS Code fork with preserved extension compatibility
-- Chat with @-file, @-symbol, @-web context references
-- Inline edit with diff-preview before applying
-- Agent mode for multi-step autonomous refactors
-- Codebase-wide semantic search and retrieval
-- Tab autocomplete tuned for each supported model
-- Anthropic and OpenAI model support out of the box
-
-**Use cases:**
-- Professional developers who want maximum AI integration
-- Teams that want a consistent IDE across members with built-in AI
-- Large refactors that benefit from multi-file agent coordination
-- Developers migrating from pure VS Code who want more AI than extensions provide
-
----
-
 ## GitHub Copilot
 
 **URL:** https://github.com/features/copilot
@@ -1091,6 +1049,48 @@ at docs.continue.dev — only the machine-readable index went away.
 - Organizations standardizing on a custom model + prompt setup
 - Developers who want Cursor-like features in vanilla VS Code
 - {'Hybrid setups': 'fast local completions, smart cloud chat'}
+
+---
+
+## Cursor
+
+**URL:** https://cursor.com
+**llms.txt:** https://docs.cursor.com/llms.txt (missing)
+**License:** commercial  |  **Deployment:** local  |  Platforms: linux, macos, windows
+**Tags:** coding-agent, cursor, ide, vscode-fork, agent-mode, commercial
+
+*AI-first fork of VS Code with deep LLM integration, agent mode, and codebase-aware context.*
+
+Cursor is a commercial fork of VS Code that puts AI coding assistance at
+the center of the editor rather than as an extension. It ships chat,
+inline edits, multi-file rewrites, autocomplete, an agent mode for
+autonomous task execution, and codebase-wide context retrieval out of the
+box — all tuned against Claude and GPT models.
+
+Cursor differentiates on UX polish: @-mentions to reference files and
+symbols, diff-style inline edits, a native command palette for AI
+actions, and proprietary context-selection heuristics tuned for the
+provided models. Its agent mode (formerly "Composer") can execute
+multi-step refactors across many files with user approval gates.
+
+It's closed-source and subscription-based, with a free tier that has
+meaningful limits. Commercial adoption among professional developers is
+significant.
+
+**Features:**
+- VS Code fork with preserved extension compatibility
+- Chat with @-file, @-symbol, @-web context references
+- Inline edit with diff-preview before applying
+- Agent mode for multi-step autonomous refactors
+- Codebase-wide semantic search and retrieval
+- Tab autocomplete tuned for each supported model
+- Anthropic and OpenAI model support out of the box
+
+**Use cases:**
+- Professional developers who want maximum AI integration
+- Teams that want a consistent IDE across members with built-in AI
+- Large refactors that benefit from multi-file agent coordination
+- Developers migrating from pure VS Code who want more AI than extensions provide
 
 ---
 
@@ -1855,51 +1855,6 @@ production defaults.
 
 ---
 
-## LlamaIndex
-
-**URL:** https://www.llamaindex.ai
-**Repository:** https://github.com/run-llama/llama_index
-**llms.txt:** https://docs.llamaindex.ai/llms.txt (published)
-**License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows
-**Tags:** rag, llamaindex, retrieval, indexes, python, typescript, knowledge
-
-*Leading RAG framework for connecting LLMs to private data — document loaders, indexes, retrievers, and agents.*
-
-LlamaIndex is a data framework for building LLM applications over private
-data. Where LangChain is general-purpose, LlamaIndex is specifically
-optimized for retrieval-augmented generation (RAG): ingesting documents,
-building indexes, retrieving relevant chunks at query time, and composing
-them into prompts.
-
-It provides high-level abstractions for common RAG patterns (summary
-index, vector index, tree index, keyword index, knowledge graph index)
-and lower-level primitives for developers who want custom retrieval
-pipelines. Integrations span hundreds of data sources (PDFs, Notion,
-Slack, Google Drive, databases) and vector stores (Chroma, Qdrant,
-Weaviate, Pinecone, pgvector, LanceDB, …).
-
-LlamaIndex Agents extend the framework with tool-using agents that can
-query multiple indexes, call APIs, and compose results. LlamaCloud
-provides a hosted version with managed ingestion and evaluation.
-
-**Features:**
-- Document loaders for 200+ data sources
-- Multiple index types (vector, summary, tree, keyword, knowledge graph)
-- Query engines with advanced retrieval (HyDE, re-ranking, query decomposition)
-- Agent framework built on top of indexes and tools
-- Structured data extraction via the LlamaParse parser
-- Integrations with all major vector stores and LLM providers
-- Python and TypeScript implementations
-
-**Use cases:**
-- RAG applications over corporate document collections
-- Chatbots answering questions from manuals, wikis, support articles
-- Structured data extraction from PDFs, scanned documents
-- Agents querying multiple private knowledge sources
-- Research assistants over academic paper collections
-
----
-
 ## Mem0
 
 **URL:** https://mem0.ai
@@ -1943,6 +1898,51 @@ storage layer.
 - Long-running agents that accumulate project-specific context
 - Multi-session agent workflows without bloating each prompt
 - Replacing ad-hoc "memory in the system prompt" with structured storage
+
+---
+
+## LlamaIndex
+
+**URL:** https://www.llamaindex.ai
+**Repository:** https://github.com/run-llama/llama_index
+**llms.txt:** https://docs.llamaindex.ai/llms.txt (missing)
+**License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows
+**Tags:** rag, llamaindex, retrieval, indexes, python, typescript, knowledge
+
+*Leading RAG framework for connecting LLMs to private data — document loaders, indexes, retrievers, and agents.*
+
+LlamaIndex is a data framework for building LLM applications over private
+data. Where LangChain is general-purpose, LlamaIndex is specifically
+optimized for retrieval-augmented generation (RAG): ingesting documents,
+building indexes, retrieving relevant chunks at query time, and composing
+them into prompts.
+
+It provides high-level abstractions for common RAG patterns (summary
+index, vector index, tree index, keyword index, knowledge graph index)
+and lower-level primitives for developers who want custom retrieval
+pipelines. Integrations span hundreds of data sources (PDFs, Notion,
+Slack, Google Drive, databases) and vector stores (Chroma, Qdrant,
+Weaviate, Pinecone, pgvector, LanceDB, …).
+
+LlamaIndex Agents extend the framework with tool-using agents that can
+query multiple indexes, call APIs, and compose results. LlamaCloud
+provides a hosted version with managed ingestion and evaluation.
+
+**Features:**
+- Document loaders for 200+ data sources
+- Multiple index types (vector, summary, tree, keyword, knowledge graph)
+- Query engines with advanced retrieval (HyDE, re-ranking, query decomposition)
+- Agent framework built on top of indexes and tools
+- Structured data extraction via the LlamaParse parser
+- Integrations with all major vector stores and LLM providers
+- Python and TypeScript implementations
+
+**Use cases:**
+- RAG applications over corporate document collections
+- Chatbots answering questions from manuals, wikis, support articles
+- Structured data extraction from PDFs, scanned documents
+- Agents querying multiple private knowledge sources
+- Research assistants over academic paper collections
 
 ---
 
@@ -2057,7 +2057,7 @@ usage patterns.
 ## LangSmith
 
 **URL:** https://www.langchain.com/langsmith
-**llms.txt:** https://docs.smith.langchain.com/llms.txt (published)
+**llms.txt:** https://docs.smith.langchain.com/llms.txt (missing)
 **License:** commercial  |  **Deployment:** saas  |  Platforms: linux, macos, windows
 **Tags:** observability, tracing, evaluation, langchain, monitoring, debugging
 
@@ -2120,7 +2120,7 @@ OpenAI or Anthropic SDKs can send traces to LangSmith with minimal setup.
 ## Weights & Biases
 
 **URL:** https://wandb.ai
-**llms.txt:** https://wandb.ai/llms.txt (published)
+**llms.txt:** https://wandb.ai/llms.txt (missing)
 **License:** freemium  |  **Deployment:** saas
 
 *Leading ML experiment tracking platform with dedicated LLM observability (Weave).*
@@ -2335,6 +2335,16 @@ percent of speed.
 
 # Web Search for Agents
 
+## Exa
+
+**URL:** https://exa.ai
+**llms.txt:** https://exa.ai/llms.txt (published)
+**License:** freemium  |  **Deployment:** saas
+
+*Neural search API built for AI agents — semantic search across the web with content retrieval.*
+
+---
+
 ## Perplexity API
 
 **URL:** https://docs.perplexity.ai
@@ -2372,16 +2382,6 @@ percent of speed.
 **License:** freemium  |  **Deployment:** saas
 
 *Independent web search API with no tracking — alternative to Google / Bing for agent use.*
-
----
-
-## Exa
-
-**URL:** https://exa.ai
-**llms.txt:** https://exa.ai/llms.txt (missing)
-**License:** freemium  |  **Deployment:** saas
-
-*Neural search API built for AI agents — semantic search across the web with content retrieval.*
 
 ---
 
@@ -2837,7 +2837,7 @@ three.
 
 **URL:** https://cachyos.org
 **Repository:** https://github.com/CachyOS
-**llms.txt:** https://cachyos.org/llms.txt (published)
+**llms.txt:** https://cachyos.org/llms.txt (missing)
 **License:** open-source  |  **Deployment:** local  |  Platforms: linux
 **Tags:** linux, arch, cachyos, performance, kernel, nvidia, ai-workstation
 

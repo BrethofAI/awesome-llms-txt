@@ -176,6 +176,14 @@ def render_readme(entries: list[dict]) -> str:
     lines.append("- ❌ `llms.txt` — listed, but the tool hasn't published `llms.txt` yet")
     lines.append("- 🚧 stub — minimal entry; help us flesh it out via PR")
     lines.append("")
+    lines.append(
+        "✅/❌ is re-derived daily from what each URL actually serves — "
+        "including a check that the response is a real file and not a docs "
+        "site's catch-all HTML page. See "
+        "[CONTRIBUTING.md](./CONTRIBUTING.md#llms_txt_status-is-maintained-"
+        "automatically--dont-sweat-it)."
+    )
+    lines.append("")
     lines.append("## Contents")
     lines.append("")
 

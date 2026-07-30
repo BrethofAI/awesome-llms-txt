@@ -4,7 +4,7 @@ url: https://www.langchain.com/langsmith
 repository: null
 llms_txt: https://docs.smith.langchain.com/llms.txt
 llms_full_txt: https://docs.smith.langchain.com/llms-full.txt
-llms_txt_status: published
+llms_txt_status: missing
 
 category: observability
 subcategory: llm-tracing-and-eval

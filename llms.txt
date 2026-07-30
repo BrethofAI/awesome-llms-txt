@@ -8,11 +8,12 @@
   - llms.txt: https://lmstudio.ai/llms.txt
 - [Ollama](https://ollama.com): Run large language models locally via a single-binary server with a built-in model library. ✓
   - llms.txt: https://ollama.com/llms.txt
+- [Open WebUI](https://openwebui.com): Self-hosted, feature-rich chat interface for local and cloud LLMs — the "ChatGPT clone" of the open-source world. ✓
+  - llms.txt: https://docs.openwebui.com/llms.txt
 - [HuggingFace Transformers](https://huggingface.co/docs/transformers): Foundational Python library for loading and running thousands of transformer models in PyTorch, TensorFlow, and JAX. ✗
 - [Jan](https://jan.ai): Open-source desktop ChatGPT alternative that runs local LLMs — privacy-first, no cloud, no account. ✗
 - [llama.cpp](https://github.com/ggml-org/llama.cpp): Reference C++ implementation for running LLaMA-family and other transformer models with GGUF quantization. ✗
 - [LocalAI](https://localai.io): Self-hosted, OpenAI-compatible inference server for text, image, audio, and embedding models — runs anywhere. ✗
-- [Open WebUI](https://openwebui.com): Self-hosted, feature-rich chat interface for local and cloud LLMs — the "ChatGPT clone" of the open-source world. ✗
 - [vLLM](https://docs.vllm.ai): High-throughput, memory-efficient LLM inference engine with PagedAttention and continuous batching. ✗
 - [ExLlamaV2](https://github.com/turboderp-org/exllamav2): Fast inference library for quantized LLMs optimized for consumer NVIDIA GPUs. ✗
 - [GPT4All](https://www.nomic.ai/gpt4all): Privacy-first desktop chatbot running local LLMs on CPU with a Python SDK. ✗
@@ -60,14 +61,13 @@
 
 - [Claude Code](https://claude.com/claude-code): Anthropic's terminal-first agentic coding assistant with deep tool use and codebase awareness. ✓
   - llms.txt: https://docs.claude.com/llms.txt
-- [Cursor](https://cursor.com): AI-first fork of VS Code with deep LLM integration, agent mode, and codebase-aware context. ✓
-  - llms.txt: https://docs.cursor.com/llms.txt
 - [GitHub Copilot](https://github.com/features/copilot): GitHub's native AI coding assistant with chat, autocomplete, and agent mode across major IDEs. ✓
   - llms.txt: https://docs.github.com/llms.txt
 - [Windsurf](https://windsurf.com): AI-native IDE from Codeium with Cascade agent mode, deep indexing, and real-time code awareness. ✓
   - llms.txt: https://docs.windsurf.com/llms.txt
 - [Aider](https://aider.chat): AI pair programming in your terminal — edits code across your git repo with commit-per-change discipline. ✗
 - [Continue](https://www.continue.dev): Open-source AI coding assistant for VS Code and JetBrains — bring any model, any provider, customizable. ✗
+- [Cursor](https://cursor.com): AI-first fork of VS Code with deep LLM integration, agent mode, and codebase-aware context. ✗
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/): AWS's AI coding assistant with deep integration into AWS services and enterprise compliance. ✗
 - [Codeium](https://codeium.com): Free AI autocomplete extension for 40+ editors — from the makers of Windsurf. ✗
 - [Sourcegraph Cody](https://sourcegraph.com/cody): AI coding assistant with enterprise-grade code search context across massive codebases. ✗
@@ -124,10 +124,9 @@
 
 - [Haystack](https://haystack.deepset.ai): Production-oriented Python framework for building RAG, search, and agent pipelines with composable components. ✓
   - llms.txt: https://docs.haystack.deepset.ai/llms.txt
-- [LlamaIndex](https://www.llamaindex.ai): Leading RAG framework for connecting LLMs to private data — document loaders, indexes, retrievers, and agents. ✓
-  - llms.txt: https://docs.llamaindex.ai/llms.txt
 - [Mem0](https://mem0.ai): Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions. ✓
   - llms.txt: https://docs.mem0.ai/llms.txt
+- [LlamaIndex](https://www.llamaindex.ai): Leading RAG framework for connecting LLMs to private data — document loaders, indexes, retrievers, and agents. ✗
 - [AnythingLLM](https://anythingllm.com): All-in-one desktop and Docker RAG app — document ingestion, agents, multi-user. ✗
 - [Quivr](https://www.quivr.com): Opinionated RAG framework: plug in your LLM, vector store, and files and get a chatbot. ✗
 - [Verba](https://github.com/weaviate/verba): Weaviate's open-source RAG chatbot — Golden RAGtriever reference implementation. ✗
@@ -142,14 +141,12 @@
 
 - [Langfuse](https://langfuse.com): Open-source LLM engineering platform for tracing, evaluation, prompt management, and observability — self-host or cloud. ✓
   - llms.txt: https://langfuse.com/llms.txt
-- [LangSmith](https://www.langchain.com/langsmith): Commercial observability, debugging, and evaluation platform for LLM and agent applications. ✓
-  - llms.txt: https://docs.smith.langchain.com/llms.txt
+- [LangSmith](https://www.langchain.com/langsmith): Commercial observability, debugging, and evaluation platform for LLM and agent applications. ✗
 - [Arize Phoenix](https://phoenix.arize.com): Open-source ML and LLM observability platform with OpenTelemetry-based tracing. ✓
   - llms.txt: https://arize.com/docs/phoenix/llms.txt
 - [Helicone](https://helicone.ai): Open-source observability for LLM apps — traces, prompts, evaluations, usage analytics. ✓
   - llms.txt: https://helicone.ai/llms.txt
-- [Weights & Biases](https://wandb.ai): Leading ML experiment tracking platform with dedicated LLM observability (Weave). ✓
-  - llms.txt: https://wandb.ai/llms.txt
+- [Weights & Biases](https://wandb.ai): Leading ML experiment tracking platform with dedicated LLM observability (Weave). ✗
 
 ## Evaluation
 
@@ -173,6 +170,8 @@
 
 ## Web Search for Agents
 
+- [Exa](https://exa.ai): Neural search API built for AI agents — semantic search across the web with content retrieval. ✓
+  - llms.txt: https://exa.ai/llms.txt
 - [Perplexity API](https://docs.perplexity.ai): API access to Perplexity's search-augmented LLMs — Sonar models with live citations. ✓
   - llms.txt: https://docs.perplexity.ai/llms.txt
 - [SerpAPI](https://serpapi.com): Scraping API for Google, Bing, DuckDuckGo and 15+ search engines — structured JSON results. ✓
@@ -180,7 +179,6 @@
 - [Tavily](https://tavily.com): Search API optimized for LLM agents — RAG-ready results with citations. ✓
   - llms.txt: https://tavily.com/llms.txt
 - [Brave Search API](https://brave.com/search/api/): Independent web search API with no tracking — alternative to Google / Bing for agent use. ✗
-- [Exa](https://exa.ai): Neural search API built for AI agents — semantic search across the web with content retrieval. ✗
 
 ## OCR & Document Parsing
 
@@ -218,7 +216,6 @@
 
 ## Operating Systems (AI-capable Linux)
 
-- [CachyOS](https://cachyos.org): Arch-based Linux distribution with performance-tuned kernels, first-class NVIDIA support, and a popular choice for local AI / ML workloads. ✓
-  - llms.txt: https://cachyos.org/llms.txt
+- [CachyOS](https://cachyos.org): Arch-based Linux distribution with performance-tuned kernels, first-class NVIDIA support, and a popular choice for local AI / ML workloads. ✗
 - [Fedora](https://fedoraproject.org): Upstream of RHEL and the distro that drives most Linux desktop feature adoption (Wayland, PipeWire, systemd, ostree) — strong AI / ML packaging on top. ✗
 - [Ubuntu](https://ubuntu.com): The default Linux baseline for ML tutorials and cloud VMs — widely documented, increasingly controversial due to Snap-store enforcement and Canonical's direction. ✗

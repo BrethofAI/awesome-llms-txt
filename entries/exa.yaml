@@ -2,7 +2,7 @@ name: Exa
 slug: exa
 url: https://exa.ai
 llms_txt: https://exa.ai/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: web-search-for-agents

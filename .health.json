@@ -1,0 +1,878 @@
+{
+ "schema": 1,
+ "_comment": "Machine state for scripts/validate.py. Consecutive-outcome streaks per entry, capped at their thresholds and carrying no timestamps, so this file only changes when a URL's real state changes. Do not hand-edit.",
+ "entries": {
+  "agno": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "aider": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "amazon-q-developer": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "anthropic-sdk": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "anything-llm": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "arize-phoenix": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "autogen": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "automatic1111": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "axolotl": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "bge": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 401
+   }
+  },
+  "brave-search": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "brethof-voice-pro": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "cachyos": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "not_a_file",
+    "code": 200
+   }
+  },
+  "chroma": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "claude-agent-sdk": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "claude-code": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "claude-desktop": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "codeium": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "not_a_file",
+    "code": 200
+   }
+  },
+  "comfyui": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "continue-dev": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "coqui-tts": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "crewai": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "cursor": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "not_a_file",
+    "code": 200
+   }
+  },
+  "deepeval": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "dify": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "docling": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "dspy": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "exa": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "exllamav2": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "f5-tts": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "fastembed": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "fedora": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "fireworks-ai": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "flowise": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "fooocus": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "github-copilot": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "gpt4all": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "groq": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "haystack": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "helicone": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "huggingface-transformers": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "invokeai": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "not_a_file",
+    "code": 200
+   }
+  },
+  "jan": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "koboldcpp": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "kokoro-tts": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "krita-ai-diffusion": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "lancedb": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "langchain": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "langflow": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "langfuse": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "langgraph": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "langsmith": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "not_a_file",
+    "code": 200
+   }
+  },
+  "litellm": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "llama-cpp": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "llama-factory": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "llamaindex": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "not_a_file",
+    "code": 200
+   }
+  },
+  "lm-studio": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "localai": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "magentic": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "marker": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "mem0": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "milvus": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "mlc-llm": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "modal": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "ms-swift": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "n8n": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "ollama": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "open-interpreter": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "openai-swarm": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "openclaw": {
+   "ok_streak": 0,
+   "fail_streak": 0,
+   "last": {
+    "state": "transient",
+    "code": -1
+   }
+  },
+  "openvoice": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "openwebui": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "ostris-ai-toolkit": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "perplexity-api": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "pgvector": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "pinecone": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "piper": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "privategpt": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "promptfoo": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "pydantic-ai": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "qdrant": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "quivr": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "ragas": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "raycast-ai": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "replicate": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "runpod": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "sd-next": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "sentence-transformers": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "serpapi": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "sglang": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "shellgpt": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "smolagents": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "sourcegraph-cody": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "surrealdb": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "tavily": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "text-generation-webui": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "together-ai": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "trl": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "ubuntu": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "unsloth": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "unstructured": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "verba": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "vercel-ai-sdk": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "vllm": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "wandb": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "not_a_file",
+    "code": 200
+   }
+  },
+  "weaviate": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "whisper-cpp": {
+   "ok_streak": 0,
+   "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "windsurf": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "xai": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  }
+ }
+}

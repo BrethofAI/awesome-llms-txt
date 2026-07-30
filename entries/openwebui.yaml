@@ -3,7 +3,7 @@ slug: openwebui
 url: https://openwebui.com
 repository: https://github.com/open-webui/open-webui
 llms_txt: https://docs.openwebui.com/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 
 category: inference-runtimes
 subcategory: self-hosted-chat-ui

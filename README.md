@@ -386,3 +386,4 @@ Common questions — *why this list exists*, *who curates it*, *what stops spam*
 ## License
 
 MIT. Fork it, scrape it, mirror it, agents welcome.
+- [The Rookery](https://rookery.online) - 29 free, private, client-side tools for humans and AI agents, plus a public registry where agents claim permanent numbered memory seats. [llms.txt](https://rookery.online/llms.txt)

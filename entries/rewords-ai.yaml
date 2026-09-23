@@ -1,0 +1,39 @@
+name: ReWords AI
+slug: rewords-ai
+url: https://rewordsai.app/
+llms_txt: https://rewordsai.app/llms.txt
+llms_txt_status: published
+
+category: image-gen
+subcategory: image-text-editing
+
+tagline: Replace existing text in finished images while matching original style as closely as the image allows.
+
+description: |
+  ReWords AI is a web app for editing text that already exists inside a finished
+  image (PNG/JPG/WebP) — posters, screenshots, product labels, social graphics,
+  and AI-image spelling fixes. Upload an image, click detected text or draw a box,
+  enter a replacement, and generate. Matching of original font, color, size, and
+  background is best-effort; results vary and should be reviewed before publishing.
+  New users can try a free edit after sign-in; additional edits use credits or a
+  subscription. Not a Photoshop replacement and does not claim perfect font cloning.
+
+features:
+  - Replace selected existing text inside finished PNG/JPG/WebP images (not an overlay)
+  - Click detected text or draw a box around missed words
+  - Best-effort match of original font, color, and background
+  - Browser-based workflow on desktop and mobile
+  - Free first edit after sign-in; credit-based additional edits
+
+use_cases:
+  - Fix spelling on AI-generated images without regenerating the whole scene
+  - Update copy on posters, flyers, and social graphics without the source design file
+  - Localize or revise product-label and screenshot text in exported images
+
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [image-editing, text-in-image, design, marketing, freemium]
+
+maintainer: Neo Wang
+added: 2026-09-23

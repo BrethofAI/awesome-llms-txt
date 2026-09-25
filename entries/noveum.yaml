@@ -1,0 +1,34 @@
+name: Noveum
+slug: noveum
+url: https://noveum.ai
+repository: null
+llms_txt: https://noveum.ai/llms.txt
+llms_txt_status: published
+category: observability
+subcategory: agent-tracing-and-evaluation
+tagline: AI agent tracing, evaluation datasets, and model comparisons across quality, latency, and cost.
+description: |
+  Noveum is a hosted AI reliability platform for teams building agents and
+  LLM applications. Python and TypeScript SDKs capture application traces
+  so developers can inspect agent steps, LLM calls, latency, and token usage.
+
+  Teams can turn real interactions into evaluation datasets and compare
+  model outputs before changing production workflows. The hosted MCP server
+  lets compatible AI clients work with Noveum traces, datasets, and evaluations
+  using an authenticated connection. The hosted platform is proprietary;
+  its tracing SDKs are publicly available.
+features:
+  - Agent and LLM tracing with Python and TypeScript SDKs
+  - Evaluation datasets created from application traces
+  - Model comparisons across quality, latency, and cost
+  - Authenticated hosted MCP access to Noveum resources
+use_cases:
+  - Investigating failed or slow agent runs
+  - Building regression evaluation datasets from real interactions
+  - Comparing model choices before changing an application
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [observability, tracing, evaluation, agents, mcp]
+maintainer: Noveum
+added: 2026-09-25

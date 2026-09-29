@@ -1,0 +1,13 @@
+name: TextGen
+slug: textgen
+url: https://github.com/oobabooga/textgen
+llms_txt: https://github.com/oobabooga/textgen/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: inference-runtimes
+tagline: Open-source desktop app for local LLMs (formerly Text Generation WebUI) with chat, vision, tool-calling, UI and API.
+
+license: open-source
+deployment: local
+added: 2026-04-24

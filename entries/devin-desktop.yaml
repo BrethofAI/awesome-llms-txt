@@ -1,0 +1,55 @@
+name: Devin Desktop
+slug: devin-desktop
+url: https://devin.ai/desktop
+repository: null
+llms_txt: https://docs.devin.ai/llms.txt
+llms_full_txt: https://docs.devin.ai/llms-full.txt
+llms_txt_status: published
+
+category: coding-agents
+subcategory: ai-native-ide
+
+tagline: Cognition's AI IDE (formerly Windsurf) that runs local and cloud coding agents from one Agent Command Center.
+
+description: |
+  Devin Desktop is the new name for Windsurf, the AI-native IDE that
+  started life at Codeium and is now built by Cognition, the company
+  behind the Devin coding agent. Windsurf became Devin Desktop on
+  June 2, 2026, as an over-the-air update. It is the same editor with the
+  same features. The windsurf.com and codeium.com domains now redirect to
+  devin.ai/desktop.
+
+  The main change is the Agent Command Center, a Kanban-style view for
+  running and reviewing many agents at once, both local agents on your
+  machine and Devin Cloud agents. The classic IDE experience stays
+  available: editor, Open VSX extensions, keybindings, workflows and LSPs.
+  Cascade, the agentic assistant Windsurf was known for, is still there.
+  So are Tab completions and inline Command edits.
+
+  The primary local agent is now Devin Local, the same agent harness that
+  powers Devin CLI, with subagents, sandboxing, plan mode, worktrees and
+  permissions. You can use Devin Desktop with local-only agents; a Devin
+  Cloud subscription is not required.
+
+features:
+  - Agent Command Center to manage local and cloud agents in one view
+  - Devin Local agent (shared with Devin CLI) with subagents, plan mode and worktrees
+  - Cascade agentic assistant with memories, rules, skills, workflows and hooks
+  - Tab completions and inline Command edits
+  - MCP server support and AGENTS.md directory instructions
+  - Adaptive model router that picks a model per task
+  - SSH, Dev Containers and WSL support
+  - Installers for macOS, Windows and Linux (apt and yum repositories)
+
+use_cases:
+  - Developers who want an AI IDE that can also dispatch and review cloud agents
+  - Running several agent tasks in parallel in isolated git worktrees
+  - Existing Windsurf users, whose plans and work carry over unchanged
+  - Teams standardizing on one vendor for IDE, CLI and cloud coding agents
+
+license: commercial
+deployment: local
+platforms: [linux, macos, windows]
+tags: [coding-agent, devin, windsurf, cognition, ide, agent-mode, commercial]
+maintainer: Cognition
+added: 2026-04-24

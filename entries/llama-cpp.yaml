@@ -1,6 +1,6 @@
 name: llama.cpp
 slug: llama-cpp
-url: https://github.com/ggml-org/llama.cpp
+url: https://llama.app
 repository: https://github.com/ggml-org/llama.cpp
 llms_txt: https://github.com/ggml-org/llama.cpp/llms.txt
 llms_txt_status: missing

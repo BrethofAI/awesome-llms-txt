@@ -1,0 +1,14 @@
+name: ExLlamaV3
+slug: exllamav3
+url: https://github.com/turboderp-org/exllamav3
+repository: https://github.com/turboderp-org/exllamav3
+llms_txt: https://github.com/turboderp-org/exllamav3/llms.txt
+llms_txt_status: missing
+status: stub
+
+category: inference-runtimes
+tagline: Inference library for local LLMs on consumer GPUs with EXL3 quantization and tensor/expert parallelism. It succeeds ExLlamaV2.
+
+license: open-source
+deployment: library
+added: 2026-09-29

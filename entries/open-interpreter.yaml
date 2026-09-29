@@ -5,8 +5,8 @@ llms_txt: https://www.openinterpreter.com/llms.txt
 llms_txt_status: missing
 status: stub
 
-category: shell-tools
-tagline: Natural language interface to your computer — runs code locally to complete tasks from the CLI.
+category: coding-agents
+tagline: Open-source terminal coding agent optimized for low-cost and open-weight models.
 
 license: open-source
 deployment: cli

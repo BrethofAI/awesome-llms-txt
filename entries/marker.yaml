@@ -1,7 +1,7 @@
 name: Marker
 slug: marker
-url: https://github.com/VikParuchuri/marker
-llms_txt: https://github.com/VikParuchuri/marker/llms.txt
+url: https://github.com/datalab-to/marker
+llms_txt: https://github.com/datalab-to/marker/llms.txt
 llms_txt_status: missing
 status: stub
 

@@ -1,7 +1,7 @@
-name: LLaMA-Factory
+name: LlamaFactory
 slug: llama-factory
-url: https://github.com/hiyouga/LLaMA-Factory
-llms_txt: https://github.com/hiyouga/LLaMA-Factory/llms.txt
+url: https://github.com/hiyouga/LlamaFactory
+llms_txt: https://github.com/hiyouga/LlamaFactory/llms.txt
 llms_txt_status: missing
 status: stub
 

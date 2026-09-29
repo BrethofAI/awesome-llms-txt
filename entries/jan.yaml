@@ -1,7 +1,7 @@
 name: Jan
 slug: jan
 url: https://jan.ai
-repository: https://github.com/menloresearch/jan
+repository: https://github.com/janhq/jan
 llms_txt: https://jan.ai/llms.txt
 llms_txt_status: missing
 
@@ -20,7 +20,7 @@ description: |
 
   Jan's positioning is privacy-first: no account needed, no data sent to
   any cloud, fully functional offline after install. Its codebase is
-  AGPLv3 open-source and actively developed by Menlo Research, with
+  Apache-2.0 open-source and actively developed by Menlo Research, with
   frequent model library updates tracking the open-weight state of the
   art.
 

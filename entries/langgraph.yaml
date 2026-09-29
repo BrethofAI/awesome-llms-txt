@@ -1,9 +1,8 @@
 name: LangGraph
 slug: langgraph
-url: https://langchain-ai.github.io/langgraph/
+url: https://docs.langchain.com/oss/python/langgraph/
 repository: https://github.com/langchain-ai/langgraph
 llms_txt: https://langchain-ai.github.io/langgraph/llms.txt
-llms_full_txt: https://langchain-ai.github.io/langgraph/llms-full.txt
 llms_txt_status: published
 
 category: agent-frameworks

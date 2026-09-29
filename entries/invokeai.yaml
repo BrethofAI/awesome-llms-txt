@@ -6,8 +6,8 @@ llms_txt_status: published
 status: stub
 
 category: image-gen
-tagline: Professional-grade Stable Diffusion with unified canvas, workflows, and team features.
+tagline: Free, open-source (Apache 2.0) self-hosted creative engine for AI image generation with a layer-based unified canvas and node workflows.
 
-license: freemium
+license: open-source
 deployment: local
 added: 2026-04-24

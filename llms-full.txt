@@ -227,7 +227,7 @@ per dollar of GPU.
 ## Jan
 
 **URL:** https://jan.ai
-**Repository:** https://github.com/menloresearch/jan
+**Repository:** https://github.com/janhq/jan
 **llms.txt:** https://jan.ai/llms.txt (missing)
 **License:** open-source  |  **Deployment:** local  |  Platforms: linux, macos, windows
 **Tags:** inference, chat-ui, jan, local, privacy, llama-cpp
@@ -243,7 +243,7 @@ Linux, macOS, and Windows.
 
 Jan's positioning is privacy-first: no account needed, no data sent to
 any cloud, fully functional offline after install. Its codebase is
-AGPLv3 open-source and actively developed by Menlo Research, with
+Apache-2.0 open-source and actively developed by Menlo Research, with
 frequent model library updates tracking the open-weight state of the
 art.
 
@@ -272,7 +272,7 @@ whatever model Jan has loaded.
 
 ## llama.cpp
 
-**URL:** https://github.com/ggml-org/llama.cpp
+**URL:** https://llama.app
 **Repository:** https://github.com/ggml-org/llama.cpp
 **llms.txt:** https://github.com/ggml-org/llama.cpp/llms.txt (missing)
 **License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows
@@ -366,13 +366,14 @@ dependent applications to on-premise inference without rewriting them.
 
 ---
 
-## ExLlamaV2
+## ExLlamaV3
 
-**URL:** https://github.com/turboderp-org/exllamav2
-**llms.txt:** https://github.com/turboderp-org/exllamav2/llms.txt (missing)
+**URL:** https://github.com/turboderp-org/exllamav3
+**Repository:** https://github.com/turboderp-org/exllamav3
+**llms.txt:** https://github.com/turboderp-org/exllamav3/llms.txt (missing)
 **License:** open-source  |  **Deployment:** library
 
-*Fast inference library for quantized LLMs optimized for consumer NVIDIA GPUs.*
+*Inference library for local LLMs on consumer GPUs with EXL3 quantization and tensor/expert parallelism. It succeeds ExLlamaV2.*
 
 ---
 
@@ -396,13 +397,13 @@ dependent applications to on-premise inference without rewriting them.
 
 ---
 
-## Text Generation WebUI
+## TextGen
 
-**URL:** https://github.com/oobabooga/text-generation-webui
-**llms.txt:** https://github.com/oobabooga/text-generation-webui/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
+**URL:** https://github.com/oobabooga/textgen
+**llms.txt:** https://github.com/oobabooga/textgen/llms.txt (missing)
+**License:** open-source  |  **Deployment:** local
 
-*Gradio-based web UI for local LLMs supporting GGUF, GPTQ, AWQ, ExLlamaV2.*
+*Open-source desktop app for local LLMs (formerly Text Generation WebUI) with chat, vision, tool-calling, UI and API.*
 
 ---
 
@@ -546,7 +547,7 @@ docs — a reference implementation of agent-discoverable documentation.
 
 ## LangGraph
 
-**URL:** https://langchain-ai.github.io/langgraph/
+**URL:** https://docs.langchain.com/oss/python/langgraph/
 **Repository:** https://github.com/langchain-ai/langgraph
 **llms.txt:** https://langchain-ai.github.io/langgraph/llms.txt (published)
 **License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows
@@ -628,47 +629,48 @@ Anthropic Claude, xAI Grok, OpenRouter, and any OpenAI-compatible endpoint.
 
 ---
 
-## AutoGen
+## Microsoft Agent Framework
 
-**URL:** https://microsoft.github.io/autogen/
-**Repository:** https://github.com/microsoft/autogen
-**llms.txt:** https://microsoft.github.io/autogen/llms.txt (missing)
+**URL:** https://learn.microsoft.com/en-us/agent-framework/overview/
+**Repository:** https://github.com/microsoft/agent-framework
+**llms.txt:** https://learn.microsoft.com/en-us/agent-framework/llms.txt (missing)
 **License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows
-**Tags:** multi-agent, autogen, microsoft, async, conversation, python
+**Tags:** multi-agent, microsoft, autogen-successor, workflows, python, dotnet, opentelemetry
 
-*Microsoft's framework for building multi-agent conversations with customizable agents and conversation patterns.*
+*Microsoft's open-source framework for production AI agents and multi-agent workflows in Python, .NET and Go, and the successor to AutoGen.*
 
-AutoGen (from Microsoft Research) is an agent framework built around the
-abstraction of agents that communicate with each other through natural-
-language conversations. Developers define agent types (AssistantAgent,
-UserProxyAgent, GroupChatManager, etc.), wire them together, and AutoGen
-orchestrates the back-and-forth dialogue until a task completes.
+Microsoft Agent Framework (MAF) is Microsoft's open-source, MIT-licensed
+framework for building, orchestrating and running AI agents and
+multi-agent workflows. It replaces AutoGen. The AutoGen repository is
+now in maintenance mode and names MAF as its enterprise-ready successor.
 
-AutoGen 0.4+ rewrote the core around an async actor-style runtime, making
-it more suitable for long-running and distributed agent systems than the
-earlier synchronous versions. It integrates with any OpenAI-compatible
-model provider and has first-class support for code execution, tool use,
-and human-in-the-loop.
+MAF has consistent APIs in Python and C#/.NET, plus a Go SDK in a
+separate repository. Workflows are graphs and support sequential,
+concurrent, handoff and group-collaboration patterns, with
+checkpointing, streaming and human-in-the-loop control. Agents can be
+defined declaratively in YAML, extended with middleware, and given
+skills built from files, inline code or class libraries.
 
-AutoGen Studio is a visual playground for building and testing agent
-setups without writing code; useful for prototyping before dropping down
-to the Python API.
+Tracing, monitoring and debugging go through OpenTelemetry. DevUI is an
+interactive UI for developing and testing agents. Agents can be
+deployed to Foundry-hosted infrastructure, and the framework supports
+multiple LLM providers.
 
 **Features:**
-- Async, actor-based multi-agent runtime (0.4+)
-- Built-in agent types (Assistant, UserProxy, GroupChatManager, …)
-- Code execution in Docker sandboxes or local environments
-- Teachability and memory modules
-- AutoGen Studio visual agent builder
-- Provider-agnostic model backends
-- Python-first, .NET bindings available
+- Python and C#/.NET implementations with consistent APIs; Go SDK available
+- Graph-based workflows with sequential, concurrent, handoff and group patterns
+- Checkpointing, streaming and human-in-the-loop control
+- Declarative agents defined in YAML
+- Middleware pipeline for requests, responses and exceptions
+- Built-in OpenTelemetry tracing and monitoring
+- DevUI for interactive agent development and debugging
+- Multiple LLM provider support
 
 **Use cases:**
-- Research prototypes exploring multi-agent coordination patterns
-- Code generation and self-correcting agent loops
-- Teachable agents that improve across sessions
-- Distributed agent systems via the actor runtime
-- Microsoft ecosystem integration (Azure, M365 agents)
+- Moving an AutoGen project onto its maintained successor
+- Production multi-agent systems that need durability and restartability
+- .NET shops that want first-class agent tooling
+- Teams that need governance and observability around agent workflows
 
 ---
 
@@ -729,16 +731,6 @@ to the Python API.
 **License:** open-source  |  **Deployment:** library
 
 *Type-safe Python library for building LLM-powered functions with structured outputs.*
-
----
-
-## OpenAI Swarm
-
-**URL:** https://github.com/openai/swarm
-**llms.txt:** https://github.com/openai/swarm/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
-
-*OpenAI's lightweight educational framework for multi-agent orchestration.*
 
 ---
 
@@ -822,6 +814,17 @@ its own UI or CLI rather than running Claude Code in a terminal.
 - Orchestrating multi-agent workflows within a single application
 - Adding Claude-powered automation to internal developer tools
 - Replacing ad-hoc Claude API loops with a structured agent framework
+
+---
+
+## OpenAI Agents SDK
+
+**URL:** https://openai.github.io/openai-agents-python/
+**Repository:** https://github.com/openai/openai-agents-python
+**llms.txt:** https://openai.github.io/openai-agents-python/llms.txt (published)
+**License:** open-source  |  **Deployment:** library
+
+*OpenAI's provider-agnostic multi-agent SDK with handoffs, guardrails, sessions, tracing and voice agents. It replaces Swarm.*
 
 ---
 
@@ -911,6 +914,52 @@ significant.
 
 ---
 
+## Devin Desktop
+
+**URL:** https://devin.ai/desktop
+**llms.txt:** https://docs.devin.ai/llms.txt (published)
+**License:** commercial  |  **Deployment:** local  |  Platforms: linux, macos, windows
+**Tags:** coding-agent, devin, windsurf, cognition, ide, agent-mode, commercial
+
+*Cognition's AI IDE (formerly Windsurf) that runs local and cloud coding agents from one Agent Command Center.*
+
+Devin Desktop is the new name for Windsurf, the AI-native IDE that
+started life at Codeium and is now built by Cognition, the company
+behind the Devin coding agent. Windsurf became Devin Desktop on
+June 2, 2026, as an over-the-air update. It is the same editor with the
+same features. The windsurf.com and codeium.com domains now redirect to
+devin.ai/desktop.
+
+The main change is the Agent Command Center, a Kanban-style view for
+running and reviewing many agents at once, both local agents on your
+machine and Devin Cloud agents. The classic IDE experience stays
+available: editor, Open VSX extensions, keybindings, workflows and LSPs.
+Cascade, the agentic assistant Windsurf was known for, is still there.
+So are Tab completions and inline Command edits.
+
+The primary local agent is now Devin Local, the same agent harness that
+powers Devin CLI, with subagents, sandboxing, plan mode, worktrees and
+permissions. You can use Devin Desktop with local-only agents; a Devin
+Cloud subscription is not required.
+
+**Features:**
+- Agent Command Center to manage local and cloud agents in one view
+- Devin Local agent (shared with Devin CLI) with subagents, plan mode and worktrees
+- Cascade agentic assistant with memories, rules, skills, workflows and hooks
+- Tab completions and inline Command edits
+- MCP server support and AGENTS.md directory instructions
+- Adaptive model router that picks a model per task
+- SSH, Dev Containers and WSL support
+- Installers for macOS, Windows and Linux (apt and yum repositories)
+
+**Use cases:**
+- Developers who want an AI IDE that can also dispatch and review cloud agents
+- Running several agent tasks in parallel in isolated git worktrees
+- Existing Windsurf users, whose plans and work carry over unchanged
+- Teams standardizing on one vendor for IDE, CLI and cloud coding agents
+
+---
+
 ## GitHub Copilot
 
 **URL:** https://github.com/features/copilot
@@ -950,47 +999,6 @@ external traffic — the most mature enterprise posture in the category.
 - Users who want PR / issue / code-review AI integrated into Git workflow
 - Cross-IDE consistency (one subscription, many editors)
 - Students and OSS maintainers on the free tier
-
----
-
-## Windsurf
-
-**URL:** https://windsurf.com
-**llms.txt:** https://docs.windsurf.com/llms.txt (published)
-**License:** commercial  |  **Deployment:** local  |  Platforms: linux, macos, windows
-**Tags:** coding-agent, windsurf, codeium, ide, agent-mode, commercial
-
-*AI-native IDE from Codeium with Cascade agent mode, deep indexing, and real-time code awareness.*
-
-Windsurf (formerly Codeium) is a commercial AI-native IDE and VS Code
-fork competing directly with Cursor. Its flagship feature is Cascade —
-an agent mode that combines chat, multi-file edits, and codebase
-understanding into a single conversational interface that can execute
-long-running tasks with user approval.
-
-Windsurf emphasizes real-time awareness of the developer's actions (what
-they just edited, what they're looking at) to feed context into agent
-responses. Its indexing of large codebases is a recurring strength in
-benchmarks against comparable AI IDEs.
-
-Windsurf shares roots with the Codeium autocomplete extension, which
-remains available as a standalone plugin for VS Code, JetBrains, Vim,
-Emacs, and many more.
-
-**Features:**
-- VS Code-based IDE with Cascade agent mode
-- Real-time context awareness of developer actions
-- Multi-file edit planning and execution
-- Deep codebase indexing (fast on large repos)
-- Supervised agent with user-approval gates
-- Standalone Codeium autocomplete for 40+ editors
-- Team plans with shared context / custom instructions
-
-**Use cases:**
-- Developers who want Cursor-style AI IDE with a different polish model
-- Large-codebase work where indexing quality matters
-- Teams standardizing on an AI-native IDE
-- Users of Codeium autocomplete who want the full Cascade experience
 
 ---
 
@@ -1049,13 +1057,23 @@ performance.
 
 ---
 
+## Open Interpreter
+
+**URL:** https://www.openinterpreter.com
+**llms.txt:** https://www.openinterpreter.com/llms.txt (missing)
+**License:** open-source  |  **Deployment:** cli
+
+*Open-source terminal coding agent optimized for low-cost and open-weight models.*
+
+---
+
 ## Sourcegraph Cody
 
-**URL:** https://sourcegraph.com/cody
-**llms.txt:** https://sourcegraph.com/cody/llms.txt (missing)
+**URL:** https://sourcegraph.com/docs/cody
+**llms.txt:** https://sourcegraph.com/docs/llms.txt (missing)
 **License:** commercial  |  **Deployment:** local
 
-*AI coding assistant with enterprise-grade code search context across massive codebases.*
+*AI coding assistant for Sourcegraph Enterprise that pulls context from Sourcegraph code search across local and remote codebases.*
 
 ---
 
@@ -1064,7 +1082,7 @@ performance.
 ## ComfyUI
 
 **URL:** https://www.comfy.org
-**Repository:** https://github.com/comfyanonymous/ComfyUI
+**Repository:** https://github.com/Comfy-Org/ComfyUI
 **llms.txt:** https://docs.comfy.org/llms.txt (published)
 **License:** open-source  |  **Deployment:** local  |  Platforms: linux, macos, windows
 **Tags:** diffusion, stable-diffusion, flux, video-gen, image-gen, workflow, node-graph
@@ -1298,11 +1316,12 @@ dependencies. Jan, KoboldCpp, and many other tools embed whisper.cpp.
 
 ## Coqui TTS
 
-**URL:** https://github.com/coqui-ai/TTS
-**llms.txt:** https://github.com/coqui-ai/TTS/llms.txt (missing)
+**URL:** https://coqui-tts.readthedocs.io
+**Repository:** https://github.com/idiap/coqui-ai-TTS
+**llms.txt:** https://coqui-tts.readthedocs.io/llms.txt (missing)
 **License:** open-source  |  **Deployment:** library
 
-*Deep-learning toolkit for TTS with multi-speaker models and voice cloning.*
+*Deep-learning toolkit for TTS with multi-speaker models and voice cloning, now maintained in the Idiap fork.*
 
 ---
 
@@ -1318,11 +1337,11 @@ dependencies. Jan, KoboldCpp, and many other tools embed whisper.cpp.
 
 ## Piper
 
-**URL:** https://github.com/rhasspy/piper
-**llms.txt:** https://github.com/rhasspy/piper/llms.txt (missing)
+**URL:** https://github.com/OHF-Voice/piper1-gpl
+**llms.txt:** https://github.com/OHF-Voice/piper1-gpl/llms.txt (missing)
 **License:** open-source  |  **Deployment:** library
 
-*Fast, local neural text-to-speech with dozens of voices — optimized for Raspberry Pi.*
+*Fast, local neural text-to-speech engine with CLI, web server, Python and C/C++ APIs, now developed by the Open Home Foundation.*
 
 ---
 
@@ -1332,9 +1351,9 @@ dependencies. Jan, KoboldCpp, and many other tools embed whisper.cpp.
 
 **URL:** https://invoke.ai
 **llms.txt:** https://invoke.ai/llms.txt (published)
-**License:** freemium  |  **Deployment:** local
+**License:** open-source  |  **Deployment:** local
 
-*Professional-grade Stable Diffusion with unified canvas, workflows, and team features.*
+*Free, open-source (Apache 2.0) self-hosted creative engine for AI image generation with a layer-based unified canvas and node workflows.*
 
 ---
 
@@ -1970,7 +1989,7 @@ OpenAI or Anthropic SDKs can send traces to LangSmith with minimal setup.
 
 ## Arize Phoenix
 
-**URL:** https://phoenix.arize.com
+**URL:** https://arize.com/phoenix/
 **llms.txt:** https://arize.com/docs/phoenix/llms.txt (published)
 **License:** open-source  |  **Deployment:** self-hosted
 
@@ -2184,10 +2203,10 @@ percent of speed.
 
 ---
 
-## LLaMA-Factory
+## LlamaFactory
 
-**URL:** https://github.com/hiyouga/LLaMA-Factory
-**llms.txt:** https://github.com/hiyouga/LLaMA-Factory/llms.txt (missing)
+**URL:** https://github.com/hiyouga/LlamaFactory
+**llms.txt:** https://github.com/hiyouga/LlamaFactory/llms.txt (missing)
 **License:** open-source  |  **Deployment:** library
 
 *WebUI-based fine-tuning framework supporting 100+ models with LoRA, QLoRA, DPO, and more.*
@@ -2280,8 +2299,8 @@ percent of speed.
 
 ## Marker
 
-**URL:** https://github.com/VikParuchuri/marker
-**llms.txt:** https://github.com/VikParuchuri/marker/llms.txt (missing)
+**URL:** https://github.com/datalab-to/marker
+**llms.txt:** https://github.com/datalab-to/marker/llms.txt (missing)
 **License:** open-source  |  **Deployment:** library
 
 *Fast, accurate PDF-to-markdown conversion — tables, equations, and structure preserved.*
@@ -2512,6 +2531,50 @@ layer isn't needed.
 
 ---
 
+## SpaceXAI (xAI)
+
+**URL:** https://x.ai
+**llms.txt:** https://docs.x.ai/llms.txt (published)
+**License:** commercial  |  **Deployment:** saas  |  Platforms: linux, macos, windows
+**Tags:** llm-provider, xai, spacexai, grok, api, openai-compatible, voice, reasoning
+
+*SpaceXAI (formerly xAI) Grok API for reasoning, code, voice, image and video models, usable with the OpenAI SDK.*
+
+SpaceXAI, the company formerly branded xAI, builds the Grok family of
+models and sells access through a developer API at api.x.ai, with docs
+at docs.x.ai. The x.ai site and the API documentation now both carry the
+SpaceXAI name. Its newest model is Grok 4.7.
+
+The API covers text generation with streaming, reasoning and structured
+outputs, and image understanding. Tools include function calling, code
+execution and collections search for RAG. The Imagine endpoints handle
+image generation and editing plus video generation, editing and
+extension. The Voice endpoints cover speech-to-speech (including SIP
+phone calls), text-to-speech, speech-to-text and custom voices.
+
+Existing OpenAI-SDK code works too: the quickstart shows the official
+OpenAI Python and JavaScript SDKs next to xAI's own SDK. For
+high-volume jobs there are a Batch API and deferred completions. Every
+documentation page is also available as Markdown by appending `.md`.
+
+**Features:**
+- Grok model family, newest model Grok 4.7
+- Works with the OpenAI SDKs as well as the native xAI SDK
+- Streaming, reasoning and structured outputs
+- Tools including function calling, code execution and collections search (RAG)
+- Image and video generation and editing (Imagine)
+- Voice APIs covering speech-to-speech, text-to-speech, speech-to-text and custom voices
+- Batch API and deferred completions for asynchronous workloads
+- Markdown versions of every docs page for agent ingestion
+
+**Use cases:**
+- Agent and coding workloads that want a Grok model as a primary or fallback provider
+- Real-time voice agents, including phone calls over SIP
+- Multimodal apps that need text, image and video generation from one provider
+- Multi-provider stacks that already use the OpenAI SDK
+
+---
+
 ## Together AI
 
 **URL:** https://www.together.ai
@@ -2553,61 +2616,6 @@ OpenAI trivial.
 - Fine-tuning pipelines with managed training + serving
 - Multi-model architectures (chat + embeddings + image in one bill)
 - Teams wanting open-weight model access without self-hosting
-
----
-
-## xAI
-
-**URL:** https://x.ai
-**llms.txt:** https://docs.x.ai/llms.txt (published)
-**License:** commercial  |  **Deployment:** saas  |  Platforms: linux, macos, windows
-**Tags:** llm-provider, xai, grok, api, openai-compatible, value, reasoning
-
-*xAI's Grok API — Grok 4.1 Fast Reasoning and Non-reasoning currently the best raw-intelligence-per-dollar offering on the market.*
-
-xAI provides hosted inference and training for the Grok family of
-models via an OpenAI-compatible API. Its 2026 lineup includes Grok 4
-(flagship reasoning model), Grok 4.1 Fast Reasoning, and Grok 4.1
-Fast Non-reasoning — the "Fast" variants being the standout for
-application developers on price-performance grounds.
-
-**Grok 4.1 Fast pricing crushed the cheap-model market when it
-launched.** At a fraction of GPT-5-mini, Claude Haiku 4.1, or Gemini
-2.5 Flash pricing, and with measurably stronger reasoning on hard
-benchmarks, it became the default "high value per token" option for
-agent workloads running millions of tokens per day. If you're
-routing by cost-per-quality, Grok 4.1 Fast Reasoning is almost
-always in the candidate set.
-
-One architectural note: reasoning is baked into the model ID on xAI,
-not a runtime parameter. You pick `grok-4-1-fast-reasoning` for
-chain-of-thought behavior or `grok-4-1-fast-non-reasoning` for
-straight completion — unlike Anthropic or OpenAI where reasoning is
-a flag on a single model endpoint. Budget accordingly.
-
-The API is OpenAI-compatible for ergonomics: drop-in for existing
-OpenAI-SDK code with a `base_url` change, streaming supported, tool
-use supported, long context windows (256k+ on Grok 4 class). Vision,
-live web search via Grok's in-product search index, and batch
-inference are also exposed.
-
-**Features:**
-- OpenAI-compatible API — drop-in replacement by base_url
-- Grok 4 (flagship), Grok 4.1 Fast Reasoning, Grok 4.1 Fast Non-reasoning
-- Exceptional price-performance on the "Fast" variants
-- Long context windows (256k+ tokens on Grok 4 tier)
-- Tool use / function calling, streaming, structured outputs
-- Live web search integration via Grok's in-product index
-- Vision support on flagship models
-- Batch API for asynchronous high-volume jobs
-
-**Use cases:**
-- High-volume agent loops where cost-per-token compounds fast
-- Reasoning-heavy tasks where Grok 4.1 Fast beats pricier alternatives
-- Coding assistants and tool-using agents on a budget
-- Replacing GPT-5-mini / Haiku / Gemini Flash as the "default cheap model"
-- Applications needing a Grok-specific capability (live web search)
-- Multi-provider fallback stacks where xAI is one of the candidates
 
 ---
 
@@ -2681,16 +2689,6 @@ three.
 ---
 
 # Shell Tools
-
-## Open Interpreter
-
-**URL:** https://www.openinterpreter.com
-**llms.txt:** https://www.openinterpreter.com/llms.txt (missing)
-**License:** open-source  |  **Deployment:** cli
-
-*Natural language interface to your computer — runs code locally to complete tasks from the CLI.*
-
----
 
 ## ShellGPT
 

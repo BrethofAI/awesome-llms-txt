@@ -1,4 +1,4 @@
-name: xAI
+name: SpaceXAI (xAI)
 slug: xai
 url: https://x.ai
 repository: null
@@ -8,56 +8,45 @@ llms_txt_status: published
 category: deployment
 subcategory: llm-provider-api
 
-tagline: xAI's Grok API — Grok 4.1 Fast Reasoning and Non-reasoning currently the best raw-intelligence-per-dollar offering on the market.
+tagline: SpaceXAI (formerly xAI) Grok API for reasoning, code, voice, image and video models, usable with the OpenAI SDK.
 
 description: |
-  xAI provides hosted inference and training for the Grok family of
-  models via an OpenAI-compatible API. Its 2026 lineup includes Grok 4
-  (flagship reasoning model), Grok 4.1 Fast Reasoning, and Grok 4.1
-  Fast Non-reasoning — the "Fast" variants being the standout for
-  application developers on price-performance grounds.
+  SpaceXAI, the company formerly branded xAI, builds the Grok family of
+  models and sells access through a developer API at api.x.ai, with docs
+  at docs.x.ai. The x.ai site and the API documentation now both carry the
+  SpaceXAI name. Its newest model is Grok 4.7.
 
-  **Grok 4.1 Fast pricing crushed the cheap-model market when it
-  launched.** At a fraction of GPT-5-mini, Claude Haiku 4.1, or Gemini
-  2.5 Flash pricing, and with measurably stronger reasoning on hard
-  benchmarks, it became the default "high value per token" option for
-  agent workloads running millions of tokens per day. If you're
-  routing by cost-per-quality, Grok 4.1 Fast Reasoning is almost
-  always in the candidate set.
+  The API covers text generation with streaming, reasoning and structured
+  outputs, and image understanding. Tools include function calling, code
+  execution and collections search for RAG. The Imagine endpoints handle
+  image generation and editing plus video generation, editing and
+  extension. The Voice endpoints cover speech-to-speech (including SIP
+  phone calls), text-to-speech, speech-to-text and custom voices.
 
-  One architectural note: reasoning is baked into the model ID on xAI,
-  not a runtime parameter. You pick `grok-4-1-fast-reasoning` for
-  chain-of-thought behavior or `grok-4-1-fast-non-reasoning` for
-  straight completion — unlike Anthropic or OpenAI where reasoning is
-  a flag on a single model endpoint. Budget accordingly.
-
-  The API is OpenAI-compatible for ergonomics: drop-in for existing
-  OpenAI-SDK code with a `base_url` change, streaming supported, tool
-  use supported, long context windows (256k+ on Grok 4 class). Vision,
-  live web search via Grok's in-product search index, and batch
-  inference are also exposed.
+  Existing OpenAI-SDK code works too: the quickstart shows the official
+  OpenAI Python and JavaScript SDKs next to xAI's own SDK. For
+  high-volume jobs there are a Batch API and deferred completions. Every
+  documentation page is also available as Markdown by appending `.md`.
 
 features:
-  - OpenAI-compatible API — drop-in replacement by base_url
-  - Grok 4 (flagship), Grok 4.1 Fast Reasoning, Grok 4.1 Fast Non-reasoning
-  - Exceptional price-performance on the "Fast" variants
-  - Long context windows (256k+ tokens on Grok 4 tier)
-  - Tool use / function calling, streaming, structured outputs
-  - Live web search integration via Grok's in-product index
-  - Vision support on flagship models
-  - Batch API for asynchronous high-volume jobs
+  - Grok model family, newest model Grok 4.7
+  - Works with the OpenAI SDKs as well as the native xAI SDK
+  - Streaming, reasoning and structured outputs
+  - Tools including function calling, code execution and collections search (RAG)
+  - Image and video generation and editing (Imagine)
+  - Voice APIs covering speech-to-speech, text-to-speech, speech-to-text and custom voices
+  - Batch API and deferred completions for asynchronous workloads
+  - Markdown versions of every docs page for agent ingestion
 
 use_cases:
-  - High-volume agent loops where cost-per-token compounds fast
-  - Reasoning-heavy tasks where Grok 4.1 Fast beats pricier alternatives
-  - Coding assistants and tool-using agents on a budget
-  - Replacing GPT-5-mini / Haiku / Gemini Flash as the "default cheap model"
-  - Applications needing a Grok-specific capability (live web search)
-  - Multi-provider fallback stacks where xAI is one of the candidates
+  - Agent and coding workloads that want a Grok model as a primary or fallback provider
+  - Real-time voice agents, including phone calls over SIP
+  - Multimodal apps that need text, image and video generation from one provider
+  - Multi-provider stacks that already use the OpenAI SDK
 
 license: commercial
 deployment: saas
 platforms: [linux, macos, windows]
-tags: [llm-provider, xai, grok, api, openai-compatible, value, reasoning]
-maintainer: xAI
+tags: [llm-provider, xai, spacexai, grok, api, openai-compatible, voice, reasoning]
+maintainer: SpaceXAI
 added: 2026-04-24

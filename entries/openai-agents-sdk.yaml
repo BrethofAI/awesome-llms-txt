@@ -1,0 +1,14 @@
+name: OpenAI Agents SDK
+slug: openai-agents-sdk
+url: https://openai.github.io/openai-agents-python/
+repository: https://github.com/openai/openai-agents-python
+llms_txt: https://openai.github.io/openai-agents-python/llms.txt
+llms_txt_status: published
+status: stub
+
+category: agent-sdks
+tagline: OpenAI's provider-agnostic multi-agent SDK with handoffs, guardrails, sessions, tracing and voice agents. It replaces Swarm.
+
+license: open-source
+deployment: library
+added: 2026-09-29

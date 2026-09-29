@@ -1,7 +1,7 @@
 name: ComfyUI
 slug: comfyui
 url: https://www.comfy.org
-repository: https://github.com/comfyanonymous/ComfyUI
+repository: https://github.com/Comfy-Org/ComfyUI
 llms_txt: https://docs.comfy.org/llms.txt
 llms_txt_status: published
 

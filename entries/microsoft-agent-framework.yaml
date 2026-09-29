@@ -1,0 +1,52 @@
+name: Microsoft Agent Framework
+slug: microsoft-agent-framework
+url: https://learn.microsoft.com/en-us/agent-framework/overview/
+repository: https://github.com/microsoft/agent-framework
+llms_txt: https://learn.microsoft.com/en-us/agent-framework/llms.txt
+llms_txt_status: missing
+
+category: agent-frameworks
+subcategory: multi-agent-orchestration
+
+tagline: Microsoft's open-source framework for production AI agents and multi-agent workflows in Python, .NET and Go, and the successor to AutoGen.
+
+description: |
+  Microsoft Agent Framework (MAF) is Microsoft's open-source, MIT-licensed
+  framework for building, orchestrating and running AI agents and
+  multi-agent workflows. It replaces AutoGen. The AutoGen repository is
+  now in maintenance mode and names MAF as its enterprise-ready successor.
+
+  MAF has consistent APIs in Python and C#/.NET, plus a Go SDK in a
+  separate repository. Workflows are graphs and support sequential,
+  concurrent, handoff and group-collaboration patterns, with
+  checkpointing, streaming and human-in-the-loop control. Agents can be
+  defined declaratively in YAML, extended with middleware, and given
+  skills built from files, inline code or class libraries.
+
+  Tracing, monitoring and debugging go through OpenTelemetry. DevUI is an
+  interactive UI for developing and testing agents. Agents can be
+  deployed to Foundry-hosted infrastructure, and the framework supports
+  multiple LLM providers.
+
+features:
+  - Python and C#/.NET implementations with consistent APIs; Go SDK available
+  - Graph-based workflows with sequential, concurrent, handoff and group patterns
+  - Checkpointing, streaming and human-in-the-loop control
+  - Declarative agents defined in YAML
+  - Middleware pipeline for requests, responses and exceptions
+  - Built-in OpenTelemetry tracing and monitoring
+  - DevUI for interactive agent development and debugging
+  - Multiple LLM provider support
+
+use_cases:
+  - Moving an AutoGen project onto its maintained successor
+  - Production multi-agent systems that need durability and restartability
+  - .NET shops that want first-class agent tooling
+  - Teams that need governance and observability around agent workflows
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [multi-agent, microsoft, autogen-successor, workflows, python, dotnet, opentelemetry]
+maintainer: Microsoft
+added: 2026-09-29

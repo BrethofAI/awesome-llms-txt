@@ -26,8 +26,7 @@ description: |
 
   Widely used as a library inside desktop applications, mobile apps, and
   server-side transcription pipelines that don't want Python
-  dependencies. Brethof Voice Pro, Jan, KoboldCpp, and many other tools
-  embed whisper.cpp.
+  dependencies. Jan, KoboldCpp, and many other tools embed whisper.cpp.
 
 features:
   - Pure C/C++ with no runtime dependencies

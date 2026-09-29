@@ -153,7 +153,7 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 ## Voice (STT / TTS)
 
 - **[Brethof Voice Pro](https://brethof.ai/voice/)** — ✅ llms.txt  
-  Offline voice-to-text desktop app with 36-language support and LoRA voice training.
+  Offline voice-to-text, translation and subtitles for Linux and Windows: 30 transcription languages, 38 for translation, LoRA voice training.
 - **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** — ❌ llms.txt  
   C++ port of OpenAI Whisper for local speech-to-text — no Python, runs on CPU and many GPU backends.
 - **[Coqui TTS](https://github.com/coqui-ai/TTS)** — ❌ llms.txt 🚧 stub  

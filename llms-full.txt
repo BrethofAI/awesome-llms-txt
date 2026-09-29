@@ -1291,41 +1291,38 @@ provides managed hosting for teams that don't want to run Docker.
 **URL:** https://brethof.ai/voice/
 **llms.txt:** https://brethof.ai/voice/llms.txt (published)
 **License:** commercial  |  **Deployment:** local  |  Platforms: linux, windows
-**Tags:** asr, qwen3, lora, offline, vulkan, privacy-first, speech-to-text
+**Tags:** asr, translation, subtitles, qwen3, hunyuan-mt, lora, offline, vulkan, mcp, speech-to-text
 
-*Offline voice-to-text desktop app with 36-language support and LoRA voice training.*
+*Offline voice-to-text, translation and subtitles for Linux and Windows: 30 transcription languages, 38 for translation, LoRA voice training.*
 
-Brethof Voice Pro is a commercial desktop application that transcribes
-speech to text fully on-device on Linux and Windows, built on the Qwen3-ASR
-recognition model. There are no API keys, no cloud calls, and no per-usage
-billing — a user's audio never leaves their machine.
+Brethof Voice Pro is a commercial desktop app for Linux and Windows that transcribes, translates
+and subtitles speech entirely on the user's own machine. Transcription runs on the open-source
+Qwen3-ASR engine (0.6B or 1.7B) in 30 languages, and recognises 22 Chinese regional dialects on its own;
+translation across 38 languages runs locally on Tencent's Hunyuan MT2. It runs on the CPU or any
+Vulkan 1.2+ GPU (NVIDIA, AMD, Intel) — no CUDA required.
 
-The application supports 36 languages out of the box. As of v1.3.0 (shipped
-April 2026) it includes LoRA-based voice training that lets users adapt the
-recognition model to specific speakers, accents, or technical vocabularies
-entirely on their own hardware. Vulkan inference lets it run on AMD, Intel,
-and NVIDIA GPUs without a CUDA dependency; CPU fallback is available for
-machines without dedicated graphics.
-
-Brethof Voice Pro is the first product from Brethof AI, a small studio
-focused on privacy-first offline AI tools for working professionals.
+It types wherever the cursor is (the transcript or its translation), records the microphone, a file or
+system audio, and exports text, SRT and VTT subtitles whose timings survive translation. Voice training
+learns from the corrections the user already makes, and an MCP server lets AI agents transcribe and
+translate locally (both on paid licences). The network is touched only by a licence check, an update
+check and the model downloads the user starts. Perpetual licence; 14-day free trial.
 
 **Features:**
-- Fully offline speech-to-text in 36 languages
-- LoRA voice training adapts recognition to speakers or domains (v1.3.0+)
-- Vulkan GPU inference (AMD / Intel / NVIDIA) — no CUDA required
-- CPU fallback for machines without dedicated GPU
-- SRT and plain-text export for video subtitling workflows
-- Real-time recording plus batch file processing
-- Zero telemetry, zero cloud dependency after install
+- Transcription in 30 languages plus 22 Chinese dialects (Qwen3-ASR 0.6B / 1.7B)
+- Offline translation across 38 languages (Tencent Hunyuan MT2), multi-target and bilingual output
+- Text, SRT and VTT subtitles; translating a subtitle file keeps every timing
+- Voice keyboard: types the transcript or its translation into any app
+- Microphone, audio/video file, or system-audio input
+- LoRA voice training from the user's own corrections; hotwords steer ASR and translation
+- MCP server for AI agents (paid licence)
+- Vulkan GPU inference (NVIDIA / AMD / Intel) or CPU-only; optional noise reduction
 
 **Use cases:**
-- Private transcription of personal recordings and voice notes
-- Subtitle generation for YouTube, TikTok, and other video content
-- Meeting and interview notes where cloud upload is unacceptable
-- Multilingual transcription without per-minute API costs
-- Voice-driven content creation for creators who need consistent accuracy
-- Building domain-adapted transcription for medical, legal, or technical fields
+- Private dictation into any app
+- Meeting and interview transcripts where cloud upload is unacceptable
+- Subtitling and translating your own videos without per-minute fees
+- Live translation while typing: speak one language, type another
+- Giving an AI agent local transcription and translation through MCP
 
 ---
 
@@ -1354,8 +1351,7 @@ and word-level timestamps.
 
 Widely used as a library inside desktop applications, mobile apps, and
 server-side transcription pipelines that don't want Python
-dependencies. Brethof Voice Pro, Jan, KoboldCpp, and many other tools
-embed whisper.cpp.
+dependencies. Jan, KoboldCpp, and many other tools embed whisper.cpp.
 
 **Features:**
 - Pure C/C++ with no runtime dependencies

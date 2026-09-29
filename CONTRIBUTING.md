@@ -87,7 +87,7 @@ Use one of these exact strings for `category`:
 - `agent-frameworks` — orchestration libs (LangChain, LangGraph, CrewAI, …)
 - `agent-sdks` — vendor SDKs for building agents
 - `coding-agents` — code-generation / in-IDE assistants (Claude Code, Aider, …)
-- `workflow-tools` — visual / node-based builders (ComfyUI, Flowise, n8n, …)
+- `workflow-tools` — visual / node-based builders (ComfyUI, n8n, …)
 - `voice` — speech-to-text and text-to-speech
 - `image-gen` — image generation / editing
 - `video-gen` — video generation

@@ -50,14 +50,6 @@
     "code": 200
    }
   },
-  "autogen": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
   "automatic1111": {
    "ok_streak": 0,
    "fail_streak": 3,
@@ -83,7 +75,7 @@
    }
   },
   "braintrust": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -147,18 +139,10 @@
    }
   },
   "cline": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
-    "code": 200
-   }
-  },
-  "codeium": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "not_a_file",
     "code": 200
    }
   },
@@ -168,14 +152,6 @@
    "last": {
     "state": "ok",
     "code": 200
-   }
-  },
-  "continue-dev": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
    }
   },
   "coqui-tts": {
@@ -211,7 +187,7 @@
    }
   },
   "devin-desktop": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -243,7 +219,7 @@
    }
   },
   "elevenlabs": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -258,17 +234,9 @@
     "code": 200
    }
   },
-  "exllamav2": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
   "exllamav3": {
    "ok_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last": {
     "state": "gone",
     "code": 404
@@ -299,7 +267,7 @@
    }
   },
   "firecrawl": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -314,24 +282,8 @@
     "code": 200
    }
   },
-  "flowise": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "fooocus": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
   "gemini-cli": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -344,14 +296,6 @@
    "last": {
     "state": "ok",
     "code": 200
-   }
-  },
-  "gpt4all": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
    }
   },
   "groq": {
@@ -403,14 +347,6 @@
    }
   },
   "koboldcpp": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "kokoro-tts": {
    "ok_streak": 0,
    "fail_streak": 3,
    "last": {
@@ -539,7 +475,7 @@
    }
   },
   "mastra": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -556,7 +492,7 @@
   },
   "microsoft-agent-framework": {
    "ok_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last": {
     "state": "gone",
     "code": 404
@@ -571,7 +507,7 @@
    }
   },
   "mistral-ai": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -611,7 +547,7 @@
    }
   },
   "noveum": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -635,7 +571,7 @@
    }
   },
   "openai-agents-sdk": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -643,19 +579,11 @@
    }
   },
   "openai-codex": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
     "code": 200
-   }
-  },
-  "openai-swarm": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
    }
   },
   "openclaw": {
@@ -667,19 +595,11 @@
    }
   },
   "openrouter": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
     "code": 200
-   }
-  },
-  "openvoice": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
    }
   },
   "openwebui": {
@@ -760,14 +680,6 @@
    "last": {
     "state": "ok",
     "code": 200
-   }
-  },
-  "quivr": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
    }
   },
   "ragas": {
@@ -851,7 +763,7 @@
    }
   },
   "smry": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -882,17 +794,9 @@
     "code": 200
    }
   },
-  "text-generation-webui": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
   "textgen": {
    "ok_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last": {
     "state": "gone",
     "code": 404
@@ -938,14 +842,6 @@
     "code": 200
    }
   },
-  "verba": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
   "vercel-ai-sdk": {
    "ok_streak": 2,
    "fail_streak": 0,
@@ -984,14 +880,6 @@
    "last": {
     "state": "gone",
     "code": 404
-   }
-  },
-  "windsurf": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
    }
   },
   "xai": {

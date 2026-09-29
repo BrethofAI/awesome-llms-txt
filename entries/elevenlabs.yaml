@@ -1,0 +1,13 @@
+name: ElevenLabs
+slug: elevenlabs
+url: https://elevenlabs.io
+llms_txt: https://elevenlabs.io/docs/llms.txt
+llms_txt_status: published
+status: stub
+
+category: voice
+tagline: APIs and SDKs for text-to-speech, voice cloning, speech-to-text and conversational voice agents.
+
+license: freemium
+deployment: saas
+added: 2026-09-29

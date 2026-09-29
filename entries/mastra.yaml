@@ -1,0 +1,14 @@
+name: Mastra
+slug: mastra
+url: https://mastra.ai
+repository: https://github.com/mastra-ai/mastra
+llms_txt: https://mastra.ai/llms.txt
+llms_txt_status: published
+status: stub
+
+category: agent-frameworks
+tagline: TypeScript framework for AI agents and apps with memory, tools, MCP and observability built in.
+
+license: open-source
+deployment: library
+added: 2026-09-29

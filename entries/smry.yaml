@@ -1,0 +1,14 @@
+name: smry
+slug: smry
+url: https://smry.ai
+llms_txt: https://smry.ai/llms.txt
+llms_full_txt: https://smry.ai/llms-full.txt
+llms_txt_status: published
+status: stub
+
+category: desktop-apps
+tagline: Agentic news and RSS reader with cited AI summaries and chat, text-to-speech, a searchable library, and API and MCP access.
+
+license: freemium
+deployment: saas
+added: 2026-09-29

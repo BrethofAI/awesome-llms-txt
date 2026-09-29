@@ -1,0 +1,13 @@
+name: OpenRouter
+slug: openrouter
+url: https://openrouter.ai
+llms_txt: https://openrouter.ai/docs/llms.txt
+llms_txt_status: published
+status: stub
+
+category: llm-gateways
+tagline: One API for hundreds of models from many providers, with routing and fallbacks and no subscription.
+
+license: commercial
+deployment: saas
+added: 2026-09-29

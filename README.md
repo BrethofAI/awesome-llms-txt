@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**100 entries** — 52 with full descriptions, 48 stubs. **67** currently publish a working `llms.txt`.
+**111 entries** — 53 with full descriptions, 58 stubs. **78** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -26,23 +26,23 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 ## Contents
 
 - [Inference Runtimes](#inference-runtimes) (13)
-- [LLM Gateways](#llm-gateways) (1)
-- [Agent Frameworks](#agent-frameworks) (11)
+- [LLM Gateways](#llm-gateways) (2)
+- [Agent Frameworks](#agent-frameworks) (12)
 - [Agent SDKs](#agent-sdks) (3)
-- [Coding Agents](#coding-agents) (8)
+- [Coding Agents](#coding-agents) (11)
 - [Workflow Tools](#workflow-tools) (4)
-- [Voice (STT / TTS)](#voice-stt--tts) (5)
+- [Voice (STT / TTS)](#voice-stt--tts) (6)
 - [Image Generation](#image-generation) (4)
 - [Vector Databases](#vector-databases) (8)
 - [RAG Frameworks](#rag-frameworks) (4)
 - [Embeddings](#embeddings) (3)
-- [Observability](#observability) (5)
-- [Evaluation](#evaluation) (3)
+- [Observability](#observability) (6)
+- [Evaluation](#evaluation) (4)
 - [Training & Fine-tuning](#training--fine-tuning) (6)
-- [Web Search for Agents](#web-search-for-agents) (5)
+- [Web Search for Agents](#web-search-for-agents) (6)
 - [OCR & Document Parsing](#ocr--document-parsing) (3)
-- [Deployment & Hosting](#deployment--hosting) (7)
-- [Desktop Applications](#desktop-applications) (3)
+- [Deployment & Hosting](#deployment--hosting) (8)
+- [Desktop Applications](#desktop-applications) (4)
 - [Shell Tools](#shell-tools) (1)
 - [Operating Systems (AI-capable Linux)](#operating-systems-ai-capable-linux) (3)
 
@@ -79,6 +79,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 - **[LiteLLM](https://www.litellm.ai)** — ✅ llms.txt  
   Unified OpenAI-compatible proxy and SDK that routes calls across 100+ LLM providers with load balancing, fallbacks, and cost tracking.
+- **[OpenRouter](https://openrouter.ai)** — ✅ llms.txt 🚧 stub  
+  One API for hundreds of models from many providers, with routing and fallbacks and no subscription.
 
 ## Agent Frameworks
 
@@ -96,6 +98,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   High-performance multi-agent framework with memory, reasoning, and 20+ model integrations.
 - **[DSPy](https://dspy.ai)** — ✅ llms.txt 🚧 stub  
   Framework for programming rather than prompting LLMs — composable modules with optimizers.
+- **[Mastra](https://mastra.ai)** — ✅ llms.txt 🚧 stub  
+  TypeScript framework for AI agents and apps with memory, tools, MCP and observability built in.
 - **[Pydantic AI](https://pydantic.dev/docs/ai/overview/)** — ✅ llms.txt 🚧 stub  
   Agent framework built on Pydantic with type-safe tool use and structured responses.
 - **[smolagents](https://huggingface.co/docs/smolagents)** — ✅ llms.txt 🚧 stub  
@@ -128,6 +132,12 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   AI pair programming in your terminal — edits code across your git repo with commit-per-change discipline.
 - **[Amazon Q Developer](https://aws.amazon.com/q/developer/)** — ✅ llms.txt 🚧 stub  
   AWS's AI coding assistant with deep integration into AWS services and enterprise compliance.
+- **[Cline](https://cline.bot)** — ✅ llms.txt 🚧 stub  
+  Open-source autonomous coding agent with Plan/Act modes and MCP support, shipped as an IDE extension, CLI and SDK.
+- **[Gemini CLI](https://geminicli.com)** — ✅ llms.txt 🚧 stub  
+  Google's open-source terminal agent for Gemini. Unpaid-tier and Google One users were moved to Antigravity CLI on 2026-06-18.
+- **[OpenAI Codex](https://developers.openai.com/codex)** — ✅ llms.txt 🚧 stub  
+  OpenAI's coding agent, available as an open-source terminal CLI, an IDE extension and cloud automation.
 - **[Open Interpreter](https://www.openinterpreter.com)** — ❌ llms.txt 🚧 stub  
   Open-source terminal coding agent optimized for low-cost and open-weight models.
 - **[Sourcegraph Cody](https://sourcegraph.com/docs/cody)** — ❌ llms.txt 🚧 stub  
@@ -150,6 +160,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   Offline voice-to-text, translation and subtitles for Linux and Windows: 30 transcription languages, 38 for translation, LoRA voice training.
 - **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** — ❌ llms.txt  
   C++ port of OpenAI Whisper for local speech-to-text — no Python, runs on CPU and many GPU backends.
+- **[ElevenLabs](https://elevenlabs.io)** — ✅ llms.txt 🚧 stub  
+  APIs and SDKs for text-to-speech, voice cloning, speech-to-text and conversational voice agents.
 - **[Coqui TTS](https://coqui-tts.readthedocs.io)** — ❌ llms.txt 🚧 stub  
   Deep-learning toolkit for TTS with multi-speaker models and voice cloning, now maintained in the Idiap fork.
 - **[F5-TTS](https://github.com/SWivid/F5-TTS)** — ❌ llms.txt 🚧 stub  
@@ -213,6 +225,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   Open-source LLM engineering platform for tracing, evaluation, prompt management, and observability — self-host or cloud.
 - **[LangSmith](https://www.langchain.com/langsmith)** — ✅ llms.txt  
   Commercial observability, debugging, and evaluation platform for LLM and agent applications.
+- **[Noveum](https://noveum.ai)** — ✅ llms.txt  
+  Reliability platform for production AI agents that combines tracing, calibrated LLM-as-judge evaluation, scenario simulation and guardrails.
 - **[Arize Phoenix](https://arize.com/phoenix/)** — ✅ llms.txt 🚧 stub  
   Open-source ML and LLM observability platform with OpenTelemetry-based tracing.
 - **[Helicone](https://helicone.ai)** — ✅ llms.txt 🚧 stub  
@@ -222,6 +236,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 ## Evaluation
 
+- **[Braintrust](https://www.braintrust.dev)** — ✅ llms.txt 🚧 stub  
+  Evals and observability platform for agents that traces production, runs evaluations and catches regressions before release.
 - **[DeepEval](https://www.deepeval.com)** — ✅ llms.txt 🚧 stub  
   Pytest-style LLM evaluation framework with 14+ metrics and CI/CD integration.
 - **[Promptfoo](https://www.promptfoo.dev)** — ✅ llms.txt 🚧 stub  
@@ -250,6 +266,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   Independent web search API with no tracking — alternative to Google / Bing for agent use.
 - **[Exa](https://exa.ai)** — ✅ llms.txt 🚧 stub  
   Neural search API built for AI agents — semantic search across the web with content retrieval.
+- **[Firecrawl](https://www.firecrawl.dev)** — ✅ llms.txt 🚧 stub  
+  Web data API that searches, scrapes and interacts with the web and returns clean Markdown or structured data for agents.
 - **[Perplexity API](https://docs.perplexity.ai)** — ✅ llms.txt 🚧 stub  
   API access to Perplexity's search-augmented LLMs — Sonar models with live citations.
 - **[SerpAPI](https://serpapi.com)** — ✅ llms.txt 🚧 stub  
@@ -282,6 +300,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   SpaceXAI (formerly xAI) Grok API for reasoning, code, voice, image and video models, usable with the OpenAI SDK.
 - **[Together AI](https://www.together.ai)** — ✅ llms.txt  
   Serverless inference for 200+ open-source models with OpenAI-compatible API — low latency, competitive pricing.
+- **[Mistral AI](https://mistral.ai)** — ✅ llms.txt 🚧 stub  
+  Mistral's API platform and Studio for building, fine-tuning and deploying agents and apps on its models, including open-weight ones.
 
 ## Desktop Applications
 
@@ -291,6 +311,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   Privacy-first local AI over your documents — fully offline RAG chatbot.
 - **[Raycast AI](https://www.raycast.com/core-features/ai)** — ✅ llms.txt 🚧 stub  
   macOS launcher with integrated AI commands, chat, and custom quicklinks.
+- **[smry](https://smry.ai)** — ✅ llms.txt 🚧 stub  
+  Agentic news and RSS reader with cited AI summaries and chat, text-to-speech, a searchable library, and API and MCP access.
 
 ## Shell Tools
 

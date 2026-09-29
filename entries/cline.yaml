@@ -1,0 +1,14 @@
+name: Cline
+slug: cline
+url: https://cline.bot
+repository: https://github.com/cline/cline
+llms_txt: https://docs.cline.bot/llms.txt
+llms_txt_status: published
+status: stub
+
+category: coding-agents
+tagline: Open-source autonomous coding agent with Plan/Act modes and MCP support, shipped as an IDE extension, CLI and SDK.
+
+license: open-source
+deployment: local
+added: 2026-09-29

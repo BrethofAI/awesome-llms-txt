@@ -1,0 +1,54 @@
+name: Noveum
+slug: noveum
+url: https://noveum.ai
+repository: null
+llms_txt: https://noveum.ai/llms.txt
+llms_txt_status: published
+
+category: observability
+subcategory: agent-tracing-and-evaluation
+
+tagline: Reliability platform for production AI agents that combines tracing, calibrated LLM-as-judge evaluation, scenario simulation and guardrails.
+
+description: |
+  Noveum is a hosted reliability platform for teams running AI agents and
+  LLM applications in production, including voice agents. Its open-source
+  tracing SDK, NovaTrace (noveum-trace), records every LLM call, tool
+  call, RAG step and agent hop as a structured trace. It integrates with
+  LangChain, LangGraph, LiveKit, Pipecat and CrewAI.
+
+  On top of those traces, NovaEval scores chat agents with a library of
+  100+ calibrated LLM-as-judge scorers and returns the reasoning behind
+  each verdict. NovaSynth simulates voice (SIP) and chat scenarios with
+  personas, interruptions and virtualized tools to test agents end to
+  end. NovaGuard (in beta) enforces policies on live traffic. NovaPilot
+  turns failing evaluations into proposed fixes delivered as pull
+  requests.
+
+  A remote MCP server lets MCP-capable coding assistants and chat clients
+  work with Noveum traces, datasets and evaluations over an authenticated
+  connection. An enterprise tier offers on-prem and self-hosted
+  deployment. The hosted platform is proprietary; the tracing SDK is
+  public.
+
+features:
+  - Open-source tracing SDK for LLM calls, tools, RAG steps and agent hops
+  - Integrations with LangChain, LangGraph, LiveKit, Pipecat and CrewAI
+  - Library of 100+ calibrated LLM-as-judge scorers with per-verdict reasoning
+  - Voice (SIP) and chat scenario simulation with tool virtualization
+  - Real-time guardrails on live traffic (beta)
+  - Remote MCP server for AI clients
+  - On-prem and self-hosted enterprise deployment
+
+use_cases:
+  - Investigating failed or slow agent runs from production traces
+  - Regression-testing chat and voice agents before a release
+  - Monitoring voice agents built on LiveKit or Pipecat
+  - Letting a coding assistant query traces and evaluations over MCP
+
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [observability, tracing, evaluation, agents, voice-agents, mcp]
+maintainer: Noveum
+added: 2026-09-29

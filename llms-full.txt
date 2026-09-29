@@ -453,6 +453,16 @@ automatically failing over from a cloud provider to a local one.
 
 ---
 
+## OpenRouter
+
+**URL:** https://openrouter.ai
+**llms.txt:** https://openrouter.ai/docs/llms.txt (published)
+**License:** commercial  |  **Deployment:** saas
+
+*One API for hundreds of models from many providers, with routing and fallbacks and no subscription.*
+
+---
+
 # Agent Frameworks
 
 ## CrewAI
@@ -691,6 +701,17 @@ multiple LLM providers.
 **License:** open-source  |  **Deployment:** library
 
 *Framework for programming rather than prompting LLMs — composable modules with optimizers.*
+
+---
+
+## Mastra
+
+**URL:** https://mastra.ai
+**Repository:** https://github.com/mastra-ai/mastra
+**llms.txt:** https://mastra.ai/llms.txt (published)
+**License:** open-source  |  **Deployment:** library
+
+*TypeScript framework for AI agents and apps with memory, tools, MCP and observability built in.*
 
 ---
 
@@ -1057,6 +1078,39 @@ performance.
 
 ---
 
+## Cline
+
+**URL:** https://cline.bot
+**Repository:** https://github.com/cline/cline
+**llms.txt:** https://docs.cline.bot/llms.txt (published)
+**License:** open-source  |  **Deployment:** local
+
+*Open-source autonomous coding agent with Plan/Act modes and MCP support, shipped as an IDE extension, CLI and SDK.*
+
+---
+
+## Gemini CLI
+
+**URL:** https://geminicli.com
+**Repository:** https://github.com/google-gemini/gemini-cli
+**llms.txt:** https://geminicli.com/llms.txt (published)
+**License:** open-source  |  **Deployment:** cli
+
+*Google's open-source terminal agent for Gemini. Unpaid-tier and Google One users were moved to Antigravity CLI on 2026-06-18.*
+
+---
+
+## OpenAI Codex
+
+**URL:** https://developers.openai.com/codex
+**Repository:** https://github.com/openai/codex
+**llms.txt:** https://learn.chatgpt.com/docs/llms.txt (published)
+**License:** open-source  |  **Deployment:** cli
+
+*OpenAI's coding agent, available as an open-source terminal CLI, an IDE extension and cloud automation.*
+
+---
+
 ## Open Interpreter
 
 **URL:** https://www.openinterpreter.com
@@ -1311,6 +1365,16 @@ dependencies. Jan, KoboldCpp, and many other tools embed whisper.cpp.
 - Real-time transcription on resource-constrained hardware
 - Edge deployments (Raspberry Pi, mobile, embedded)
 - Server-side transcription with predictable resource usage
+
+---
+
+## ElevenLabs
+
+**URL:** https://elevenlabs.io
+**llms.txt:** https://elevenlabs.io/docs/llms.txt (published)
+**License:** freemium  |  **Deployment:** saas
+
+*APIs and SDKs for text-to-speech, voice cloning, speech-to-text and conversational voice agents.*
 
 ---
 
@@ -1987,6 +2051,52 @@ OpenAI or Anthropic SDKs can send traces to LangSmith with minimal setup.
 
 ---
 
+## Noveum
+
+**URL:** https://noveum.ai
+**llms.txt:** https://noveum.ai/llms.txt (published)
+**License:** freemium  |  **Deployment:** saas  |  Platforms: web
+**Tags:** observability, tracing, evaluation, agents, voice-agents, mcp
+
+*Reliability platform for production AI agents that combines tracing, calibrated LLM-as-judge evaluation, scenario simulation and guardrails.*
+
+Noveum is a hosted reliability platform for teams running AI agents and
+LLM applications in production, including voice agents. Its open-source
+tracing SDK, NovaTrace (noveum-trace), records every LLM call, tool
+call, RAG step and agent hop as a structured trace. It integrates with
+LangChain, LangGraph, LiveKit, Pipecat and CrewAI.
+
+On top of those traces, NovaEval scores chat agents with a library of
+100+ calibrated LLM-as-judge scorers and returns the reasoning behind
+each verdict. NovaSynth simulates voice (SIP) and chat scenarios with
+personas, interruptions and virtualized tools to test agents end to
+end. NovaGuard (in beta) enforces policies on live traffic. NovaPilot
+turns failing evaluations into proposed fixes delivered as pull
+requests.
+
+A remote MCP server lets MCP-capable coding assistants and chat clients
+work with Noveum traces, datasets and evaluations over an authenticated
+connection. An enterprise tier offers on-prem and self-hosted
+deployment. The hosted platform is proprietary; the tracing SDK is
+public.
+
+**Features:**
+- Open-source tracing SDK for LLM calls, tools, RAG steps and agent hops
+- Integrations with LangChain, LangGraph, LiveKit, Pipecat and CrewAI
+- Library of 100+ calibrated LLM-as-judge scorers with per-verdict reasoning
+- Voice (SIP) and chat scenario simulation with tool virtualization
+- Real-time guardrails on live traffic (beta)
+- Remote MCP server for AI clients
+- On-prem and self-hosted enterprise deployment
+
+**Use cases:**
+- Investigating failed or slow agent runs from production traces
+- Regression-testing chat and voice agents before a release
+- Monitoring voice agents built on LiveKit or Pipecat
+- Letting a coding assistant query traces and evaluations over MCP
+
+---
+
 ## Arize Phoenix
 
 **URL:** https://arize.com/phoenix/
@@ -2018,6 +2128,16 @@ OpenAI or Anthropic SDKs can send traces to LangSmith with minimal setup.
 ---
 
 # Evaluation
+
+## Braintrust
+
+**URL:** https://www.braintrust.dev
+**llms.txt:** https://www.braintrust.dev/docs/llms.txt (published)
+**License:** commercial  |  **Deployment:** saas
+
+*Evals and observability platform for agents that traces production, runs evaluations and catches regressions before release.*
+
+---
 
 ## DeepEval
 
@@ -2242,6 +2362,17 @@ percent of speed.
 **License:** freemium  |  **Deployment:** saas
 
 *Neural search API built for AI agents — semantic search across the web with content retrieval.*
+
+---
+
+## Firecrawl
+
+**URL:** https://www.firecrawl.dev
+**Repository:** https://github.com/firecrawl/firecrawl
+**llms.txt:** https://docs.firecrawl.dev/llms.txt (published)
+**License:** open-source  |  **Deployment:** saas
+
+*Web data API that searches, scrapes and interacts with the web and returns clean Markdown or structured data for agents.*
 
 ---
 
@@ -2619,6 +2750,16 @@ OpenAI trivial.
 
 ---
 
+## Mistral AI
+
+**URL:** https://mistral.ai
+**llms.txt:** https://docs.mistral.ai/llms.txt (published)
+**License:** commercial  |  **Deployment:** saas
+
+*Mistral's API platform and Studio for building, fine-tuning and deploying agents and apps on its models, including open-weight ones.*
+
+---
+
 # Desktop Applications
 
 ## Claude Desktop
@@ -2685,6 +2826,16 @@ three.
 **License:** commercial  |  **Deployment:** local
 
 *macOS launcher with integrated AI commands, chat, and custom quicklinks.*
+
+---
+
+## smry
+
+**URL:** https://smry.ai
+**llms.txt:** https://smry.ai/llms.txt (published)
+**License:** freemium  |  **Deployment:** saas
+
+*Agentic news and RSS reader with cited AI summaries and chat, text-to-speech, a searchable library, and API and MCP access.*
 
 ---
 

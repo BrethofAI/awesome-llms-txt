@@ -19,7 +19,7 @@
    }
   },
   "amazon-q-developer": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -82,8 +82,16 @@
     "code": 401
    }
   },
-  "brave-search": {
+  "braintrust": {
    "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "brave-search": {
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -138,6 +146,14 @@
     "code": 200
    }
   },
+  "cline": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "codeium": {
    "ok_streak": 0,
    "fail_streak": 3,
@@ -179,7 +195,7 @@
    }
   },
   "cursor": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -188,6 +204,14 @@
   },
   "deepeval": {
    "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "devin-desktop": {
+   "ok_streak": 1,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -218,6 +242,14 @@
     "code": 200
    }
   },
+  "elevenlabs": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "exa": {
    "ok_streak": 2,
    "fail_streak": 0,
@@ -229,6 +261,14 @@
   "exllamav2": {
    "ok_streak": 0,
    "fail_streak": 3,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "exllamav3": {
+   "ok_streak": 0,
+   "fail_streak": 1,
    "last": {
     "state": "gone",
     "code": 404
@@ -258,6 +298,14 @@
     "code": 404
    }
   },
+  "firecrawl": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "fireworks-ai": {
    "ok_streak": 2,
    "fail_streak": 0,
@@ -280,6 +328,14 @@
    "last": {
     "state": "gone",
     "code": 404
+   }
+  },
+  "gemini-cli": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
    }
   },
   "github-copilot": {
@@ -323,7 +379,7 @@
    }
   },
   "huggingface-transformers": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -331,7 +387,7 @@
    }
   },
   "invokeai": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -371,7 +427,7 @@
    }
   },
   "lancedb": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -411,7 +467,7 @@
    }
   },
   "langsmith": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -443,7 +499,7 @@
    }
   },
   "llamaindex": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -482,6 +538,14 @@
     "code": 404
    }
   },
+  "mastra": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "mem0": {
    "ok_streak": 2,
    "fail_streak": 0,
@@ -490,8 +554,24 @@
     "code": 200
    }
   },
+  "microsoft-agent-framework": {
+   "ok_streak": 0,
+   "fail_streak": 1,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
   "milvus": {
    "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "mistral-ai": {
+   "ok_streak": 1,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -507,7 +587,7 @@
    }
   },
   "modal": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -530,6 +610,14 @@
     "code": 200
    }
   },
+  "noveum": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "ollama": {
    "ok_streak": 2,
    "fail_streak": 0,
@@ -546,6 +634,22 @@
     "code": 404
    }
   },
+  "openai-agents-sdk": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "openai-codex": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "openai-swarm": {
    "ok_streak": 0,
    "fail_streak": 3,
@@ -555,6 +659,14 @@
    }
   },
   "openclaw": {
+   "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "openrouter": {
    "ok_streak": 1,
    "fail_streak": 0,
    "last": {
@@ -619,7 +731,7 @@
    }
   },
   "privategpt": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -667,7 +779,7 @@
    }
   },
   "raycast-ai": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -715,7 +827,7 @@
    }
   },
   "sglang": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -732,6 +844,14 @@
   },
   "smolagents": {
    "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "smry": {
+   "ok_streak": 1,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -770,6 +890,14 @@
     "code": 404
    }
   },
+  "textgen": {
+   "ok_streak": 0,
+   "fail_streak": 1,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
   "together-ai": {
    "ok_streak": 2,
    "fail_streak": 0,
@@ -787,7 +915,7 @@
    }
   },
   "ubuntu": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -803,7 +931,7 @@
    }
   },
   "unstructured": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -827,7 +955,7 @@
    }
   },
   "vllm": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -835,7 +963,7 @@
    }
   },
   "wandb": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",

@@ -1,0 +1,14 @@
+name: Firecrawl
+slug: firecrawl
+url: https://www.firecrawl.dev
+repository: https://github.com/firecrawl/firecrawl
+llms_txt: https://docs.firecrawl.dev/llms.txt
+llms_txt_status: published
+status: stub
+
+category: web-search-for-agents
+tagline: Web data API that searches, scrapes and interacts with the web and returns clean Markdown or structured data for agents.
+
+license: open-source
+deployment: saas
+added: 2026-09-29

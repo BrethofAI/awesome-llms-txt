@@ -1,0 +1,14 @@
+name: Gemini CLI
+slug: gemini-cli
+url: https://geminicli.com
+repository: https://github.com/google-gemini/gemini-cli
+llms_txt: https://geminicli.com/llms.txt
+llms_txt_status: published
+status: stub
+
+category: coding-agents
+tagline: Google's open-source terminal agent for Gemini. Unpaid-tier and Google One users were moved to Antigravity CLI on 2026-06-18.
+
+license: open-source
+deployment: cli
+added: 2026-09-29

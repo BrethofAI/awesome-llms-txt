@@ -1,0 +1,13 @@
+name: Mistral AI
+slug: mistral-ai
+url: https://mistral.ai
+llms_txt: https://docs.mistral.ai/llms.txt
+llms_txt_status: published
+status: stub
+
+category: deployment
+tagline: Mistral's API platform and Studio for building, fine-tuning and deploying agents and apps on its models, including open-weight ones.
+
+license: commercial
+deployment: saas
+added: 2026-09-29

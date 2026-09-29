@@ -1,0 +1,13 @@
+name: Braintrust
+slug: braintrust
+url: https://www.braintrust.dev
+llms_txt: https://www.braintrust.dev/docs/llms.txt
+llms_txt_status: published
+status: stub
+
+category: evaluation
+tagline: Evals and observability platform for agents that traces production, runs evaluations and catches regressions before release.
+
+license: commercial
+deployment: saas
+added: 2026-09-29

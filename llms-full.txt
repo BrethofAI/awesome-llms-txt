@@ -376,16 +376,6 @@ dependent applications to on-premise inference without rewriting them.
 
 ---
 
-## GPT4All
-
-**URL:** https://www.nomic.ai/gpt4all
-**llms.txt:** https://www.nomic.ai/gpt4all/llms.txt (missing)
-**License:** open-source  |  **Deployment:** local
-
-*Privacy-first desktop chatbot running local LLMs on CPU with a Python SDK.*
-
----
-
 ## KoboldCpp
 
 **URL:** https://github.com/LostRuins/koboldcpp
@@ -1049,51 +1039,6 @@ performance.
 
 ---
 
-## Continue
-
-**URL:** https://www.continue.dev
-**Repository:** https://github.com/continuedev/continue
-**llms.txt:** https://docs.continue.dev/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library  |  Platforms: linux, macos, windows
-**Tags:** coding-agent, vscode, jetbrains, continue, open-source, local-llm
-
-*Open-source AI coding assistant for VS Code and JetBrains — bring any model, any provider, customizable.*
-
-Continue is an open-source AI coding assistant that runs as a VS Code or
-JetBrains extension. Unlike vendor-locked assistants, Continue is fully
-configurable: users bring their own model (cloud or local), their own
-provider (Anthropic, OpenAI, local via Ollama, vLLM, LM Studio, etc.),
-and define custom slash commands, context providers, and tools via a
-plain YAML config.
-
-It supports chat, inline autocomplete, tab-complete, edit-in-place, agent
-mode with tool use, codebase-aware retrieval, and team-shared configs. The
-extension works online or fully offline against local inference servers,
-making it a popular choice for organizations where code can't leave
-developer machines.
-
-Continue used to publish `llms.txt` and `llms-full.txt`, but both have
-returned 404 since at least 2026-07-24. The docs site itself is still up
-at docs.continue.dev — only the machine-readable index went away.
-
-**Features:**
-- VS Code and JetBrains extensions
-- Bring-your-own-model (cloud or local)
-- Chat, autocomplete, edit-in-place, agent mode
-- Codebase retrieval and context providers
-- Custom slash commands and tools via YAML config
-- Team-shared configuration for consistent org-wide setups
-- Fully offline capable with local model servers
-
-**Use cases:**
-- IDE-integrated coding assistance without vendor lock-in
-- Air-gapped development teams using local LLMs
-- Organizations standardizing on a custom model + prompt setup
-- Developers who want Cursor-like features in vanilla VS Code
-- {'Hybrid setups': 'fast local completions, smart cloud chat'}
-
----
-
 ## Amazon Q Developer
 
 **URL:** https://aws.amazon.com/q/developer/
@@ -1101,16 +1046,6 @@ at docs.continue.dev — only the machine-readable index went away.
 **License:** commercial  |  **Deployment:** local
 
 *AWS's AI coding assistant with deep integration into AWS services and enterprise compliance.*
-
----
-
-## Codeium
-
-**URL:** https://codeium.com
-**llms.txt:** https://codeium.com/llms.txt (missing)
-**License:** freemium  |  **Deployment:** local
-
-*Free AI autocomplete extension for 40+ editors — from the makers of Windsurf.*
 
 ---
 
@@ -1274,16 +1209,6 @@ provides managed hosting for teams that don't want to run Docker.
 
 ---
 
-## Flowise
-
-**URL:** https://flowiseai.com
-**llms.txt:** https://flowiseai.com/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*Drag-and-drop UI for building LLM workflows and agents — open-source, self-hostable.*
-
----
-
 # Voice (STT / TTS)
 
 ## Brethof Voice Pro
@@ -1391,26 +1316,6 @@ dependencies. Jan, KoboldCpp, and many other tools embed whisper.cpp.
 
 ---
 
-## Kokoro TTS
-
-**URL:** https://github.com/hexgrad/kokoro
-**llms.txt:** https://github.com/hexgrad/kokoro/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
-
-*Lightweight open-weight TTS model — surprisingly natural output at small model size.*
-
----
-
-## OpenVoice
-
-**URL:** https://github.com/myshell-ai/OpenVoice
-**llms.txt:** https://github.com/myshell-ai/OpenVoice/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
-
-*Versatile instant voice cloning with cross-lingual synthesis and granular style control.*
-
----
-
 ## Piper
 
 **URL:** https://github.com/rhasspy/piper
@@ -1440,16 +1345,6 @@ dependencies. Jan, KoboldCpp, and many other tools embed whisper.cpp.
 **License:** open-source  |  **Deployment:** self-hosted
 
 *Most widely-used web UI for Stable Diffusion — extensive extension ecosystem.*
-
----
-
-## Fooocus
-
-**URL:** https://github.com/lllyasviel/Fooocus
-**llms.txt:** https://github.com/lllyasviel/Fooocus/llms.txt (missing)
-**License:** open-source  |  **Deployment:** local
-
-*Simplified Stable Diffusion UI focused on ease-of-use — Midjourney-like experience locally.*
 
 ---
 
@@ -1949,26 +1844,6 @@ storage layer.
 **License:** open-source  |  **Deployment:** self-hosted
 
 *All-in-one desktop and Docker RAG app — document ingestion, agents, multi-user.*
-
----
-
-## Quivr
-
-**URL:** https://www.quivr.com
-**llms.txt:** https://www.quivr.com/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*Opinionated RAG framework: plug in your LLM, vector store, and files and get a chatbot.*
-
----
-
-## Verba
-
-**URL:** https://github.com/weaviate/verba
-**llms.txt:** https://github.com/weaviate/verba/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*Weaviate's open-source RAG chatbot — Golden RAGtriever reference implementation.*
 
 ---
 

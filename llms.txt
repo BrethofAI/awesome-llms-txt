@@ -20,7 +20,6 @@
 - [SGLang](https://docs.sglang.io): Fast LLM and VLM serving runtime with RadixAttention cache and structured output support. ✓
   - llms.txt: https://docs.sglang.io/llms.txt
 - [ExLlamaV2](https://github.com/turboderp-org/exllamav2): Fast inference library for quantized LLMs optimized for consumer NVIDIA GPUs. ✗
-- [GPT4All](https://www.nomic.ai/gpt4all): Privacy-first desktop chatbot running local LLMs on CPU with a Python SDK. ✗
 - [KoboldCpp](https://github.com/LostRuins/koboldcpp): Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP. ✗
 - [MLC LLM](https://llm.mlc.ai): Universal LLM deployment via compiled kernels — runs on iOS, Android, WebGPU, Vulkan, CUDA. ✗
 - [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui): Gradio-based web UI for local LLMs supporting GGUF, GPTQ, AWQ, ExLlamaV2. ✗
@@ -72,10 +71,8 @@
 - [Windsurf](https://windsurf.com): AI-native IDE from Codeium with Cascade agent mode, deep indexing, and real-time code awareness. ✓
   - llms.txt: https://docs.windsurf.com/llms.txt
 - [Aider](https://aider.chat): AI pair programming in your terminal — edits code across your git repo with commit-per-change discipline. ✗
-- [Continue](https://www.continue.dev): Open-source AI coding assistant for VS Code and JetBrains — bring any model, any provider, customizable. ✗
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/): AWS's AI coding assistant with deep integration into AWS services and enterprise compliance. ✓
   - llms.txt: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/llms.txt
-- [Codeium](https://codeium.com): Free AI autocomplete extension for 40+ editors — from the makers of Windsurf. ✗
 - [Sourcegraph Cody](https://sourcegraph.com/cody): AI coding assistant with enterprise-grade code search context across massive codebases. ✗
 
 ## Workflow Tools
@@ -88,7 +85,6 @@
   - llms.txt: https://docs.n8n.io/llms.txt
 - [Langflow](https://www.langflow.org): Visual framework for building multi-agent and RAG applications with a node-based editor. ✓
   - llms.txt: https://www.langflow.org/llms.txt
-- [Flowise](https://flowiseai.com): Drag-and-drop UI for building LLM workflows and agents — open-source, self-hostable. ✗
 
 ## Voice (STT / TTS)
 
@@ -97,8 +93,6 @@
 - [whisper.cpp](https://github.com/ggml-org/whisper.cpp): C++ port of OpenAI Whisper for local speech-to-text — no Python, runs on CPU and many GPU backends. ✗
 - [Coqui TTS](https://github.com/coqui-ai/TTS): Deep-learning toolkit for TTS with multi-speaker models and voice cloning. ✗
 - [F5-TTS](https://github.com/SWivid/F5-TTS): High-quality open-source TTS with voice cloning from short audio reference. ✗
-- [Kokoro TTS](https://github.com/hexgrad/kokoro): Lightweight open-weight TTS model — surprisingly natural output at small model size. ✗
-- [OpenVoice](https://github.com/myshell-ai/OpenVoice): Versatile instant voice cloning with cross-lingual synthesis and granular style control. ✗
 - [Piper](https://github.com/rhasspy/piper): Fast, local neural text-to-speech with dozens of voices — optimized for Raspberry Pi. ✗
 
 ## Image Generation
@@ -106,7 +100,6 @@
 - [InvokeAI](https://invoke.ai): Professional-grade Stable Diffusion with unified canvas, workflows, and team features. ✓
   - llms.txt: https://invoke.ai/llms.txt
 - [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui): Most widely-used web UI for Stable Diffusion — extensive extension ecosystem. ✗
-- [Fooocus](https://github.com/lllyasviel/Fooocus): Simplified Stable Diffusion UI focused on ease-of-use — Midjourney-like experience locally. ✗
 - [Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion): Krita plugin for Stable Diffusion — inpaint, img2img, and generative layers inside Krita. ✗
 - [SD.Next](https://github.com/vladmandic/sdnext): Advanced fork of SD WebUI with broader model support (Flux, Lumina, Kolors, more). ✗
 
@@ -137,8 +130,6 @@
 - [Mem0](https://mem0.ai): Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions. ✓
   - llms.txt: https://docs.mem0.ai/llms.txt
 - [AnythingLLM](https://anythingllm.com): All-in-one desktop and Docker RAG app — document ingestion, agents, multi-user. ✗
-- [Quivr](https://www.quivr.com): Opinionated RAG framework: plug in your LLM, vector store, and files and get a chatbot. ✗
-- [Verba](https://github.com/weaviate/verba): Weaviate's open-source RAG chatbot — Golden RAGtriever reference implementation. ✗
 
 ## Embeddings
 

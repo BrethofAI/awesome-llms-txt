@@ -2,9 +2,8 @@ name: Cursor
 slug: cursor
 url: https://cursor.com
 repository: null
-llms_txt: https://docs.cursor.com/llms.txt
-llms_full_txt: https://docs.cursor.com/llms-full.txt
-llms_txt_status: missing
+llms_txt: https://cursor.com/llms.txt
+llms_txt_status: published
 
 category: coding-agents
 subcategory: ai-native-ide

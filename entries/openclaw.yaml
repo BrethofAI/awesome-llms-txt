@@ -2,8 +2,8 @@ name: OpenClaw
 slug: openclaw
 url: https://github.com/openclaw/openclaw
 repository: https://github.com/openclaw/openclaw
-llms_txt: https://openclaw.dev/llms.txt
-llms_txt_status: missing
+llms_txt: https://docs.openclaw.ai/llms.txt
+llms_txt_status: published
 
 category: agent-frameworks
 subcategory: computer-use-agent

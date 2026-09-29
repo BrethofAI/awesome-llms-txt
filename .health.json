@@ -19,11 +19,11 @@
    }
   },
   "amazon-q-developer": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "anthropic-sdk": {
@@ -83,11 +83,11 @@
    }
   },
   "brave-search": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "brethof-voice-pro": {
@@ -179,10 +179,10 @@
    }
   },
   "cursor": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "not_a_file",
+    "state": "ok",
     "code": 200
    }
   },
@@ -323,18 +323,18 @@
    }
   },
   "huggingface-transformers": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "invokeai": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "not_a_file",
+    "state": "ok",
     "code": 200
    }
   },
@@ -371,11 +371,11 @@
    }
   },
   "lancedb": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "langchain": {
@@ -411,10 +411,10 @@
    }
   },
   "langsmith": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "not_a_file",
+    "state": "ok",
     "code": 200
    }
   },
@@ -443,10 +443,10 @@
    }
   },
   "llamaindex": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "not_a_file",
+    "state": "ok",
     "code": 200
    }
   },
@@ -507,11 +507,11 @@
    }
   },
   "modal": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "ms-swift": {
@@ -555,11 +555,11 @@
    }
   },
   "openclaw": {
-   "ok_streak": 0,
+   "ok_streak": 1,
    "fail_streak": 0,
    "last": {
-    "state": "transient",
-    "code": -1
+    "state": "ok",
+    "code": 200
    }
   },
   "openvoice": {
@@ -619,11 +619,11 @@
    }
   },
   "privategpt": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "promptfoo": {
@@ -667,11 +667,11 @@
    }
   },
   "raycast-ai": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "replicate": {
@@ -715,11 +715,11 @@
    }
   },
   "sglang": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "shellgpt": {
@@ -787,11 +787,11 @@
    }
   },
   "ubuntu": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "unsloth": {
@@ -803,11 +803,11 @@
    }
   },
   "unstructured": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "verba": {
@@ -827,18 +827,18 @@
    }
   },
   "vllm": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "wandb": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "not_a_file",
+    "state": "ok",
     "code": 200
    }
   },

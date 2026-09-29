@@ -1,8 +1,8 @@
 name: PrivateGPT
 slug: privategpt
 url: https://github.com/zylon-ai/private-gpt
-llms_txt: https://github.com/zylon-ai/private-gpt/llms.txt
-llms_txt_status: missing
+llms_txt: https://docs.privategpt.dev/llms.txt
+llms_txt_status: published
 status: stub
 
 category: desktop-apps

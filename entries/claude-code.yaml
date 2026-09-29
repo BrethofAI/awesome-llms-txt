@@ -1,9 +1,9 @@
 name: Claude Code
 slug: claude-code
-url: https://claude.com/claude-code
+url: https://claude.com/product/claude-code
 repository: null
-llms_txt: https://docs.claude.com/llms.txt
-llms_full_txt: https://docs.claude.com/llms-full.txt
+llms_txt: https://code.claude.com/docs/llms.txt
+llms_full_txt: https://code.claude.com/docs/llms-full.txt
 llms_txt_status: published
 
 category: coding-agents

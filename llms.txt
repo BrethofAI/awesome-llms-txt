@@ -4,22 +4,25 @@
 
 ## Inference Runtimes
 
+- [HuggingFace Transformers](https://huggingface.co/docs/transformers): Foundational Python library for loading and running thousands of transformer models in PyTorch, TensorFlow, and JAX. ✓
+  - llms.txt: https://huggingface.co/docs/transformers/llms.txt
 - [LM Studio](https://lmstudio.ai): Desktop application for discovering, downloading, and running local LLMs with a polished UI and OpenAI-compatible server. ✓
   - llms.txt: https://lmstudio.ai/llms.txt
 - [Ollama](https://ollama.com): Run large language models locally via a single-binary server with a built-in model library. ✓
   - llms.txt: https://ollama.com/llms.txt
 - [Open WebUI](https://openwebui.com): Self-hosted, feature-rich chat interface for local and cloud LLMs — the "ChatGPT clone" of the open-source world. ✓
   - llms.txt: https://docs.openwebui.com/llms.txt
-- [HuggingFace Transformers](https://huggingface.co/docs/transformers): Foundational Python library for loading and running thousands of transformer models in PyTorch, TensorFlow, and JAX. ✗
+- [vLLM](https://docs.vllm.ai): High-throughput, memory-efficient LLM inference engine with PagedAttention and continuous batching. ✓
+  - llms.txt: https://vllm.ai/llms.txt
 - [Jan](https://jan.ai): Open-source desktop ChatGPT alternative that runs local LLMs — privacy-first, no cloud, no account. ✗
 - [llama.cpp](https://github.com/ggml-org/llama.cpp): Reference C++ implementation for running LLaMA-family and other transformer models with GGUF quantization. ✗
 - [LocalAI](https://localai.io): Self-hosted, OpenAI-compatible inference server for text, image, audio, and embedding models — runs anywhere. ✗
-- [vLLM](https://docs.vllm.ai): High-throughput, memory-efficient LLM inference engine with PagedAttention and continuous batching. ✗
+- [SGLang](https://docs.sglang.io): Fast LLM and VLM serving runtime with RadixAttention cache and structured output support. ✓
+  - llms.txt: https://docs.sglang.io/llms.txt
 - [ExLlamaV2](https://github.com/turboderp-org/exllamav2): Fast inference library for quantized LLMs optimized for consumer NVIDIA GPUs. ✗
 - [GPT4All](https://www.nomic.ai/gpt4all): Privacy-first desktop chatbot running local LLMs on CPU with a Python SDK. ✗
 - [KoboldCpp](https://github.com/LostRuins/koboldcpp): Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP. ✗
 - [MLC LLM](https://llm.mlc.ai): Universal LLM deployment via compiled kernels — runs on iOS, Android, WebGPU, Vulkan, CUDA. ✗
-- [SGLang](https://sgl-project.github.io): Fast LLM and VLM serving runtime with RadixAttention cache and structured output support. ✗
 - [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui): Gradio-based web UI for local LLMs supporting GGUF, GPTQ, AWQ, ExLlamaV2. ✗
 
 ## LLM Gateways
@@ -35,14 +38,15 @@
   - llms.txt: https://python.langchain.com/llms.txt
 - [LangGraph](https://langchain-ai.github.io/langgraph/): Graph-based library for building stateful multi-agent workflows with explicit control flow and durability. ✓
   - llms.txt: https://langchain-ai.github.io/langgraph/llms.txt
+- [OpenClaw](https://github.com/openclaw/openclaw): Open-source framework for running browser-automation agents with persistent profiles and human-in-the-loop review. ✓
+  - llms.txt: https://docs.openclaw.ai/llms.txt
 - [AutoGen](https://microsoft.github.io/autogen/): Microsoft's framework for building multi-agent conversations with customizable agents and conversation patterns. ✗
-- [OpenClaw](https://github.com/openclaw/openclaw): Open-source framework for running browser-automation agents with persistent profiles and human-in-the-loop review. ✗
 - [Agno](https://docs.agno.com): High-performance multi-agent framework with memory, reasoning, and 20+ model integrations. ✓
   - llms.txt: https://docs.agno.com/llms.txt
 - [DSPy](https://dspy.ai): Framework for programming rather than prompting LLMs — composable modules with optimizers. ✓
-  - llms.txt: https://dspy.ai/llms.txt
-- [Pydantic AI](https://ai.pydantic.dev): Agent framework built on Pydantic with type-safe tool use and structured responses. ✓
-  - llms.txt: https://ai.pydantic.dev/llms.txt
+  - llms.txt: https://dspy.ai/current/llms.txt
+- [Pydantic AI](https://pydantic.dev/docs/ai/overview/): Agent framework built on Pydantic with type-safe tool use and structured responses. ✓
+  - llms.txt: https://pydantic.dev/docs/ai/llms.txt
 - [smolagents](https://huggingface.co/docs/smolagents): Minimal agent library from HuggingFace centered on code-writing agents. ✓
   - llms.txt: https://huggingface.co/docs/smolagents/llms.txt
 - [Vercel AI SDK](https://ai-sdk.dev): TypeScript toolkit for building AI apps with unified APIs across providers and framework helpers. ✓
@@ -52,23 +56,25 @@
 
 ## Agent SDKs
 
-- [Anthropic SDK](https://docs.claude.com/en/api/overview): Official Anthropic client libraries for the Claude API in Python, TypeScript, Java, Go, and Ruby. ✓
-  - llms.txt: https://docs.claude.com/llms.txt
-- [Claude Agent SDK](https://docs.claude.com/en/api/agent-sdk/overview): Anthropic's official SDK for building custom agents on top of Claude with tool use, subagents, and hooks. ✓
-  - llms.txt: https://docs.claude.com/llms.txt
+- [Anthropic SDK](https://platform.claude.com/docs/en/api/overview): Official Anthropic client libraries for the Claude API in Python, TypeScript, Java, Go, and Ruby. ✓
+  - llms.txt: https://platform.claude.com/llms.txt
+- [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview): Anthropic's official SDK for building custom agents on top of Claude with tool use, subagents, and hooks. ✓
+  - llms.txt: https://code.claude.com/docs/llms.txt
 
 ## Coding Agents
 
-- [Claude Code](https://claude.com/claude-code): Anthropic's terminal-first agentic coding assistant with deep tool use and codebase awareness. ✓
-  - llms.txt: https://docs.claude.com/llms.txt
+- [Claude Code](https://claude.com/product/claude-code): Anthropic's terminal-first agentic coding assistant with deep tool use and codebase awareness. ✓
+  - llms.txt: https://code.claude.com/docs/llms.txt
+- [Cursor](https://cursor.com): AI-first fork of VS Code with deep LLM integration, agent mode, and codebase-aware context. ✓
+  - llms.txt: https://cursor.com/llms.txt
 - [GitHub Copilot](https://github.com/features/copilot): GitHub's native AI coding assistant with chat, autocomplete, and agent mode across major IDEs. ✓
   - llms.txt: https://docs.github.com/llms.txt
 - [Windsurf](https://windsurf.com): AI-native IDE from Codeium with Cascade agent mode, deep indexing, and real-time code awareness. ✓
   - llms.txt: https://docs.windsurf.com/llms.txt
 - [Aider](https://aider.chat): AI pair programming in your terminal — edits code across your git repo with commit-per-change discipline. ✗
 - [Continue](https://www.continue.dev): Open-source AI coding assistant for VS Code and JetBrains — bring any model, any provider, customizable. ✗
-- [Cursor](https://cursor.com): AI-first fork of VS Code with deep LLM integration, agent mode, and codebase-aware context. ✗
-- [Amazon Q Developer](https://aws.amazon.com/q/developer/): AWS's AI coding assistant with deep integration into AWS services and enterprise compliance. ✗
+- [Amazon Q Developer](https://aws.amazon.com/q/developer/): AWS's AI coding assistant with deep integration into AWS services and enterprise compliance. ✓
+  - llms.txt: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/llms.txt
 - [Codeium](https://codeium.com): Free AI autocomplete extension for 40+ editors — from the makers of Windsurf. ✗
 - [Sourcegraph Cody](https://sourcegraph.com/cody): AI coding assistant with enterprise-grade code search context across massive codebases. ✗
 
@@ -97,9 +103,10 @@
 
 ## Image Generation
 
+- [InvokeAI](https://invoke.ai): Professional-grade Stable Diffusion with unified canvas, workflows, and team features. ✓
+  - llms.txt: https://invoke.ai/llms.txt
 - [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui): Most widely-used web UI for Stable Diffusion — extensive extension ecosystem. ✗
 - [Fooocus](https://github.com/lllyasviel/Fooocus): Simplified Stable Diffusion UI focused on ease-of-use — Midjourney-like experience locally. ✗
-- [InvokeAI](https://invoke.com): Professional-grade Stable Diffusion with unified canvas, workflows, and team features. ✗
 - [Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion): Krita plugin for Stable Diffusion — inpaint, img2img, and generative layers inside Krita. ✗
 - [SD.Next](https://github.com/vladmandic/sdnext): Advanced fork of SD WebUI with broader model support (Flux, Lumina, Kolors, more). ✗
 
@@ -118,15 +125,17 @@
 - [Weaviate](https://weaviate.io): Open-source vector database with built-in ML modules, hybrid search, and first-class RAG tooling. ✓
   - llms.txt: https://weaviate.io/llms.txt
 - [pgvector](https://github.com/pgvector/pgvector): Postgres extension adding vector similarity search — the "just use Postgres" option for RAG. ✗
-- [LanceDB](https://lancedb.com): Serverless vector DB on the Lance columnar format — embedded or cloud, multimodal-ready. ✗
+- [LanceDB](https://lancedb.com): Serverless vector DB on the Lance columnar format — embedded or cloud, multimodal-ready. ✓
+  - llms.txt: https://lancedb.com/llms.txt
 
 ## RAG Frameworks
 
 - [Haystack](https://haystack.deepset.ai): Production-oriented Python framework for building RAG, search, and agent pipelines with composable components. ✓
   - llms.txt: https://docs.haystack.deepset.ai/llms.txt
+- [LlamaIndex](https://www.llamaindex.ai): Leading RAG framework for connecting LLMs to private data — document loaders, indexes, retrievers, and agents. ✓
+  - llms.txt: https://developers.llamaindex.ai/llms.txt
 - [Mem0](https://mem0.ai): Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions. ✓
   - llms.txt: https://docs.mem0.ai/llms.txt
-- [LlamaIndex](https://www.llamaindex.ai): Leading RAG framework for connecting LLMs to private data — document loaders, indexes, retrievers, and agents. ✗
 - [AnythingLLM](https://anythingllm.com): All-in-one desktop and Docker RAG app — document ingestion, agents, multi-user. ✗
 - [Quivr](https://www.quivr.com): Opinionated RAG framework: plug in your LLM, vector store, and files and get a chatbot. ✗
 - [Verba](https://github.com/weaviate/verba): Weaviate's open-source RAG chatbot — Golden RAGtriever reference implementation. ✗
@@ -141,12 +150,14 @@
 
 - [Langfuse](https://langfuse.com): Open-source LLM engineering platform for tracing, evaluation, prompt management, and observability — self-host or cloud. ✓
   - llms.txt: https://langfuse.com/llms.txt
-- [LangSmith](https://www.langchain.com/langsmith): Commercial observability, debugging, and evaluation platform for LLM and agent applications. ✗
+- [LangSmith](https://www.langchain.com/langsmith): Commercial observability, debugging, and evaluation platform for LLM and agent applications. ✓
+  - llms.txt: https://docs.langchain.com/llms.txt
 - [Arize Phoenix](https://phoenix.arize.com): Open-source ML and LLM observability platform with OpenTelemetry-based tracing. ✓
   - llms.txt: https://arize.com/docs/phoenix/llms.txt
 - [Helicone](https://helicone.ai): Open-source observability for LLM apps — traces, prompts, evaluations, usage analytics. ✓
   - llms.txt: https://helicone.ai/llms.txt
-- [Weights & Biases](https://wandb.ai): Leading ML experiment tracking platform with dedicated LLM observability (Weave). ✗
+- [Weights & Biases](https://wandb.ai): Leading ML experiment tracking platform with dedicated LLM observability (Weave). ✓
+  - llms.txt: https://docs.wandb.ai/llms.txt
 
 ## Evaluation
 
@@ -160,7 +171,7 @@
 ## Training & Fine-tuning
 
 - [Unsloth](https://unsloth.ai): 2x faster LLM fine-tuning with 70% less memory — drop-in replacement for HuggingFace's training stack. ✓
-  - llms.txt: https://docs.unsloth.ai/llms.txt
+  - llms.txt: https://unsloth.ai/docs/llms.txt
 - [AI Toolkit (ostris)](https://github.com/ostris/ai-toolkit): Leading open-source toolkit for training LoRAs and fine-tunes on diffusion models — FLUX, SDXL, SD3, Qwen Image, and more. ✗
 - [Axolotl](https://axolotl.ai): YAML-configured fine-tuning framework supporting LoRA, QLoRA, full FT, DPO, and most modern LLM architectures. ✗
 - [TRL (HuggingFace)](https://huggingface.co/docs/trl): HuggingFace's library for reinforcement-learning based LLM training (DPO, PPO, SFT, KTO). ✓
@@ -170,6 +181,8 @@
 
 ## Web Search for Agents
 
+- [Brave Search API](https://brave.com/search/api/): Independent web search API with no tracking — alternative to Google / Bing for agent use. ✓
+  - llms.txt: https://api-dashboard.search.brave.com/llms.txt
 - [Exa](https://exa.ai): Neural search API built for AI agents — semantic search across the web with content retrieval. ✓
   - llms.txt: https://exa.ai/llms.txt
 - [Perplexity API](https://docs.perplexity.ai): API access to Perplexity's search-augmented LLMs — Sonar models with live citations. ✓
@@ -177,14 +190,14 @@
 - [SerpAPI](https://serpapi.com): Scraping API for Google, Bing, DuckDuckGo and 15+ search engines — structured JSON results. ✓
   - llms.txt: https://serpapi.com/llms.txt
 - [Tavily](https://tavily.com): Search API optimized for LLM agents — RAG-ready results with citations. ✓
-  - llms.txt: https://tavily.com/llms.txt
-- [Brave Search API](https://brave.com/search/api/): Independent web search API with no tracking — alternative to Google / Bing for agent use. ✗
+  - llms.txt: https://docs.tavily.com/llms.txt
 
 ## OCR & Document Parsing
 
+- [Unstructured](https://unstructured.io): Library for ingesting PDF, HTML, DOCX, XLSX, and 25+ formats into RAG-ready chunks. ✓
+  - llms.txt: https://docs.unstructured.io/llms.txt
 - [Docling](https://docling-project.github.io/docling/): IBM's document parsing toolkit — PDF, DOCX, images into structured JSON/markdown for RAG. ✗
 - [Marker](https://github.com/VikParuchuri/marker): Fast, accurate PDF-to-markdown conversion — tables, equations, and structure preserved. ✗
-- [Unstructured](https://unstructured.io): Library for ingesting PDF, HTML, DOCX, XLSX, and 25+ formats into RAG-ready chunks. ✗
 
 ## Deployment & Hosting
 
@@ -192,6 +205,8 @@
   - llms.txt: https://docs.fireworks.ai/llms.txt
 - [Groq](https://groq.com): Ultra-low-latency LLM inference on custom LPU silicon — sub-second complete responses and OpenAI-compatible API. ✓
   - llms.txt: https://console.groq.com/llms.txt
+- [Modal](https://modal.com): Serverless cloud platform for Python with first-class GPU support — deploy LLMs, training jobs, and batch pipelines from code. ✓
+  - llms.txt: https://modal.com/llms.txt
 - [Replicate](https://replicate.com): Run thousands of open-source ML models via simple API calls — image, video, audio, text — with per-second billing. ✓
   - llms.txt: https://replicate.com/docs/llms.txt
 - [RunPod](https://runpod.io): GPU cloud platform with on-demand instances, serverless endpoints, and a community GPU marketplace — priced for AI workloads. ✓
@@ -200,14 +215,15 @@
   - llms.txt: https://docs.together.ai/llms.txt
 - [xAI](https://x.ai): xAI's Grok API — Grok 4.1 Fast Reasoning and Non-reasoning currently the best raw-intelligence-per-dollar offering on the market. ✓
   - llms.txt: https://docs.x.ai/llms.txt
-- [Modal](https://modal.com): Serverless cloud platform for Python with first-class GPU support — deploy LLMs, training jobs, and batch pipelines from code. ✗
 
 ## Desktop Applications
 
 - [Claude Desktop](https://claude.com/download): Anthropic's native desktop app for Claude — MCP server support, skills, agent mode, and deep OS integration. ✓
-  - llms.txt: https://docs.claude.com/llms.txt
-- [PrivateGPT](https://github.com/zylon-ai/private-gpt): Privacy-first local AI over your documents — fully offline RAG chatbot. ✗
-- [Raycast AI](https://www.raycast.com/ai): macOS launcher with integrated AI commands, chat, and custom quicklinks. ✗
+  - llms.txt: https://platform.claude.com/llms.txt
+- [PrivateGPT](https://github.com/zylon-ai/private-gpt): Privacy-first local AI over your documents — fully offline RAG chatbot. ✓
+  - llms.txt: https://docs.privategpt.dev/llms.txt
+- [Raycast AI](https://www.raycast.com/core-features/ai): macOS launcher with integrated AI commands, chat, and custom quicklinks. ✓
+  - llms.txt: https://manual.raycast.com/llms.txt
 
 ## Shell Tools
 
@@ -216,6 +232,7 @@
 
 ## Operating Systems (AI-capable Linux)
 
+- [Ubuntu](https://ubuntu.com): The default Linux baseline for ML tutorials and cloud VMs — widely documented, increasingly controversial due to Snap-store enforcement and Canonical's direction. ✓
+  - llms.txt: https://ubuntu.com/llms.txt
 - [CachyOS](https://cachyos.org): Arch-based Linux distribution with performance-tuned kernels, first-class NVIDIA support, and a popular choice for local AI / ML workloads. ✗
 - [Fedora](https://fedoraproject.org): Upstream of RHEL and the distro that drives most Linux desktop feature adoption (Wayland, PipeWire, systemd, ostree) — strong AI / ML packaging on top. ✗
-- [Ubuntu](https://ubuntu.com): The default Linux baseline for ML tutorials and cloud VMs — widely documented, increasingly controversial due to Snap-store enforcement and Canonical's direction. ✗

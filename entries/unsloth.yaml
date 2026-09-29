@@ -2,8 +2,8 @@ name: Unsloth
 slug: unsloth
 url: https://unsloth.ai
 repository: https://github.com/unslothai/unsloth
-llms_txt: https://docs.unsloth.ai/llms.txt
-llms_full_txt: https://docs.unsloth.ai/llms-full.txt
+llms_txt: https://unsloth.ai/docs/llms.txt
+llms_full_txt: https://unsloth.ai/docs/llms-full.txt
 llms_txt_status: published
 
 category: training

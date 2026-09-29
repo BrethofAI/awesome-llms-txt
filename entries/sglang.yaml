@@ -1,8 +1,8 @@
 name: SGLang
 slug: sglang
-url: https://sgl-project.github.io
-llms_txt: https://sgl-project.github.io/llms.txt
-llms_txt_status: missing
+url: https://docs.sglang.io
+llms_txt: https://docs.sglang.io/llms.txt
+llms_txt_status: published
 status: stub
 
 category: inference-runtimes

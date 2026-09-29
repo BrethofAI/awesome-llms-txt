@@ -1,9 +1,9 @@
 name: Claude Agent SDK
 slug: claude-agent-sdk
-url: https://docs.claude.com/en/api/agent-sdk/overview
+url: https://code.claude.com/docs/en/agent-sdk/overview
 repository: https://github.com/anthropics/claude-agent-sdk-python
-llms_txt: https://docs.claude.com/llms.txt
-llms_full_txt: https://docs.claude.com/llms-full.txt
+llms_txt: https://code.claude.com/docs/llms.txt
+llms_full_txt: https://code.claude.com/docs/llms-full.txt
 llms_txt_status: published
 
 category: agent-sdks

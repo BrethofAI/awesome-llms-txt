@@ -2,8 +2,8 @@ name: Modal
 slug: modal
 url: https://modal.com
 repository: null
-llms_txt: https://modal.com/docs/llms.txt
-llms_txt_status: missing
+llms_txt: https://modal.com/llms.txt
+llms_txt_status: published
 
 category: deployment
 subcategory: serverless-gpu-platform

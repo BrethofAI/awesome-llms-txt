@@ -1,8 +1,8 @@
 name: InvokeAI
 slug: invokeai
-url: https://invoke.com
-llms_txt: https://invoke.com/llms.txt
-llms_txt_status: missing
+url: https://invoke.ai
+llms_txt: https://invoke.ai/llms.txt
+llms_txt_status: published
 status: stub
 
 category: image-gen

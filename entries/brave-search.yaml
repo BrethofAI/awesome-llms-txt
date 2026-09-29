@@ -1,8 +1,8 @@
 name: Brave Search API
 slug: brave-search
 url: https://brave.com/search/api/
-llms_txt: https://brave.com/search/api/llms.txt
-llms_txt_status: missing
+llms_txt: https://api-dashboard.search.brave.com/llms.txt
+llms_txt_status: published
 status: stub
 
 category: web-search-for-agents

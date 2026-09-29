@@ -1,9 +1,9 @@
 name: Anthropic SDK
 slug: anthropic-sdk
-url: https://docs.claude.com/en/api/overview
+url: https://platform.claude.com/docs/en/api/overview
 repository: https://github.com/anthropics/anthropic-sdk-python
-llms_txt: https://docs.claude.com/llms.txt
-llms_full_txt: https://docs.claude.com/llms-full.txt
+llms_txt: https://platform.claude.com/llms.txt
+llms_full_txt: https://platform.claude.com/llms-full.txt
 llms_txt_status: published
 
 category: agent-sdks

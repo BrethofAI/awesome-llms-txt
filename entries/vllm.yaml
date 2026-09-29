@@ -2,8 +2,8 @@ name: vLLM
 slug: vllm
 url: https://docs.vllm.ai
 repository: https://github.com/vllm-project/vllm
-llms_txt: https://docs.vllm.ai/llms.txt
-llms_txt_status: missing
+llms_txt: https://vllm.ai/llms.txt
+llms_txt_status: published
 
 category: inference-runtimes
 subcategory: production-inference-server

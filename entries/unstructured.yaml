@@ -1,8 +1,8 @@
 name: Unstructured
 slug: unstructured
 url: https://unstructured.io
-llms_txt: https://unstructured.io/llms.txt
-llms_txt_status: missing
+llms_txt: https://docs.unstructured.io/llms.txt
+llms_txt_status: published
 status: stub
 
 category: ocr-doc-parsing

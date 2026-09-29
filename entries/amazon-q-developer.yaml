@@ -1,8 +1,8 @@
 name: Amazon Q Developer
 slug: amazon-q-developer
 url: https://aws.amazon.com/q/developer/
-llms_txt: https://aws.amazon.com/q/developer/llms.txt
-llms_txt_status: missing
+llms_txt: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/llms.txt
+llms_txt_status: published
 status: stub
 
 category: coding-agents

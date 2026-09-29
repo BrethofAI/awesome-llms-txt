@@ -2,8 +2,8 @@ name: HuggingFace Transformers
 slug: huggingface-transformers
 url: https://huggingface.co/docs/transformers
 repository: https://github.com/huggingface/transformers
-llms_txt: https://huggingface.co/llms.txt
-llms_txt_status: missing
+llms_txt: https://huggingface.co/docs/transformers/llms.txt
+llms_txt_status: published
 
 category: inference-runtimes
 subcategory: ml-framework

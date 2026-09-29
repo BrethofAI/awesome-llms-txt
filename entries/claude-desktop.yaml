@@ -2,8 +2,8 @@ name: Claude Desktop
 slug: claude-desktop
 url: https://claude.com/download
 repository: null
-llms_txt: https://docs.claude.com/llms.txt
-llms_full_txt: https://docs.claude.com/llms-full.txt
+llms_txt: https://platform.claude.com/llms.txt
+llms_full_txt: https://platform.claude.com/llms-full.txt
 llms_txt_status: published
 
 category: desktop-apps

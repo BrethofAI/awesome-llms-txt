@@ -3,7 +3,7 @@ slug: ubuntu
 url: https://ubuntu.com
 repository: null
 llms_txt: https://ubuntu.com/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 
 category: operating-systems
 subcategory: general-purpose-linux

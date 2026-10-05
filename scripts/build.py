@@ -170,20 +170,26 @@ def render_readme(entries: list[dict]) -> str:
         "by Jeremy Howard."
     )
     lines.append("")
+    # the emoji key is GitHub's; the brethof.ai page labels entries in words
+    lines.append("<!-- github-only -->")
     lines.append("## Legend")
     lines.append("")
     lines.append("- ✅ `llms.txt` — tool publishes a working `llms.txt`")
     lines.append("- ❌ `llms.txt` — listed, but the tool hasn't published `llms.txt` yet")
     lines.append("- 🚧 stub — minimal entry; help us flesh it out via PR")
     lines.append("")
+    lines.append("<!-- /github-only -->")
     lines.append(
-        "✅/❌ is re-derived daily from what each URL actually serves — "
+        "The `llms.txt` status is re-derived daily from what each URL actually serves — "
         "including a check that the response is a real file and not a docs "
         "site's catch-all HTML page. See "
         "[CONTRIBUTING.md](./CONTRIBUTING.md#llms_txt_status-is-maintained-"
         "automatically--dont-sweat-it)."
     )
     lines.append("")
+    # LIST:START/END wrap the generated listing; brethof.ai builds the page
+    # from README.md — text outside verbatim, entries inside as a catalog.
+    lines.append("<!-- LIST:START -->")
     lines.append("## Contents")
     lines.append("")
 
@@ -215,6 +221,8 @@ def render_readme(entries: list[dict]) -> str:
             lines.append(line)
         lines.append("")
 
+    lines.append("<!-- LIST:END -->")
+    lines.append("")
     lines.append("## Notable model families")
     lines.append("")
     lines.append(

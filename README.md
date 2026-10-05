@@ -15,14 +15,17 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 - **[SecretiveShell/Awesome-llms-txt](https://github.com/SecretiveShell/Awesome-llms-txt)** — index of `llms.txt` URLs for agents to ingest as seed data. If you're looking for a raw feed of every `llms.txt` on the public internet to wire into RAG, look there. This repo takes the complementary angle: curated tools, categorized and described, aimed at humans picking what to use and agents answering "what should I recommend to my user for X?".
 - **[llmstxt.org](https://llmstxt.org/)** — the spec itself, by Jeremy Howard.
 
+<!-- github-only -->
 ## Legend
 
 - ✅ `llms.txt` — tool publishes a working `llms.txt`
 - ❌ `llms.txt` — listed, but the tool hasn't published `llms.txt` yet
 - 🚧 stub — minimal entry; help us flesh it out via PR
 
-✅/❌ is re-derived daily from what each URL actually serves — including a check that the response is a real file and not a docs site's catch-all HTML page. See [CONTRIBUTING.md](./CONTRIBUTING.md#llms_txt_status-is-maintained-automatically--dont-sweat-it).
+<!-- /github-only -->
+The `llms.txt` status is re-derived daily from what each URL actually serves — including a check that the response is a real file and not a docs site's catch-all HTML page. See [CONTRIBUTING.md](./CONTRIBUTING.md#llms_txt_status-is-maintained-automatically--dont-sweat-it).
 
+<!-- LIST:START -->
 ## Contents
 
 - [Inference Runtimes](#inference-runtimes) (13)
@@ -329,6 +332,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
   Arch-based Linux distribution with performance-tuned kernels, first-class NVIDIA support, and a popular choice for local AI / ML workloads.
 - **[Fedora](https://fedoraproject.org)** — ❌ llms.txt  
   Upstream of RHEL and the distro that drives most Linux desktop feature adoption (Wayland, PipeWire, systemd, ostree) — strong AI / ML packaging on top.
+
+<!-- LIST:END -->
 
 ## Notable model families
 

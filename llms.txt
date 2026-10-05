@@ -164,6 +164,8 @@
 
 - [Brethof Brain](https://brethof.ai/brain/): Memory for AI agents that is already there when a session starts — curated records, rules and the full history of what was said; it processes your memory and never stores it. Disclosure: maintained by us. ✓
   - llms.txt: https://brethof.ai/brain/llms.txt
+- [Claude Code memory (built in)](https://code.claude.com/docs/en/memory): Claude Code's own memory: CLAUDE.md (or AGENTS.md) instruction files you write, plus auto memory — notes Claude writes itself from your corrections — both loaded at the start of every session. ✓
+  - llms.txt: https://code.claude.com/docs/llms.txt
 - [Mem0](https://mem0.ai): Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions. ✓
   - llms.txt: https://docs.mem0.ai/llms.txt
 

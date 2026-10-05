@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**128 entries** — 70 with full descriptions, 58 stubs. **96** currently publish a working `llms.txt`.
+**129 entries** — 71 with full descriptions, 58 stubs. **97** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -38,7 +38,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [Image Generation](#image-generation) (5)
 - [Vector Databases](#vector-databases) (9)
 - [RAG Frameworks](#rag-frameworks) (4)
-- [Agent Memory](#agent-memory) (2)
+- [Agent Memory](#agent-memory) (3)
 - [Embeddings](#embeddings) (4)
 - [Observability](#observability) (7)
 - [Evaluation](#evaluation) (5)
@@ -233,6 +233,8 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 
 - **[Brethof Brain](https://brethof.ai/brain/)** — ✅ llms.txt  
   Memory for AI agents that is already there when a session starts — curated records, rules and the full history of what was said; it processes your memory and never stores it. Disclosure: maintained by us.
+- **[Claude Code memory (built in)](https://code.claude.com/docs/en/memory)** — ✅ llms.txt  
+  Claude Code's own memory: CLAUDE.md (or AGENTS.md) instruction files you write, plus auto memory — notes Claude writes itself from your corrections — both loaded at the start of every session.
 - **[Mem0](https://mem0.ai)** — ✅ llms.txt  
   Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions.
 

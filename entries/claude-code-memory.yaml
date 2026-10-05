@@ -1,0 +1,47 @@
+name: Claude Code memory (built in)
+slug: claude-code-memory
+url: https://code.claude.com/docs/en/memory
+llms_txt: https://code.claude.com/docs/llms.txt
+llms_txt_status: published
+
+category: agent-memory
+subcategory: built-in-agent-memory
+
+tagline: 'Claude Code''s own memory: CLAUDE.md (or AGENTS.md) instruction files you write, plus auto memory — notes Claude writes itself from your corrections — both loaded at the start of every session.'
+
+description: |
+  Each Claude Code session starts with a fresh context window. Two
+  built-in mechanisms carry knowledge across sessions. CLAUDE.md files
+  are plain-text instructions you write, scoped to an organization
+  (managed policy), to you across all projects (~/.claude/CLAUDE.md) or
+  to a project; Claude Code can also read a repository's AGENTS.md, and
+  path-scoped rules live in .claude/rules/. Auto memory is the other
+  half: notes Claude writes itself from your corrections and preferences,
+  kept per repository and shared across worktrees.
+
+  Both are loaded into every session (auto memory up to its first 200
+  lines or 25KB). Anthropic's documentation describes them as context,
+  not enforced configuration: to block an action regardless of what
+  Claude decides, use a hook instead. Subagents can keep their own auto
+  memory.
+
+features:
+  - CLAUDE.md files at organization, user and project scope
+  - Reads AGENTS.md, alone or alongside CLAUDE.md
+  - Path-scoped rules in .claude/rules/
+  - Auto memory written by Claude from corrections, per repository
+  - Loaded at the start of every session
+  - Persistent memory for subagents
+
+use_cases:
+  - Coding standards, build commands and project layout Claude should always know
+  - Remembering corrections so the same mistake is not repeated
+  - Organization-wide instructions managed by IT
+
+license: commercial
+deployment: cli
+platforms: [linux, macos, windows]
+tags: [memory, claude-code, claude-md, agents-md, anthropic, built-in]
+maintainer: Anthropic
+added: 2026-10-05
+verified: '2026-10-05'

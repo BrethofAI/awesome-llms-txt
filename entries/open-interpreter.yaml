@@ -1,7 +1,7 @@
 name: Open Interpreter
 slug: open-interpreter
 url: https://www.openinterpreter.com
-repository: https://github.com/openinterpreter/open-interpreter
+repository: https://github.com/openinterpreter/openinterpreter
 llms_txt: https://www.openinterpreter.com/llms.txt
 llms_txt_status: missing
 status: stub

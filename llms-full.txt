@@ -1262,7 +1262,7 @@ performance.
 ## Open Interpreter
 
 **URL:** https://www.openinterpreter.com
-**Repository:** https://github.com/openinterpreter/open-interpreter
+**Repository:** https://github.com/openinterpreter/openinterpreter
 **llms.txt:** https://www.openinterpreter.com/llms.txt (missing)
 **License:** open-source  |  **Deployment:** cli
 
@@ -1373,41 +1373,6 @@ removing Dify branding without a commercial license.
 - Prompt engineering and evaluation workflows
 - Companies wanting an internal "ChatGPT-for-our-docs" platform
 - Teams avoiding the lock-in of OpenAI GPTs / Anthropic Projects
-
----
-
-## Flowise
-
-**URL:** https://flowiseai.com
-**Repository:** https://github.com/FlowiseAI/Flowise
-**llms.txt:** https://docs.flowiseai.com/llms.txt (published)
-**License:** open-source  |  **Deployment:** self-hosted  |  Platforms: linux, macos, windows
-**Tags:** workflow, low-code, agents, rag, visual-builder
-
-*Open-source visual builder for AI agents and LLM workflows — Assistant, Chatflow and Agentflow builders with tracing, evals and human-in-the-loop.*
-
-Flowise is an open-source generative-AI development platform for building AI agents
-and LLM workflows visually. It has three builders: Assistant (beginner-friendly
-agents with tools and RAG over uploaded files), Chatflow (single-agent and RAG flows),
-and Agentflow (multi-agent orchestration). Around them it provides tracing and
-analytics, evaluations, human-in-the-loop steps, and an API, CLI, SDK and embeddable
-chatbot. Teams and workspaces are also supported.
-
-The core is Apache-2.0, and enterprise directories are under a commercial license. The
-project is now part of Workday.
-
-**Features:**
-- Assistant, Chatflow and Agentflow visual builders
-- RAG with document stores and vector upserts
-- Tracing, analytics and evaluations
-- Human-in-the-loop steps
-- API, CLI, SDK and embeddable chat widget
-- Self-host (npm / Docker) or Flowise Cloud
-
-**Use cases:**
-- Prototyping agents and RAG apps without code
-- Self-hosted internal chatbots over company documents
-- Multi-agent workflows with human approval steps
 
 ---
 

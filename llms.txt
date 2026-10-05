@@ -99,8 +99,6 @@
   - llms.txt: https://docs.comfy.org/llms.txt
 - [Dify](https://dify.ai): Open-source LLM app development platform with visual prompt IDE, RAG pipelines, and agent builder in one product. ✓
   - llms.txt: https://docs.dify.ai/llms.txt
-- [Flowise](https://flowiseai.com): Open-source visual builder for AI agents and LLM workflows — Assistant, Chatflow and Agentflow builders with tracing, evals and human-in-the-loop. ✓
-  - llms.txt: https://docs.flowiseai.com/llms.txt
 - [n8n](https://n8n.io): Fair-code workflow automation with native AI nodes, 500+ integrations, and first-class self-hosting. ✓
   - llms.txt: https://docs.n8n.io/llms.txt
 - [Langflow](https://www.langflow.org): Open-source (MIT) low-code visual builder for AI agents, RAG and MCP workflows — run locally, via Docker, or as Langflow Desktop. ✓

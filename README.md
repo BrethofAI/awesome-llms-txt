@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**129 entries** — 71 with full descriptions, 58 stubs. **97** currently publish a working `llms.txt`.
+**128 entries** — 70 with full descriptions, 58 stubs. **96** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -33,7 +33,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [Agent Frameworks](#agent-frameworks) (12)
 - [Agent SDKs](#agent-sdks) (3)
 - [Coding Agents](#coding-agents) (13)
-- [Workflow Tools](#workflow-tools) (5)
+- [Workflow Tools](#workflow-tools) (4)
 - [Voice (STT / TTS)](#voice-stt--tts) (8)
 - [Image Generation](#image-generation) (5)
 - [Vector Databases](#vector-databases) (9)
@@ -158,8 +158,6 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
   Node-based interface for building image, video, and audio generation workflows with any diffusion or multimodal model.
 - **[Dify](https://dify.ai)** — ✅ llms.txt  
   Open-source LLM app development platform with visual prompt IDE, RAG pipelines, and agent builder in one product.
-- **[Flowise](https://flowiseai.com)** — ✅ llms.txt  
-  Open-source visual builder for AI agents and LLM workflows — Assistant, Chatflow and Agentflow builders with tracing, evals and human-in-the-loop.
 - **[n8n](https://n8n.io)** — ✅ llms.txt  
   Fair-code workflow automation with native AI nodes, 500+ integrations, and first-class self-hosting.
 - **[Langflow](https://www.langflow.org)** — ✅ llms.txt 🚧 stub  

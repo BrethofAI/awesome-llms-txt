@@ -1,0 +1,30 @@
+{
+ "checked": "2026-10-05",
+ "since": false,
+ "changes": [
+  {
+   "slug": "automatic1111",
+   "name": "AUTOMATIC1111",
+   "kind": "dormant",
+   "detail": "no push for 217 days (since 2026-03-02)"
+  },
+  {
+   "slug": "flowise",
+   "name": "Flowise",
+   "kind": "archived",
+   "detail": "archived (last push 2026-08-13)"
+  },
+  {
+   "slug": "open-interpreter",
+   "name": "Open Interpreter",
+   "kind": "renamed",
+   "detail": "listed as openinterpreter/open-interpreter, GitHub says openinterpreter/openinterpreter"
+  },
+  {
+   "slug": "ragas",
+   "name": "Ragas",
+   "kind": "dormant",
+   "detail": "no push for 223 days (since 2026-02-24)"
+  }
+ ]
+}

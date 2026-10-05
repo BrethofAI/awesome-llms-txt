@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**111 entries** — 53 with full descriptions, 58 stubs. **78** currently publish a working `llms.txt`.
+**112 entries** — 53 with full descriptions, 59 stubs. **79** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -42,7 +42,7 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 - [Web Search for Agents](#web-search-for-agents) (6)
 - [OCR & Document Parsing](#ocr--document-parsing) (3)
 - [Deployment & Hosting](#deployment--hosting) (8)
-- [Desktop Applications](#desktop-applications) (4)
+- [Desktop Applications](#desktop-applications) (5)
 - [Shell Tools](#shell-tools) (1)
 - [Operating Systems (AI-capable Linux)](#operating-systems-ai-capable-linux) (3)
 
@@ -307,6 +307,8 @@ Most existing AI-tool directories are optimized for Google SEO (JavaScript-rende
 
 - **[Claude Desktop](https://claude.com/download)** — ✅ llms.txt  
   Anthropic's native desktop app for Claude — MCP server support, skills, agent mode, and deep OS integration.
+- **[Orkas](https://orkas.ai)** — ✅ llms.txt 🚧 stub  
+  Open-source multi-agent desktop app — a Commander plans a goal and dispatches specialist agents; bring your own model keys, files stay on your disk.
 - **[PrivateGPT](https://github.com/zylon-ai/private-gpt)** — ✅ llms.txt 🚧 stub  
   Privacy-first local AI over your documents — fully offline RAG chatbot.
 - **[Raycast AI](https://www.raycast.com/core-features/ai)** — ✅ llms.txt 🚧 stub  

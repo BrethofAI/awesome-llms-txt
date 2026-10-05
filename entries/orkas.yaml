@@ -1,0 +1,15 @@
+name: Orkas
+slug: orkas
+url: https://orkas.ai
+repository: https://github.com/Orkas-AI/Orkas
+llms_txt: https://orkas.ai/llms.txt
+llms_full_txt: https://orkas.ai/llms-full.txt
+llms_txt_status: published
+status: stub
+
+category: desktop-apps
+tagline: Open-source multi-agent desktop app — a Commander plans a goal and dispatches specialist agents; bring your own model keys, files stay on your disk.
+
+license: open-source
+deployment: local
+added: 2026-10-05

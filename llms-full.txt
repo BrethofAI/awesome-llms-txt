@@ -2809,6 +2809,17 @@ three.
 
 ---
 
+## Orkas
+
+**URL:** https://orkas.ai
+**Repository:** https://github.com/Orkas-AI/Orkas
+**llms.txt:** https://orkas.ai/llms.txt (published)
+**License:** open-source  |  **Deployment:** local
+
+*Open-source multi-agent desktop app — a Commander plans a goal and dispatches specialist agents; bring your own model keys, files stay on your disk.*
+
+---
+
 ## PrivateGPT
 
 **URL:** https://github.com/zylon-ai/private-gpt

@@ -233,6 +233,8 @@
 
 - [Claude Desktop](https://claude.com/download): Anthropic's native desktop app for Claude — MCP server support, skills, agent mode, and deep OS integration. ✓
   - llms.txt: https://platform.claude.com/llms.txt
+- [Orkas](https://orkas.ai): Open-source multi-agent desktop app — a Commander plans a goal and dispatches specialist agents; bring your own model keys, files stay on your disk. ✓
+  - llms.txt: https://orkas.ai/llms.txt
 - [PrivateGPT](https://github.com/zylon-ai/private-gpt): Privacy-first local AI over your documents — fully offline RAG chatbot. ✓
   - llms.txt: https://docs.privategpt.dev/llms.txt
 - [Raycast AI](https://www.raycast.com/core-features/ai): macOS launcher with integrated AI commands, chat, and custom quicklinks. ✓

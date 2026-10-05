@@ -20,6 +20,18 @@ except ImportError:
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+try:                                      # this week's facts (scripts/facts.py):
+    from facts import fact_line, load_facts   # stars, latest release, last push
+except ImportError:
+    def load_facts(root):
+        return {}
+
+    def fact_line(f):
+        return ""
+
+FACTS = load_facts(REPO_ROOT)
 ENTRIES_DIR = REPO_ROOT / "entries"
 README_OUT = REPO_ROOT / "README.md"
 LLMS_OUT = REPO_ROOT / "llms.txt"
@@ -218,6 +230,9 @@ def render_readme(entries: list[dict]) -> str:
                 line += f" — {badge}"
             if tagline:
                 line += f"  \n  {tagline}"
+            fl = fact_line(FACTS.get(str(entry.get("slug"))))
+            if fl:
+                line += f"  \n  <sub>{fl}</sub>"
             lines.append(line)
         lines.append("")
 

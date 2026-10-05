@@ -111,6 +111,9 @@ Need a category that isn't listed? Open an issue — we'll add it.
 - Tools in production or active development
 - Tools whose website / documentation / GitHub is publicly accessible
 - Both open-source and commercial tools
+- New or small projects — we don't turn a tool away for being young or
+  little-known; listings are labelled honestly, and our weekly check
+  removes anything that stops working
 - Tools without `llms.txt` yet (marked `status: missing`) — we hope listing
   will encourage them to publish one
 

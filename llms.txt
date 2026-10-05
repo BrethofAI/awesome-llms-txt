@@ -156,11 +156,16 @@
   - llms.txt: https://docs.haystack.deepset.ai/llms.txt
 - [LlamaIndex](https://developers.llamaindex.ai/python/framework/): Open-source Python framework for RAG and agents over private data — loaders, indexes, retrievers, query engines and workflows (from the makers of LlamaParse). ✓
   - llms.txt: https://developers.llamaindex.ai/llms.txt
-- [Mem0](https://mem0.ai): Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions. ✓
-  - llms.txt: https://docs.mem0.ai/llms.txt
 - [PrivateGPT](https://docs.privategpt.dev): Open-source (Apache-2.0) Claude-API-style layer for private AI apps on any local OpenAI-compatible model server — agentic RAG with citations, tools, MCP and data access. ✓
   - llms.txt: https://docs.privategpt.dev/llms.txt
 - [AnythingLLM](https://anythingllm.com): All-in-one desktop and Docker RAG app — document ingestion, agents, multi-user. ✗
+
+## Agent Memory
+
+- [Brethof Brain](https://brethof.ai/brain/): Memory for AI agents that is already there when a session starts — curated records, rules and the full history of what was said; it processes your memory and never stores it. Disclosure: maintained by us. ✓
+  - llms.txt: https://brethof.ai/brain/llms.txt
+- [Mem0](https://mem0.ai): Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions. ✓
+  - llms.txt: https://docs.mem0.ai/llms.txt
 
 ## Embeddings
 
@@ -280,10 +285,3 @@
 ## Shell Tools
 
 - [ShellGPT](https://github.com/TheR1D/shell_gpt): Command-line productivity tool powered by LLMs — generate shell commands, code, and configs. ✗
-
-## Operating Systems (AI-capable Linux)
-
-- [Ubuntu](https://ubuntu.com): The default Linux baseline for ML tutorials and cloud GPU images — widely documented, with LTS support up to 15 years via Ubuntu Pro; Snap-first packaging is a common point of friction. ✓
-  - llms.txt: https://ubuntu.com/llms.txt
-- [CachyOS](https://cachyos.org): Arch-based Linux distribution with performance-tuned kernels, first-class NVIDIA support, and a popular choice for local AI / ML workloads. ✗
-- [Fedora](https://fedoraproject.org): Upstream of RHEL and the distro that drives most Linux desktop feature adoption (Wayland, PipeWire, systemd, ostree) — strong AI / ML packaging on top. ✗

@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**130 entries** — 72 with full descriptions, 58 stubs. **96** currently publish a working `llms.txt`.
+**128 entries** — 70 with full descriptions, 58 stubs. **96** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -37,7 +37,8 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [Voice (STT / TTS)](#voice-stt--tts) (8)
 - [Image Generation](#image-generation) (5)
 - [Vector Databases](#vector-databases) (9)
-- [RAG Frameworks](#rag-frameworks) (5)
+- [RAG Frameworks](#rag-frameworks) (4)
+- [Agent Memory](#agent-memory) (2)
 - [Embeddings](#embeddings) (4)
 - [Observability](#observability) (7)
 - [Evaluation](#evaluation) (5)
@@ -47,7 +48,6 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [Deployment & Hosting](#deployment--hosting) (11)
 - [Desktop Applications](#desktop-applications) (5)
 - [Shell Tools](#shell-tools) (1)
-- [Operating Systems (AI-capable Linux)](#operating-systems-ai-capable-linux) (3)
 
 ## Inference Runtimes
 
@@ -224,12 +224,17 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
   Production-oriented Python framework for building RAG, search, and agent pipelines with composable components.
 - **[LlamaIndex](https://developers.llamaindex.ai/python/framework/)** — ✅ llms.txt  
   Open-source Python framework for RAG and agents over private data — loaders, indexes, retrievers, query engines and workflows (from the makers of LlamaParse).
-- **[Mem0](https://mem0.ai)** — ✅ llms.txt  
-  Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions.
 - **[PrivateGPT](https://docs.privategpt.dev)** — ✅ llms.txt 🚧 stub  
   Open-source (Apache-2.0) Claude-API-style layer for private AI apps on any local OpenAI-compatible model server — agentic RAG with citations, tools, MCP and data access.
 - **[AnythingLLM](https://anythingllm.com)** — ❌ llms.txt 🚧 stub  
   All-in-one desktop and Docker RAG app — document ingestion, agents, multi-user.
+
+## Agent Memory
+
+- **[Brethof Brain](https://brethof.ai/brain/)** — ✅ llms.txt  
+  Memory for AI agents that is already there when a session starts — curated records, rules and the full history of what was said; it processes your memory and never stores it. Disclosure: maintained by us.
+- **[Mem0](https://mem0.ai)** — ✅ llms.txt  
+  Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions.
 
 ## Embeddings
 
@@ -359,15 +364,6 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 
 - **[ShellGPT](https://github.com/TheR1D/shell_gpt)** — ❌ llms.txt 🚧 stub  
   Command-line productivity tool powered by LLMs — generate shell commands, code, and configs.
-
-## Operating Systems (AI-capable Linux)
-
-- **[Ubuntu](https://ubuntu.com)** — ✅ llms.txt  
-  The default Linux baseline for ML tutorials and cloud GPU images — widely documented, with LTS support up to 15 years via Ubuntu Pro; Snap-first packaging is a common point of friction.
-- **[CachyOS](https://cachyos.org)** — ❌ llms.txt  
-  Arch-based Linux distribution with performance-tuned kernels, first-class NVIDIA support, and a popular choice for local AI / ML workloads.
-- **[Fedora](https://fedoraproject.org)** — ❌ llms.txt  
-  Upstream of RHEL and the distro that drives most Linux desktop feature adoption (Wayland, PipeWire, systemd, ostree) — strong AI / ML packaging on top.
 
 <!-- LIST:END -->
 

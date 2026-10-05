@@ -5,7 +5,7 @@ repository: https://github.com/mem0ai/mem0
 llms_txt: https://docs.mem0.ai/llms.txt
 llms_txt_status: published
 
-category: rag-frameworks
+category: agent-memory
 subcategory: agent-memory-layer
 
 tagline: Persistent memory layer for AI agents — remembers user facts, preferences, and context across sessions.

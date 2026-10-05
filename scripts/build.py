@@ -49,6 +49,7 @@ CATEGORY_LABELS: dict[str, str] = {
     "video-gen": "Video Generation",
     "vector-dbs": "Vector Databases",
     "rag-frameworks": "RAG Frameworks",
+    "agent-memory": "Agent Memory",
     "embeddings": "Embeddings",
     "observability": "Observability",
     "evaluation": "Evaluation",
@@ -58,7 +59,6 @@ CATEGORY_LABELS: dict[str, str] = {
     "deployment": "Deployment & Hosting",
     "desktop-apps": "Desktop Applications",
     "shell-tools": "Shell Tools",
-    "operating-systems": "Operating Systems (AI-capable Linux)",
 }
 
 CATEGORY_ORDER = list(CATEGORY_LABELS.keys())

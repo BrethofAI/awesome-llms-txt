@@ -1,0 +1,52 @@
+name: Brethof Brain
+slug: brethof-brain
+url: https://brethof.ai/brain/
+repository: https://github.com/BrethofAI/brethof-brain-client
+llms_txt: https://brethof.ai/brain/llms.txt
+llms_txt_status: published
+
+category: agent-memory
+subcategory: agent-memory-system
+
+tagline: 'Memory for AI agents that is already there when a session starts — curated records, rules and the full history of what was said; it processes your memory and never stores it. Disclosure: maintained by us.'
+
+description: |
+  Brethof Brain is a memory system for AI agents: memory that is already
+  there when a new session starts, that hands the agent what matters the
+  moment it is relevant, and that keeps everything said so it can be found
+  again. Coding agents are its first audience, not the limit of it.
+
+  The memory curates itself. It reads what was said and keeps what a future
+  session would need as curated records, reconciling new facts against old
+  ones; standing rules arrive with almost every message, the records that
+  bear on a prompt arrive with it, and a brief opens every session. When
+  that is not enough, everything ever said can be searched.
+
+  Your memory lives on your own machine (local edition) or in our cloud,
+  encrypted under a key only you hold (hosted edition). Our hub processes
+  each exchange to make memory of it and stores none of it; the processing
+  runs on secure compute in Zurich, and the model provider is bound by
+  contract not to log, retain or train on what passes through. The client
+  is source-available. Disclosure: maintained by us (Brethof AI).
+
+features:
+  - Curated records per project, reconciled as facts change
+  - Standing rules and a session brief delivered automatically
+  - Full searchable archive of every conversation
+  - Playbooks — the agent's own procedures, kept and reused
+  - Local edition (memory on your machine) or hosted (encrypted under your key)
+  - Proven on 20 agent harnesses, including Claude Code, Codex, OpenCode, Cline, Gemini CLI and Hermes Agent
+  - MCP server and plugins for each harness; free plan to start
+
+use_cases:
+  - Coding agents that remember decisions and context across sessions and machines
+  - Several agents and sessions sharing one project memory
+  - Replacing hand-kept memory files with curated, searchable memory
+  - Applications that keep a separate memory per end-user or topic
+
+license: freemium
+deployment: saas
+platforms: [linux, windows]
+tags: [memory, agents, mcp, claude-code, long-term-memory, brethof]
+maintainer: Brethof AI
+added: 2026-10-05

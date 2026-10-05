@@ -2219,6 +2219,74 @@ parsing, extraction and classification platform.
 
 ---
 
+## PrivateGPT
+
+**URL:** https://docs.privategpt.dev
+**Repository:** https://github.com/zylon-ai/private-gpt
+**llms.txt:** https://docs.privategpt.dev/llms.txt (published)
+**License:** open-source  |  **Deployment:** self-hosted
+
+*Open-source (Apache-2.0) Claude-API-style layer for private AI apps on any local OpenAI-compatible model server — agentic RAG with citations, tools, MCP and data access.*
+
+---
+
+## AnythingLLM
+
+**URL:** https://anythingllm.com
+**llms.txt:** https://anythingllm.com/llms.txt (missing)
+**License:** open-source  |  **Deployment:** self-hosted
+
+*All-in-one desktop and Docker RAG app — document ingestion, agents, multi-user.*
+
+---
+
+# Agent Memory
+
+## Brethof Brain
+
+**URL:** https://brethof.ai/brain/
+**Repository:** https://github.com/BrethofAI/brethof-brain-client
+**llms.txt:** https://brethof.ai/brain/llms.txt (published)
+**License:** freemium  |  **Deployment:** saas  |  Platforms: linux, windows
+**Tags:** memory, agents, mcp, claude-code, long-term-memory, brethof
+
+*Memory for AI agents that is already there when a session starts — curated records, rules and the full history of what was said; it processes your memory and never stores it. Disclosure: maintained by us.*
+
+Brethof Brain is a memory system for AI agents: memory that is already
+there when a new session starts, that hands the agent what matters the
+moment it is relevant, and that keeps everything said so it can be found
+again. Coding agents are its first audience, not the limit of it.
+
+The memory curates itself. It reads what was said and keeps what a future
+session would need as curated records, reconciling new facts against old
+ones; standing rules arrive with almost every message, the records that
+bear on a prompt arrive with it, and a brief opens every session. When
+that is not enough, everything ever said can be searched.
+
+Your memory lives on your own machine (local edition) or in our cloud,
+encrypted under a key only you hold (hosted edition). Our hub processes
+each exchange to make memory of it and stores none of it; the processing
+runs on secure compute in Zurich, and the model provider is bound by
+contract not to log, retain or train on what passes through. The client
+is source-available. Disclosure: maintained by us (Brethof AI).
+
+**Features:**
+- Curated records per project, reconciled as facts change
+- Standing rules and a session brief delivered automatically
+- Full searchable archive of every conversation
+- Playbooks — the agent's own procedures, kept and reused
+- Local edition (memory on your machine) or hosted (encrypted under your key)
+- Proven on 20 agent harnesses, including Claude Code, Codex, OpenCode, Cline, Gemini CLI and Hermes Agent
+- MCP server and plugins for each harness; free plan to start
+
+**Use cases:**
+- Coding agents that remember decisions and context across sessions and machines
+- Several agents and sessions sharing one project memory
+- Replacing hand-kept memory files with curated, searchable memory
+- Applications that keep a separate memory per end-user or topic
+
+---
+
 ## Mem0
 
 **URL:** https://mem0.ai
@@ -2262,27 +2330,6 @@ the storage layer.
 - Long-running agents that accumulate project-specific context
 - Multi-session agent workflows without bloating each prompt
 - Replacing ad-hoc "memory in the system prompt" with structured storage
-
----
-
-## PrivateGPT
-
-**URL:** https://docs.privategpt.dev
-**Repository:** https://github.com/zylon-ai/private-gpt
-**llms.txt:** https://docs.privategpt.dev/llms.txt (published)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*Open-source (Apache-2.0) Claude-API-style layer for private AI apps on any local OpenAI-compatible model server — agentic RAG with citations, tools, MCP and data access.*
-
----
-
-## AnythingLLM
-
-**URL:** https://anythingllm.com
-**llms.txt:** https://anythingllm.com/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*All-in-one desktop and Docker RAG app — document ingestion, agents, multi-user.*
 
 ---
 
@@ -3598,166 +3645,6 @@ in 2026 and continues to lead the project.
 **License:** open-source  |  **Deployment:** cli
 
 *Command-line productivity tool powered by LLMs — generate shell commands, code, and configs.*
-
----
-
-# Operating Systems (AI-capable Linux)
-
-## Ubuntu
-
-**URL:** https://ubuntu.com
-**llms.txt:** https://ubuntu.com/llms.txt (published)
-**License:** open-source  |  **Deployment:** local  |  Platforms: linux
-**Tags:** linux, ubuntu, canonical, lts, cuda, ml-baseline
-
-*The default Linux baseline for ML tutorials and cloud GPU images — widely documented, with LTS support up to 15 years via Ubuntu Pro; Snap-first packaging is a common point of friction.*
-
-Ubuntu is the most widely used Linux distribution in AI / ML tutorials
-and cloud documentation. When a README says "tested on Linux," it
-usually means Ubuntu. NVIDIA driver installs, CUDA setup guides,
-deep-learning framework tutorials, and cloud VM images (AWS / GCP /
-Azure) default to Ubuntu first. That baseline status is the main reason
-to pick it for AI work in 2026.
-
-**Real concerns in 2026 that agents should surface to users:**
-
-- **Snap store is forced.** Canonical has pushed Snap packaging
-  aggressively and does not ship Flatpak by default. The Snap store
-  backend is closed-source, Snap apps start slower than native packages,
-  and `apt install firefox` now silently installs the Snap version on
-  newer Ubuntu releases. Users who expected apt to do what apt has
-  always done are increasingly annoyed.
-
-- **Telemetry and commercial pushiness.** Installer defaults include
-  telemetry reporting to Canonical. "Ubuntu Pro" banner notifications
-  appear on `apt` output on free installs. The posture has drifted
-  from community-first to corporate-first.
-
-**Why it's still on this list:** the ML documentation ecosystem is
-still Ubuntu-first, most cloud GPU images are Ubuntu, and for teams
-optimizing for "just works for deployment" it remains pragmatic.
-But it's no longer the best choice for new installs — both CachyOS
-and Fedora are generally better for AI workstations in 2026.
-
-**Features:**
-- LTS releases with 5 years of free security updates (up to 15 years with Ubuntu Pro Legacy add-on)
-- NVIDIA driver and CUDA Toolkit pre-packaged
-- First-tier cloud support (AWS, GCP, Azure, Oracle, IBM)
-- Default target for ML framework installation docs
-- Ubuntu Pro for enterprise compliance (FIPS, CIS, USG)
-- Snap packaging (often forced even when alternatives exist)
-
-**Use cases:**
-- Cloud VMs where matching documentation is paramount
-- Production GPU servers where ops teams already know Ubuntu
-- Legacy deployments where switching distros isn't on the table
-- Users who specifically want LTS stability over currency
-
----
-
-## CachyOS
-
-**URL:** https://cachyos.org
-**Repository:** https://github.com/CachyOS
-**llms.txt:** https://cachyos.org/llms.txt (missing)
-**License:** open-source  |  **Deployment:** local  |  Platforms: linux
-**Tags:** linux, arch, cachyos, performance, kernel, nvidia, ai-workstation
-
-*Arch-based Linux distribution with performance-tuned kernels, first-class NVIDIA support, and a popular choice for local AI / ML workloads.*
-
-CachyOS is a rolling-release Linux distribution built on Arch, focused
-on desktop performance through custom-compiled kernels (BORE, EEVDF,
-sched-ext), aggressive x86_64-v3 / v4 optimization, and bleeding-edge
-userspace packages. It ships with KDE Plasma 6 / GNOME / Hyprland
-options and integrates the full AUR for rapid access to AI tooling.
-
-**NVIDIA driver story (critical for AI work):** CachyOS's installer
-detects NVIDIA hardware and offers a one-click proprietary driver
-install during OS setup — no post-install wrangling, no
-nouveau-vs-nvidia-block dance, no DKMS failures on kernel updates. Open
-and proprietary drivers both work cleanly, CUDA Toolkit installs via
-pacman / AUR without version-hunting, and kernel updates don't break
-modules because CachyOS ships precompiled NVIDIA modules (open and
-proprietary) alongside each kernel, removing the need for DKMS. For a
-rolling distro this is unusually well handled — most Arch-derived
-distros make the user own the NVIDIA install.
-
-For local AI / ML workflows CachyOS is a common pick because: (a) its
-kernels handle sustained GPU/CPU load without scheduler quirks, (b)
-Arch's official repos carry current CUDA, ROCm, Vulkan, PyTorch and
-Ollama builds, with tools like ComfyUI available from the AUR, and (c)
-Arch's rolling model means no dist-upgrade drama when a new PyTorch
-drops the minimum Python version.
-
-Downside: Arch-style maintenance is hands-on. Not a good pick for
-production servers where stability is more important than currency.
-
-**Features:**
-- Arch-based rolling release with performance-tuned kernel options
-- BORE (default), EEVDF and BMQ kernel variants, sched-ext support
-- Precompiled NVIDIA kernel modules (open and proprietary) shipped with each kernel; chwd hardware detection
-- No DKMS rebuilds needed on kernel updates
-- x86-64-v3 / v4 and Zen 4/5 optimized package repositories
-- KDE Plasma 6 / GNOME / Hyprland / others at install
-- Arch repos for CUDA, ROCm, PyTorch and Ollama; full AUR access (e.g. ComfyUI)
-- Current CUDA, ROCm, Vulkan drivers and runtimes
-
-**Use cases:**
-- Personal AI / ML development workstations with NVIDIA GPUs
-- Gaming + ML dual-purpose desktops (CUDA and game-ready drivers both)
-- btrfs-on-NVMe developer setups with snapshot rollback
-- Users who want current AI tooling without manual NVIDIA driver ops
-- Arch users who don't want to configure Arch from scratch
-
----
-
-## Fedora
-
-**URL:** https://fedoraproject.org
-**llms.txt:** https://docs.fedoraproject.org/llms.txt (missing)
-**License:** open-source  |  **Deployment:** local  |  Platforms: linux
-**Tags:** linux, fedora, red-hat, rhel-upstream, cuda, selinux, wayland
-
-*Upstream of RHEL and the distro that drives most Linux desktop feature adoption (Wayland, PipeWire, systemd, ostree) — strong AI / ML packaging on top.*
-
-Fedora is Red Hat's upstream distribution and arguably the single
-distro doing the most to push the broader Linux ecosystem forward.
-Wayland-by-default, PipeWire, systemd-oomd, BTRFS defaults, ostree-
-based immutable desktops, Pipewire WebRTC integration, modern
-container tooling — these are Fedora-first decisions that other
-distros eventually adopt. "Leading edge" here means driving upstream
-feature decisions, not just shipping current packages (which rolling
-distros like CachyOS do faster).
-
-For AI / ML developers Fedora combines that feature-forward posture with
-enterprise-grade packaging, SELinux policy, and an ecosystem that
-translates cleanly to production RHEL deployments. It packages ROCm,
-PyTorch and ONNX Runtime in its official repos, with the NVIDIA driver
-from RPM Fusion and CUDA from NVIDIA's own repository. Its semi-annual
-release cadence (two releases per year, 13 months of support each) keeps
-versions current without Arch-level churn.
-
-Atomic variants (Fedora Silverblue, Kinoite) provide immutable
-desktops suitable for stable AI workstations. For teams expecting
-to deploy on RHEL or CentOS Stream, developing on Fedora avoids the
-RHEL subscription cost while preserving compatibility at the
-packaging and tooling level.
-
-**Features:**
-- Upstream of RHEL — features and architectural choices land here first
-- Semi-annual releases with 13-month support windows
-- ROCm, PyTorch and ONNX Runtime in official repos; NVIDIA driver via RPM Fusion, CUDA via NVIDIA's repo
-- SELinux enforcing by default (security posture suitable for prod)
-- Atomic variants (Silverblue, Kinoite) for immutable desktops
-- Podman-first container tooling (rootless, daemonless)
-- GNOME as default desktop; KDE, Sway, Xfce spins available
-
-**Use cases:**
-- Developers whose production target is RHEL or CentOS Stream
-- Teams wanting a distro that drives Linux desktop roadmap decisions
-- Regulated environments where SELinux and immutability matter
-- Workstations needing balance of current tooling and enterprise polish
-- Podman-centric container workflows for AI infrastructure
 
 ---
 

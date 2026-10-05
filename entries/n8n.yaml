@@ -50,3 +50,4 @@ platforms: [linux]
 tags: [workflow, automation, n8n, langchain, self-hosted, low-code]
 maintainer: n8n
 added: 2026-04-24
+verified: '2026-10-05'

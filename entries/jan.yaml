@@ -8,7 +8,7 @@ llms_txt_status: missing
 category: inference-runtimes
 subcategory: desktop-chat-app
 
-tagline: Open-source desktop ChatGPT alternative that runs local LLMs — privacy-first, no cloud, no account.
+tagline: Open-source (Apache-2.0) desktop ChatGPT alternative that runs local LLMs offline, with optional connections to cloud models.
 
 description: |
   Jan is a desktop application that provides a ChatGPT-like interface
@@ -18,11 +18,11 @@ description: |
   OpenAI-compatible local server — all in a single installable app for
   Linux, macOS, and Windows.
 
-  Jan's positioning is privacy-first: no account needed, no data sent to
-  any cloud, fully functional offline after install. Its codebase is
-  Apache-2.0 open-source and actively developed by Menlo Research, with
-  frequent model library updates tracking the open-weight state of the
-  art.
+  Jan's positioning is privacy-first: local models run fully offline with
+  no account. Cloud models (OpenAI, Anthropic, Gemini and others) can be
+  added with your own keys when you want them. Its codebase is Apache-2.0
+  open-source and actively developed by Menlo Research, with frequent
+  model library updates tracking the open-weight state of the art.
 
   The OpenAI-compatible server means Jan doubles as a local backend for
   other tools — coding assistants, agent frameworks, or any application
@@ -36,7 +36,7 @@ features:
   - Built-in OpenAI-compatible local server
   - NVIDIA CUDA, AMD ROCm, Apple Metal, CPU backends
   - Extensions system for custom integrations
-  - Fully offline after install; no telemetry
+  - Fully offline with local models; optional cloud model providers
 
 use_cases:
   - Privacy-conscious users wanting ChatGPT UX without cloud
@@ -51,3 +51,4 @@ platforms: [linux, macos, windows]
 tags: [inference, chat-ui, jan, local, privacy, llama-cpp]
 maintainer: Menlo Research
 added: 2026-04-24
+verified: '2026-10-05'

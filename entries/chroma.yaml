@@ -9,13 +9,14 @@ llms_txt_status: published
 category: vector-dbs
 subcategory: embedded-vector-db
 
-tagline: Open-source embedding database designed for LLM applications — runs embedded, as a server, or in the cloud.
+tagline: Open-source search infrastructure for AI — embedded, client-server or Chroma Cloud, with vector, full-text and (in Cloud) hybrid search.
 
 description: |
-  Chroma is the most popular open-source vector database for LLM
-  applications. It's designed with developer experience as the priority:
-  a simple Python / JavaScript API, no cluster configuration needed to
-  start, and sensible defaults for the RAG use case.
+  Chroma is a widely used open-source vector database / search
+  infrastructure for LLM applications. It's designed with developer
+  experience as the priority: a simple Python / JavaScript API, no cluster
+  configuration needed to start, and sensible defaults for the RAG use
+  case.
 
   Chroma runs in three modes: embedded (in-process, SQLite-backed — ideal
   for prototyping and small apps), standalone server (Docker, single node),
@@ -28,13 +29,14 @@ description: |
   RAG projects.
 
 features:
-  - Embedded, server, and cloud deployment modes
-  - Simple Python / JavaScript / TypeScript / Ruby / Rust clients
-  - Full-text search alongside vector search
+  - Embedded (in-process), client-server, and Chroma Cloud modes with one API
+  - Official Python, TypeScript/JavaScript and Rust clients
+  - Full-text and regex search alongside vector search
   - Metadata filtering with boolean and comparison operators
   - Multiple distance metrics (cosine, L2, inner product)
-  - Built-in embedding functions (OpenAI, HF, ONNX, Instructor, …)
-  - Persistent storage with SQLite or DuckDB
+  - Built-in embedding functions (OpenAI, HF, ONNX, and more)
+  - Chroma CLI for running a local server, browsing and copying collections
+  - Chroma Cloud Search API with sparse vectors and hybrid search (RRF)
 
 use_cases:
   - Prototyping RAG applications quickly without infra overhead
@@ -49,3 +51,4 @@ platforms: [linux, macos, windows]
 tags: [vector-db, chroma, rag, embedded, embeddings, sqlite]
 maintainer: Chroma
 added: 2026-04-24
+verified: '2026-10-05'

@@ -1,0 +1,56 @@
+name: VoxCPM
+slug: voxcpm
+url: https://github.com/OpenBMB/VoxCPM
+repository: https://github.com/OpenBMB/VoxCPM
+llms_txt: https://voxcpm.readthedocs.io/llms.txt
+llms_txt_status: missing
+
+category: voice
+subcategory: text-to-speech
+
+tagline: Open-source tokenizer-free TTS (VoxCPM2, 2B) with 30 languages, voice design from text prompts, controllable voice cloning and 48kHz output.
+
+description: |
+  VoxCPM is OpenBMB's open-source text-to-speech system. Instead of predicting discrete
+  audio tokens, it generates continuous speech representations with an end-to-end
+  diffusion-autoregressive architecture, which the authors credit for its natural,
+  expressive output. The current release, VoxCPM2, is a 2B-parameter model trained on
+  over 2 million hours of multilingual speech. It synthesizes 30 languages without a
+  language tag, plus several Chinese dialects, and outputs 48kHz audio directly.
+
+  Its distinguishing features are Voice Design, which creates a new voice from a
+  natural-language description (gender, age, tone, emotion, pace) with no reference
+  audio, and Controllable Cloning, which clones a voice from a short clip while steering
+  emotion and pacing. "Ultimate cloning" continues from a reference clip plus its
+  transcript to preserve timbre and rhythm closely.
+
+  It ships as a pip package with a Python API, a `voxcpm` CLI, a local web demo, and
+  LoRA / full fine-tuning scripts with a training WebUI. For production it can be served
+  through Nano-vLLM or vLLM-Omni (OpenAI-compatible), and runs without Python via
+  llama.cpp-omni GGUF builds on CPU, CUDA, Metal or Vulkan. Code and weights are
+  Apache-2.0, free for commercial use.
+
+features:
+  - 2B-parameter VoxCPM2 model, 30 languages plus Chinese dialects, 48kHz output
+  - Voice Design — create a voice from a text description, no reference audio
+  - Controllable and "ultimate" voice cloning from short reference clips
+  - Real-time streaming (RTF ~0.3 on RTX 4090, ~0.13 with Nano-vLLM)
+  - Python API, `voxcpm` CLI and local web demo (CUDA, CPU, Apple MPS)
+  - LoRA and full fine-tuning from 5–10 minutes of audio, with a training WebUI
+  - Serving via Nano-vLLM / vLLM-Omni; GGUF inference via llama.cpp-omni
+  - Apache-2.0 code and weights
+
+use_cases:
+  - Local, commercial-friendly multilingual TTS for apps and agents
+  - Designing brand or character voices from a written description
+  - Voice cloning for narration, dubbing and accessibility, with consent
+  - Fine-tuning a custom speaker or domain voice on a small dataset
+  - Self-hosted OpenAI-compatible TTS endpoints
+
+license: open-source
+deployment: library
+platforms: [linux, macos]
+tags: [tts, voice-cloning, voice-design, multilingual, openbmb, lora, apache-2.0]
+maintainer: OpenBMB
+added: 2026-10-05
+verified: '2026-10-05'

@@ -8,7 +8,7 @@ llms_txt_status: published
 category: vector-dbs
 subcategory: managed-vector-db
 
-tagline: Fully managed serverless vector database — the original SaaS option for production-scale vector search.
+tagline: Managed serverless vector database plus Nexus knowledge engine and Assistant — Pinecone's "AI knowledge platform" for agents and RAG.
 
 description: |
   Pinecone is the original managed vector database and remains the most
@@ -40,6 +40,8 @@ features:
   - Built-in embedding inference and reranking
   - Multi-region deployment for latency
   - Clients in Python, JavaScript, Go, Java, .NET, Rust
+  - Pinecone Nexus — compiles sources into queryable knowledge and serves cited answers to agents
+  - Bring Your Own Cloud (BYOC) deployment
 
 use_cases:
   - Production RAG without operating vector-DB infrastructure
@@ -54,3 +56,4 @@ platforms: [linux, macos, windows]
 tags: [vector-db, pinecone, saas, managed, serverless, rag]
 maintainer: Pinecone
 added: 2026-04-24
+verified: '2026-10-05'

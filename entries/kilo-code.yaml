@@ -1,0 +1,42 @@
+name: Kilo Code
+slug: kilo-code
+url: https://kilo.ai
+repository: https://github.com/Kilo-Org/kilocode
+llms_txt: https://kilo.ai/docs/llms.txt
+llms_txt_status: published
+
+category: coding-agents
+subcategory: ide-coding-assistant
+
+tagline: MIT-licensed coding agent for VS Code, JetBrains, the CLI and the cloud — 500+ models at provider cost, bring-your-own-keys and local models.
+
+description: |
+  Kilo Code is an open-source (MIT) AI coding agent that works in
+  VS Code, JetBrains, the terminal and the cloud. You pick from 500+
+  models, can switch mid-task, and pay the model provider's rate with
+  no markup. Bring-your-own-key and local models are supported, and no
+  API key is needed to start.
+
+  An agent command center manages local and cloud agents across IDE and
+  CLI sessions, with parallel isolated worktrees. Kilo has been acquired
+  by Anaconda, according to the banner on kilo.ai.
+
+features:
+  - VS Code and JetBrains extensions, CLI and cloud agents
+  - 500+ models with zero inference markup; mid-task model switching
+  - Bring your own keys; local models supported
+  - Agent command center for local and cloud agents; parallel isolated worktrees
+  - MIT-licensed source you can audit and fork
+
+use_cases:
+  - One open-source agent across VS Code, JetBrains and the terminal
+  - Teams that want BYOK and model choice without vendor markup
+  - Local-model coding workflows
+
+license: open-source
+deployment: local
+platforms: [linux, macos, windows]
+tags: [coding-agent, vscode, jetbrains, cli, kilo, open-source, byok, local-llm]
+maintainer: Kilo Code (Anaconda)
+added: 2026-10-05
+verified: '2026-10-05'

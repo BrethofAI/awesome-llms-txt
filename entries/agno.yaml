@@ -1,13 +1,15 @@
 name: Agno
 slug: agno
 url: https://docs.agno.com
+repository: https://github.com/agno-agi/agno
 llms_txt: https://docs.agno.com/llms.txt
 llms_txt_status: published
 status: stub
 
 category: agent-frameworks
-tagline: High-performance multi-agent framework with memory, reasoning, and 20+ model integrations.
+tagline: Open-source framework and runtime for agent platforms — build with the Agno SDK, run on the AgentOS runtime, manage from the AgentOS control plane.
 
 license: open-source
 deployment: library
 added: 2026-04-24
+verified: '2026-10-05'

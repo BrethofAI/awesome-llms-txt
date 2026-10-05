@@ -50,3 +50,4 @@ platforms: [linux, macos, windows]
 tags: [llm-provider, xai, spacexai, grok, api, openai-compatible, voice, reasoning]
 maintainer: SpaceXAI
 added: 2026-04-24
+verified: '2026-10-05'

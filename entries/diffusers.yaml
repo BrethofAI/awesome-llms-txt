@@ -1,0 +1,46 @@
+name: Diffusers
+slug: diffusers
+url: https://huggingface.co/docs/diffusers
+repository: https://github.com/huggingface/diffusers
+llms_txt: https://huggingface.co/docs/diffusers/llms.txt
+llms_txt_status: published
+
+category: image-gen
+subcategory: diffusion-library
+
+tagline: Hugging Face's library of pretrained diffusion pipelines for generating images, video and audio, with LoRA, quantization, offloading and training.
+
+description: |
+  Diffusers is Hugging Face's open-source (Apache-2.0) Python library
+  for state-of-the-art pretrained diffusion models that generate images,
+  video and audio. It is built around `DiffusionPipeline`, which offers
+  inference in a few lines, mix-and-match components (models,
+  schedulers) and adapters such as LoRA.
+
+  It includes memory and speed optimisations: offloading, quantization,
+  caching techniques, attention backends and torch.compile. Hardware
+  guides cover Apple MPS, Core ML, ONNX Runtime, OpenVINO and AWS Neuron.
+  It also includes training scripts. Most image UIs and hosted services
+  that serve open diffusion models use Diffusers or its model
+  definitions.
+
+features:
+  - DiffusionPipeline for text-to-image, image-to-image, video and audio generation
+  - Interchangeable models and schedulers; AutoPipeline
+  - LoRA and other adapters
+  - Offloading, quantization, caching, attention backends, torch.compile
+  - Apple MPS, Core ML, ONNX Runtime, OpenVINO and AWS Neuron guides
+  - Training and fine-tuning scripts
+
+use_cases:
+  - Building image or video generation into Python applications
+  - Running new open diffusion models from the Hub on day one
+  - Fine-tuning diffusion models or LoRAs
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [diffusion, image-generation, video-generation, huggingface, pytorch, lora]
+maintainer: Hugging Face
+added: 2026-10-05
+verified: '2026-10-05'

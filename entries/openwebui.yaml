@@ -43,9 +43,10 @@ use_cases:
   - Multi-user deployments where each person gets isolated history
   - Research environments comparing many models with the same UI
 
-license: open-source
+license: source-available
 deployment: self-hosted
 platforms: [linux]
 tags: [chat-ui, self-hosted, open-webui, ollama, multi-user, privacy]
 maintainer: Open WebUI
 added: 2026-04-24
+verified: '2026-10-05'

@@ -2,44 +2,40 @@ name: Claude Desktop
 slug: claude-desktop
 url: https://claude.com/download
 repository: null
-llms_txt: https://platform.claude.com/llms.txt
-llms_full_txt: https://platform.claude.com/llms-full.txt
+llms_txt: https://claude.com/docs/llms.txt
+llms_full_txt: https://claude.com/docs/llms-full.txt
 llms_txt_status: published
 
 category: desktop-apps
 subcategory: ai-assistant-app
 
-tagline: Anthropic's native desktop app for Claude — MCP server support, skills, agent mode, and deep OS integration.
+tagline: Anthropic's desktop app for Claude — chat, Cowork for long-running agentic tasks, and Claude Code in one app, with connectors (MCP), skills and plugins.
 
 description: |
-  Claude Desktop is Anthropic's official native application for macOS,
-  Windows, and Linux. It runs on top of Claude's models (Sonnet, Opus,
-  Haiku) with features that go well beyond the claude.ai web interface:
-  MCP (Model Context Protocol) server support for connecting external
-  tools and data, a skills system for packaging custom workflows, agent
-  mode for autonomous multi-step tasks, and native OS integrations
-  (global shortcuts, file uploads, clipboard, voice input on supported
-  platforms).
+  Claude Desktop is Anthropic's native app for macOS and Windows, with a
+  Linux beta for Ubuntu 22.04+ and Debian 12+. It combines three surfaces
+  in one window. Chat is for conversations. Cowork is for longer agentic
+  work that can keep running after you close your laptop; on Linux it
+  runs tasks in a local QEMU/KVM virtual machine. Claude Code adds
+  parallel coding sessions, visual diff review, and an integrated
+  terminal and editor. In September 2026 Anthropic began merging chat
+  and Cowork into a single Claude experience on Pro and Max plans.
 
-  For power users, Claude Desktop is the most capable consumer-facing
-  Claude product: it exposes the full tool-use loop, handles long
-  conversations, persists chat history locally, and accepts MCP servers
-  that extend it into nearly any workflow (GitHub, databases, APIs,
-  browser, local filesystem).
-
-  It shares documentation and the underlying API with the Claude Agent
-  SDK and Claude Code, meaning `llms.txt` at docs.claude.com serves all
-  three.
+  Claude can be extended with connectors (MCP servers), skills and
+  plugins, and it can use a built-in browser and, with permission, your
+  computer. It runs on Anthropic's Claude model families (Mythos, Fable,
+  Opus, Sonnet, Haiku). End-user documentation is indexed at
+  claude.com/docs/llms.txt and the Help Center at
+  support.claude.com/llms.txt.
 
 features:
-  - Native apps for macOS, Windows, and Linux
-  - MCP (Model Context Protocol) server integration
-  - Skills system for reusable custom workflows
-  - Agent mode for autonomous multi-step tasks
-  - Native OS integrations (shortcuts, clipboard, file uploads)
-  - Long-form chat with local history persistence
-  - Supports Sonnet, Opus, Haiku model families
-  - Voice input on supported platforms
+  - Native apps for macOS and Windows; Linux beta (Ubuntu/Debian, x86_64 and arm64)
+  - Chat, Cowork (long-running agentic tasks, scheduled tasks) and Claude Code in one app
+  - Connectors (MCP servers), skills and plugins
+  - Built-in browser and computer use in Cowork
+  - Claude Code desktop — parallel sessions, diff review, integrated terminal and editor
+  - Claude Docs, Slides and Design created inside conversations (beta, paid plans)
+  - Claude Mythos, Fable, Opus, Sonnet and Haiku model families
 
 use_cases:
   - Daily AI assistant with access to local files and tools via MCP
@@ -54,3 +50,4 @@ platforms: [linux, macos, windows]
 tags: [desktop-app, claude, anthropic, mcp, skills, agent, assistant]
 maintainer: Anthropic
 added: 2026-04-24
+verified: '2026-10-05'

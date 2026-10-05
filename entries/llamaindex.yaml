@@ -1,6 +1,6 @@
 name: LlamaIndex
 slug: llamaindex
-url: https://www.llamaindex.ai
+url: https://developers.llamaindex.ai/python/framework/
 repository: https://github.com/run-llama/llama_index
 llms_txt: https://developers.llamaindex.ai/llms.txt
 llms_txt_status: published
@@ -8,7 +8,7 @@ llms_txt_status: published
 category: rag-frameworks
 subcategory: retrieval-augmented-generation
 
-tagline: Leading RAG framework for connecting LLMs to private data — document loaders, indexes, retrievers, and agents.
+tagline: Open-source Python framework for RAG and agents over private data — loaders, indexes, retrievers, query engines and workflows (from the makers of LlamaParse).
 
 description: |
   LlamaIndex is a data framework for building LLM applications over private
@@ -25,17 +25,18 @@ description: |
   Weaviate, Pinecone, pgvector, LanceDB, …).
 
   LlamaIndex Agents extend the framework with tool-using agents that can
-  query multiple indexes, call APIs, and compose results. LlamaCloud
-  provides a hosted version with managed ingestion and evaluation.
+  query multiple indexes, call APIs, and compose results. The company's
+  hosted product is now LlamaParse (formerly LlamaCloud), a document
+  parsing, extraction and classification platform.
 
 features:
   - Document loaders for 200+ data sources
   - Multiple index types (vector, summary, tree, keyword, knowledge graph)
   - Query engines with advanced retrieval (HyDE, re-ranking, query decomposition)
-  - Agent framework built on top of indexes and tools
-  - Structured data extraction via the LlamaParse parser
+  - Agent and event-driven Workflows framework built on top of indexes and tools
+  - Document parsing and extraction via the companion LlamaParse platform
   - Integrations with all major vector stores and LLM providers
-  - Python and TypeScript implementations
+  - Python library (the TypeScript port, LlamaIndex.TS, was deprecated and archived in April 2026)
 
 use_cases:
   - RAG applications over corporate document collections
@@ -50,3 +51,4 @@ platforms: [linux, macos, windows]
 tags: [rag, llamaindex, retrieval, indexes, python, typescript, knowledge]
 maintainer: LlamaIndex
 added: 2026-04-24
+verified: '2026-10-05'

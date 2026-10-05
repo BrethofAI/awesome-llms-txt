@@ -14,9 +14,9 @@ description: |
   Mem0 is a memory framework that gives AI agents persistent, queryable
   memory across conversations. It extracts facts from each interaction
   ("the user's dog is named Rex", "the user prefers Python over
-  JavaScript"), stores them in a vector + graph hybrid index, and
-  retrieves relevant memories when the agent needs context for a new
-  query.
+  JavaScript"), stores them in a vector index (with entity-graph memory on
+  the managed Platform), and retrieves relevant memories when the agent
+  needs context for a new query.
 
   Compared to raw vector databases where applications manage their own
   schema, Mem0 provides an opinionated memory abstraction: user-scoped
@@ -24,19 +24,19 @@ description: |
   changed? the old fact gets superseded), and ranked retrieval tuned for
   the agent-memory use case specifically.
 
-  It integrates with LangChain, LlamaIndex, CrewAI, and any OpenAI-
-  compatible client. Open-source core under Apache 2.0 with a managed
-  hosted tier (Mem0 Cloud) for teams that don't want to operate the
-  storage layer.
+  It integrates with LangChain, LlamaIndex, CrewAI, and any
+  OpenAI-compatible client. Open-source core under Apache 2.0 with a
+  managed hosted tier (Mem0 Platform) for teams that don't want to operate
+  the storage layer.
 
 features:
   - Automatic fact extraction from conversation turns
   - User-scoped memories with updates and deletions
-  - Vector + graph hybrid retrieval
-  - Integrations with LangChain, LlamaIndex, CrewAI, raw OpenAI SDK
-  - Multiple storage backends (Qdrant, Weaviate, pgvector, Chroma)
-  - Open-source core (Apache 2.0) + managed cloud tier
-  - Python and TypeScript SDKs
+  - Vector retrieval with optional reranking (OSS); entity graph memory on Mem0 Platform
+  - Integrations with LangChain, LangGraph, LlamaIndex, CrewAI, raw OpenAI SDK
+  - Many vector-store backends (Qdrant, Weaviate, pgvector, Chroma, and more)
+  - Open-source core (Apache 2.0) + managed Mem0 Platform
+  - Python and TypeScript SDKs, CLI, and a hosted MCP server
 
 use_cases:
   - Personalized chat assistants that remember user preferences
@@ -51,3 +51,4 @@ platforms: [linux, macos, windows]
 tags: [memory, agents, mem0, personalization, rag, long-term-memory]
 maintainer: Mem0
 added: 2026-04-24
+verified: '2026-10-05'

@@ -1,13 +1,15 @@
 name: Unstructured
 slug: unstructured
 url: https://unstructured.io
+repository: https://github.com/Unstructured-IO/unstructured
 llms_txt: https://docs.unstructured.io/llms.txt
 llms_txt_status: published
 status: stub
 
 category: ocr-doc-parsing
-tagline: Library for ingesting PDF, HTML, DOCX, XLSX, and 25+ formats into RAG-ready chunks.
+tagline: Document ETL for GenAI — the open-source unstructured library plus the hosted Unstructured Transform API/MCP server, turning 65+ file types into RAG-ready elements and structured data.
 
-license: open-source
+license: freemium
 deployment: library
 added: 2026-04-24
+verified: '2026-10-05'

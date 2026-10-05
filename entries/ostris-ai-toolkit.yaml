@@ -1,4 +1,4 @@
-name: AI Toolkit (ostris)
+name: AI Toolkit (Ostris)
 slug: ostris-ai-toolkit
 url: https://github.com/ostris/ai-toolkit
 repository: https://github.com/ostris/ai-toolkit
@@ -8,13 +8,13 @@ llms_txt_status: missing
 category: training
 subcategory: diffusion-model-fine-tuning
 
-tagline: Leading open-source toolkit for training LoRAs and fine-tunes on diffusion models — FLUX, SDXL, SD3, Qwen Image, and more.
+tagline: All-in-one open-source training suite (GUI or CLI) for LoRAs and fine-tunes of image and video diffusion models — FLUX.1/FLUX.2, Qwen-Image, Z-Image, SDXL, Wan 2.x, LTX-2 and more.
 
 description: |
-  AI Toolkit by ostris is the most widely used open-source framework
-  for training LoRA adapters and full fine-tunes on diffusion image
-  models. It supports FLUX (including FLUX.2 Klein variants), SDXL,
-  SD3, SD1.5, Stable Diffusion XL, and newer architectures as they
+  AI Toolkit by ostris is a widely used open-source framework for training
+  LoRA adapters and full fine-tunes on diffusion image models. It supports
+  FLUX.1 and FLUX.2 (including Klein), Qwen-Image, Z-Image, SDXL, SD1.5,
+  and video models such as Wan and LTX-2, and newer architectures as they
   land — often within days of a new model's release.
 
   Where generic HuggingFace fine-tuning is model-agnostic but
@@ -38,13 +38,14 @@ description: |
 
 features:
   - LoRA, LoHA, LoCon, and full fine-tuning support
-  - Covers FLUX (incl. Klein), SDXL, SD3, SD1.5, Qwen Image, more
+  - Covers FLUX.1/FLUX.2 (incl. Klein), Qwen-Image/Edit, Z-Image, HiDream, Chroma, SDXL, SD1.5
   - YAML-configured training jobs for reproducibility
   - Day-one support for new model architectures
   - Sample-during-training for real-time quality monitoring
   - Aspect-ratio bucketing and caption handling
   - 8-bit optimizers for consumer GPU training
   - Active community and maintainer
+  - Video model training (Wan 2.1/2.2, LTX-2.x) and a web GUI alongside the CLI
 
 use_cases:
   - Training character LoRAs for consistent figures across generations
@@ -55,7 +56,8 @@ use_cases:
 
 license: open-source
 deployment: library
-platforms: [linux, windows]
+platforms: [linux, windows, macos]
 tags: [training, lora, diffusion, fine-tuning, flux, sdxl, ostris, ai-toolkit]
 maintainer: ostris
 added: 2026-04-24
+verified: '2026-10-05'

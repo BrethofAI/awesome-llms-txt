@@ -1,0 +1,40 @@
+name: turbopuffer
+slug: turbopuffer
+url: https://turbopuffer.com
+repository: null
+llms_txt: https://turbopuffer.com/llms.txt
+llms_txt_status: published
+
+category: vector-dbs
+subcategory: object-storage-search-engine
+
+tagline: Serverless vector and full-text search engine built on object storage — fast, low-cost and scaling to 1T+ documents.
+
+description: |
+  turbopuffer is a hosted vector and full-text (BM25) search engine built from first
+  principles on object storage, with a memory/SSD cache in front. Storing data in
+  object storage keeps costs low at very large scale. Hot namespaces are served from
+  cache with low latency, and cold queries read from storage. The vendor reports
+  production scale of 1T+ documents, 25k+ queries/s and 10M+ writes/s.
+
+  It offers strongly consistent queries, namespace branching (copy-on-write), sharding,
+  built-in embedding and multiple regions.
+
+features:
+  - Vector and BM25 full-text search with filtering
+  - Object-storage-native architecture with memory/SSD caching
+  - Strongly consistent reads after durable upserts
+  - Copy-on-write namespace branching and sharding
+  - Built-in embedding; multiple cloud regions
+
+use_cases:
+  - Very large, multi-tenant vector search at low storage cost
+  - Hybrid keyword + semantic retrieval for RAG and code search
+
+license: commercial
+deployment: saas
+platforms: [web]
+tags: [vector-db, full-text-search, serverless, object-storage]
+maintainer: turbopuffer
+added: 2026-10-05
+verified: '2026-10-05'

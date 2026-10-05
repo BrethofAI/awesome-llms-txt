@@ -50,3 +50,4 @@ platforms: [linux, macos, windows, ios, android]
 tags: [asr, whisper, cpp, transcription, ggml, offline]
 maintainer: ggml-org
 added: 2026-04-24
+verified: '2026-10-05'

@@ -1,0 +1,43 @@
+name: Voyage AI
+slug: voyage-ai
+url: https://www.voyageai.com
+repository: null
+llms_txt: https://docs.voyageai.com/llms.txt
+llms_txt_status: published
+
+category: embeddings
+subcategory: embedding-api
+
+tagline: MongoDB's Voyage AI embedding and reranking API — text, contextualized-chunk and multimodal embeddings for retrieval and RAG.
+
+description: |
+  Voyage AI, now "Voyage AI by MongoDB", provides hosted embedding
+  models and rerankers through an API and Python client. The catalog
+  includes text embeddings, contextualized chunk embeddings (chunks
+  embedded with document context), multimodal embeddings and rerankers.
+  Flexible output dimensions and quantization reduce storage cost, and
+  a batch inference API handles large offline jobs.
+
+  Voyage models also power retrieval inside MongoDB's data platform.
+  The API is commonly used as the embedding step in RAG stacks paired
+  with any vector database.
+
+features:
+  - Text, contextualized-chunk and multimodal embedding models
+  - Rerankers
+  - Flexible dimensions and quantized outputs
+  - Batch inference API
+  - Python client; organizations, projects and published SLOs
+
+use_cases:
+  - Embedding and reranking for RAG and semantic search
+  - Document retrieval where chunk context matters
+  - Teams already on MongoDB Atlas
+
+license: commercial
+deployment: saas
+platforms: [linux, macos, windows]
+tags: [embeddings, reranker, rag, api, mongodb, multimodal]
+maintainer: MongoDB
+added: 2026-10-05
+verified: '2026-10-05'

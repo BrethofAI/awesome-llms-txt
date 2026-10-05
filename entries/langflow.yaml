@@ -1,13 +1,16 @@
 name: Langflow
 slug: langflow
 url: https://www.langflow.org
-llms_txt: https://www.langflow.org/llms.txt
+repository: https://github.com/langflow-ai/langflow
+llms_txt: https://docs.langflow.org/llms.txt
+llms_full_txt: https://docs.langflow.org/llms-full.txt
 llms_txt_status: published
 status: stub
 
 category: workflow-tools
-tagline: Visual framework for building multi-agent and RAG applications with a node-based editor.
+tagline: Open-source (MIT) low-code visual builder for AI agents, RAG and MCP workflows — run locally, via Docker, or as Langflow Desktop.
 
 license: open-source
 deployment: self-hosted
 added: 2026-04-24
+verified: '2026-10-05'

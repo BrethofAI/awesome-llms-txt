@@ -20,12 +20,12 @@ description: |
   feature decisions, not just shipping current packages (which rolling
   distros like CachyOS do faster).
 
-  For AI / ML developers Fedora combines that feature-forward posture
-  with enterprise-grade packaging, SELinux policy, and an ecosystem
-  that translates cleanly to production RHEL deployments. It ships
-  recent NVIDIA CUDA, ROCm, PyTorch, TensorFlow, and ONNX Runtime
-  through RPM Fusion and official repos. Its semi-annual release
-  cadence (two releases per year, 13 months of support each) keeps
+  For AI / ML developers Fedora combines that feature-forward posture with
+  enterprise-grade packaging, SELinux policy, and an ecosystem that
+  translates cleanly to production RHEL deployments. It packages ROCm,
+  PyTorch and ONNX Runtime in its official repos, with the NVIDIA driver
+  from RPM Fusion and CUDA from NVIDIA's own repository. Its semi-annual
+  release cadence (two releases per year, 13 months of support each) keeps
   versions current without Arch-level churn.
 
   Atomic variants (Fedora Silverblue, Kinoite) provide immutable
@@ -37,7 +37,7 @@ description: |
 features:
   - Upstream of RHEL — features and architectural choices land here first
   - Semi-annual releases with 13-month support windows
-  - Strong NVIDIA CUDA and ROCm packaging via RPM Fusion
+  - ROCm, PyTorch and ONNX Runtime in official repos; NVIDIA driver via RPM Fusion, CUDA via NVIDIA's repo
   - SELinux enforcing by default (security posture suitable for prod)
   - Atomic variants (Silverblue, Kinoite) for immutable desktops
   - Podman-first container tooling (rootless, daemonless)
@@ -56,3 +56,4 @@ platforms: [linux]
 tags: [linux, fedora, red-hat, rhel-upstream, cuda, selinux, wayland]
 maintainer: Fedora Project / Red Hat
 added: 2026-04-24
+verified: '2026-10-05'

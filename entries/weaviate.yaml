@@ -19,9 +19,9 @@ description: |
   service.
 
   Weaviate supports hybrid search (dense + sparse, BM25F), multi-tenancy
-  through tenants-per-class isolation, generative modules (RAG inside
-  the database: query → retrieve → generate as one call), and a GraphQL-
-  style API alongside REST. Cluster mode handles sharding and replication
+  through tenants-per-class isolation, generative modules (RAG inside the
+  database: query → retrieve → generate as one call), and gRPC and REST
+  APIs (GraphQL is legacy). Cluster mode handles sharding and replication
   for production-scale deployments.
 
   Weaviate Cloud (serverless managed) is available for teams that don't
@@ -33,8 +33,9 @@ features:
   - Generative modules — RAG as a single database call
   - Multi-tenancy with per-tenant data isolation
   - Cluster mode with sharding and replication
-  - GraphQL + REST APIs
-  - Python, JavaScript, Go, Java clients
+  - gRPC (data operations) and REST APIs; legacy GraphQL API still available
+  - Official Python, TypeScript, Java and C# clients (Go client being updated)
+  - Weaviate Cloud agents — Query Agent (managed RAG) and Engram agent memory (preview)
 
 use_cases:
   - Production RAG systems with built-in embedding pipelines
@@ -49,3 +50,4 @@ platforms: [linux]
 tags: [vector-db, weaviate, hybrid-search, multi-tenancy, rag, go]
 maintainer: Weaviate
 added: 2026-04-24
+verified: '2026-10-05'

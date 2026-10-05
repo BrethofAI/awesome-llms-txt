@@ -1,0 +1,47 @@
+name: Inspect
+slug: inspect-ai
+url: https://inspect.aisi.org.uk
+repository: https://github.com/UKGovernmentBEIS/inspect_ai
+llms_txt: https://inspect.aisi.org.uk/llms.txt
+llms_txt_status: published
+
+category: evaluation
+subcategory: llm-eval-framework
+
+tagline: Open-source (MIT) framework for frontier LLM and agent evaluations from the UK AI Security Institute — 200+ pre-built evals, sandboxing and a log viewer.
+
+description: |
+  Inspect is a framework for frontier AI evaluations developed by the
+  UK AI Security Institute and Meridian Labs. Evaluations are built from
+  composable datasets, solvers (including agents), tools and scorers.
+  Over 200 pre-built benchmark implementations are ready to run on any
+  supported model.
+
+  It supports agent evaluations with built-in agents, multi-agent
+  primitives, and the ability to run external agents such as Claude
+  Code, Codex CLI and Gemini CLI. Tool calling covers custom and MCP
+  tools plus built-in bash, Python, text editing, web search, browsing
+  and computer tools. Untrusted model code runs in sandboxes (Docker,
+  Kubernetes, Modal, Proxmox, Vagrant and others). Inspect View and a
+  VS Code extension help monitor and debug runs.
+
+features:
+  - Composable datasets, solvers, tools and scorers
+  - 200+ pre-built evaluations
+  - Agent evals, including external agents (Claude Code, Codex CLI, Gemini CLI)
+  - MCP and built-in bash, python, web, browser and computer tools
+  - Sandboxing via Docker, Kubernetes, Modal, Proxmox, Vagrant and extensions
+  - Inspect View log viewer and VS Code extension
+
+use_cases:
+  - Safety and capability evaluations of frontier models
+  - Benchmarking coding and agentic tasks in sandboxes
+  - Reproducible eval suites shared across teams
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [evaluation, evals, agents, benchmarks, sandbox, aisi, python]
+maintainer: UK AI Security Institute
+added: 2026-10-05
+verified: '2026-10-05'

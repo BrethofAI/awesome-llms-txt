@@ -50,3 +50,4 @@ platforms: [linux, macos, windows]
 tags: [multi-agent, microsoft, autogen-successor, workflows, python, dotnet, opentelemetry]
 maintainer: Microsoft
 added: 2026-09-29
+verified: '2026-10-05'

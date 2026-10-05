@@ -6,8 +6,9 @@ llms_txt_status: published
 status: stub
 
 category: web-search-for-agents
-tagline: API access to Perplexity's search-augmented LLMs — Sonar models with live citations.
+tagline: Perplexity API Platform — Agent API for web-grounded answers with citations, plus Search, Router and Embeddings APIs, a CLI and an MCP server.
 
 license: commercial
 deployment: saas
 added: 2026-04-24
+verified: '2026-10-05'

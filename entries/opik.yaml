@@ -1,0 +1,44 @@
+name: Opik
+slug: opik
+url: https://www.comet.com/site/products/opik/
+repository: https://github.com/comet-ml/opik
+llms_txt: https://www.comet.com/docs/opik/llms.txt
+llms_txt_status: published
+
+category: observability
+subcategory: open-source-llm-observability
+
+tagline: Open-source (Apache-2.0) tracing, evaluation and prompt optimization for LLM apps, RAG and agents, from Comet — self-host or cloud.
+
+description: |
+  Opik is Comet's open-source platform for debugging, evaluating and monitoring LLM
+  applications, RAG systems and agentic workflows. It records traces of LLM calls,
+  tools and agent steps. It runs automated evaluations (LLM-as-judge and heuristic
+  metrics) against datasets and experiments, and provides production dashboards and
+  prompt optimization.
+
+  It ships an MCP server so coding assistants can read traces, find failing ones and
+  check fixes against real data, plus a built-in assistant ("Ollie") for analysing
+  traces. Opik is Apache-2.0 licensed and can be self-hosted or used as a managed
+  service on Comet.
+
+features:
+  - Tracing for LLM calls, tools, RAG steps and agents
+  - Automated evaluations, datasets and experiments
+  - Production monitoring dashboards
+  - Prompt management and optimization
+  - MCP server for coding assistants
+  - Self-hosted (Apache-2.0) or Comet-hosted
+
+use_cases:
+  - Open-source alternative to hosted LLM observability
+  - Regression-testing prompts and agents against datasets
+  - Letting a coding agent debug from production traces over MCP
+
+license: open-source
+deployment: self-hosted
+platforms: [linux, macos, windows, web]
+tags: [observability, tracing, evaluation, open-source, mcp]
+maintainer: Comet
+added: 2026-10-05
+verified: '2026-10-05'

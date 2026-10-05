@@ -8,7 +8,7 @@ llms_txt_status: published
 category: coding-agents
 subcategory: ide-coding-assistant
 
-tagline: GitHub's native AI coding assistant with chat, autocomplete, and agent mode across major IDEs.
+tagline: GitHub's AI coding agent — completions, chat and agent mode in major IDEs, Copilot CLI, a desktop app, and a cloud agent that works from issue to pull request.
 
 description: |
   GitHub Copilot is the original and most widely deployed AI coding
@@ -28,19 +28,19 @@ description: |
 
 features:
   - VS Code, Visual Studio, JetBrains, Neovim, Xcode integrations
-  - Inline autocomplete, chat, and multi-file agent mode
-  - Pull-request and code-review assistance on GitHub
-  - Multiple model backends (GPT, Claude, Gemini)
-  - "`gh copilot` CLI for command-line help"
-  - Enterprise tier with SOC 2, data residency, content filtering
-  - Free tier available for open-source maintainers and students
+  - Inline autocomplete, chat and agent mode in the IDE
+  - Copilot CLI for agentic work in the terminal
+  - GitHub Copilot desktop app for managing agent-driven work
+  - Cloud agent that plans, codes on a branch and opens pull requests; third-party agents (Claude, Codex) assignable
+  - Pull-request code review and MCP server support (including the GitHub MCP Server)
+  - Free plan for everyone; Student plan for verified students; usage-based AI Credits on paid plans
 
 use_cases:
   - Professional development at organizations already on GitHub
   - Teams needing enterprise compliance posture out of the box
-  - Users who want PR / issue / code-review AI integrated into Git workflow
+  - Delegating issues to a cloud agent and reviewing the resulting PRs
   - Cross-IDE consistency (one subscription, many editors)
-  - Students and OSS maintainers on the free tier
+  - Students and individual developers on the Free or Student plan
 
 license: commercial
 deployment: local
@@ -48,3 +48,4 @@ platforms: [linux, macos, windows]
 tags: [coding-agent, github, copilot, ide, enterprise, commercial]
 maintainer: GitHub / Microsoft
 added: 2026-04-24
+verified: '2026-10-05'

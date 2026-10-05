@@ -49,3 +49,4 @@ platforms: [linux, macos, windows]
 tags: [coding-agent, cli, anthropic, claude, agentic, mcp]
 maintainer: Anthropic
 added: 2026-04-24
+verified: '2026-10-05'

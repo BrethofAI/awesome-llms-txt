@@ -52,3 +52,4 @@ platforms: [linux, macos, windows]
 tags: [diffusion, stable-diffusion, flux, video-gen, image-gen, workflow, node-graph]
 maintainer: Comfy Org
 added: 2026-04-24
+verified: '2026-10-05'

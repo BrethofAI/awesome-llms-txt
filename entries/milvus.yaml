@@ -50,3 +50,4 @@ platforms: [linux]
 tags: [vector-db, milvus, distributed, billion-scale, gpu, rag]
 maintainer: Milvus / Zilliz
 added: 2026-04-24
+verified: '2026-10-05'

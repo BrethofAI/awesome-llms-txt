@@ -14,8 +14,8 @@ description: |
   Axolotl is a full-featured open-source fine-tuning framework that wraps
   HuggingFace Transformers, PEFT, and TRL into a YAML-configured CLI.
   Users define their training run (model, dataset, hyperparameters,
-  adapter type) in a config file and launch with `accelerate launch -m
-  axolotl.cli.train config.yml`.
+  adapter type) in a config file and launch with `axolotl train
+  config.yml`.
 
   Compared to Unsloth's speed focus, Axolotl prioritizes breadth: broader
   architecture support (Llama, Qwen, Mistral, Gemma, Phi, DeepSeek, Yi,
@@ -31,10 +31,11 @@ features:
   - YAML-configured training runs (no code required for common recipes)
   - Supports 20+ base model architectures
   - LoRA, QLoRA, full FT, ReLoRA, DPO, KTO, ORPO, GRPO
-  - Multi-GPU via Accelerate and DeepSpeed
+  - Multi-GPU / multi-node via DeepSpeed, FSDP2 and N-D (tensor, context, expert) parallelism
   - FlashAttention and sample packing for efficiency
   - Direct integration with WandB and MLflow for tracking
   - Docker images for reproducible training environments
+  - GGUF export via `axolotl export` for llama.cpp / Ollama
 
 use_cases:
   - Production fine-tuning pipelines with config-as-code
@@ -49,3 +50,4 @@ platforms: [linux]
 tags: [fine-tuning, training, axolotl, lora, dpo, yaml, python]
 maintainer: Axolotl AI
 added: 2026-04-24
+verified: '2026-10-05'

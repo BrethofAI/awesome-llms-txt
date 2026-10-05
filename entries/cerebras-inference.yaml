@@ -1,0 +1,47 @@
+name: Cerebras Inference
+slug: cerebras-inference
+url: https://www.cerebras.ai/inference
+repository: null
+llms_txt: https://inference-docs.cerebras.ai/llms.txt
+llms_txt_status: published
+
+category: deployment
+subcategory: ultra-low-latency-inference
+
+tagline: Wafer-scale inference cloud with an OpenAI-compatible API — thousands of tokens per second on open models, plus dedicated endpoints for custom weights.
+
+description: |
+  Cerebras Inference serves models on Cerebras' wafer-scale systems.
+  Cerebras says this is up to 30x faster than GPU systems. The shared
+  API's model catalog lists gpt-oss-120b at about 3,000 tokens/s and
+  Qwen 3.8 27B at about 1,850 tokens/s.
+
+  The API is OpenAI-compatible and supports streaming, reasoning
+  controls, structured outputs, tool calling, prompt caching, image
+  inputs, batch jobs and service tiers. Dedicated Inference reserves
+  capacity for an organisation, accepts custom model weights through a
+  management API, and adds predicted outputs and Prometheus-compatible
+  metrics. New accounts get $5 of free trial credits; there is also
+  pay-as-you-go and enterprise pricing. It is also available through
+  AWS Marketplace, Hugging Face and Vercel.
+
+features:
+  - OpenAI-compatible API on wafer-scale hardware
+  - About 3,000 tok/s on gpt-oss-120b, about 1,850 tok/s on Qwen 3.8 27B (shared tier)
+  - Reasoning, structured outputs, tool calling, prompt caching, image inputs
+  - Batch API and service tiers
+  - Dedicated Inference with custom weights, predicted outputs and metrics
+  - Free trial credits, pay-as-you-go and enterprise plans
+
+use_cases:
+  - Agentic coding and agent loops where latency compounds
+  - Real-time voice and interactive apps
+  - Serving custom open-weight models on reserved capacity
+
+license: commercial
+deployment: saas
+platforms: [linux, macos, windows]
+tags: [inference, cerebras, wafer-scale, low-latency, openai-compatible, saas]
+maintainer: Cerebras
+added: 2026-10-05
+verified: '2026-10-05'

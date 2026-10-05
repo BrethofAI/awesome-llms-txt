@@ -16,12 +16,17 @@ description: |
   model format now used across the ecosystem, pioneered aggressive
   quantization techniques (Q4_K_M, Q5_K_S, Q8_0, and dozens of variants),
   and supports more hardware backends than any other runtime: CPU (AVX,
-  AVX2, AVX-512, NEON), CUDA, ROCm, Vulkan, Metal, SYCL, CANN, Kompute.
+  AVX2, AVX-512, NEON), Metal, CUDA, HIP/ROCm, MUSA, Vulkan, SYCL, CANN,
+  OpenCL, WebGPU and Snapdragon Hexagon.
 
-  It ships as a library, a CLI (`llama-cli`), a server (`llama-server`) with
-  an OpenAI-compatible API, and bindings for nearly every programming
-  language. Projects like Ollama, LM Studio, KoboldCpp, text-generation-webui,
-  Jan, and LocalAI are all built on or around llama.cpp.
+  It ships as a library, a CLI (`llama-cli`), a server (`llama-server`)
+  with an OpenAI-compatible API, and bindings for nearly every programming
+  language. Projects like Ollama, LM Studio, KoboldCpp,
+  text-generation-webui, Jan, and LocalAI are all built on or around
+  llama.cpp. The official Llama app at llama.app, from the llama.cpp team
+  and Hugging Face, wraps it as a one-click Mac/Windows menu-bar app with
+  a local OpenAI-compatible API, and also installs the command-line
+  version on Linux.
 
   For developers who want the lowest-level local inference or need to target
   unusual hardware (embedded, edge, non-CUDA GPUs), llama.cpp is the direct
@@ -30,7 +35,7 @@ description: |
 features:
   - GGUF format (the de facto standard for quantized open-weight models)
   - 20+ quantization variants for quality/size tradeoffs
-  - Backends for CPU, CUDA, ROCm, Vulkan, Metal, SYCL, CANN, Kompute
+  - Backends for CPU, Metal, CUDA, HIP/ROCm, MUSA, Vulkan, SYCL, CANN, OpenCL, WebGPU, Hexagon
   - Built-in OpenAI-compatible HTTP server
   - Speculative decoding, prompt caching, continuous batching
   - Grammar-constrained generation (JSON Schema, custom grammars)
@@ -49,3 +54,4 @@ platforms: [linux, macos, windows]
 tags: [inference, gguf, cpp, quantization, llama, vulkan, cuda, rocm, metal]
 maintainer: ggml-org
 added: 2026-04-24
+verified: '2026-10-05'

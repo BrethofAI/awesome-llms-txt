@@ -1,13 +1,15 @@
-name: BGE (BAAI General Embedding)
+name: BGE / FlagEmbedding
 slug: bge
-url: https://huggingface.co/BAAI
-llms_txt: https://huggingface.co/BAAI/llms.txt
+url: https://bge-model.com
+repository: https://github.com/FlagOpen/FlagEmbedding
+llms_txt: https://bge-model.com/llms.txt
 llms_txt_status: missing
 status: stub
 
 category: embeddings
-tagline: Leading open embedding models from BAAI — top of MTEB for multiple languages.
+tagline: BAAI's open embedding and reranker models with the FlagEmbedding toolkit for inference, evaluation and fine-tuning — a one-stop retrieval toolkit for search and RAG.
 
 license: open-source
 deployment: library
 added: 2026-04-24
+verified: '2026-10-05'

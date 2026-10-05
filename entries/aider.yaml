@@ -50,3 +50,4 @@ platforms: [linux, macos, windows]
 tags: [coding-agent, cli, aider, git, open-source, pair-programming]
 maintainer: Aider-AI
 added: 2026-04-24
+verified: '2026-10-05'

@@ -8,7 +8,7 @@ llms_txt_status: published
 category: inference-runtimes
 subcategory: ml-framework
 
-tagline: Foundational Python library for loading and running thousands of transformer models in PyTorch, TensorFlow, and JAX.
+tagline: Hugging Face's model-definition framework for text, vision, audio, video and multimodal models — PyTorch-based inference and training for 1M+ Hub checkpoints.
 
 description: |
   Transformers is HuggingFace's foundational Python library for working
@@ -29,13 +29,13 @@ description: |
   the dominant open-source ML ecosystem.
 
 features:
-  - Unified API for thousands of models on the HuggingFace Hub
-  - PyTorch, TensorFlow, and JAX backends
-  - Pipelines for common tasks (text generation, classification, ASR, …)
-  - Tokenizers, processors, and feature extractors included
-  - Integration with Accelerate, PEFT, TRL, Datasets
-  - Quantization via bitsandbytes, GPTQ, AWQ
-  - Active weekly releases with day-zero support for new architectures
+  - Unified API for 1M+ model checkpoints on the Hugging Face Hub
+  - PyTorch-based (v5 dropped TensorFlow and JAX); Python 3.10+, PyTorch 2.5+
+  - Pipeline API, generate API and Trainer
+  - Tokenizers, processors and feature extractors included
+  - Model definitions reused by vLLM, SGLang, llama.cpp, MLX, Axolotl, Unsloth and others
+  - Quantization via bitsandbytes, GPTQ, AWQ and more
+  - Frequent releases with day-zero support for new architectures
 
 use_cases:
   - Research and experimentation with new model architectures
@@ -50,3 +50,4 @@ platforms: [linux, macos, windows]
 tags: [transformers, pytorch, huggingface, inference, training, library]
 maintainer: HuggingFace
 added: 2026-04-24
+verified: '2026-10-05'

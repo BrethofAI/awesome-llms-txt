@@ -1,0 +1,43 @@
+name: Reducto
+slug: reducto
+url: https://reducto.ai
+repository: null
+llms_txt: https://docs.reducto.ai/llms.txt
+llms_txt_status: published
+
+category: ocr-doc-parsing
+subcategory: document-parsing-api
+
+tagline: Agentic document platform — classify, parse, extract, split and edit documents into LLM-ready content and structured JSON via API, CLI or MCP.
+
+description: |
+  Reducto is a commercial document-processing platform for AI teams. Its APIs cover the
+  whole document lifecycle. Classify routes documents by type. Parse produces
+  layout-aware text, tables and figures with bounding boxes and RAG-ready chunking.
+  Extract pulls schema-defined fields into JSON. Split separates bundled documents, and
+  Edit fills forms and modifies templates. These steps can be chained into
+  single-call pipelines.
+
+  Reducto Studio provides a UI for building document workflows. A CLI and an MCP
+  server let coding agents call the platform directly.
+
+features:
+  - Layout-aware parsing with tables, figures and bounding boxes
+  - Schema-based structured extraction
+  - Classification, splitting and document editing / form filling
+  - Composable multi-step pipelines
+  - Reducto Studio, CLI and MCP server
+  - Large-file upload (up to 5GB)
+
+use_cases:
+  - Intake pipelines for invoices, contracts and medical records
+  - RAG ingestion of complex PDFs
+  - Automated form filling
+
+license: commercial
+deployment: saas
+platforms: [web]
+tags: [ocr, document-parsing, extraction, rag, mcp]
+maintainer: Reducto
+added: 2026-10-05
+verified: '2026-10-05'

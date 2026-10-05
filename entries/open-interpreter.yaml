@@ -1,13 +1,15 @@
 name: Open Interpreter
 slug: open-interpreter
 url: https://www.openinterpreter.com
+repository: https://github.com/openinterpreter/open-interpreter
 llms_txt: https://www.openinterpreter.com/llms.txt
 llms_txt_status: missing
 status: stub
 
 category: coding-agents
-tagline: Open-source terminal coding agent optimized for low-cost and open-weight models.
+tagline: Open-source (Apache-2.0) terminal coding agent forked from OpenAI's Codex, tuned for low-cost and open-weight models with switchable harness emulation.
 
 license: open-source
 deployment: cli
 added: 2026-04-24
+verified: '2026-10-05'

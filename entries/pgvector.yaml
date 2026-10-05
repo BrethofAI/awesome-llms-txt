@@ -50,3 +50,4 @@ platforms: [linux, macos, windows]
 tags: [vector-db, postgres, pgvector, extension, rag, hnsw]
 maintainer: pgvector
 added: 2026-04-24
+verified: '2026-10-05'

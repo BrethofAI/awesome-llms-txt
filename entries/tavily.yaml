@@ -6,8 +6,10 @@ llms_txt_status: published
 status: stub
 
 category: web-search-for-agents
-tagline: Search API optimized for LLM agents — RAG-ready results with citations.
+tagline: Web access layer for AI agents (by Nebius) — real-time search, extraction, crawl, map and cited research via API, CLI and MCP.
 
 license: freemium
 deployment: saas
+maintainer: Tavily (Nebius)
 added: 2026-04-24
+verified: '2026-10-05'

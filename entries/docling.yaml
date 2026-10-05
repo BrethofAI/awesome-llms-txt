@@ -1,13 +1,15 @@
 name: Docling
 slug: docling
 url: https://docling-project.github.io/docling/
+repository: https://github.com/docling-project/docling
 llms_txt: https://docling-project.github.io/docling/llms.txt
 llms_txt_status: missing
 status: stub
 
 category: ocr-doc-parsing
-tagline: IBM's document parsing toolkit — PDF, DOCX, images into structured JSON/markdown for RAG.
+tagline: Open-source document conversion toolkit (LF AI & Data, started at IBM Research) — PDF, Office, HTML, images, audio and more into Markdown/JSON for RAG and agents, with VLM and MCP support.
 
 license: open-source
 deployment: library
 added: 2026-04-24
+verified: '2026-10-05'

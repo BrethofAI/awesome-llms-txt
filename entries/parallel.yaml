@@ -1,0 +1,40 @@
+name: Parallel
+slug: parallel
+url: https://parallel.ai
+repository: null
+llms_txt: https://docs.parallel.ai/llms.txt
+llms_txt_status: published
+
+category: web-search-for-agents
+subcategory: web-search-api
+
+tagline: Web APIs for AI agents — Search, Extract, Task / Deep Research, FindAll and Monitor — returning LLM-optimized excerpts.
+
+description: |
+  Parallel offers web-access APIs designed for AI agents rather than humans. Search
+  returns LLM-optimized excerpts for natural-language objectives. Extract pulls clean
+  content from URLs. The Task API runs deep research and data enrichment. FindAll
+  discovers entities matching criteria, and Monitor watches the web for changes.
+
+  The docs include migration guides from Exa, Tavily and SERP APIs and an evaluation
+  guide for comparing search quality inside an agent.
+
+features:
+  - Search API with LLM-optimized excerpts and search modes
+  - Extract API for page content
+  - Task API for deep research and enrichment
+  - FindAll entity discovery and Monitor change tracking
+  - Responses / chat-style endpoint
+
+use_cases:
+  - Grounding agents in fresh web results
+  - Automated deep research and enrichment pipelines
+  - Monitoring sites or topics for changes
+
+license: commercial
+deployment: saas
+platforms: [web]
+tags: [search-api, web-search, deep-research, agents]
+maintainer: Parallel Web Systems
+added: 2026-10-05
+verified: '2026-10-05'

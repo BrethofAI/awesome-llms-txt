@@ -12,11 +12,12 @@ subcategory: open-source-llm-observability
 tagline: Open-source LLM engineering platform for tracing, evaluation, prompt management, and observability — self-host or cloud.
 
 description: |
-  Langfuse is the leading open-source alternative to LangSmith and Helicone.
-  It provides the same observability stack — traces, evaluations, prompt
-  versioning, datasets, cost tracking — but under a permissive MIT license
-  with a straightforward self-hosted deployment option for teams that need
-  data sovereignty.
+  Langfuse is an open-source AI engineering platform (acquired by
+  ClickHouse, which kept it open source and self-hostable). It provides
+  traces, evaluations, prompt versioning, datasets and cost tracking, with
+  the core under the MIT license (enterprise features in `ee/` directories
+  are commercially licensed) and a straightforward self-hosted option for
+  teams that need data sovereignty.
 
   It integrates with LangChain, LangGraph, Llama-Index, OpenAI SDK,
   Anthropic SDK, LiteLLM, and any HTTP-based LLM call via its OpenTelemetry
@@ -35,7 +36,7 @@ features:
   - Cost and latency analytics dashboards
   - OpenTelemetry-based instrumentation; framework-agnostic
   - Self-host (Docker Compose, Kubernetes) or Langfuse Cloud
-  - MIT license for the core platform
+  - MIT-licensed core (enterprise `ee/` features under a commercial license)
 
 use_cases:
   - Open-source observability for LLM apps
@@ -48,5 +49,6 @@ license: open-source
 deployment: self-hosted
 platforms: [linux]
 tags: [observability, tracing, open-source, self-hosted, evaluation, prompt-management]
-maintainer: Langfuse
+maintainer: Langfuse (ClickHouse)
 added: 2026-04-24
+verified: '2026-10-05'

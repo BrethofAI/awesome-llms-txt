@@ -34,8 +34,8 @@ features:
   - Flows API for event-driven and conditional workflows
   - Tool integration (web search, code execution, custom tools)
   - Memory: short-term, long-term, entity-level
-  - Provider-agnostic (works with any LiteLLM-supported model)
-  - CrewAI Enterprise for production deployments
+  - Provider-agnostic — native provider integrations, LiteLLM optional
+  - CrewAI AMP platform for building, deploying and tracing crews and flows
 
 use_cases:
   - Multi-step content generation (research → outline → draft → edit)
@@ -50,3 +50,4 @@ platforms: [linux, macos, windows]
 tags: [multi-agent, crewai, python, role-based, orchestration]
 maintainer: CrewAI
 added: 2026-04-24
+verified: '2026-10-05'

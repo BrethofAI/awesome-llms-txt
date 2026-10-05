@@ -1,50 +1,56 @@
 name: OpenClaw
 slug: openclaw
-url: https://github.com/openclaw/openclaw
+url: https://openclaw.ai
 repository: https://github.com/openclaw/openclaw
 llms_txt: https://docs.openclaw.ai/llms.txt
 llms_txt_status: published
 
-category: agent-frameworks
-subcategory: computer-use-agent
+category: desktop-apps
+subcategory: personal-ai-assistant
 
-tagline: Open-source framework for running browser-automation agents with persistent profiles and human-in-the-loop review.
+tagline: Open-source (MIT) personal AI assistant that runs on your own machine and answers you in the chat apps you already use — one self-hosted Gateway, any model.
 
 description: |
-  OpenClaw is an open-source framework for building and operating AI agents
-  that drive a real web browser on the user's behalf — marketing posting,
-  account management, form-filling, research at scale. It bundles a
-  Chromium-based browser, a gateway that exposes the browser to agents over
-  a typed API (`/navigate`, `/snapshot`, `/act`, `/screenshot`), a chat UI
-  for supervising the agent, and a device-pairing model that keeps the agent
-  bound to an approved session.
+  OpenClaw is an open-source personal AI assistant. You run one Gateway
+  process on your own computer or server, connect it to the messaging apps
+  you already use — WhatsApp, Telegram, Slack, Discord, Signal, iMessage,
+  Microsoft Teams, Matrix and many more — and talk to your agent from
+  anywhere. The agent acts for you: it can work through email and
+  calendar, run scheduled automations, drive a browser, and use skills
+  and plugins.
 
-  Unlike hosted agent products, OpenClaw runs entirely on the operator's
-  infrastructure: a self-hosted VPS or local machine, under the operator's
-  identity and credentials. Agents see exactly what the operator sees and
-  post under accounts the operator owns.
+  It is model-agnostic. Bundled provider plugins cover the major model
+  APIs, and custom providers point it at local inference servers. Skills
+  and plugins are shared through ClawHub. Desktop apps for macOS, Windows
+  and Linux install the Gateway together with a chat and configuration
+  Control UI, and iOS and Android companion apps pair as device nodes.
 
-  OpenClaw is provider-agnostic at the LLM layer: out of the box it supports
-  Anthropic Claude, xAI Grok, OpenRouter, and any OpenAI-compatible endpoint.
+  OpenClaw is MIT-licensed and, since July 2026, stewarded by the
+  OpenClaw Foundation, an independent 501(c)(3) non-profit. There is no
+  paid or hosted tier, and default telemetry is limited to a version
+  check you can turn off. Its creator, Peter Steinberger, joined OpenAI
+  in 2026 and continues to lead the project.
 
 features:
-  - Chromium-in-Docker with CDP exposed to agents on a structured API
-  - Persistent browser profiles per account, cookies survive restarts
-  - Device pairing + chat UI for human review and takeover
-  - Pluggable LLM providers (Anthropic, xAI, OpenRouter, OpenAI-compatible)
-  - Skills system for packaging repeated workflows (SKILL.md + exec tools)
-  - VNC fallback for visual debugging and manual intervention
+  - Self-hosted Gateway with 20+ chat channels (WhatsApp, Telegram, Slack, Discord, Signal, iMessage, Teams, Matrix, …)
+  - Any model provider via bundled provider plugins, custom endpoints and local inference servers
+  - Skills and plugins distributed through the ClawHub marketplace
+  - Automations — scheduled jobs, webhooks, Gmail Pub/Sub and IMAP triggers, standing orders
+  - Long-term memory, multi-agent routing and subagents
+  - Browser control, voice, and paired device nodes (camera, screen, location)
+  - MCP servers and an A2A channel for external agents
+  - Desktop apps for macOS, Windows and Linux; iOS and Android companion apps; browser Control UI
 
 use_cases:
-  - Marketing automation across forums where persistent accounts matter
-  - Competitive research and monitoring at human-scale pacing
-  - Form-filling and account maintenance across many venues
-  - Long-running agent workflows that need to recover from browser wedges
-  - Any agent task where hosted services are unsuitable due to privacy
+  - A personal assistant you message from your phone that runs on hardware you control
+  - Recurring chores (inbox, calendar, reports) handled by scheduled automations
+  - A shared team assistant in Slack, Teams or Discord without a hosted vendor in the middle
+  - Running a personal agent on local or self-chosen models
 
 license: open-source
-deployment: self-hosted
-platforms: [linux]
-tags: [browser-automation, agent, self-hosted, cdp, playwright, chromium]
-maintainer: OpenClaw
+deployment: local
+platforms: [linux, macos, windows, ios, android]
+tags: [personal-assistant, agent, self-hosted, gateway, chat, whatsapp, telegram, mcp, skills]
+maintainer: OpenClaw Foundation
 added: 2026-04-24
+verified: '2026-10-05'

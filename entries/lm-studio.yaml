@@ -8,32 +8,33 @@ llms_txt_status: published
 category: inference-runtimes
 subcategory: desktop-llm-runtime
 
-tagline: Desktop application for discovering, downloading, and running local LLMs with a polished UI and OpenAI-compatible server.
+tagline: Desktop app for running local LLMs (llama.cpp and MLX) with an OpenAI-compatible server — now with Bionic, an agent for work and code, and optional US-hosted open-model inference.
 
 description: |
-  LM Studio is a free desktop application for running open-weight LLMs
-  entirely on-device with a consumer-friendly interface. It handles model
-  discovery (integrated HuggingFace browser), download, quantization
-  selection, GPU offload configuration, and chat — all without editing
-  config files or the command line.
+  LM Studio is a desktop application for running open-weight LLMs on your
+  own machine. It handles model discovery and download from Hugging Face,
+  per-model GPU and context configuration, and chat. Its OpenAI-compatible
+  local server and `lms` CLI let coding agents and other apps use whatever
+  model is loaded. The runtime uses llama.cpp, plus Apple's MLX on Apple
+  Silicon.
 
-  Under the hood it's a GUI wrapper around llama.cpp and MLX with
-  thoughtful defaults. Its built-in OpenAI-compatible server lets other
-  applications connect to whatever model the user has loaded, making LM
-  Studio a popular local-inference backend for coding agents, chat apps,
-  and research tools.
-
-  Where Ollama targets developers and CLI workflows, LM Studio targets
-  knowledge workers who want local LLMs without touching a terminal.
+  In 2026 the app became LM Studio Bionic, built around Bionic, "LM
+  Studio's agent for open models". Bionic creates and edits documents,
+  helps with code, runs automations and can control the computer, and it
+  includes local real-time voice transcription. Local use stays free.
+  Paid plans (Bionic+ at $20/month and Pro at $100/month) add
+  US-hosted, zero-data-retention inference for large open models such as
+  Kimi K3, GLM 5.3 and DeepSeek V4, plus web search. LM Link connects
+  multiple devices.
 
 features:
-  - Desktop GUI for HuggingFace model browsing and download
-  - Per-model config (context length, GPU layers, quantization)
-  - Built-in chat UI with conversation history
-  - OpenAI-compatible local server
+  - Desktop GUI for Hugging Face model browsing, download and configuration
+  - Bionic agent for documents, coding, automations and computer control
+  - OpenAI-compatible local server and `lms` CLI; lmstudio-js and lmstudio-python SDKs
   - llama.cpp and MLX backends
-  - NVIDIA CUDA, AMD ROCm, Apple MLX support
-  - Speculative decoding for faster inference
+  - Local real-time voice transcription
+  - Optional US-hosted, zero-data-retention cloud inference for large open models (paid plans)
+  - LM Link to share models across devices
 
 use_cases:
   - Non-CLI users who want to run local LLMs with a GUI
@@ -46,5 +47,6 @@ license: freemium
 deployment: local
 platforms: [linux, macos, windows]
 tags: [inference, llm, local, desktop, gui, llama-cpp, mlx]
-maintainer: LM Studio
+maintainer: Element Labs, Inc. (LM Studio)
 added: 2026-04-24
+verified: '2026-10-05'

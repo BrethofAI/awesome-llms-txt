@@ -8,7 +8,7 @@ llms_txt_status: published
 category: deployment
 subcategory: production-inference
 
-tagline: Production inference platform for open-source models with industry-leading speed for DeepSeek, Llama, Qwen.
+tagline: Training and inference platform for open models — serverless and dedicated GPU deployments, fine-tuning, and Fireworks Nexus model routers for coding agents.
 
 description: |
   Fireworks AI is a production inference platform specializing in
@@ -27,13 +27,12 @@ description: |
   coding assistants, high-QPS chat applications.
 
 features:
-  - Optimized inference stack with industry-leading tokens/sec benchmarks
-  - 100+ open-source models (DeepSeek, Llama, Qwen, Mixtral, Mistral)
-  - OpenAI-compatible API with streaming, tools, JSON mode
-  - Fine-tuning as a service with managed serving
-  - Dedicated deployments for guaranteed capacity and SLAs
-  - Multimodal: text, vision, image generation, embedding, speech
-  - Per-million-tokens and per-GPU-hour pricing tiers
+  - Serverless inference with Standard, Priority and Fast modes; reserved throughput with SLA; US-only option
+  - On-demand deployments on dedicated GPUs with autoscaling; custom model upload
+  - Training and fine-tuning with managed serving of the results
+  - Fireworks Nexus — FireConnect for coding harnesses, FireRouter model routers, per-user spend caps
+  - OpenAI-compatible API with streaming, tools, JSON mode, prompt caching
+  - Text, vision and embedding models
 
 use_cases:
   - Production applications with strict latency requirements
@@ -48,3 +47,4 @@ platforms: [linux, macos, windows]
 tags: [inference, fireworks, serverless, fast, openai-compatible, fine-tuning]
 maintainer: Fireworks AI
 added: 2026-04-24
+verified: '2026-10-05'

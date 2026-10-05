@@ -6,8 +6,9 @@ llms_txt_status: published
 status: stub
 
 category: desktop-apps
-tagline: macOS launcher with integrated AI commands, chat, and custom quicklinks.
+tagline: AI assistant built into the Raycast launcher (Mac, Windows, iOS) — agents with projects, screen awareness, scheduled automations and bring-your-own model keys.
 
 license: commercial
 deployment: local
 added: 2026-04-24
+verified: '2026-10-05'

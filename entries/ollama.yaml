@@ -8,7 +8,7 @@ llms_txt_status: published
 category: inference-runtimes
 subcategory: local-llm-server
 
-tagline: Run large language models locally via a single-binary server with a built-in model library.
+tagline: Run open models locally via a single-binary server with a built-in model library — with optional Ollama Cloud for models too big for your hardware.
 
 description: |
   Ollama is the most widely adopted tool for running open-weight LLMs on
@@ -18,7 +18,7 @@ description: |
   Gemma, Mistral, DeepSeek, and dozens of others with preconfigured
   quantizations.
 
-  Its appeal is friction: `ollama run llama3.1` downloads the model and
+  Its appeal is friction: `ollama run gemma4` downloads the model and
   drops you into a chat in one command. The OpenAI-compatible API makes
   Ollama a drop-in backend for thousands of tools originally built against
   OpenAI — switching from cloud to local becomes a URL change.
@@ -26,6 +26,10 @@ description: |
   Ollama runs on CPU, NVIDIA CUDA, AMD ROCm, and Apple Silicon, and serves
   as the default "local inference" option for open-source agent frameworks,
   chat UIs, and coding assistants.
+
+  The same app, CLI and API can also run models on Ollama's hosted cloud
+  (see the Ollama Cloud entry). Cloud features can be disabled for
+  local-only use.
 
 features:
   - Single-binary install with built-in model library
@@ -35,6 +39,8 @@ features:
   - Modelfile system for customizing prompts and parameters
   - Multimodal support for vision models
   - macOS, Linux, Windows native builds
+  - OpenAI- and Anthropic-compatible APIs
+  - ollama launch for Claude Code, Codex and OpenCode
 
 use_cases:
   - Local development against open-weight LLMs without cloud costs
@@ -49,3 +55,4 @@ platforms: [linux, macos, windows]
 tags: [inference, llm, local, quantization, ollama, cuda, rocm, metal]
 maintainer: Ollama
 added: 2026-04-24
+verified: '2026-10-05'

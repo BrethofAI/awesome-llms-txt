@@ -1,13 +1,15 @@
 name: PrivateGPT
 slug: privategpt
-url: https://github.com/zylon-ai/private-gpt
+url: https://docs.privategpt.dev
+repository: https://github.com/zylon-ai/private-gpt
 llms_txt: https://docs.privategpt.dev/llms.txt
 llms_txt_status: published
 status: stub
 
-category: desktop-apps
-tagline: Privacy-first local AI over your documents — fully offline RAG chatbot.
+category: rag-frameworks
+tagline: Open-source (Apache-2.0) Claude-API-style layer for private AI apps on any local OpenAI-compatible model server — agentic RAG with citations, tools, MCP and data access.
 
 license: open-source
-deployment: local
+deployment: self-hosted
 added: 2026-04-24
+verified: '2026-10-05'

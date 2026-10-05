@@ -1,13 +1,16 @@
 name: Promptfoo
 slug: promptfoo
 url: https://www.promptfoo.dev
+repository: https://github.com/promptfoo/promptfoo
 llms_txt: https://www.promptfoo.dev/llms.txt
 llms_txt_status: published
 status: stub
 
 category: evaluation
-tagline: Open-source tool for testing, evaluating, and red-teaming LLM apps via config files.
+tagline: Open-source (MIT) CLI for evaluating, red-teaming and security-testing LLM apps and agents from config files — now part of OpenAI.
 
 license: open-source
-deployment: library
+deployment: cli
+maintainer: Promptfoo (OpenAI)
 added: 2026-04-24
+verified: '2026-10-05'

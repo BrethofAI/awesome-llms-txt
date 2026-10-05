@@ -1,13 +1,16 @@
 name: Marker
 slug: marker
 url: https://github.com/datalab-to/marker
-llms_txt: https://github.com/datalab-to/marker/llms.txt
+repository: https://github.com/datalab-to/marker
+llms_txt: https://www.datalab.to/llms.txt
 llms_txt_status: missing
 status: stub
 
 category: ocr-doc-parsing
-tagline: Fast, accurate PDF-to-markdown conversion — tables, equations, and structure preserved.
+tagline: Fast, accurate document conversion (PDF, images, Office, HTML, EPUB) to Markdown, JSON, chunks or HTML — tables, equations and structure preserved; code Apache-2.0, weights OpenRAIL-M with commercial limits.
 
 license: open-source
 deployment: library
+maintainer: Datalab
 added: 2026-04-24
+verified: '2026-10-05'

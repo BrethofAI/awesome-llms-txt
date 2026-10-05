@@ -19,12 +19,13 @@ description: |
   generators, prompt builders, validators) connected by typed edges, with
   full control over execution order and branching.
 
-  Haystack predates the LLM gold rush (originally a NLP QA toolkit) and
+  Haystack predates the LLM gold rush (originally an NLP QA toolkit) and
   its design reflects production priorities: typed I/O, explicit
-  observability, easy component swapping, and deployment as Kubernetes-
-  ready services. Its 2.x rewrite modernized the framework around the
-  Pipeline abstraction and deepened integrations with LLM providers,
-  vector stores, and document processors.
+  observability, easy component swapping, and deployment as
+  Kubernetes-ready services. The 2.x rewrite rebuilt it around the
+  Pipeline abstraction; Haystack 3.0 (July 2026) added a more capable
+  Agent with hooks and skills, run introspection, first-class async
+  serving and a leaner core.
 
   It's a common choice for teams who find LangChain too abstract and
   LangGraph too low-level, wanting a middle-ground framework with
@@ -35,8 +36,8 @@ features:
   - 100+ integrations (LLMs, vector stores, retrievers, rankers)
   - Branching, looping, and conditional pipelines
   - Evaluation harness built into the framework
-  - deepset Cloud for hosted pipeline deployment
-  - REST API generation for deployed pipelines
+  - Haystack Enterprise Platform (deepset) for hosted, governed deployment
+  - Hayhooks to serve pipelines and agents as REST APIs or MCP tools
   - Python-only (no JavaScript port)
 
 use_cases:
@@ -52,3 +53,4 @@ platforms: [linux, macos, windows]
 tags: [rag, haystack, deepset, pipeline, semantic-search, python]
 maintainer: deepset
 added: 2026-04-24
+verified: '2026-10-05'

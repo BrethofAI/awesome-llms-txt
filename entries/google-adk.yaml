@@ -1,0 +1,48 @@
+name: Agent Development Kit (ADK)
+slug: google-adk
+url: https://adk.dev
+repository: https://github.com/google/adk-python
+llms_txt: https://adk.dev/llms.txt
+llms_txt_status: published
+
+category: agent-frameworks
+subcategory: multi-agent-framework
+
+tagline: Google's open-source, code-first toolkit for building, evaluating and deploying multi-agent systems in Python, TypeScript, Go, Java and Kotlin.
+
+description: |
+  Agent Development Kit (ADK) is Google's open-source (Apache-2.0)
+  framework for building, evaluating and deploying AI agents. Agents can
+  be LLM-driven (`LlmAgent`) or deterministic workflow agents
+  (`SequentialAgent`, `ParallelAgent`, `LoopAgent`), and they compose
+  hierarchically into multi-agent systems that delegate through
+  LLM-driven transfer or by calling other agents as tools.
+
+  ADK covers tools (function tools, agents as tools, built-in code
+  execution and search), callbacks, sessions and state, long-term
+  memory, artifacts, planning, bidirectional streaming for live and
+  voice agents, built-in multi-turn evaluation, a CLI and a developer
+  UI. It is optimised for Gemini but model-agnostic through its
+  `BaseLlm` interface. It deploys anywhere, with paths to Google Cloud.
+
+features:
+  - LLM agents plus Sequential, Parallel and Loop workflow agents
+  - Hierarchical multi-agent systems with delegation and AgentTool
+  - Tools, callbacks, sessions/state, memory and artifacts
+  - Live and voice agents with bidirectional streaming
+  - Built-in agent evaluation, CLI and developer UI
+  - SDKs for Python, TypeScript, Go, Java and Kotlin
+  - Gemini-optimised, other models via BaseLlm
+
+use_cases:
+  - Multi-agent applications with a mix of deterministic and LLM-driven steps
+  - Voice and real-time agents on Gemini Live
+  - Teams deploying agents to Google Cloud
+
+license: open-source
+deployment: library
+platforms: [linux, macos, windows]
+tags: [agent-framework, google, gemini, multi-agent, python, typescript, go, java]
+maintainer: Google
+added: 2026-10-05
+verified: '2026-10-05'

@@ -1,0 +1,43 @@
+name: Flowise
+slug: flowise
+url: https://flowiseai.com
+repository: https://github.com/FlowiseAI/Flowise
+llms_txt: https://docs.flowiseai.com/llms.txt
+llms_txt_status: published
+
+category: workflow-tools
+subcategory: visual-agent-builder
+
+tagline: Open-source visual builder for AI agents and LLM workflows — Assistant, Chatflow and Agentflow builders with tracing, evals and human-in-the-loop.
+
+description: |
+  Flowise is an open-source generative-AI development platform for building AI agents
+  and LLM workflows visually. It has three builders: Assistant (beginner-friendly
+  agents with tools and RAG over uploaded files), Chatflow (single-agent and RAG flows),
+  and Agentflow (multi-agent orchestration). Around them it provides tracing and
+  analytics, evaluations, human-in-the-loop steps, and an API, CLI, SDK and embeddable
+  chatbot. Teams and workspaces are also supported.
+
+  The core is Apache-2.0, and enterprise directories are under a commercial license. The
+  project is now part of Workday.
+
+features:
+  - Assistant, Chatflow and Agentflow visual builders
+  - RAG with document stores and vector upserts
+  - Tracing, analytics and evaluations
+  - Human-in-the-loop steps
+  - API, CLI, SDK and embeddable chat widget
+  - Self-host (npm / Docker) or Flowise Cloud
+
+use_cases:
+  - Prototyping agents and RAG apps without code
+  - Self-hosted internal chatbots over company documents
+  - Multi-agent workflows with human approval steps
+
+license: open-source
+deployment: self-hosted
+platforms: [linux, macos, windows]
+tags: [workflow, low-code, agents, rag, visual-builder]
+maintainer: FlowiseAI (Workday)
+added: 2026-10-05
+verified: '2026-10-05'

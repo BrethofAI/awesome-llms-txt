@@ -1,0 +1,47 @@
+name: Baseten
+slug: baseten
+url: https://www.baseten.co
+repository: null
+llms_txt: https://docs.baseten.co/llms.txt
+llms_txt_status: published
+
+category: deployment
+subcategory: production-inference
+
+tagline: Inference and training platform — hosted Model APIs (OpenAI- and Anthropic-compatible), dedicated deployments of your own models, and fine-tuning on production GPUs.
+
+description: |
+  Baseten runs hosted models, deploys custom models and trains models
+  on production GPU infrastructure. Model APIs expose high-performance
+  LLMs through OpenAI- and Anthropic-compatible endpoints, with
+  reasoning control, vision, server-side web search and coding-agent
+  setups (Claude Code, Codex CLI, OpenCode).
+
+  For your own models, Baseten manages containers, GPU capacity across
+  clouds and regions, autoscaling and observability, and its inference
+  engines optimise supported architectures. It also covers audio
+  (transcription, speech generation, diarization), async inference,
+  structured outputs and function calling. Training uses Loops or your
+  own training jobs, and the resulting checkpoints can be served on the
+  same platform.
+
+features:
+  - Model APIs with OpenAI- and Anthropic-compatible endpoints
+  - Dedicated deployments of open-source, fine-tuned or custom models
+  - Autoscaling across clouds and regions; SSH into deployments
+  - Training via Loops and Training Jobs, then serve the checkpoints
+  - Speech and audio inference; async inference; structured outputs and tool calling
+  - Coding-agent integrations; docs MCP server and agent skill
+
+use_cases:
+  - Serving custom or fine-tuned models in production without running GPU infrastructure
+  - Pointing coding agents at hosted open models
+  - Low-latency voice and transcription pipelines
+
+license: commercial
+deployment: saas
+platforms: [linux, macos, windows]
+tags: [inference, deployment, gpu, training, openai-compatible, anthropic-compatible, saas]
+maintainer: Baseten
+added: 2026-10-05
+verified: '2026-10-05'

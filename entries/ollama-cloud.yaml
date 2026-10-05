@@ -1,0 +1,58 @@
+name: Ollama Cloud
+slug: ollama-cloud
+url: https://docs.ollama.com/cloud
+repository: null
+llms_txt: https://ollama.com/llms.txt
+llms_txt_status: published
+
+category: deployment
+subcategory: hosted-open-model-inference
+
+tagline: Ollama's hosted inference for large open models — the same Ollama app, CLI and API, plus OpenAI- and Anthropic-compatible endpoints, with a free tier and usage credits.
+
+description: |
+  Ollama Cloud runs open-weight models on Ollama's hosted
+  infrastructure, so you can use models too large for a laptop without
+  downloading them: DeepSeek V4, GLM 5.x, Kimi K3, MiniMax M3, gpt-oss,
+  Mistral Large 3, Nemotron 3 and others. The Ollama app and CLI switch
+  between local and cloud models by name (for example `gemma4:cloud`).
+  Coding agents can run against cloud models with `ollama launch claude`,
+  `ollama launch codex` or `ollama launch opencode`.
+
+  Apps can also call https://ollama.com/api directly with an API key, or
+  use OpenAI- or Anthropic-compatible clients, with no local install.
+  Ollama says cloud models use the provider's native weights, and prompt
+  and response data are never logged or trained on. Hosting is primarily
+  in the United States, with overflow to Europe and Singapore, through
+  NVIDIA Cloud Partners under no-logging, zero-retention terms.
+
+  Plans: Free (starter usage credits and starter models), Pro ($20/month
+  with $60 of credits), Max ($100/month with $300 of credits), Team
+  ($500/month, early access) and Enterprise. Usage is billed per million
+  tokens per model, with cheaper off-peak rates. Running models locally
+  stays free and unlimited, and cloud features can be switched off for
+  local-only use.
+
+features:
+  - Hosted open-weight models — DeepSeek, GLM, Kimi, MiniMax, gpt-oss, Gemma, Mistral, Nemotron
+  - Same Ollama app, CLI and API for local and cloud models (`:cloud` tags)
+  - Direct API at ollama.com/api with API keys; OpenAI- and Anthropic-compatible clients
+  - "`ollama launch` for Claude Code, Codex CLI and OpenCode on cloud models"
+  - Tool calling tested on supported cloud models; web search
+  - Per-million-token pricing with off-peak discounts; Free, Pro, Max, Team and Enterprise plans
+  - No logging or training on prompts; US-primary hosting with zero-retention partners
+  - Local-only mode via `disable_ollama_cloud`
+
+use_cases:
+  - Running models too large for local hardware with the same Ollama workflow
+  - Coding agents on open models without owning a GPU
+  - Mixing local and hosted open models behind one API
+  - Teams that want shared billing and model access controls for open models
+
+license: freemium
+deployment: saas
+platforms: [linux, macos, windows, web]
+tags: [inference, ollama, cloud, open-models, openai-compatible, anthropic-compatible, saas]
+maintainer: Ollama
+added: 2026-10-05
+verified: '2026-10-05'

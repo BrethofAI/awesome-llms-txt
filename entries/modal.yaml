@@ -52,3 +52,4 @@ platforms: [linux, macos, windows]
 tags: [serverless, gpu, python, modal, inference, training, saas]
 maintainer: Modal
 added: 2026-04-24
+verified: '2026-10-05'

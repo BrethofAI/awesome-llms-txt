@@ -1,0 +1,43 @@
+name: Tinker
+slug: tinker
+url: https://thinkingmachines.ai/tinker/
+repository: https://github.com/thinking-machines-lab/tinker-cookbook
+llms_txt: https://tinker-docs.thinkingmachines.ai/llms.txt
+llms_txt_status: published
+
+category: training
+subcategory: training-api
+
+tagline: Training API from Thinking Machines — write the training loop in Python, run LoRA fine-tuning and RL on open-weight models from 1B to 1T+ parameters on managed GPUs.
+
+description: |
+  Tinker is a training API for researchers and developers doing LLM post-training. You
+  write a simple loop that runs on a CPU-only machine, containing your data or RL
+  environment, loss function and evals. You call `forward_backward`, `optim_step`,
+  `sample` and `save_state`, and Tinker executes the exact computation efficiently on
+  distributed GPUs, handling hardware failures transparently.
+
+  It fine-tunes dense and mixture-of-experts open-weight models from 1B to 1T+
+  parameters, including vision-language models, using LoRA rather than full
+  fine-tuning. Trained weights can be downloaded and served elsewhere. The open-source
+  Tinker Cookbook provides recipes for SFT, RL and distillation.
+
+features:
+  - Low-level primitives (forward_backward, optim_step, sample) with full control of the loop
+  - Built-in and custom losses (cross-entropy, importance sampling, PPO, CISPO, DRO)
+  - LoRA fine-tuning of dense and MoE models from 1B to 1T+ parameters, including VLMs
+  - Managed distributed training with fault tolerance
+  - Downloadable trained weights
+  - Open-source cookbook of recipes
+
+use_cases:
+  - RL and SFT research without managing GPU clusters
+  - Custom post-training algorithms on large open-weight models
+
+license: commercial
+deployment: saas
+platforms: [web]
+tags: [training, fine-tuning, rl, lora, api]
+maintainer: Thinking Machines Lab
+added: 2026-10-05
+verified: '2026-10-05'

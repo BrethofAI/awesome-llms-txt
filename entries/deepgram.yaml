@@ -1,0 +1,41 @@
+name: Deepgram
+slug: deepgram
+url: https://deepgram.com
+repository: null
+llms_txt: https://developers.deepgram.com/llms.txt
+llms_txt_status: published
+
+category: voice
+subcategory: speech-api
+
+tagline: Speech-to-text (Nova-3, Flux), text-to-speech (Aura) and voice-agent APIs, with SDKs, a CLI, an MCP server and a self-hosted option.
+
+description: |
+  Deepgram provides APIs for speech-to-text, text-to-speech, audio intelligence and
+  end-to-end voice agents. Its STT models cover streaming and pre-recorded audio (Nova-3)
+  and conversational, turn-aware streaming for voice agents (Flux). Aura models handle
+  TTS. A Voice Agent API chains STT, an LLM and TTS in one connection.
+
+  Developers integrate through SDKs (Python, JavaScript, Go, .NET, Java), a `dg` CLI
+  that also runs as an MCP server, and agent skills. Enterprises can self-host.
+
+features:
+  - Streaming and batch speech-to-text (Nova-3) and conversational STT (Flux)
+  - Text-to-speech (Aura) with single-request and streaming modes
+  - End-to-end Voice Agent API
+  - Audio and text intelligence (sentiment, topics, summaries, intents)
+  - SDKs for Python, JavaScript, Go, .NET and Java; CLI and MCP server
+  - Self-hosted deployment option
+
+use_cases:
+  - Real-time transcription for calls, meetings and voice agents
+  - Building low-latency voice agents
+  - Giving a coding agent speech tools via MCP
+
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [asr, tts, speech-to-text, voice-agents, mcp]
+maintainer: Deepgram
+added: 2026-10-05
+verified: '2026-10-05'

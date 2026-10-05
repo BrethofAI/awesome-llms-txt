@@ -1,13 +1,15 @@
 name: LanceDB
 slug: lancedb
-url: https://lancedb.com
-llms_txt: https://lancedb.com/llms.txt
+url: https://www.lancedb.com
+repository: https://github.com/lancedb/lancedb
+llms_txt: https://www.lancedb.com/llms.txt
 llms_txt_status: published
 status: stub
 
 category: vector-dbs
-tagline: Serverless vector DB on the Lance columnar format — embedded or cloud, multimodal-ready.
+tagline: Multimodal lakehouse and embedded vector database on the open Lance format — vector, full-text and hybrid search plus training-data curation.
 
 license: open-source
 deployment: library
 added: 2026-04-24
+verified: '2026-10-05'

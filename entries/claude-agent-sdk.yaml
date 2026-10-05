@@ -47,3 +47,4 @@ platforms: [linux, macos, windows]
 tags: [agent-sdk, anthropic, claude, python, typescript, mcp, tool-use]
 maintainer: Anthropic
 added: 2026-04-24
+verified: '2026-10-05'

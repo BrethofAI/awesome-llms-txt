@@ -1,13 +1,16 @@
 name: Helicone
 slug: helicone
-url: https://helicone.ai
+url: https://www.helicone.ai
+repository: https://github.com/Helicone/helicone
 llms_txt: https://helicone.ai/llms.txt
 llms_txt_status: published
 status: stub
 
 category: observability
-tagline: Open-source observability for LLM apps — traces, prompts, evaluations, usage analytics.
+tagline: Open-source AI gateway and LLM observability (requests, costs, latency, sessions); in maintenance mode since its 2026 acquisition by Mintlify.
 
-license: freemium
+license: open-source
 deployment: saas
+maintainer: Helicone (Mintlify)
 added: 2026-04-24
+verified: '2026-10-05'

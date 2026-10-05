@@ -12,3 +12,4 @@ tagline: Inference library for local LLMs on consumer GPUs with EXL3 quantizatio
 license: open-source
 deployment: library
 added: 2026-09-29
+verified: '2026-10-05'

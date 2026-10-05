@@ -8,33 +8,29 @@ llms_txt_status: published
 category: deployment
 subcategory: ultra-low-latency-inference
 
-tagline: Ultra-low-latency LLM inference on custom LPU silicon — sub-second complete responses and OpenAI-compatible API.
+tagline: Fast-inference "neocloud" — GroqCloud's OpenAI-compatible API on Groq LPUs alongside NVIDIA accelerated computing.
 
 description: |
-  Groq operates a cloud inference service built on its own custom "Language
-  Processing Unit" (LPU) silicon, designed specifically for transformer
-  inference. The result is inference speeds measured in hundreds of tokens
-  per second for models like Llama, Qwen, DeepSeek, and Kimi — fast enough
-  that full multi-paragraph responses complete before a human reader can
-  finish the first sentence.
+  Groq runs GroqCloud, an inference cloud with an OpenAI-compatible API.
+  Groq pioneered its own Language Processing Unit (LPU) silicon. It now
+  runs LPUs alongside NVIDIA accelerated computing as an NVIDIA Cloud
+  Partner, across 13 data centers in North America, Europe, the Middle
+  East and Asia Pacific. It raised a $350M Series A in August 2026.
 
-  The API is OpenAI-compatible, so any application using the OpenAI client
-  can point at Groq's endpoint with a base URL change. Pricing is
-  per-million-tokens and competitive with other serverless inference
-  providers, with the key differentiator being latency.
-
-  Groq is a common pick for real-time applications: voice agents, live
-  coding assistants, streaming chat UIs, and any use case where response
-  latency (not token throughput) is the bottleneck.
+  The API is OpenAI-compatible, so OpenAI-client code can switch with a
+  base-URL change. Latency remains the main selling point, with hundreds
+  to about a thousand tokens per second on hosted models. GroqCloud is
+  common for voice agents, streaming chat and agent loops with many
+  sequential calls.
 
 features:
-  - Custom LPU silicon purpose-built for LLM inference
-  - 300-800+ tokens/sec on popular open-weight models
-  - OpenAI-compatible API with streaming and tool use
-  - Function calling and structured output support
-  - Model catalog: Llama 3/4, Qwen, DeepSeek, Kimi, Gemma, Whisper
-  - Free tier with generous rate limits for prototyping
+  - OpenAI-compatible API with streaming, tool use and structured outputs
+  - Roughly 280–1,000 tokens/sec on production models
+  - Production models include gpt-oss 120B/20B, Llama 3.x and Whisper large-v3 / turbo
+  - Preview models such as Qwen 3.8 27B, MiniMax M2.7 and Orpheus TTS
+  - Speech-to-text, text-to-speech and vision
   - Batch API for async high-volume jobs
+  - Free tier for prototyping
 
 use_cases:
   - Real-time voice agents and conversational AI
@@ -47,5 +43,6 @@ license: commercial
 deployment: saas
 platforms: [linux, macos, windows]
 tags: [inference, lpu, groq, saas, low-latency, openai-compatible]
-maintainer: Groq
+maintainer: Groq LLC
 added: 2026-04-24
+verified: '2026-10-05'

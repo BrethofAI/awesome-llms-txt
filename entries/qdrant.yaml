@@ -49,3 +49,4 @@ platforms: [linux, macos, windows]
 tags: [vector-db, qdrant, rust, production, hybrid-search, self-hosted]
 maintainer: Qdrant
 added: 2026-04-24
+verified: '2026-10-05'

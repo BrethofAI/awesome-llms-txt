@@ -1,13 +1,17 @@
 name: Weights & Biases
 slug: wandb
-url: https://wandb.ai
-llms_txt: https://docs.wandb.ai/llms.txt
+url: https://wandb.ai/site
+repository: https://github.com/wandb/wandb
+llms_txt: https://docs.coreweave.com/llms.txt
+llms_full_txt: https://docs.coreweave.com/llms-full.txt
 llms_txt_status: published
 status: stub
 
 category: observability
-tagline: Leading ML experiment tracking platform with dedicated LLM observability (Weave).
+tagline: ML experiment tracking (W&B Models) and LLM/agent tracing and evaluation (W&B Weave), now part of CoreWeave Forge.
 
 license: freemium
 deployment: saas
+maintainer: CoreWeave
 added: 2026-04-24
+verified: '2026-10-05'

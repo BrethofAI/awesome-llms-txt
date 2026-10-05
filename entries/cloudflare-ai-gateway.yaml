@@ -1,0 +1,44 @@
+name: Cloudflare AI Gateway
+slug: cloudflare-ai-gateway
+url: https://developers.cloudflare.com/ai-gateway/
+repository: null
+llms_txt: https://developers.cloudflare.com/ai-gateway/llms.txt
+llms_txt_status: published
+
+category: llm-gateways
+subcategory: managed-ai-gateway
+
+tagline: Managed gateway in front of OpenAI, Anthropic, Bedrock and dozens of providers — analytics, caching, rate limiting and model fallback via one OpenAI-compatible endpoint.
+
+description: |
+  Cloudflare AI Gateway is a managed proxy that sits between an application and its
+  AI providers. Requests go through a Cloudflare endpoint, either a unified
+  OpenAI-compatible API or each provider's native API, and the gateway adds logging,
+  analytics, response caching, rate limiting, retries and model fallback, without
+  running any infrastructure.
+
+  It supports a wide catalogue of providers (OpenAI, Anthropic, Azure OpenAI, Amazon
+  Bedrock, Google, Groq, Cerebras, Baseten, Cartesia and more) and Cloudflare's own
+  Workers AI. Because it runs on Cloudflare's edge network, it is a low-effort way to
+  get centralized observability and cost control for LLM traffic. The trade-off is that
+  it is a hosted service, not something you self-host.
+
+features:
+  - Unified OpenAI-compatible endpoint plus provider-native and WebSocket endpoints
+  - Request logging and analytics (tokens, cost, latency, errors)
+  - Response caching and rate limiting
+  - Retries and model fallback across providers
+  - Supports many providers and Cloudflare Workers AI
+
+use_cases:
+  - Adding observability and cost control to existing OpenAI/Anthropic calls
+  - Failing over between providers without code changes
+  - Caching repeated prompts to cut spend and latency
+
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [gateway, proxy, caching, rate-limiting, observability, cloudflare]
+maintainer: Cloudflare
+added: 2026-10-05
+verified: '2026-10-05'

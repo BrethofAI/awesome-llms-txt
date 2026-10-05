@@ -50,3 +50,4 @@ platforms: [linux]
 tags: [inference, serving, paged-attention, vllm, production, cuda, rocm]
 maintainer: vLLM Project
 added: 2026-04-24
+verified: '2026-10-05'

@@ -1,8 +1,9 @@
 name: OpenAI Codex
 slug: openai-codex
-url: https://developers.openai.com/codex
+url: https://learn.chatgpt.com/docs/codex/cli
 repository: https://github.com/openai/codex
 llms_txt: https://learn.chatgpt.com/docs/llms.txt
+llms_full_txt: https://learn.chatgpt.com/docs/llms-full.txt
 llms_txt_status: published
 status: stub
 
@@ -12,3 +13,4 @@ tagline: OpenAI's coding agent, available as an open-source terminal CLI, an IDE
 license: open-source
 deployment: cli
 added: 2026-09-29
+verified: '2026-10-05'

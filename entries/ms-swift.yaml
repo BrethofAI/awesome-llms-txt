@@ -1,13 +1,15 @@
 name: MS-Swift
 slug: ms-swift
 url: https://github.com/modelscope/ms-swift
+repository: https://github.com/modelscope/ms-swift
 llms_txt: https://github.com/modelscope/ms-swift/llms.txt
 llms_txt_status: missing
 status: stub
 
 category: training
-tagline: ModelScope's fine-tuning framework supporting 350+ LLMs and 100+ multimodal models.
+tagline: ModelScope's training and deployment framework for 600+ LLMs and 400+ multimodal models — SFT, GRPO-family RL, DPO, Megatron parallelism.
 
 license: open-source
 deployment: library
 added: 2026-04-24
+verified: '2026-10-05'

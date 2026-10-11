@@ -1,0 +1,43 @@
+name: Tale
+slug: tale
+url: https://tale.dev
+repository: https://github.com/tale-project/tale
+llms_txt: https://tale.dev/llms.txt
+llms_full_txt: https://tale.dev/llms-full.txt
+llms_txt_status: published
+
+category: workflow-tools
+subcategory: team-agent-workspace
+
+tagline: Open-source workspace for teams and AI agents, with project boards and repeatable workflows.
+
+description: |
+  Tale is an open-source workspace where teams coordinate people and AI
+  agents on shared project boards. Tasks, files, conversations, and review
+  stay in the same project so teammates can inspect an agent's results.
+
+  Its automation editor connects model calls, agent steps, transformations,
+  and connector actions into versioned workflows. Runs can start manually,
+  on schedules, or from webhooks. Configured connector policies can pause
+  protected writes for human approval. Teams can self-host with Docker or
+  use managed Cloud, with local or cloud model providers.
+
+features:
+  - Shared project boards for people and AI agents
+  - Project instructions and files as context for assigned agent tasks
+  - Versioned workflows with model calls, agent steps, and connector actions
+  - Manual, scheduled, and webhook automation triggers
+  - Execution logs and configured connector approval policies
+  - Docker self-hosting and managed Cloud deployment
+
+use_cases:
+  - Teams delegating project tasks to agents and reviewing their deliverables
+  - Operations teams running repeatable workflows with approval policies
+  - Organizations hosting a shared workspace for people and AI agents
+
+license: open-source
+deployment: self-hosted
+platforms: [web]
+tags: [project-management, ai-agents, workflow-automation, self-hosted]
+maintainer: Ruler GmbH
+added: 2026-10-11

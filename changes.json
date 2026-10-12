@@ -1,30 +1,252 @@
 {
- "checked": "2026-10-05",
- "since": false,
+ "checked": "2026-10-12",
+ "since": true,
  "changes": [
   {
-   "slug": "automatic1111",
-   "name": "AUTOMATIC1111",
-   "kind": "dormant",
-   "detail": "no push for 217 days (since 2026-03-02)"
+   "slug": "agno",
+   "name": "Agno",
+   "kind": "release",
+   "detail": "v3.1.1 → v3.1.2 (2026-10-08)"
   },
   {
-   "slug": "flowise",
-   "name": "Flowise",
-   "kind": "archived",
-   "detail": "archived (last push 2026-08-13)"
+   "slug": "anthropic-sdk",
+   "name": "Anthropic SDK",
+   "kind": "release",
+   "detail": "v1.11.0 → v1.13.0 (2026-10-09)"
+  },
+  {
+   "slug": "arize-phoenix",
+   "name": "Arize Phoenix",
+   "kind": "release",
+   "detail": "arize-phoenix-v20.19.0 → arize-phoenix-v20.21.0 (2026-10-11)"
+  },
+  {
+   "slug": "claude-agent-sdk",
+   "name": "Claude Agent SDK",
+   "kind": "release",
+   "detail": "v0.2.163 → v0.2.165 (2026-10-08)"
+  },
+  {
+   "slug": "cline",
+   "name": "Cline",
+   "kind": "release",
+   "detail": "desktop-v0.0.43 → desktop-v0.0.45 (2026-10-08)"
+  },
+  {
+   "slug": "comfyui",
+   "name": "ComfyUI",
+   "kind": "release",
+   "detail": "v0.38.0 → v0.39.0 (2026-10-05)"
+  },
+  {
+   "slug": "crewai",
+   "name": "CrewAI",
+   "kind": "release",
+   "detail": "1.15.23 → 1.15.27 (2026-10-09)"
+  },
+  {
+   "slug": "diffusers",
+   "name": "Diffusers",
+   "kind": "release",
+   "detail": "v0.40.0 → v0.41.0 (2026-10-06)"
+  },
+  {
+   "slug": "docling",
+   "name": "Docling",
+   "kind": "release",
+   "detail": "v2.133.0 → v2.137.0 (2026-10-09)"
+  },
+  {
+   "slug": "exllamav3",
+   "name": "ExLlamaV3",
+   "kind": "release",
+   "detail": "v1.5.4 → v1.6.1 (2026-10-10)"
+  },
+  {
+   "slug": "fastembed",
+   "name": "FastEmbed",
+   "kind": "release",
+   "detail": "v0.8.1 → v0.9.0 (2026-10-07)"
+  },
+  {
+   "slug": "gemini-cli",
+   "name": "Gemini CLI",
+   "kind": "release",
+   "detail": "v0.62.0 → v0.63.0 (2026-10-06)"
+  },
+  {
+   "slug": "huggingface-transformers",
+   "name": "HuggingFace Transformers",
+   "kind": "release",
+   "detail": "v5.18.0 → v5.19.0 (2026-10-06)"
+  },
+  {
+   "slug": "inspect-ai",
+   "name": "Inspect",
+   "kind": "release",
+   "detail": "no release → 0.3.278 (2026-10-09)"
+  },
+  {
+   "slug": "jan",
+   "name": "Jan",
+   "kind": "release",
+   "detail": "v0.8.4 → v0.8.6 (2026-10-09)"
+  },
+  {
+   "slug": "kilo-code",
+   "name": "Kilo Code",
+   "kind": "release",
+   "detail": "v7.8.3 → jetbrains/v7.1.9 (2026-10-08)"
+  },
+  {
+   "slug": "lancedb",
+   "name": "LanceDB",
+   "kind": "release",
+   "detail": "v0.39.0 → v0.40.0 (2026-10-07)"
+  },
+  {
+   "slug": "langchain",
+   "name": "LangChain",
+   "kind": "release",
+   "detail": "langchain-core==1.6.6 → langchain-core==1.6.9 (2026-10-08)"
+  },
+  {
+   "slug": "langflow",
+   "name": "Langflow",
+   "kind": "release",
+   "detail": "v1.12.4 → v1.12.5 (2026-10-06)"
+  },
+  {
+   "slug": "langfuse",
+   "name": "Langfuse",
+   "kind": "release",
+   "detail": "v4.50.0 → v4.56.0 (2026-10-09)"
+  },
+  {
+   "slug": "langgraph",
+   "name": "LangGraph",
+   "kind": "release",
+   "detail": "cli==0.4.32.dev0 → cli==0.4.33 (2026-10-07)"
+  },
+  {
+   "slug": "litellm",
+   "name": "LiteLLM",
+   "kind": "release",
+   "detail": "v1.104.0 → v1.105.0 (2026-10-11)"
+  },
+  {
+   "slug": "llama-cpp",
+   "name": "llama.cpp",
+   "kind": "release",
+   "detail": "v0.5.0 → v0.6.0 (2026-10-05)"
+  },
+  {
+   "slug": "mastra",
+   "name": "Mastra",
+   "kind": "release",
+   "detail": "@mastra/core@1.74.0 → @mastra/core@1.75.0 (2026-10-07)"
+  },
+  {
+   "slug": "microsoft-agent-framework",
+   "name": "Microsoft Agent Framework",
+   "kind": "release",
+   "detail": "python-1.20.0 → python-1.21.0 (2026-10-08)"
+  },
+  {
+   "slug": "n8n",
+   "name": "n8n",
+   "kind": "release",
+   "detail": "n8n@2.41.7 → n8n@2.42.6 (2026-10-09)"
+  },
+  {
+   "slug": "ollama",
+   "name": "Ollama",
+   "kind": "release",
+   "detail": "v0.35.1 → v0.40.3 (2026-10-11)"
   },
   {
    "slug": "open-interpreter",
    "name": "Open Interpreter",
-   "kind": "renamed",
-   "detail": "listed as openinterpreter/open-interpreter, GitHub says openinterpreter/openinterpreter"
+   "kind": "release",
+   "detail": "rust-v0.0.55 → rust-v0.0.56 (2026-10-07)"
   },
   {
-   "slug": "ragas",
-   "name": "Ragas",
-   "kind": "dormant",
-   "detail": "no push for 223 days (since 2026-02-24)"
+   "slug": "openai-codex",
+   "name": "OpenAI Codex",
+   "kind": "release",
+   "detail": "rust-v0.160.0 → rust-v0.162.1 (2026-10-09)"
+  },
+  {
+   "slug": "openclaw",
+   "name": "OpenClaw",
+   "kind": "release",
+   "detail": "v2026.9.8 → v2026.10.1 (2026-10-10)"
+  },
+  {
+   "slug": "openwebui",
+   "name": "Open WebUI",
+   "kind": "release",
+   "detail": "v0.11.4 → v0.12.0 (2026-10-10)"
+  },
+  {
+   "slug": "opik",
+   "name": "Opik",
+   "kind": "release",
+   "detail": "2.2.89 → 2.2.96 (2026-10-09)"
+  },
+  {
+   "slug": "promptfoo",
+   "name": "Promptfoo",
+   "kind": "release",
+   "detail": "0.123.1 → code-scan-action-0.2.2 (2026-10-08)"
+  },
+  {
+   "slug": "qdrant",
+   "name": "Qdrant",
+   "kind": "release",
+   "detail": "v1.19.1 → v1.19.2 (2026-10-05)"
+  },
+  {
+   "slug": "qwen-code",
+   "name": "Qwen Code",
+   "kind": "release",
+   "detail": "sdk-typescript-v0.1.18 → sdk-typescript-v0.1.19 (2026-10-11)"
+  },
+  {
+   "slug": "trl",
+   "name": "TRL (HuggingFace)",
+   "kind": "release",
+   "detail": "v1.14.1 → v1.15.0 (2026-10-08)"
+  },
+  {
+   "slug": "unsloth",
+   "name": "Unsloth",
+   "kind": "release",
+   "detail": "v0.1.902-beta → v0.1.905-beta (2026-10-08)"
+  },
+  {
+   "slug": "unstructured",
+   "name": "Unstructured",
+   "kind": "release",
+   "detail": "0.27.10 → 0.27.25 (2026-10-10)"
+  },
+  {
+   "slug": "weaviate",
+   "name": "Weaviate",
+   "kind": "release",
+   "detail": "v1.39.9 → v1.40.0 (2026-10-07)"
+  },
+  {
+   "slug": "whisper-cpp",
+   "name": "whisper.cpp",
+   "kind": "release",
+   "detail": "v1.9.4 → v1.9.5 (2026-10-06)"
+  },
+  {
+   "slug": "xai",
+   "name": "SpaceXAI (xAI)",
+   "kind": "title",
+   "detail": "homepage title was «SpaceXAI», now «SpaceXSI»"
   }
  ]
 }

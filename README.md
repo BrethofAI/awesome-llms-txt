@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**126 entries** — 70 with full descriptions, 56 stubs. **96** currently publish a working `llms.txt`.
+**127 entries** — 70 with full descriptions, 57 stubs. **97** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -32,7 +32,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [LLM Gateways](#llm-gateways) (3)
 - [Agent Frameworks](#agent-frameworks) (12)
 - [Agent SDKs](#agent-sdks) (3)
-- [Coding Agents](#coding-agents) (13)
+- [Coding Agents](#coding-agents) (14)
 - [Workflow Tools](#workflow-tools) (4)
 - [Voice (STT / TTS)](#voice-stt--tts) (8)
 - [Image Generation](#image-generation) (4)
@@ -175,6 +175,8 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - **[OpenAI Codex](https://learn.chatgpt.com/docs/codex/cli)** — ✅ llms.txt 🚧 stub  
   OpenAI's coding agent, available as an open-source terminal CLI, an IDE extension and cloud automation.  
   <sub>★ 128.7k · rust-v0.162.1 (2026-10-09)</sub>
+- **[OpenCode](https://opencode.ai)** — ✅ llms.txt 🚧 stub  
+  Open-source terminal coding agent (OpenCode 2), with a desktop app, web UI and ACP for editors; models from the models.dev catalog or local Ollama, LM Studio and vLLM.
 - **[Open Interpreter](https://www.openinterpreter.com)** — ❌ llms.txt 🚧 stub  
   Open-source (Apache-2.0) terminal coding agent forked from OpenAI's Codex, tuned for low-cost and open-weight models with switchable harness emulation.  
   <sub>★ 68.6k · rust-v0.0.56 (2026-10-07)</sub>

@@ -13,3 +13,4 @@ license: open-source
 deployment: local
 added: 2026-09-29
 verified: '2026-10-05'
+release_tag: '^v\d'

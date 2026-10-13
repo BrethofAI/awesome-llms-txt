@@ -1259,6 +1259,17 @@ performance.
 
 ---
 
+## OpenCode
+
+**URL:** https://opencode.ai
+**Repository:** https://github.com/anomalyco/opencode
+**llms.txt:** https://opencode.ai/v2/llms.txt (published)
+**License:** open-source  |  **Deployment:** local
+
+*Open-source terminal coding agent (OpenCode 2), with a desktop app, web UI and ACP for editors; models from the models.dev catalog or local Ollama, LM Studio and vLLM.*
+
+---
+
 ## Open Interpreter
 
 **URL:** https://www.openinterpreter.com

@@ -52,3 +52,4 @@ tags: [memory, agents, mem0, personalization, rag, long-term-memory]
 maintainer: Mem0
 added: 2026-04-24
 verified: '2026-10-05'
+release_tag: '^v\d'

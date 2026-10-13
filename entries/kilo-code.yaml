@@ -40,3 +40,4 @@ tags: [coding-agent, vscode, jetbrains, cli, kilo, open-source, byok, local-llm]
 maintainer: Kilo Code (Anaconda)
 added: 2026-10-05
 verified: '2026-10-05'
+release_tag: '^v\d'

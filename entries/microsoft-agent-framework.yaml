@@ -51,3 +51,4 @@ tags: [multi-agent, microsoft, autogen-successor, workflows, python, dotnet, ope
 maintainer: Microsoft
 added: 2026-09-29
 verified: '2026-10-05'
+release_tag: '^(python|dotnet)-\d'

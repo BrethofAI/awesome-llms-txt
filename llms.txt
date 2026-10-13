@@ -90,6 +90,8 @@
   - llms.txt: https://geminicli.com/llms.txt
 - [OpenAI Codex](https://learn.chatgpt.com/docs/codex/cli): OpenAI's coding agent, available as an open-source terminal CLI, an IDE extension and cloud automation. ✓
   - llms.txt: https://learn.chatgpt.com/docs/llms.txt
+- [OpenCode](https://opencode.ai): Open-source terminal coding agent (OpenCode 2), with a desktop app, web UI and ACP for editors; models from the models.dev catalog or local Ollama, LM Studio and vLLM. ✓
+  - llms.txt: https://opencode.ai/v2/llms.txt
 - [Open Interpreter](https://www.openinterpreter.com): Open-source (Apache-2.0) terminal coding agent forked from OpenAI's Codex, tuned for low-cost and open-weight models with switchable harness emulation. ✗
 - [Sourcegraph Cody](https://sourcegraph.com/docs/cody): AI coding assistant for Sourcegraph Enterprise that pulls context from Sourcegraph code search across local and remote codebases. ✗
 

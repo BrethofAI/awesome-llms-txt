@@ -41,3 +41,4 @@ tags: [coding-agent, cli, qwen, alibaba, open-source, mcp, local-llm]
 maintainer: QwenLM (Alibaba)
 added: 2026-10-05
 verified: '2026-10-05'
+release_tag: '^v\d'

@@ -1,0 +1,15 @@
+name: OpenCode
+slug: opencode
+url: https://opencode.ai
+repository: https://github.com/anomalyco/opencode
+llms_txt: https://opencode.ai/v2/llms.txt
+llms_txt_status: published
+status: stub
+
+category: coding-agents
+tagline: Open-source terminal coding agent (OpenCode 2), with a desktop app, web UI and ACP for editors; models from the models.dev catalog or local Ollama, LM Studio and vLLM.
+
+license: open-source
+deployment: local
+added: 2026-10-13
+verified: '2026-10-13'

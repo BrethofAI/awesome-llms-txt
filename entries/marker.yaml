@@ -3,7 +3,7 @@ slug: marker
 url: https://github.com/datalab-to/marker
 repository: https://github.com/datalab-to/marker
 llms_txt: https://www.datalab.to/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: ocr-doc-parsing

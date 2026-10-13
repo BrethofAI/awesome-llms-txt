@@ -18,14 +18,6 @@
     "code": 404
    }
   },
-  "amazon-q-developer": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
   "anthropic-sdk": {
    "ok_streak": 2,
    "fail_streak": 0,
@@ -43,11 +35,11 @@
    }
   },
   "arize-phoenix": {
-   "ok_streak": 2,
-   "fail_streak": 0,
+   "ok_streak": 0,
+   "fail_streak": 1,
    "last": {
-    "state": "ok",
-    "code": 200
+    "state": "gone",
+    "code": 403
    }
   },
   "automatic1111": {
@@ -66,12 +58,20 @@
     "code": 404
    }
   },
+  "baseten": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "bge": {
    "ok_streak": 0,
    "fail_streak": 3,
    "last": {
     "state": "gone",
-    "code": 401
+    "code": 404
    }
   },
   "braintrust": {
@@ -90,6 +90,14 @@
     "code": 200
    }
   },
+  "brethof-brain": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "brethof-voice-pro": {
    "ok_streak": 2,
    "fail_streak": 0,
@@ -98,11 +106,11 @@
     "code": 200
    }
   },
-  "cachyos": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+  "cerebras-inference": {
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "not_a_file",
+    "state": "ok",
     "code": 200
    }
   },
@@ -130,6 +138,14 @@
     "code": 200
    }
   },
+  "claude-code-memory": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "claude-desktop": {
    "ok_streak": 2,
    "fail_streak": 0,
@@ -140,6 +156,14 @@
   },
   "cline": {
    "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "cloudflare-ai-gateway": {
+   "ok_streak": 1,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -186,8 +210,24 @@
     "code": 200
    }
   },
+  "deepgram": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "devin-desktop": {
    "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "diffusers": {
+   "ok_streak": 1,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -236,7 +276,7 @@
   },
   "exllamav3": {
    "ok_streak": 0,
-   "fail_streak": 2,
+   "fail_streak": 3,
    "last": {
     "state": "gone",
     "code": 404
@@ -251,19 +291,11 @@
    }
   },
   "fastembed": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "fedora": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "firecrawl": {
@@ -292,6 +324,14 @@
   },
   "github-copilot": {
    "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "google-adk": {
+   "ok_streak": 1,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -330,6 +370,14 @@
     "code": 200
    }
   },
+  "inspect-ai": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "invokeai": {
    "ok_streak": 2,
    "fail_streak": 0,
@@ -344,6 +392,22 @@
    "last": {
     "state": "gone",
     "code": 404
+   }
+  },
+  "kilo-code": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "kiro": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
    }
   },
   "koboldcpp": {
@@ -467,11 +531,11 @@
    }
   },
   "marker": {
-   "ok_streak": 0,
-   "fail_streak": 3,
+   "ok_streak": 1,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    }
   },
   "mastra": {
@@ -492,7 +556,7 @@
   },
   "microsoft-agent-framework": {
    "ok_streak": 0,
-   "fail_streak": 2,
+   "fail_streak": 3,
    "last": {
     "state": "gone",
     "code": 404
@@ -562,6 +626,14 @@
     "code": 200
    }
   },
+  "ollama-cloud": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "open-interpreter": {
    "ok_streak": 0,
    "fail_streak": 3,
@@ -610,12 +682,36 @@
     "code": 200
    }
   },
+  "opik": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "orkas": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "ostris-ai-toolkit": {
    "ok_streak": 0,
    "fail_streak": 3,
    "last": {
     "state": "gone",
     "code": 404
+   }
+  },
+  "parallel": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
    }
   },
   "perplexity-api": {
@@ -682,6 +778,14 @@
     "code": 200
    }
   },
+  "qwen-code": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "ragas": {
    "ok_streak": 2,
    "fail_streak": 0,
@@ -692,6 +796,14 @@
   },
   "raycast-ai": {
    "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "reducto": {
+   "ok_streak": 1,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -796,10 +908,18 @@
   },
   "textgen": {
    "ok_streak": 0,
-   "fail_streak": 2,
+   "fail_streak": 3,
    "last": {
     "state": "gone",
     "code": 404
+   }
+  },
+  "tinker": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
    }
   },
   "together-ai": {
@@ -818,8 +938,8 @@
     "code": 200
    }
   },
-  "ubuntu": {
-   "ok_streak": 2,
+  "turbopuffer": {
+   "ok_streak": 1,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -852,6 +972,22 @@
   },
   "vllm": {
    "ok_streak": 2,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
+  "voxcpm": {
+   "ok_streak": 0,
+   "fail_streak": 1,
+   "last": {
+    "state": "gone",
+    "code": 404
+   }
+  },
+  "voyage-ai": {
+   "ok_streak": 1,
    "fail_streak": 0,
    "last": {
     "state": "ok",

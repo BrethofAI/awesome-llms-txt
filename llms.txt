@@ -171,8 +171,9 @@
 
 - [Voyage AI](https://www.voyageai.com): MongoDB's Voyage AI embedding and reranking API — text, contextualized-chunk and multimodal embeddings for retrieval and RAG. ✓
   - llms.txt: https://docs.voyageai.com/llms.txt
+- [FastEmbed](https://qdrant.tech/documentation/fastembed/): Lightweight embedding library from Qdrant on ONNX Runtime (no PyTorch) — dense, sparse and late-interaction embeddings and rerankers, CPU or GPU. ✓
+  - llms.txt: https://qdrant.tech/llms.txt
 - [BGE / FlagEmbedding](https://bge-model.com): BAAI's open embedding and reranker models with the FlagEmbedding toolkit for inference, evaluation and fine-tuning — a one-stop retrieval toolkit for search and RAG. ✗
-- [FastEmbed](https://qdrant.tech/documentation/fastembed/): Lightweight embedding library from Qdrant on ONNX Runtime (no PyTorch) — dense, sparse and late-interaction embeddings and rerankers, CPU or GPU. ✗
 - [Sentence Transformers](https://sbert.net): Python framework for state-of-the-art sentence, text, and image embeddings. ✗
 
 ## Observability
@@ -185,12 +186,11 @@
   - llms.txt: https://noveum.ai/llms.txt
 - [Opik](https://www.comet.com/site/products/opik/): Open-source (Apache-2.0) tracing, evaluation and prompt optimization for LLM apps, RAG and agents, from Comet — self-host or cloud. ✓
   - llms.txt: https://www.comet.com/docs/opik/llms.txt
-- [Arize Phoenix](https://arize.com/phoenix/): AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud. ✓
-  - llms.txt: https://arize.com/docs/phoenix/llms.txt
 - [Helicone](https://www.helicone.ai): Open-source AI gateway and LLM observability (requests, costs, latency, sessions); in maintenance mode since its 2026 acquisition by Mintlify. ✓
   - llms.txt: https://helicone.ai/llms.txt
 - [Weights & Biases](https://wandb.ai/site): ML experiment tracking (W&B Models) and LLM/agent tracing and evaluation (W&B Weave), now part of CoreWeave Forge. ✓
   - llms.txt: https://docs.coreweave.com/llms.txt
+- [Arize Phoenix](https://arize.com/phoenix/): AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud. ✗
 
 ## Evaluation
 
@@ -239,10 +239,11 @@
 
 - [Reducto](https://reducto.ai): Agentic document platform — classify, parse, extract, split and edit documents into LLM-ready content and structured JSON via API, CLI or MCP. ✓
   - llms.txt: https://docs.reducto.ai/llms.txt
+- [Marker](https://github.com/datalab-to/marker): Fast, accurate document conversion (PDF, images, Office, HTML, EPUB) to Markdown, JSON, chunks or HTML — tables, equations and structure preserved; code Apache-2.0, weights OpenRAIL-M with commercial limits. ✓
+  - llms.txt: https://www.datalab.to/llms.txt
 - [Unstructured](https://unstructured.io): Document ETL for GenAI — the open-source unstructured library plus the hosted Unstructured Transform API/MCP server, turning 65+ file types into RAG-ready elements and structured data. ✓
   - llms.txt: https://docs.unstructured.io/llms.txt
 - [Docling](https://docling-project.github.io/docling/): Open-source document conversion toolkit (LF AI & Data, started at IBM Research) — PDF, Office, HTML, images, audio and more into Markdown/JSON for RAG and agents, with VLM and MCP support. ✗
-- [Marker](https://github.com/datalab-to/marker): Fast, accurate document conversion (PDF, images, Office, HTML, EPUB) to Markdown, JSON, chunks or HTML — tables, equations and structure preserved; code Apache-2.0, weights OpenRAIL-M with commercial limits. ✗
 
 ## Deployment & Hosting
 
@@ -262,7 +263,7 @@
   - llms.txt: https://replicate.com/docs/llms.txt
 - [Runpod](https://runpod.io): GPU cloud platform with on-demand instances, serverless endpoints, and a community GPU marketplace — priced for AI workloads. ✓
   - llms.txt: https://docs.runpod.io/llms.txt
-- [SpaceXAI (xAI)](https://x.ai): SpaceXAI (formerly xAI) Grok API for reasoning, code, voice, image and video models, usable with the OpenAI SDK. ✓
+- [SpaceXSI (xAI)](https://x.ai): SpaceXSI (formerly SpaceXAI and xAI) Grok API for reasoning, code, voice, image and video models, usable with the OpenAI SDK. ✓
   - llms.txt: https://docs.x.ai/llms.txt
 - [Together AI](https://www.together.ai): Serverless inference for 200+ open-source models with OpenAI-compatible API — low latency, competitive pricing. ✓
   - llms.txt: https://docs.together.ai/llms.txt

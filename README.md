@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**128 entries** — 70 with full descriptions, 58 stubs. **96** currently publish a working `llms.txt`.
+**128 entries** — 70 with full descriptions, 58 stubs. **97** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -294,12 +294,12 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 
 - **[Voyage AI](https://www.voyageai.com)** — ✅ llms.txt  
   MongoDB's Voyage AI embedding and reranking API — text, contextualized-chunk and multimodal embeddings for retrieval and RAG.
+- **[FastEmbed](https://qdrant.tech/documentation/fastembed/)** — ✅ llms.txt 🚧 stub  
+  Lightweight embedding library from Qdrant on ONNX Runtime (no PyTorch) — dense, sparse and late-interaction embeddings and rerankers, CPU or GPU.  
+  <sub>★ 3.2k · v0.8.1 (2026-09-22)</sub>
 - **[BGE / FlagEmbedding](https://bge-model.com)** — ❌ llms.txt 🚧 stub  
   BAAI's open embedding and reranker models with the FlagEmbedding toolkit for inference, evaluation and fine-tuning — a one-stop retrieval toolkit for search and RAG.  
   <sub>★ 12.2k · v1.4.2 (2026-08-24)</sub>
-- **[FastEmbed](https://qdrant.tech/documentation/fastembed/)** — ❌ llms.txt 🚧 stub  
-  Lightweight embedding library from Qdrant on ONNX Runtime (no PyTorch) — dense, sparse and late-interaction embeddings and rerankers, CPU or GPU.  
-  <sub>★ 3.2k · v0.8.1 (2026-09-22)</sub>
 - **[Sentence Transformers](https://sbert.net)** — ❌ llms.txt 🚧 stub  
   Python framework for state-of-the-art sentence, text, and image embeddings.
 
@@ -315,15 +315,15 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - **[Opik](https://www.comet.com/site/products/opik/)** — ✅ llms.txt  
   Open-source (Apache-2.0) tracing, evaluation and prompt optimization for LLM apps, RAG and agents, from Comet — self-host or cloud.  
   <sub>★ 22.4k · 2.2.89 (2026-10-05)</sub>
-- **[Arize Phoenix](https://arize.com/phoenix/)** — ✅ llms.txt 🚧 stub  
-  AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud.  
-  <sub>★ 11.7k · arize-phoenix-v20.19.0 (2026-10-01)</sub>
 - **[Helicone](https://www.helicone.ai)** — ✅ llms.txt 🚧 stub  
   Open-source AI gateway and LLM observability (requests, costs, latency, sessions); in maintenance mode since its 2026 acquisition by Mintlify.  
   <sub>★ 6.2k · v2025.08.21-1 (2025-08-21)</sub>
 - **[Weights & Biases](https://wandb.ai/site)** — ✅ llms.txt 🚧 stub  
   ML experiment tracking (W&B Models) and LLM/agent tracing and evaluation (W&B Weave), now part of CoreWeave Forge.  
   <sub>★ 11.3k · v0.30.0 (2026-09-09)</sub>
+- **[Arize Phoenix](https://arize.com/phoenix/)** — ❌ llms.txt 🚧 stub  
+  AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud.  
+  <sub>★ 11.7k · arize-phoenix-v20.19.0 (2026-10-01)</sub>
 
 ## Evaluation
 
@@ -387,15 +387,15 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 
 - **[Reducto](https://reducto.ai)** — ✅ llms.txt  
   Agentic document platform — classify, parse, extract, split and edit documents into LLM-ready content and structured JSON via API, CLI or MCP.
+- **[Marker](https://github.com/datalab-to/marker)** — ✅ llms.txt 🚧 stub  
+  Fast, accurate document conversion (PDF, images, Office, HTML, EPUB) to Markdown, JSON, chunks or HTML — tables, equations and structure preserved; code Apache-2.0, weights OpenRAIL-M with commercial limits.  
+  <sub>★ 40.2k · v2.0.0 (2026-07-20)</sub>
 - **[Unstructured](https://unstructured.io)** — ✅ llms.txt 🚧 stub  
   Document ETL for GenAI — the open-source unstructured library plus the hosted Unstructured Transform API/MCP server, turning 65+ file types into RAG-ready elements and structured data.  
   <sub>★ 15.5k · 0.27.10 (2026-09-27)</sub>
 - **[Docling](https://docling-project.github.io/docling/)** — ❌ llms.txt 🚧 stub  
   Open-source document conversion toolkit (LF AI & Data, started at IBM Research) — PDF, Office, HTML, images, audio and more into Markdown/JSON for RAG and agents, with VLM and MCP support.  
   <sub>★ 68.4k · v2.133.0 (2026-10-03)</sub>
-- **[Marker](https://github.com/datalab-to/marker)** — ❌ llms.txt 🚧 stub  
-  Fast, accurate document conversion (PDF, images, Office, HTML, EPUB) to Markdown, JSON, chunks or HTML — tables, equations and structure preserved; code Apache-2.0, weights OpenRAIL-M with commercial limits.  
-  <sub>★ 40.2k · v2.0.0 (2026-07-20)</sub>
 
 ## Deployment & Hosting
 
@@ -415,8 +415,8 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
   Run thousands of open-source ML models via simple API calls — image, video, audio, text — with per-second billing.
 - **[Runpod](https://runpod.io)** — ✅ llms.txt  
   GPU cloud platform with on-demand instances, serverless endpoints, and a community GPU marketplace — priced for AI workloads.
-- **[SpaceXAI (xAI)](https://x.ai)** — ✅ llms.txt  
-  SpaceXAI (formerly xAI) Grok API for reasoning, code, voice, image and video models, usable with the OpenAI SDK.
+- **[SpaceXSI (xAI)](https://x.ai)** — ✅ llms.txt  
+  SpaceXSI (formerly SpaceXAI and xAI) Grok API for reasoning, code, voice, image and video models, usable with the OpenAI SDK.
 - **[Together AI](https://www.together.ai)** — ✅ llms.txt  
   Serverless inference for 200+ open-source models with OpenAI-compatible API — low latency, competitive pricing.
 - **[Mistral AI](https://mistral.ai)** — ✅ llms.txt 🚧 stub  

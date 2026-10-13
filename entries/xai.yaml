@@ -1,4 +1,4 @@
-name: SpaceXAI (xAI)
+name: SpaceXSI (xAI)
 slug: xai
 url: https://x.ai
 repository: null
@@ -8,13 +8,14 @@ llms_txt_status: published
 category: deployment
 subcategory: llm-provider-api
 
-tagline: SpaceXAI (formerly xAI) Grok API for reasoning, code, voice, image and video models, usable with the OpenAI SDK.
+tagline: SpaceXSI (formerly SpaceXAI and xAI) Grok API for reasoning, code, voice, image and video models, usable with the OpenAI SDK.
 
 description: |
-  SpaceXAI, the company formerly branded xAI, builds the Grok family of
-  models and sells access through a developer API at api.x.ai, with docs
-  at docs.x.ai. The x.ai site and the API documentation now both carry the
-  SpaceXAI name. Its newest model is Grok 4.7.
+  SpaceXSI, the company formerly branded xAI and then SpaceXAI, builds the
+  Grok family of models and sells access through a developer API at
+  api.x.ai, with docs at docs.x.ai. The x.ai site and the API documentation
+  now both carry the SpaceXSI name; the site footer still names SpaceXAI
+  LLC. Its newest model is Grok 4.7.
 
   The API covers text generation with streaming, reasoning and structured
   outputs, and image understanding. Tools include function calling, code
@@ -47,7 +48,7 @@ use_cases:
 license: commercial
 deployment: saas
 platforms: [linux, macos, windows]
-tags: [llm-provider, xai, spacexai, grok, api, openai-compatible, voice, reasoning]
-maintainer: SpaceXAI
+tags: [llm-provider, xai, spacexai, spacexsi, grok, api, openai-compatible, voice, reasoning]
+maintainer: SpaceXSI
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-10-13'

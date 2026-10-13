@@ -50,3 +50,4 @@ platforms: [linux, windows]
 tags: [memory, agents, mcp, claude-code, long-term-memory, brethof]
 maintainer: Brethof AI
 added: 2026-10-05
+verified: '2026-10-13'

@@ -264,7 +264,7 @@ whatever model Jan has loaded.
 - llama.cpp backend with GGUF model support
 - Curated model library with one-click download
 - Built-in OpenAI-compatible local server
-- NVIDIA CUDA, AMD ROCm, Apple Metal, CPU backends
+- Bundled llama.cpp engine — CUDA 13 on NVIDIA, Vulkan on other GPUs, Metal on macOS
 - Extensions system for custom integrations
 - Fully offline with local models; optional cloud model providers
 
@@ -959,7 +959,7 @@ machines (or on machines you manage) and hand back work for review,
 integrations with Slack and GitHub, a mobile app, automations, and
 review bots for pull requests.
 
-The model picker spans OpenAI, Anthropic, Google Gemini, SpaceXAI
+The model picker spans OpenAI, Anthropic, Google Gemini, SpaceXSI
 (Grok) and Cursor's own Composer models. Cursor is closed-source and
 subscription-based, with a free tier.
 
@@ -968,7 +968,7 @@ subscription-based, with a free tier.
 - Cursor CLI agent
 - Cloud agents running in parallel, including on self-managed machines
 - Slack and GitHub integrations, review bots and automations
-- Model choice across OpenAI, Anthropic, Gemini, SpaceXAI (Grok) and Cursor's Composer models
+- Model choice across OpenAI, Anthropic, Gemini, SpaceXSI (Grok) and Cursor's Composer models
 - Codebase-wide semantic search and @-context references
 
 **Use cases:**
@@ -2373,6 +2373,17 @@ with any vector database.
 
 ---
 
+## FastEmbed
+
+**URL:** https://qdrant.tech/documentation/fastembed/
+**Repository:** https://github.com/qdrant/fastembed
+**llms.txt:** https://qdrant.tech/llms.txt (published)
+**License:** open-source  |  **Deployment:** library
+
+*Lightweight embedding library from Qdrant on ONNX Runtime (no PyTorch) — dense, sparse and late-interaction embeddings and rerankers, CPU or GPU.*
+
+---
+
 ## BGE / FlagEmbedding
 
 **URL:** https://bge-model.com
@@ -2381,17 +2392,6 @@ with any vector database.
 **License:** open-source  |  **Deployment:** library
 
 *BAAI's open embedding and reranker models with the FlagEmbedding toolkit for inference, evaluation and fine-tuning — a one-stop retrieval toolkit for search and RAG.*
-
----
-
-## FastEmbed
-
-**URL:** https://qdrant.tech/documentation/fastembed/
-**Repository:** https://github.com/qdrant/fastembed
-**llms.txt:** https://qdrant.tech/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
-
-*Lightweight embedding library from Qdrant on ONNX Runtime (no PyTorch) — dense, sparse and late-interaction embeddings and rerankers, CPU or GPU.*
 
 ---
 
@@ -2577,17 +2577,6 @@ service on Comet.
 
 ---
 
-## Arize Phoenix
-
-**URL:** https://arize.com/phoenix/
-**Repository:** https://github.com/Arize-ai/phoenix
-**llms.txt:** https://arize.com/docs/phoenix/llms.txt (published)
-**License:** source-available  |  **Deployment:** self-hosted
-
-*AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud.*
-
----
-
 ## Helicone
 
 **URL:** https://www.helicone.ai
@@ -2607,6 +2596,17 @@ service on Comet.
 **License:** freemium  |  **Deployment:** saas
 
 *ML experiment tracking (W&B Models) and LLM/agent tracing and evaluation (W&B Weave), now part of CoreWeave Forge.*
+
+---
+
+## Arize Phoenix
+
+**URL:** https://arize.com/phoenix/
+**Repository:** https://github.com/Arize-ai/phoenix
+**llms.txt:** https://arize.com/docs/phoenix/llms.txt (missing)
+**License:** source-available  |  **Deployment:** self-hosted
+
+*AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud.*
 
 ---
 
@@ -3037,6 +3037,17 @@ server let coding agents call the platform directly.
 
 ---
 
+## Marker
+
+**URL:** https://github.com/datalab-to/marker
+**Repository:** https://github.com/datalab-to/marker
+**llms.txt:** https://www.datalab.to/llms.txt (published)
+**License:** open-source  |  **Deployment:** library
+
+*Fast, accurate document conversion (PDF, images, Office, HTML, EPUB) to Markdown, JSON, chunks or HTML — tables, equations and structure preserved; code Apache-2.0, weights OpenRAIL-M with commercial limits.*
+
+---
+
 ## Unstructured
 
 **URL:** https://unstructured.io
@@ -3056,17 +3067,6 @@ server let coding agents call the platform directly.
 **License:** open-source  |  **Deployment:** library
 
 *Open-source document conversion toolkit (LF AI & Data, started at IBM Research) — PDF, Office, HTML, images, audio and more into Markdown/JSON for RAG and agents, with VLM and MCP support.*
-
----
-
-## Marker
-
-**URL:** https://github.com/datalab-to/marker
-**Repository:** https://github.com/datalab-to/marker
-**llms.txt:** https://www.datalab.to/llms.txt (missing)
-**License:** open-source  |  **Deployment:** library
-
-*Fast, accurate document conversion (PDF, images, Office, HTML, EPUB) to Markdown, JSON, chunks or HTML — tables, equations and structure preserved; code Apache-2.0, weights OpenRAIL-M with commercial limits.*
 
 ---
 
@@ -3418,19 +3418,20 @@ needed.
 
 ---
 
-## SpaceXAI (xAI)
+## SpaceXSI (xAI)
 
 **URL:** https://x.ai
 **llms.txt:** https://docs.x.ai/llms.txt (published)
 **License:** commercial  |  **Deployment:** saas  |  Platforms: linux, macos, windows
-**Tags:** llm-provider, xai, spacexai, grok, api, openai-compatible, voice, reasoning
+**Tags:** llm-provider, xai, spacexai, spacexsi, grok, api, openai-compatible, voice, reasoning
 
-*SpaceXAI (formerly xAI) Grok API for reasoning, code, voice, image and video models, usable with the OpenAI SDK.*
+*SpaceXSI (formerly SpaceXAI and xAI) Grok API for reasoning, code, voice, image and video models, usable with the OpenAI SDK.*
 
-SpaceXAI, the company formerly branded xAI, builds the Grok family of
-models and sells access through a developer API at api.x.ai, with docs
-at docs.x.ai. The x.ai site and the API documentation now both carry the
-SpaceXAI name. Its newest model is Grok 4.7.
+SpaceXSI, the company formerly branded xAI and then SpaceXAI, builds the
+Grok family of models and sells access through a developer API at
+api.x.ai, with docs at docs.x.ai. The x.ai site and the API documentation
+now both carry the SpaceXSI name; the site footer still names SpaceXAI
+LLC. Its newest model is Grok 4.7.
 
 The API covers text generation with streaming, reasoning and structured
 outputs, and image understanding. Tools include function calling, code

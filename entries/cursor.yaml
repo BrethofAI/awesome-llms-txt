@@ -22,7 +22,7 @@ description: |
   integrations with Slack and GitHub, a mobile app, automations, and
   review bots for pull requests.
 
-  The model picker spans OpenAI, Anthropic, Google Gemini, SpaceXAI
+  The model picker spans OpenAI, Anthropic, Google Gemini, SpaceXSI
   (Grok) and Cursor's own Composer models. Cursor is closed-source and
   subscription-based, with a free tier.
 
@@ -31,7 +31,7 @@ features:
   - Cursor CLI agent
   - Cloud agents running in parallel, including on self-managed machines
   - Slack and GitHub integrations, review bots and automations
-  - Model choice across OpenAI, Anthropic, Gemini, SpaceXAI (Grok) and Cursor's Composer models
+  - Model choice across OpenAI, Anthropic, Gemini, SpaceXSI (Grok) and Cursor's Composer models
   - Codebase-wide semantic search and @-context references
 
 use_cases:

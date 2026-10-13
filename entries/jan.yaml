@@ -34,7 +34,7 @@ features:
   - llama.cpp backend with GGUF model support
   - Curated model library with one-click download
   - Built-in OpenAI-compatible local server
-  - NVIDIA CUDA, AMD ROCm, Apple Metal, CPU backends
+  - Bundled llama.cpp engine — CUDA 13 on NVIDIA, Vulkan on other GPUs, Metal on macOS
   - Extensions system for custom integrations
   - Fully offline with local models; optional cloud model providers
 
@@ -51,4 +51,4 @@ platforms: [linux, macos, windows]
 tags: [inference, chat-ui, jan, local, privacy, llama-cpp]
 maintainer: Menlo Research
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-10-13'

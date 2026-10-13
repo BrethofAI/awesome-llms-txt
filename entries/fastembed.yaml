@@ -3,7 +3,7 @@ slug: fastembed
 url: https://qdrant.tech/documentation/fastembed/
 repository: https://github.com/qdrant/fastembed
 llms_txt: https://qdrant.tech/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: embeddings

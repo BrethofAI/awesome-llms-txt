@@ -1,1030 +1,1030 @@
 {
- "schema": 1,
- "_comment": "Machine state for scripts/validate.py. Consecutive-outcome streaks per entry, capped at their thresholds and carrying no timestamps, so this file only changes when a URL's real state changes. Do not hand-edit.",
- "entries": {
-  "agno": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "aider": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "anthropic-sdk": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "anything-llm": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "arize-phoenix": {
-   "ok_streak": 0,
-   "fail_streak": 1,
-   "last": {
-    "state": "gone",
-    "code": 403
-   }
-  },
-  "automatic1111": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "axolotl": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "baseten": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "bge": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "braintrust": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "brave-search": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "brethof-brain": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "brethof-voice-pro": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "cerebras-inference": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "chroma": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "claude-agent-sdk": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "claude-code": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "claude-code-memory": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "claude-desktop": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "cline": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "cloudflare-ai-gateway": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "comfyui": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "coqui-tts": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "crewai": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "cursor": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "deepeval": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "deepgram": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "devin-desktop": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "diffusers": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "dify": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "docling": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "dspy": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "elevenlabs": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "exa": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "exllamav3": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "f5-tts": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "fastembed": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "firecrawl": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "fireworks-ai": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "gemini-cli": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "github-copilot": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "google-adk": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "groq": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "haystack": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "helicone": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "huggingface-transformers": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "inspect-ai": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "invokeai": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "jan": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "kilo-code": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "kiro": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "koboldcpp": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "krita-ai-diffusion": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "lancedb": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "langchain": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "langflow": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "langfuse": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "langgraph": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "langsmith": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "litellm": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "llama-cpp": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "llama-factory": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "llamaindex": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "lm-studio": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "localai": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "magentic": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "marker": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "mastra": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "mem0": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "microsoft-agent-framework": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "milvus": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "mistral-ai": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "mlc-llm": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "modal": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "ms-swift": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "n8n": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "noveum": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "ollama": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "ollama-cloud": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "open-interpreter": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "openai-agents-sdk": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "openai-codex": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "openclaw": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "openrouter": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "openwebui": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "opik": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "orkas": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "ostris-ai-toolkit": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "parallel": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "perplexity-api": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "pgvector": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "pinecone": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "piper": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "privategpt": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "promptfoo": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "pydantic-ai": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "qdrant": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "qwen-code": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "ragas": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "raycast-ai": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "reducto": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "replicate": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "runpod": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "sd-next": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "sentence-transformers": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "serpapi": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "sglang": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "shellgpt": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "smolagents": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "smry": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "sourcegraph-cody": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "surrealdb": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "tavily": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "textgen": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "tinker": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "together-ai": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "trl": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "turbopuffer": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "unsloth": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "unstructured": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "vercel-ai-sdk": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "vllm": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "voxcpm": {
-   "ok_streak": 0,
-   "fail_streak": 1,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "voyage-ai": {
-   "ok_streak": 1,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "wandb": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "weaviate": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  },
-  "whisper-cpp": {
-   "ok_streak": 0,
-   "fail_streak": 3,
-   "last": {
-    "state": "gone",
-    "code": 404
-   }
-  },
-  "xai": {
-   "ok_streak": 2,
-   "fail_streak": 0,
-   "last": {
-    "state": "ok",
-    "code": 200
-   }
-  }
- }
+  "_comment": "Machine state for scripts/validate.py. Consecutive-outcome streaks per entry, capped at their thresholds and carrying no timestamps, so this file only changes when a URL's real state changes. Do not hand-edit.",
+  "entries": {
+    "agno": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "aider": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "anthropic-sdk": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "anything-llm": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "arize-phoenix": {
+      "fail_streak": 1,
+      "last": {
+        "code": 403,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "automatic1111": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "axolotl": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "baseten": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "bge": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "braintrust": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "brave-search": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "brethof-brain": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "brethof-voice-pro": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "cerebras-inference": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "chroma": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "claude-agent-sdk": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "claude-code": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "claude-code-memory": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "claude-desktop": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "cline": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "cloudflare-ai-gateway": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "comfyui": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "coqui-tts": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "crewai": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "cursor": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "deepeval": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "deepgram": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "devin-desktop": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "diffusers": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "dify": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "docling": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "dspy": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "elevenlabs": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "exa": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "exllamav3": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "f5-tts": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "fastembed": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "firecrawl": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "fireworks-ai": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "gemini-cli": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "github-copilot": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "google-adk": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "groq": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "haystack": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "helicone": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "huggingface-transformers": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "inspect-ai": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "invokeai": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "jan": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "kilo-code": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "kiro": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "koboldcpp": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "krita-ai-diffusion": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "lancedb": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "langchain": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "langflow": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "langfuse": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "langgraph": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "langsmith": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "litellm": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "llama-cpp": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "llama-factory": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "llamaindex": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "lm-studio": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "localai": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "magentic": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "marker": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "mastra": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "mem0": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "microsoft-agent-framework": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "milvus": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "mistral-ai": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "mlc-llm": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "modal": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "ms-swift": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "n8n": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "noveum": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "ollama": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "ollama-cloud": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "open-interpreter": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "openai-agents-sdk": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "openai-codex": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "openclaw": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "openrouter": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "openwebui": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "opik": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "orkas": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "ostris-ai-toolkit": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "parallel": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "perplexity-api": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "pgvector": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "pinecone": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "piper": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "privategpt": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "promptfoo": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "pydantic-ai": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "qdrant": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "qwen-code": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "ragas": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "raycast-ai": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "reducto": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "replicate": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "runpod": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "sd-next": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "sentence-transformers": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "serpapi": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "sglang": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "shellgpt": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "smolagents": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "smry": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "sourcegraph-cody": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "surrealdb": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "tavily": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "textgen": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "tinker": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "together-ai": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "trl": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "turbopuffer": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "unsloth": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "unstructured": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "vercel-ai-sdk": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "vllm": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "voxcpm": {
+      "fail_streak": 1,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "voyage-ai": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 1
+    },
+    "wandb": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "weaviate": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    },
+    "whisper-cpp": {
+      "fail_streak": 3,
+      "last": {
+        "code": 404,
+        "state": "gone"
+      },
+      "ok_streak": 0
+    },
+    "xai": {
+      "fail_streak": 0,
+      "last": {
+        "code": 200,
+        "state": "ok"
+      },
+      "ok_streak": 2
+    }
+  },
+  "schema": 1
 }

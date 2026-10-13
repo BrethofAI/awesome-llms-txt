@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**128 entries** — 70 with full descriptions, 58 stubs. **97** currently publish a working `llms.txt`.
+**126 entries** — 70 with full descriptions, 56 stubs. **96** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -35,13 +35,13 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [Coding Agents](#coding-agents) (13)
 - [Workflow Tools](#workflow-tools) (4)
 - [Voice (STT / TTS)](#voice-stt--tts) (8)
-- [Image Generation](#image-generation) (5)
+- [Image Generation](#image-generation) (4)
 - [Vector Databases](#vector-databases) (9)
 - [RAG Frameworks](#rag-frameworks) (4)
 - [Agent Memory](#agent-memory) (3)
 - [Embeddings](#embeddings) (4)
 - [Observability](#observability) (7)
-- [Evaluation](#evaluation) (5)
+- [Evaluation](#evaluation) (4)
 - [Training & Fine-tuning](#training--fine-tuning) (7)
 - [Web Search for Agents](#web-search-for-agents) (7)
 - [OCR & Document Parsing](#ocr--document-parsing) (4)
@@ -227,9 +227,6 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
   <sub>★ 34.7k · v0.40.0 (2026-08-20)</sub>
 - **[InvokeAI](https://invoke.ai)** — ✅ llms.txt 🚧 stub  
   Free, open-source (Apache 2.0) self-hosted creative engine for AI image generation with a layer-based unified canvas and node workflows.
-- **[AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)** — ❌ llms.txt 🚧 stub  
-  Classic Stable Diffusion web UI with a large extension ecosystem — development has stalled (last release v1.10.1, Feb 2025; last commit Mar 2026).  
-  <sub>★ 165.2k · v1.10.1 (2025-02-09)</sub>
 - **[Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion)** — ❌ llms.txt 🚧 stub  
   Krita plugin for Stable Diffusion — inpaint, img2img, and generative layers inside Krita.  
   <sub>★ 10.7k · v1.53.0 (2026-08-22)</sub>
@@ -337,9 +334,6 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - **[Promptfoo](https://www.promptfoo.dev)** — ✅ llms.txt 🚧 stub  
   Open-source (MIT) CLI for evaluating, red-teaming and security-testing LLM apps and agents from config files — now part of OpenAI.  
   <sub>★ 25.7k · 0.123.1 (2026-09-18)</sub>
-- **[Ragas](https://docs.ragas.io)** — ✅ llms.txt 🚧 stub  
-  Open-source evaluation framework for LLM apps — RAG pipelines, agents and workflows — with objective metrics and test-data generation.  
-  <sub>★ 15.9k · v0.4.3 (2026-01-13)</sub>
 
 ## Training & Fine-tuning
 

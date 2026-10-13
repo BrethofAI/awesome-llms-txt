@@ -124,7 +124,6 @@
   - llms.txt: https://huggingface.co/docs/diffusers/llms.txt
 - [InvokeAI](https://invoke.ai): Free, open-source (Apache 2.0) self-hosted creative engine for AI image generation with a layer-based unified canvas and node workflows. ✓
   - llms.txt: https://invoke.ai/llms.txt
-- [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui): Classic Stable Diffusion web UI with a large extension ecosystem — development has stalled (last release v1.10.1, Feb 2025; last commit Mar 2026). ✗
 - [Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion): Krita plugin for Stable Diffusion — inpaint, img2img, and generative layers inside Krita. ✗
 - [SD.Next](https://github.com/vladmandic/sdnext): Advanced fork of SD WebUI with broader model support (Flux, Lumina, Kolors, more). ✗
 
@@ -202,8 +201,6 @@
   - llms.txt: https://www.deepeval.com/llms.txt
 - [Promptfoo](https://www.promptfoo.dev): Open-source (MIT) CLI for evaluating, red-teaming and security-testing LLM apps and agents from config files — now part of OpenAI. ✓
   - llms.txt: https://www.promptfoo.dev/llms.txt
-- [Ragas](https://docs.ragas.io): Open-source evaluation framework for LLM apps — RAG pipelines, agents and workflows — with objective metrics and test-data generation. ✓
-  - llms.txt: https://docs.ragas.io/llms.txt
 
 ## Training & Fine-tuning
 

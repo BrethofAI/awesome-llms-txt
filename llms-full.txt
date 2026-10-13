@@ -1690,17 +1690,6 @@ definitions.
 
 ---
 
-## AUTOMATIC1111
-
-**URL:** https://github.com/AUTOMATIC1111/stable-diffusion-webui
-**Repository:** https://github.com/AUTOMATIC1111/stable-diffusion-webui
-**llms.txt:** https://github.com/AUTOMATIC1111/stable-diffusion-webui/llms.txt (missing)
-**License:** open-source  |  **Deployment:** self-hosted
-
-*Classic Stable Diffusion web UI with a large extension ecosystem — development has stalled (last release v1.10.1, Feb 2025; last commit Mar 2026).*
-
----
-
 ## Krita AI Diffusion
 
 **URL:** https://github.com/Acly/krita-ai-diffusion
@@ -2679,17 +2668,6 @@ VS Code extension help monitor and debug runs.
 **License:** open-source  |  **Deployment:** cli
 
 *Open-source (MIT) CLI for evaluating, red-teaming and security-testing LLM apps and agents from config files — now part of OpenAI.*
-
----
-
-## Ragas
-
-**URL:** https://docs.ragas.io
-**Repository:** https://github.com/vibrantlabsai/ragas
-**llms.txt:** https://docs.ragas.io/llms.txt (published)
-**License:** open-source  |  **Deployment:** library
-
-*Open-source evaluation framework for LLM apps — RAG pipelines, agents and workflows — with objective metrics and test-data generation.*
 
 ---
 

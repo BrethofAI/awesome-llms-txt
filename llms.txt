@@ -187,11 +187,12 @@
   - llms.txt: https://noveum.ai/llms.txt
 - [Opik](https://www.comet.com/site/products/opik/): Open-source (Apache-2.0) tracing, evaluation and prompt optimization for LLM apps, RAG and agents, from Comet — self-host or cloud. ✓
   - llms.txt: https://www.comet.com/docs/opik/llms.txt
+- [Arize Phoenix](https://arize.com/phoenix/): AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud. ✓
+  - llms.txt: https://arize.com/docs/phoenix/llms.txt
 - [Helicone](https://www.helicone.ai): Open-source AI gateway and LLM observability (requests, costs, latency, sessions); in maintenance mode since its 2026 acquisition by Mintlify. ✓
   - llms.txt: https://helicone.ai/llms.txt
 - [Weights & Biases](https://wandb.ai/site): ML experiment tracking (W&B Models) and LLM/agent tracing and evaluation (W&B Weave), now part of CoreWeave Forge. ✓
   - llms.txt: https://docs.coreweave.com/llms.txt
-- [Arize Phoenix](https://arize.com/phoenix/): AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud. ✗
 
 ## Evaluation
 

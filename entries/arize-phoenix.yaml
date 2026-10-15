@@ -3,7 +3,7 @@ slug: arize-phoenix
 url: https://arize.com/phoenix/
 repository: https://github.com/Arize-ai/phoenix
 llms_txt: https://arize.com/docs/phoenix/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: observability

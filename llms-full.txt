@@ -2577,6 +2577,17 @@ service on Comet.
 
 ---
 
+## Arize Phoenix
+
+**URL:** https://arize.com/phoenix/
+**Repository:** https://github.com/Arize-ai/phoenix
+**llms.txt:** https://arize.com/docs/phoenix/llms.txt (published)
+**License:** source-available  |  **Deployment:** self-hosted
+
+*AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud.*
+
+---
+
 ## Helicone
 
 **URL:** https://www.helicone.ai
@@ -2596,17 +2607,6 @@ service on Comet.
 **License:** freemium  |  **Deployment:** saas
 
 *ML experiment tracking (W&B Models) and LLM/agent tracing and evaluation (W&B Weave), now part of CoreWeave Forge.*
-
----
-
-## Arize Phoenix
-
-**URL:** https://arize.com/phoenix/
-**Repository:** https://github.com/Arize-ai/phoenix
-**llms.txt:** https://arize.com/docs/phoenix/llms.txt (missing)
-**License:** source-available  |  **Deployment:** self-hosted
-
-*AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud.*
 
 ---
 

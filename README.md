@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**127 entries** — 70 with full descriptions, 57 stubs. **97** currently publish a working `llms.txt`.
+**127 entries** — 70 with full descriptions, 57 stubs. **98** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -314,15 +314,15 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - **[Opik](https://www.comet.com/site/products/opik/)** — ✅ llms.txt  
   Open-source (Apache-2.0) tracing, evaluation and prompt optimization for LLM apps, RAG and agents, from Comet — self-host or cloud.  
   <sub>★ 22.5k · 2.2.96 (2026-10-09)</sub>
+- **[Arize Phoenix](https://arize.com/phoenix/)** — ✅ llms.txt 🚧 stub  
+  AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud.  
+  <sub>★ 11.8k · arize-phoenix-v20.21.0 (2026-10-11)</sub>
 - **[Helicone](https://www.helicone.ai)** — ✅ llms.txt 🚧 stub  
   Open-source AI gateway and LLM observability (requests, costs, latency, sessions); in maintenance mode since its 2026 acquisition by Mintlify.  
   <sub>★ 6.2k · v2025.08.21-1 (2025-08-21)</sub>
 - **[Weights & Biases](https://wandb.ai/site)** — ✅ llms.txt 🚧 stub  
   ML experiment tracking (W&B Models) and LLM/agent tracing and evaluation (W&B Weave), now part of CoreWeave Forge.  
   <sub>★ 11.3k · v0.30.0 (2026-09-09)</sub>
-- **[Arize Phoenix](https://arize.com/phoenix/)** — ❌ llms.txt 🚧 stub  
-  AI observability and evaluation platform built on OpenTelemetry — tracing, evals, prompt playground, datasets and experiments; self-host or Arize cloud.  
-  <sub>★ 11.8k · arize-phoenix-v20.21.0 (2026-10-11)</sub>
 
 ## Evaluation
 

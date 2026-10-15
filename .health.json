@@ -40,7 +40,7 @@
     "state": "ok",
     "code": 200
    },
-   "ok_streak": 1
+   "ok_streak": 2
   },
   "axolotl": {
    "fail_streak": 3,
@@ -659,7 +659,7 @@
    "ok_streak": 2
   },
   "opencode": {
-   "ok_streak": 1,
+   "ok_streak": 2,
    "fail_streak": 0,
    "last": {
     "state": "ok",
@@ -971,7 +971,7 @@
    "ok_streak": 2
   },
   "voxcpm": {
-   "fail_streak": 2,
+   "fail_streak": 3,
    "last": {
     "state": "gone",
     "code": 404

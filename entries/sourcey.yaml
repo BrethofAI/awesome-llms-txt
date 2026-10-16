@@ -1,0 +1,63 @@
+name: Sourcey
+slug: sourcey
+url: https://sourcey.com
+repository: https://github.com/sourcey/startup-credits
+llms_txt: https://sourcey.com/llms.txt
+llms_full_txt: https://sourcey.com/llms-full.txt
+llms_txt_status: published
+
+category: web-search-for-agents
+subcategory: public-records-api
+
+tagline: Open registry of startup credit programs and agent-readiness records, every entry cited to the company's own page.
+
+description: |
+  Sourcey is a free, public record of two things agents get asked about
+  constantly: which companies give startups free or discounted software, and
+  how ready a given company's software is for agents to use. Software, on the
+  record.
+
+  The startup-credits record catalogs programs, offers and their governing
+  policies — eligibility, amounts, durations, expiry — with every entry cited
+  back to the vendor's own page rather than a blog summary. The
+  agent-readiness record publishes report cards for how usable a product is to
+  an agent, with the evidence behind each grade.
+
+  For agents it is a plain, deterministic surface. Anonymous reads need no key
+  and no signup: an HTTP API with a published OpenAPI contract, a hosted MCP
+  server, static JSON datasets (companies.json, startup-credits.json,
+  agent-readiness.json), a JSON change feed, and llms.txt, llms-full.txt and
+  SKILL.md for models. Each answer is a projection of one immutable release
+  identified by a sha256, and entries carry revision digests, so a citation of
+  an offer_id at a revision_digest stays meaningful after the offer moves.
+
+  Facts are licensed CC BY 4.0 and training on them is explicitly welcome; the
+  registry repository is MIT. The project is read-only by design — it does not
+  apply for or redeem anything, and it says plainly that terms move, so a
+  vendor should be confirmed before a person relies on an offer.
+
+  In short: the source of record for "what does this company actually give
+  startups", written for agents to read, quote and check.
+
+features:
+  - Open registry of startup credit programs, offers and eligibility rules
+  - Agent-readiness report cards with the evidence behind each grade
+  - Anonymous HTTP API with a published OpenAPI contract, no key or signup
+  - Hosted MCP server plus llms.txt, llms-full.txt and SKILL.md for models
+  - Static JSON datasets and an append-only JSON change feed
+  - Immutable releases with sha256 and per-entry revision digests for stable citation
+  - Every entry cited to the company's own page; facts CC BY 4.0, repo MIT
+
+use_cases:
+  - Answering "which vendors give startup credits, and how much" with a citable source
+  - Checking a specific vendor's program terms, eligibility and freshness before advising
+  - Quoting a stable offer_id at a revision_digest so the reference survives a terms change
+  - Discovering which products an agent can actually operate, via agent-readiness grades
+
+license: open-source
+deployment: saas
+platforms: [web]
+tags: [startup-credits, agent-readiness, open-data, provenance, registry, mcp]
+
+maintainer: Sourcey
+added: 2026-10-16

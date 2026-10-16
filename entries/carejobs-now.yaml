@@ -1,0 +1,34 @@
+name: CareJobs.Now
+slug: carejobs-now
+url: https://carejobs.now
+repository: https://github.com/yumaheymans/carejobs-mcp
+llms_txt: https://carejobs.now/llms.txt
+llms_txt_status: published
+
+category: web-search-for-agents
+subcategory: job-search-api
+
+tagline: Free, read-only search of US healthcare job postings and the pay employers post, for AI agents and people.
+
+description: |
+  CareJobs.Now is a free US healthcare job board that reads the career sites of about 270 hospitals, health systems, clinic groups and home care companies every day, plus federal VA and Indian Health Service jobs. It lists 170,000+ open jobs for nurses, CNAs, physicians, nurse practitioners, therapists, imaging and lab staff, pharmacy, dental, mental health and EMS, each re-checked with the employer and shown with the hourly pay the employer posts. For agents it offers a remote MCP server at https://carejobs.now/api/mcp (Streamable HTTP, no API key, read-only, six tools for job search, job details, posted pay by kind of job, employers, states and kinds of job), free JSON endpoints (roles.json, pay.json, pay.csv), an OpenAPI 3.1 spec, an Agent Skill for healthcare job questions, and an open CC BY 4.0 dataset of postings and posted pay.
+
+features:
+  - Remote MCP server for US healthcare job search and posted pay (no API key)
+  - Free JSON endpoints for open roles and posted hourly pay by kind of job
+  - Jobs read daily from employers' own career sites, with the pay each posts
+  - OpenAPI 3.1 specification and an Agent Skill in the public repository
+  - Open dataset of postings and posted pay under CC BY 4.0
+
+use_cases:
+  - An agent answers "what do ICU nurses earn in Ohio" with posted pay from current postings
+  - A job seeker's assistant finds open CNA or travel nurse roles near a given state
+  - A researcher analyses US healthcare posted pay from a downloadable dataset
+
+license: commercial
+deployment: saas
+platforms: [web]
+tags: [healthcare, jobs, nursing, job-board, mcp, api, open-data, posted-pay]
+
+maintainer: O-mega Enterprise, Inc.
+added: 2026-10-16

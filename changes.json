@@ -1,252 +1,270 @@
 {
- "checked": "2026-10-12",
+ "checked": "2026-10-18",
  "since": true,
  "changes": [
   {
    "slug": "agno",
    "name": "Agno",
    "kind": "release",
-   "detail": "v3.1.1 → v3.1.2 (2026-10-08)"
+   "detail": "v3.1.2 → v3.1.4 (2026-10-16)"
   },
   {
    "slug": "anthropic-sdk",
    "name": "Anthropic SDK",
    "kind": "release",
-   "detail": "v1.11.0 → v1.13.0 (2026-10-09)"
+   "detail": "v1.13.0 → v1.15.0 (2026-10-15)"
   },
   {
    "slug": "arize-phoenix",
    "name": "Arize Phoenix",
    "kind": "release",
-   "detail": "arize-phoenix-v20.19.0 → arize-phoenix-v20.21.0 (2026-10-11)"
+   "detail": "arize-phoenix-v20.21.0 → arize-phoenix-v20.23.0 (2026-10-16)"
+  },
+  {
+   "slug": "axolotl",
+   "name": "Axolotl",
+   "kind": "release",
+   "detail": "v0.20.0 → v0.21.0 (2026-10-16)"
   },
   {
    "slug": "claude-agent-sdk",
    "name": "Claude Agent SDK",
    "kind": "release",
-   "detail": "v0.2.163 → v0.2.165 (2026-10-08)"
+   "detail": "v0.2.165 → v0.2.168 (2026-10-15)"
   },
   {
    "slug": "cline",
    "name": "Cline",
    "kind": "release",
-   "detail": "desktop-v0.0.43 → desktop-v0.0.45 (2026-10-08)"
+   "detail": "desktop-v0.0.45 → v4.1.25 (2026-10-16)"
   },
   {
    "slug": "comfyui",
    "name": "ComfyUI",
    "kind": "release",
-   "detail": "v0.38.0 → v0.39.0 (2026-10-05)"
+   "detail": "v0.39.0 → v0.42.0 (2026-10-18)"
   },
   {
    "slug": "crewai",
    "name": "CrewAI",
    "kind": "release",
-   "detail": "1.15.23 → 1.15.27 (2026-10-09)"
-  },
-  {
-   "slug": "diffusers",
-   "name": "Diffusers",
-   "kind": "release",
-   "detail": "v0.40.0 → v0.41.0 (2026-10-06)"
+   "detail": "1.15.27 → 1.15.28 (2026-10-14)"
   },
   {
    "slug": "docling",
    "name": "Docling",
    "kind": "release",
-   "detail": "v2.133.0 → v2.137.0 (2026-10-09)"
+   "detail": "v2.137.0 → v2.140.0 (2026-10-16)"
   },
   {
    "slug": "exllamav3",
    "name": "ExLlamaV3",
    "kind": "release",
-   "detail": "v1.5.4 → v1.6.1 (2026-10-10)"
-  },
-  {
-   "slug": "fastembed",
-   "name": "FastEmbed",
-   "kind": "release",
-   "detail": "v0.8.1 → v0.9.0 (2026-10-07)"
+   "detail": "v1.6.1 → v1.6.3 (2026-10-17)"
   },
   {
    "slug": "gemini-cli",
    "name": "Gemini CLI",
    "kind": "release",
-   "detail": "v0.62.0 → v0.63.0 (2026-10-06)"
+   "detail": "v0.63.0 → v0.64.0 (2026-10-13)"
+  },
+  {
+   "slug": "google-adk",
+   "name": "Agent Development Kit (ADK)",
+   "kind": "release",
+   "detail": "v2.11.0 → v2.12.0 (2026-10-13)"
+  },
+  {
+   "slug": "haystack",
+   "name": "Haystack",
+   "kind": "release",
+   "detail": "v3.3.0 → v3.4.0 (2026-10-15)"
   },
   {
    "slug": "huggingface-transformers",
    "name": "HuggingFace Transformers",
    "kind": "release",
-   "detail": "v5.18.0 → v5.19.0 (2026-10-06)"
+   "detail": "v5.19.0 → v5.20.1 (2026-10-16)"
   },
   {
    "slug": "inspect-ai",
    "name": "Inspect",
    "kind": "release",
-   "detail": "no release → 0.3.278 (2026-10-09)"
-  },
-  {
-   "slug": "jan",
-   "name": "Jan",
-   "kind": "release",
-   "detail": "v0.8.4 → v0.8.6 (2026-10-09)"
+   "detail": "0.3.278 → 0.3.281 (2026-10-15)"
   },
   {
    "slug": "kilo-code",
    "name": "Kilo Code",
    "kind": "release",
-   "detail": "v7.8.3 → jetbrains/v7.1.9 (2026-10-08)"
+   "detail": "jetbrains/v7.1.9 → v7.8.12 (2026-10-15)"
   },
   {
-   "slug": "lancedb",
-   "name": "LanceDB",
+   "slug": "koboldcpp",
+   "name": "KoboldCpp",
    "kind": "release",
-   "detail": "v0.39.0 → v0.40.0 (2026-10-07)"
+   "detail": "v1.122.1 → v1.123.1 (2026-10-13)"
   },
   {
    "slug": "langchain",
    "name": "LangChain",
    "kind": "release",
-   "detail": "langchain-core==1.6.6 → langchain-core==1.6.9 (2026-10-08)"
+   "detail": "langchain-core==1.6.9 → langchain==1.4.6 (2026-10-14)"
   },
   {
    "slug": "langflow",
    "name": "Langflow",
    "kind": "release",
-   "detail": "v1.12.4 → v1.12.5 (2026-10-06)"
+   "detail": "v1.12.5 → v1.12.6 (2026-10-13)"
   },
   {
    "slug": "langfuse",
    "name": "Langfuse",
    "kind": "release",
-   "detail": "v4.50.0 → v4.56.0 (2026-10-09)"
+   "detail": "v4.56.0 → v4.63.0 (2026-10-16)"
   },
   {
    "slug": "langgraph",
    "name": "LangGraph",
    "kind": "release",
-   "detail": "cli==0.4.32.dev0 → cli==0.4.33 (2026-10-07)"
+   "detail": "cli==0.4.33 → 1.2.16 (2026-10-16)"
   },
   {
    "slug": "litellm",
    "name": "LiteLLM",
    "kind": "release",
-   "detail": "v1.104.0 → v1.105.0 (2026-10-11)"
+   "detail": "v1.105.0 → v1.106.0 (2026-10-18)"
   },
   {
    "slug": "llama-cpp",
    "name": "llama.cpp",
    "kind": "release",
-   "detail": "v0.5.0 → v0.6.0 (2026-10-05)"
+   "detail": "v0.6.0 → v0.7.0 (2026-10-15)"
   },
   {
    "slug": "mastra",
    "name": "Mastra",
    "kind": "release",
-   "detail": "@mastra/core@1.74.0 → @mastra/core@1.75.0 (2026-10-07)"
+   "detail": "@mastra/core@1.75.0 → @mastra/core@1.78.0 (2026-10-16)"
+  },
+  {
+   "slug": "mem0",
+   "name": "Mem0",
+   "kind": "release",
+   "detail": "ts-v3.3.1 → v2.2.1 (2026-09-25)"
   },
   {
    "slug": "microsoft-agent-framework",
    "name": "Microsoft Agent Framework",
    "kind": "release",
-   "detail": "python-1.20.0 → python-1.21.0 (2026-10-08)"
+   "detail": "python-1.21.0 → python-1.22.0 (2026-10-15)"
+  },
+  {
+   "slug": "milvus",
+   "name": "Milvus",
+   "kind": "release",
+   "detail": "v3.0.2 → v3.0.3 (2026-10-14)"
+  },
+  {
+   "slug": "ms-swift",
+   "name": "MS-Swift",
+   "kind": "release",
+   "detail": "v4.5.3 → v4.6.0 (2026-10-13)"
   },
   {
    "slug": "n8n",
    "name": "n8n",
    "kind": "release",
-   "detail": "n8n@2.41.7 → n8n@2.42.6 (2026-10-09)"
+   "detail": "n8n@2.42.6 → n8n@2.43.7 (2026-10-16)"
   },
   {
    "slug": "ollama",
    "name": "Ollama",
    "kind": "release",
-   "detail": "v0.35.1 → v0.40.3 (2026-10-11)"
+   "detail": "v0.40.3 → v0.40.6 (2026-10-16)"
   },
   {
-   "slug": "open-interpreter",
-   "name": "Open Interpreter",
+   "slug": "openai-agents-sdk",
+   "name": "OpenAI Agents SDK",
    "kind": "release",
-   "detail": "rust-v0.0.55 → rust-v0.0.56 (2026-10-07)"
+   "detail": "v0.23.1 → v0.24.0 (2026-10-15)"
   },
   {
    "slug": "openai-codex",
    "name": "OpenAI Codex",
    "kind": "release",
-   "detail": "rust-v0.160.0 → rust-v0.162.1 (2026-10-09)"
+   "detail": "rust-v0.162.1 → rust-v0.163.0 (2026-10-15)"
   },
   {
    "slug": "openclaw",
    "name": "OpenClaw",
    "kind": "release",
-   "detail": "v2026.9.8 → v2026.10.1 (2026-10-10)"
+   "detail": "v2026.10.1 → v2026.10.5 (2026-10-18)"
   },
   {
    "slug": "openwebui",
    "name": "Open WebUI",
    "kind": "release",
-   "detail": "v0.11.4 → v0.12.0 (2026-10-10)"
+   "detail": "v0.12.0 → v0.12.3 (2026-10-16)"
   },
   {
    "slug": "opik",
    "name": "Opik",
    "kind": "release",
-   "detail": "2.2.89 → 2.2.96 (2026-10-09)"
+   "detail": "2.2.96 → 2.2.103 (2026-10-16)"
+  },
+  {
+   "slug": "orkas",
+   "name": "Orkas",
+   "kind": "release",
+   "detail": "v2026.10.1 → v2026.10.17 (2026-10-17)"
   },
   {
    "slug": "promptfoo",
    "name": "Promptfoo",
    "kind": "release",
-   "detail": "0.123.1 → code-scan-action-0.2.2 (2026-10-08)"
-  },
-  {
-   "slug": "qdrant",
-   "name": "Qdrant",
-   "kind": "release",
-   "detail": "v1.19.1 → v1.19.2 (2026-10-05)"
+   "detail": "code-scan-action-0.2.2 → 0.124.1 (2026-10-08)"
   },
   {
    "slug": "qwen-code",
    "name": "Qwen Code",
    "kind": "release",
-   "detail": "sdk-typescript-v0.1.18 → sdk-typescript-v0.1.19 (2026-10-11)"
+   "detail": "sdk-typescript-v0.1.19 → v0.25.2 (2026-10-15)"
   },
   {
    "slug": "trl",
    "name": "TRL (HuggingFace)",
    "kind": "release",
-   "detail": "v1.14.1 → v1.15.0 (2026-10-08)"
+   "detail": "v1.15.0 → v1.16.0 (2026-10-15)"
   },
   {
    "slug": "unsloth",
    "name": "Unsloth",
    "kind": "release",
-   "detail": "v0.1.902-beta → v0.1.905-beta (2026-10-08)"
+   "detail": "v0.1.905-beta → v0.1.908-beta (2026-10-15)"
   },
   {
    "slug": "unstructured",
    "name": "Unstructured",
    "kind": "release",
-   "detail": "0.27.10 → 0.27.25 (2026-10-10)"
+   "detail": "0.27.25 → 0.27.28 (2026-10-16)"
+  },
+  {
+   "slug": "vllm",
+   "name": "vLLM",
+   "kind": "release",
+   "detail": "v0.31.0 → v0.32.0 (2026-10-18)"
+  },
+  {
+   "slug": "wandb",
+   "name": "Weights & Biases",
+   "kind": "release",
+   "detail": "v0.30.0 → v0.31.0 (2026-10-16)"
   },
   {
    "slug": "weaviate",
    "name": "Weaviate",
    "kind": "release",
-   "detail": "v1.39.9 → v1.40.0 (2026-10-07)"
-  },
-  {
-   "slug": "whisper-cpp",
-   "name": "whisper.cpp",
-   "kind": "release",
-   "detail": "v1.9.4 → v1.9.5 (2026-10-06)"
-  },
-  {
-   "slug": "xai",
-   "name": "SpaceXAI (xAI)",
-   "kind": "title",
-   "detail": "homepage title was «SpaceXAI», now «SpaceXSI»"
+   "detail": "v1.40.0 → v1.40.1 (2026-10-13)"
   }
  ]
 }

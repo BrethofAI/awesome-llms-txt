@@ -1,0 +1,53 @@
+name: YYLO
+slug: yylo
+url: https://yylo.dev
+repository: https://github.com/yylo-dev/yylo
+llms_txt: https://yylo.dev/llms.txt
+llms_txt_status: missing
+
+category: coding-agents
+subcategory: coding-agent-orchestrator
+
+tagline: Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes.
+
+description: |
+  YYLO is a command-line orchestrator for coding agents, repeatable
+  workflows, and receipt-backed repository changes. It is for developers
+  who want a quick agent loop and for project operators who need typed
+  task, validation, merge, and release-readiness boundaries.
+
+  Work runs through a typed task lifecycle (start, run, status, checkpoint,
+  preflight, finish), with implementation done in an exact-base task
+  worktree and delivery through protected one-task Git composition
+  (merge land) with an expected-old ref update. A read-only watch command
+  observes existing execution evidence, and evidence run records
+  content-addressed task evidence tied to exact inputs.
+
+  The CLI installs from npm (@yylo/cli; commands yylo and yy), runs
+  interactive terminal agent sessions (ypl), and delegates to the
+  independent YYLO Ledger (Git-native task store) and YYLO Benchmark
+  (evaluation/evidence package). Agent skills are versioned separately in
+  the yylo-dev/yylo-skills repository. yylo.dev does not publish an
+  llms.txt yet; this entry is filed with status missing.
+
+features:
+  - Typed task lifecycle with validation, merge, and release-readiness gates
+  - Exact-base task worktrees with protected one-task Git delivery
+  - Live terminal agent sessions (yy pi --live) with streamed tool calls
+  - Read-only watch observation of existing execution evidence
+  - Content-addressed validation evidence tied to exact inputs
+  - Delegates to the independent YYLO Ledger and YYLO Benchmark CLIs
+  - Agent skills versioned separately in yylo-dev/yylo-skills
+
+use_cases:
+  - Quick agent loops in the terminal for individual developers
+  - Bounded task, validation, merge, and release-readiness flow for operators
+  - Running coding agents in isolated worktrees with receipts
+  - Repeatable managed workflows with content-addressed evidence
+
+license: open-source
+deployment: cli
+platforms: [linux, macos, windows]
+tags: [coding-agent, cli, orchestrator, git, worktrees, npm, open-source]
+maintainer: yylo-dev
+added: 2026-10-18

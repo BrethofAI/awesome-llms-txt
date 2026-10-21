@@ -7,10 +7,10 @@ llms_txt_status: published
 status: stub
 
 category: coding-agents
-tagline: Open-source autonomous coding agent with Plan/Act modes and MCP support, shipped as an IDE extension, CLI and SDK.
+tagline: Open-source autonomous coding agent with Plan/Act modes and MCP support, shipped as an IDE extension, CLI, desktop app and SDK.
 
 license: open-source
 deployment: local
 added: 2026-09-29
-verified: '2026-10-05'
+verified: '2026-10-21'
 release_tag: '^v\d'

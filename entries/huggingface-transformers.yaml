@@ -30,7 +30,7 @@ description: |
 
 features:
   - Unified API for 1M+ model checkpoints on the Hugging Face Hub
-  - PyTorch-based (v5 dropped TensorFlow and JAX); Python 3.10+, PyTorch 2.5+
+  - PyTorch-based (v5 dropped TensorFlow and JAX); Python 3.10+, PyTorch 2.6+
   - Pipeline API, generate API and Trainer
   - Tokenizers, processors and feature extractors included
   - Model definitions reused by vLLM, SGLang, llama.cpp, MLX, Axolotl, Unsloth and others
@@ -50,4 +50,4 @@ platforms: [linux, macos, windows]
 tags: [transformers, pytorch, huggingface, inference, training, library]
 maintainer: HuggingFace
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-10-21'

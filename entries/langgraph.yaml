@@ -46,4 +46,5 @@ platforms: [linux, macos, windows]
 tags: [agent-framework, graph, state-machine, langgraph, durable, hitl]
 maintainer: LangChain
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-10-21'
+release_tag: '^\d'

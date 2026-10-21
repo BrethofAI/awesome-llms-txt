@@ -53,5 +53,5 @@ platforms: [linux, macos, windows]
 tags: [framework, rag, agents, langchain, python, typescript, llm]
 maintainer: LangChain
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-10-21'
 release_tag: '^langchain=='

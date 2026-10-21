@@ -20,7 +20,7 @@
 - [SGLang](https://docs.sglang.io): Fast LLM and VLM serving runtime with RadixAttention cache and structured output support. ✓
   - llms.txt: https://docs.sglang.io/llms.txt
 - [ExLlamaV3](https://github.com/turboderp-org/exllamav3): Inference library for local LLMs on consumer GPUs with EXL3 quantization and tensor/expert parallelism. It succeeds ExLlamaV2. ✗
-- [KoboldCpp](https://github.com/LostRuins/koboldcpp): Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP. ✗
+- [KoboldCpp](https://koboldcpp.net): Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP. ✗
 - [MLC LLM](https://llm.mlc.ai): Universal LLM deployment via compiled kernels — runs on iOS, Android, WebGPU, Vulkan, CUDA. ✗
 - [TextGen](https://github.com/oobabooga/textgen): Open-source desktop app for local LLMs (formerly Text Generation WebUI) with chat, vision, tool-calling, UI and API. ✗
 
@@ -84,9 +84,9 @@
 - [Qwen Code](https://qwenlm.github.io/qwen-code-docs/): Alibaba Qwen team's Apache-2.0 coding agent for terminal, editor, desktop, browser and chat — OpenAI, Anthropic, Gemini and Qwen APIs or local models. ✓
   - llms.txt: https://qwenlm.github.io/qwen-code-docs/llms.txt
 - [Aider](https://aider.chat): AI pair programming in your terminal — edits code across your git repo with commit-per-change discipline. ✗
-- [Cline](https://cline.bot): Open-source autonomous coding agent with Plan/Act modes and MCP support, shipped as an IDE extension, CLI and SDK. ✓
+- [Cline](https://cline.bot): Open-source autonomous coding agent with Plan/Act modes and MCP support, shipped as an IDE extension, CLI, desktop app and SDK. ✓
   - llms.txt: https://docs.cline.bot/llms.txt
-- [Gemini CLI](https://geminicli.com): Google's open-source terminal agent for Gemini. Unpaid-tier and Google One users were moved to Antigravity CLI on 2026-06-18. ✓
+- [Gemini CLI](https://geminicli.com): Google's open-source terminal agent for Gemini. Unpaid-tier and Google One users were moved to Antigravity CLI on 2026-06-18; Google says it isn't optimized for Gemini 4 and points to Antigravity CLI for the latest models. ✓
   - llms.txt: https://geminicli.com/llms.txt
 - [OpenAI Codex](https://learn.chatgpt.com/docs/codex/cli): OpenAI's coding agent, available as an open-source terminal CLI, an IDE extension and cloud automation. ✓
   - llms.txt: https://learn.chatgpt.com/docs/llms.txt
@@ -220,6 +220,8 @@
 
 ## Web Search for Agents
 
+- [CareJobs.Now](https://carejobs.now): Free, read-only search of open US healthcare jobs and the pay employers post, over a remote MCP server, JSON endpoints and an OpenAPI spec, no API key. ✓
+  - llms.txt: https://carejobs.now/llms.txt
 - [Parallel](https://parallel.ai): Web APIs for AI agents — Search, Extract, Task / Deep Research, FindAll and Monitor — returning LLM-optimized excerpts. ✓
   - llms.txt: https://docs.parallel.ai/llms.txt
 - [Brave Search API](https://brave.com/search/api/): Independent web search API with no tracking — alternative to Google / Bing for agent use. ✓
@@ -276,7 +278,7 @@
   - llms.txt: https://claude.com/docs/llms.txt
 - [OpenClaw](https://openclaw.ai): Open-source (MIT) personal AI assistant that runs on your own machine and answers you in the chat apps you already use — one self-hosted Gateway, any model. ✓
   - llms.txt: https://docs.openclaw.ai/llms.txt
-- [Orkas](https://orkas.ai): Open-source multi-agent desktop app — a Commander plans a goal and dispatches specialist agents; bring your own model keys, files stay on your disk. ✓
+- [Orkas](https://orkas.ai): Open-source (MIT) multi-agent desktop app for macOS and Windows — a Commander plans a goal and dispatches specialist and CLI agents; built-in models (free starter credits) or your own keys, files stay on your disk. ✓
   - llms.txt: https://orkas.ai/llms.txt
 - [Raycast AI](https://www.raycast.com/core-features/ai): AI assistant built into the Raycast launcher (Mac, Windows, iOS) — agents with projects, screen awareness, scheduled automations and bring-your-own model keys. ✓
   - llms.txt: https://manual.raycast.com/llms.txt

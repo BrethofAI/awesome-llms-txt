@@ -50,4 +50,4 @@ platforms: [linux]
 tags: [vector-db, weaviate, hybrid-search, multi-tenancy, rag, go]
 maintainer: Weaviate
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-10-21'

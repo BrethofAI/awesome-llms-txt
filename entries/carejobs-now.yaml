@@ -1,0 +1,52 @@
+name: CareJobs.Now
+slug: carejobs-now
+url: https://carejobs.now
+repository: https://github.com/yumaheymans/carejobs-mcp
+llms_txt: https://carejobs.now/llms.txt
+llms_txt_status: published
+
+category: web-search-for-agents
+subcategory: job-search-api
+
+tagline: Free, read-only search of open US healthcare jobs and the pay employers post, over a remote MCP server, JSON endpoints and an OpenAPI spec, no API key.
+
+description: |
+  CareJobs.Now is a free US healthcare job board run by O-mega Enterprise,
+  Inc. It reads the public career sites of US hospitals, health systems,
+  clinic groups and care companies every day, plus the Adzuna and USAJOBS
+  job boards (labelled as such), keeps the patient-care, clinical-support
+  and front-office jobs, sorts each into one of 17 kinds of job and shows
+  the pay the posting states. Each job links to the employer's own
+  application.
+
+  For agents it offers a hosted, read-only MCP server at
+  https://carejobs.now/api/mcp (Streamable HTTP, no key or account, six
+  tools: job search, posted pay, job-market counts, jobs by state,
+  employer list and employer detail), free JSON and CSV endpoints
+  (roles.json, pay.json, pay.csv) under CC BY 4.0, an OpenAPI spec and an
+  Agent Skill in the public docs repository, and a dated dataset on
+  Zenodo. The site earns referral fees from some staffing agencies,
+  shift apps and AI-training programs it links, disclosed beside those
+  links; employers cannot pay to rank higher. The server source is not
+  public.
+
+features:
+  - Remote MCP server for US healthcare job search and posted pay, no API key
+  - Free JSON and CSV endpoints for open jobs and posted hourly pay by kind of job (CC BY 4.0)
+  - Jobs read daily from employers' own career sites, plus Adzuna and USAJOBS, with the pay each posts
+  - OpenAPI spec, Claude Code plugin and Agent Skill in the public MIT docs repository
+  - Dated dataset of postings and posted pay on Zenodo
+
+use_cases:
+  - An agent answers "what do CNA jobs pay in Ohio" from current postings
+  - A job seeker's assistant finds open nursing or therapy jobs in a given state
+  - A researcher pulls posted healthcare pay by kind of job as JSON or CSV
+
+license: commercial
+deployment: saas
+platforms: [web]
+tags: [healthcare, jobs, nursing, job-board, mcp, api, open-data, posted-pay]
+
+maintainer: O-mega Enterprise, Inc.
+added: 2026-10-21
+verified: '2026-10-21'

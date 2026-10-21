@@ -46,4 +46,4 @@ platforms: [linux, macos, windows]
 tags: [api, anthropic, claude, sdk, python, typescript, llm]
 maintainer: Anthropic
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-10-21'

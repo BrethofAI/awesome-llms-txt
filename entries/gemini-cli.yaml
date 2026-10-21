@@ -7,9 +7,9 @@ llms_txt_status: published
 status: stub
 
 category: coding-agents
-tagline: Google's open-source terminal agent for Gemini. Unpaid-tier and Google One users were moved to Antigravity CLI on 2026-06-18.
+tagline: Google's open-source terminal agent for Gemini. Unpaid-tier and Google One users were moved to Antigravity CLI on 2026-06-18; Google says it isn't optimized for Gemini 4 and points to Antigravity CLI for the latest models.
 
 license: open-source
 deployment: cli
 added: 2026-09-29
-verified: '2026-10-05'
+verified: '2026-10-21'

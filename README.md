@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**127 entries** — 70 with full descriptions, 57 stubs. **98** currently publish a working `llms.txt`.
+**128 entries** — 71 with full descriptions, 57 stubs. **99** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -43,7 +43,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [Observability](#observability) (7)
 - [Evaluation](#evaluation) (4)
 - [Training & Fine-tuning](#training--fine-tuning) (7)
-- [Web Search for Agents](#web-search-for-agents) (7)
+- [Web Search for Agents](#web-search-for-agents) (8)
 - [OCR & Document Parsing](#ocr--document-parsing) (4)
 - [Deployment & Hosting](#deployment--hosting) (11)
 - [Desktop Applications](#desktop-applications) (5)
@@ -79,7 +79,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - **[ExLlamaV3](https://github.com/turboderp-org/exllamav3)** — ❌ llms.txt 🚧 stub  
   Inference library for local LLMs on consumer GPUs with EXL3 quantization and tensor/expert parallelism. It succeeds ExLlamaV2.  
   <sub>★ 1.6k · v1.6.1 (2026-10-10)</sub>
-- **[KoboldCpp](https://github.com/LostRuins/koboldcpp)** — ❌ llms.txt 🚧 stub  
+- **[KoboldCpp](https://koboldcpp.net)** — ❌ llms.txt 🚧 stub  
   Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP.  
   <sub>★ 12k · v1.122.1 (2026-09-26)</sub>
 - **[MLC LLM](https://llm.mlc.ai)** — ❌ llms.txt 🚧 stub  
@@ -167,10 +167,10 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
   AI pair programming in your terminal — edits code across your git repo with commit-per-change discipline.  
   <sub>★ 49.5k · v0.86.0 (2025-08-09)</sub>
 - **[Cline](https://cline.bot)** — ✅ llms.txt 🚧 stub  
-  Open-source autonomous coding agent with Plan/Act modes and MCP support, shipped as an IDE extension, CLI and SDK.  
+  Open-source autonomous coding agent with Plan/Act modes and MCP support, shipped as an IDE extension, CLI, desktop app and SDK.  
   <sub>★ 70.2k · desktop-v0.0.45 (2026-10-08)</sub>
 - **[Gemini CLI](https://geminicli.com)** — ✅ llms.txt 🚧 stub  
-  Google's open-source terminal agent for Gemini. Unpaid-tier and Google One users were moved to Antigravity CLI on 2026-06-18.  
+  Google's open-source terminal agent for Gemini. Unpaid-tier and Google One users were moved to Antigravity CLI on 2026-06-18; Google says it isn't optimized for Gemini 4 and points to Antigravity CLI for the latest models.  
   <sub>★ 107.3k · v0.63.0 (2026-10-06)</sub>
 - **[OpenAI Codex](https://learn.chatgpt.com/docs/codex/cli)** — ✅ llms.txt 🚧 stub  
   OpenAI's coding agent, available as an open-source terminal CLI, an IDE extension and cloud automation.  
@@ -363,6 +363,8 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 
 ## Web Search for Agents
 
+- **[CareJobs.Now](https://carejobs.now)** — ✅ llms.txt  
+  Free, read-only search of open US healthcare jobs and the pay employers post, over a remote MCP server, JSON endpoints and an OpenAPI spec, no API key.
 - **[Parallel](https://parallel.ai)** — ✅ llms.txt  
   Web APIs for AI agents — Search, Extract, Task / Deep Research, FindAll and Monitor — returning LLM-optimized excerpts.
 - **[Brave Search API](https://brave.com/search/api/)** — ✅ llms.txt 🚧 stub  
@@ -426,7 +428,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
   Open-source (MIT) personal AI assistant that runs on your own machine and answers you in the chat apps you already use — one self-hosted Gateway, any model.  
   <sub>★ 391.7k · v2026.10.1 (2026-10-10)</sub>
 - **[Orkas](https://orkas.ai)** — ✅ llms.txt 🚧 stub  
-  Open-source multi-agent desktop app — a Commander plans a goal and dispatches specialist agents; bring your own model keys, files stay on your disk.  
+  Open-source (MIT) multi-agent desktop app for macOS and Windows — a Commander plans a goal and dispatches specialist and CLI agents; built-in models (free starter credits) or your own keys, files stay on your disk.  
   <sub>★ 2.2k · v2026.10.1 (2026-10-01)</sub>
 - **[Raycast AI](https://www.raycast.com/core-features/ai)** — ✅ llms.txt 🚧 stub  
   AI assistant built into the Raycast launcher (Mac, Windows, iOS) — agents with projects, screen awareness, scheduled automations and bring-your-own model keys.

@@ -33,7 +33,7 @@ the dominant open-source ML ecosystem.
 
 **Features:**
 - Unified API for 1M+ model checkpoints on the Hugging Face Hub
-- PyTorch-based (v5 dropped TensorFlow and JAX); Python 3.10+, PyTorch 2.5+
+- PyTorch-based (v5 dropped TensorFlow and JAX); Python 3.10+, PyTorch 2.6+
 - Pipeline API, generate API and Trainer
 - Tokenizers, processors and feature extractors included
 - Model definitions reused by vLLM, SGLang, llama.cpp, MLX, Axolotl, Unsloth and others
@@ -391,8 +391,9 @@ dependent applications to on-premise inference without rewriting them.
 
 ## KoboldCpp
 
-**URL:** https://github.com/LostRuins/koboldcpp
-**llms.txt:** https://github.com/LostRuins/koboldcpp/llms.txt (missing)
+**URL:** https://koboldcpp.net
+**Repository:** https://github.com/LostRuins/koboldcpp
+**llms.txt:** https://koboldcpp.net/llms.txt (missing)
 **License:** open-source  |  **Deployment:** local
 
 *Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP.*
@@ -1233,7 +1234,7 @@ performance.
 **llms.txt:** https://docs.cline.bot/llms.txt (published)
 **License:** open-source  |  **Deployment:** local
 
-*Open-source autonomous coding agent with Plan/Act modes and MCP support, shipped as an IDE extension, CLI and SDK.*
+*Open-source autonomous coding agent with Plan/Act modes and MCP support, shipped as an IDE extension, CLI, desktop app and SDK.*
 
 ---
 
@@ -1244,7 +1245,7 @@ performance.
 **llms.txt:** https://geminicli.com/llms.txt (published)
 **License:** open-source  |  **Deployment:** cli
 
-*Google's open-source terminal agent for Gemini. Unpaid-tier and Google One users were moved to Antigravity CLI on 2026-06-18.*
+*Google's open-source terminal agent for Gemini. Unpaid-tier and Google One users were moved to Antigravity CLI on 2026-06-18; Google says it isn't optimized for Gemini 4 and points to Antigravity CLI for the latest models.*
 
 ---
 
@@ -2898,6 +2899,49 @@ percent of speed.
 
 # Web Search for Agents
 
+## CareJobs.Now
+
+**URL:** https://carejobs.now
+**Repository:** https://github.com/yumaheymans/carejobs-mcp
+**llms.txt:** https://carejobs.now/llms.txt (published)
+**License:** commercial  |  **Deployment:** saas  |  Platforms: web
+**Tags:** healthcare, jobs, nursing, job-board, mcp, api, open-data, posted-pay
+
+*Free, read-only search of open US healthcare jobs and the pay employers post, over a remote MCP server, JSON endpoints and an OpenAPI spec, no API key.*
+
+CareJobs.Now is a free US healthcare job board run by O-mega Enterprise,
+Inc. It reads the public career sites of US hospitals, health systems,
+clinic groups and care companies every day, plus the Adzuna and USAJOBS
+job boards (labelled as such), keeps the patient-care, clinical-support
+and front-office jobs, sorts each into one of 17 kinds of job and shows
+the pay the posting states. Each job links to the employer's own
+application.
+
+For agents it offers a hosted, read-only MCP server at
+https://carejobs.now/api/mcp (Streamable HTTP, no key or account, six
+tools: job search, posted pay, job-market counts, jobs by state,
+employer list and employer detail), free JSON and CSV endpoints
+(roles.json, pay.json, pay.csv) under CC BY 4.0, an OpenAPI spec and an
+Agent Skill in the public docs repository, and a dated dataset on
+Zenodo. The site earns referral fees from some staffing agencies,
+shift apps and AI-training programs it links, disclosed beside those
+links; employers cannot pay to rank higher. The server source is not
+public.
+
+**Features:**
+- Remote MCP server for US healthcare job search and posted pay, no API key
+- Free JSON and CSV endpoints for open jobs and posted hourly pay by kind of job (CC BY 4.0)
+- Jobs read daily from employers' own career sites, plus Adzuna and USAJOBS, with the pay each posts
+- OpenAPI spec, Claude Code plugin and Agent Skill in the public MIT docs repository
+- Dated dataset of postings and posted pay on Zenodo
+
+**Use cases:**
+- An agent answers "what do CNA jobs pay in Ohio" from current postings
+- A job seeker's assistant finds open nursing or therapy jobs in a given state
+- A researcher pulls posted healthcare pay by kind of job as JSON or CSV
+
+---
+
 ## Parallel
 
 **URL:** https://parallel.ai
@@ -3606,7 +3650,7 @@ in 2026 and continues to lead the project.
 **llms.txt:** https://orkas.ai/llms.txt (published)
 **License:** open-source  |  **Deployment:** local
 
-*Open-source multi-agent desktop app — a Commander plans a goal and dispatches specialist agents; bring your own model keys, files stay on your disk.*
+*Open-source (MIT) multi-agent desktop app for macOS and Windows — a Commander plans a goal and dispatches specialist and CLI agents; built-in models (free starter credits) or your own keys, files stay on your disk.*
 
 ---
 

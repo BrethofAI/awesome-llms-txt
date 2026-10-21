@@ -45,4 +45,4 @@ platforms: [linux, macos, windows]
 tags: [agent-framework, google, gemini, multi-agent, python, typescript, go, java]
 maintainer: Google
 added: 2026-10-05
-verified: '2026-10-05'
+verified: '2026-10-21'

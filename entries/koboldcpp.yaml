@@ -1,7 +1,9 @@
 name: KoboldCpp
 slug: koboldcpp
-url: https://github.com/LostRuins/koboldcpp
-llms_txt: https://github.com/LostRuins/koboldcpp/llms.txt
+url: https://koboldcpp.net
+repository: https://github.com/LostRuins/koboldcpp
+llms_txt: https://koboldcpp.net/llms.txt
+llms_full_txt: https://koboldcpp.net/llms-full.txt
 llms_txt_status: missing
 status: stub
 
@@ -11,4 +13,4 @@ tagline: Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-
 license: open-source
 deployment: local
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-10-21'

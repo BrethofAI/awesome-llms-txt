@@ -51,4 +51,4 @@ platforms: [linux, windows, macos]
 tags: [fine-tuning, training, lora, qlora, unsloth, triton, python]
 maintainer: Unsloth AI
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-10-21'

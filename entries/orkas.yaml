@@ -8,9 +8,9 @@ llms_txt_status: published
 status: stub
 
 category: desktop-apps
-tagline: Open-source multi-agent desktop app — a Commander plans a goal and dispatches specialist agents; bring your own model keys, files stay on your disk.
+tagline: Open-source (MIT) multi-agent desktop app for macOS and Windows — a Commander plans a goal and dispatches specialist and CLI agents; built-in models (free starter credits) or your own keys, files stay on your disk.
 
 license: open-source
 deployment: local
 added: 2026-10-05
-verified: '2026-10-05'
+verified: '2026-10-21'

@@ -54,4 +54,4 @@ platforms: [linux, macos, windows]
 tags: [inference, gguf, cpp, quantization, llama, vulkan, cuda, rocm, metal]
 maintainer: ggml-org
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-10-21'

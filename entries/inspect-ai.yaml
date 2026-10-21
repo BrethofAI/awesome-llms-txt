@@ -44,4 +44,4 @@ platforms: [linux, macos, windows]
 tags: [evaluation, evals, agents, benchmarks, sandbox, aisi, python]
 maintainer: UK AI Security Institute
 added: 2026-10-05
-verified: '2026-10-05'
+verified: '2026-10-21'

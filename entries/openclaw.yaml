@@ -53,4 +53,4 @@ platforms: [linux, macos, windows, ios, android]
 tags: [personal-assistant, agent, self-hosted, gateway, chat, whatsapp, telegram, mcp, skills]
 maintainer: OpenClaw Foundation
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-10-21'

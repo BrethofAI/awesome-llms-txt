@@ -41,4 +41,4 @@ platforms: [linux, macos, windows, web]
 tags: [observability, tracing, evaluation, open-source, mcp]
 maintainer: Comet
 added: 2026-10-05
-verified: '2026-10-05'
+verified: '2026-10-21'

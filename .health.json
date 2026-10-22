@@ -98,6 +98,14 @@
    },
    "ok_streak": 2
   },
+  "carejobs-now": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "cerebras-inference": {
    "fail_streak": 0,
    "last": {
@@ -403,12 +411,12 @@
    "ok_streak": 2
   },
   "koboldcpp": {
-   "fail_streak": 3,
+   "fail_streak": 0,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "ok",
+    "code": 200
    },
-   "ok_streak": 0
+   "ok_streak": 1
   },
   "krita-ai-diffusion": {
    "fail_streak": 3,

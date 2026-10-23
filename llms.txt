@@ -17,10 +17,11 @@
 - [Jan](https://jan.ai): Open-source (Apache-2.0) desktop ChatGPT alternative that runs local LLMs offline, with optional connections to cloud models. ✗
 - [llama.cpp](https://llama.app): Reference C++ implementation for running LLaMA-family and other transformer models with GGUF quantization. ✗
 - [LocalAI](https://localai.io): Open-source (MIT) self-hosted AI engine — OpenAI-, Anthropic-, Ollama- and ElevenLabs-compatible APIs for text, voice, vision, image, video and agents, no GPU required. ✗
+- [KoboldCpp](https://koboldcpp.net): Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP. ✓
+  - llms.txt: https://koboldcpp.net/llms.txt
 - [SGLang](https://docs.sglang.io): Fast LLM and VLM serving runtime with RadixAttention cache and structured output support. ✓
   - llms.txt: https://docs.sglang.io/llms.txt
 - [ExLlamaV3](https://github.com/turboderp-org/exllamav3): Inference library for local LLMs on consumer GPUs with EXL3 quantization and tensor/expert parallelism. It succeeds ExLlamaV2. ✗
-- [KoboldCpp](https://koboldcpp.net): Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP. ✗
 - [MLC LLM](https://llm.mlc.ai): Universal LLM deployment via compiled kernels — runs on iOS, Android, WebGPU, Vulkan, CUDA. ✗
 - [TextGen](https://github.com/oobabooga/textgen): Open-source desktop app for local LLMs (formerly Text Generation WebUI) with chat, vision, tool-calling, UI and API. ✗
 

@@ -368,6 +368,17 @@ dependent applications to on-premise inference without rewriting them.
 
 ---
 
+## KoboldCpp
+
+**URL:** https://koboldcpp.net
+**Repository:** https://github.com/LostRuins/koboldcpp
+**llms.txt:** https://koboldcpp.net/llms.txt (published)
+**License:** open-source  |  **Deployment:** local
+
+*Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP.*
+
+---
+
 ## SGLang
 
 **URL:** https://docs.sglang.io
@@ -386,17 +397,6 @@ dependent applications to on-premise inference without rewriting them.
 **License:** open-source  |  **Deployment:** library
 
 *Inference library for local LLMs on consumer GPUs with EXL3 quantization and tensor/expert parallelism. It succeeds ExLlamaV2.*
-
----
-
-## KoboldCpp
-
-**URL:** https://koboldcpp.net
-**Repository:** https://github.com/LostRuins/koboldcpp
-**llms.txt:** https://koboldcpp.net/llms.txt (missing)
-**License:** open-source  |  **Deployment:** local
-
-*Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP.*
 
 ---
 

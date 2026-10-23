@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**128 entries** — 71 with full descriptions, 57 stubs. **99** currently publish a working `llms.txt`.
+**128 entries** — 71 with full descriptions, 57 stubs. **100** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -74,14 +74,14 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - **[LocalAI](https://localai.io)** — ❌ llms.txt  
   Open-source (MIT) self-hosted AI engine — OpenAI-, Anthropic-, Ollama- and ElevenLabs-compatible APIs for text, voice, vision, image, video and agents, no GPU required.  
   <sub>★ 49.6k · v4.11.0 (2026-10-02)</sub>
+- **[KoboldCpp](https://koboldcpp.net)** — ✅ llms.txt 🚧 stub  
+  Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP.  
+  <sub>★ 12k · v1.123.1 (2026-10-13)</sub>
 - **[SGLang](https://docs.sglang.io)** — ✅ llms.txt 🚧 stub  
   Fast LLM and VLM serving runtime with RadixAttention cache and structured output support.
 - **[ExLlamaV3](https://github.com/turboderp-org/exllamav3)** — ❌ llms.txt 🚧 stub  
   Inference library for local LLMs on consumer GPUs with EXL3 quantization and tensor/expert parallelism. It succeeds ExLlamaV2.  
   <sub>★ 1.7k · v1.6.3 (2026-10-17)</sub>
-- **[KoboldCpp](https://koboldcpp.net)** — ❌ llms.txt 🚧 stub  
-  Single-binary llama.cpp wrapper with KoboldAI-style UI for chat, story-writing, and RP.  
-  <sub>★ 12k · v1.123.1 (2026-10-13)</sub>
 - **[MLC LLM](https://llm.mlc.ai)** — ❌ llms.txt 🚧 stub  
   Universal LLM deployment via compiled kernels — runs on iOS, Android, WebGPU, Vulkan, CUDA.
 - **[TextGen](https://github.com/oobabooga/textgen)** — ❌ llms.txt 🚧 stub  

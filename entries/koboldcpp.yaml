@@ -4,7 +4,7 @@ url: https://koboldcpp.net
 repository: https://github.com/LostRuins/koboldcpp
 llms_txt: https://koboldcpp.net/llms.txt
 llms_full_txt: https://koboldcpp.net/llms-full.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: inference-runtimes

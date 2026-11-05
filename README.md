@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**128 entries** — 71 with full descriptions, 57 stubs. **100** currently publish a working `llms.txt`.
+**129 entries** — 72 with full descriptions, 57 stubs. **101** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -31,7 +31,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [Inference Runtimes](#inference-runtimes) (13)
 - [LLM Gateways](#llm-gateways) (3)
 - [Agent Frameworks](#agent-frameworks) (12)
-- [Agent SDKs](#agent-sdks) (3)
+- [Agent SDKs](#agent-sdks) (4)
 - [Coding Agents](#coding-agents) (14)
 - [Workflow Tools](#workflow-tools) (4)
 - [Voice (STT / TTS)](#voice-stt--tts) (8)
@@ -140,6 +140,8 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - **[Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview)** — ✅ llms.txt  
   Anthropic's official SDK for building custom agents on top of Claude with tool use, subagents, and hooks.  
   <sub>★ 8.3k · v0.2.168 (2026-10-15)</sub>
+- **[xmcp](https://xmcp.dev)** — ✅ llms.txt  
+  TypeScript framework for building and deploying MCP servers, with file-based tools, prompts and resources, hot reload and framework adapters.
 - **[OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)** — ✅ llms.txt 🚧 stub  
   OpenAI's provider-agnostic multi-agent SDK with handoffs, guardrails, sessions, tracing and voice agents. It replaces Swarm.  
   <sub>★ 30.1k · v0.24.0 (2026-10-15)</sub>

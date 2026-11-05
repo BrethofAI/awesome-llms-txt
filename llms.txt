@@ -65,6 +65,8 @@
   - llms.txt: https://platform.claude.com/llms.txt
 - [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview): Anthropic's official SDK for building custom agents on top of Claude with tool use, subagents, and hooks. ✓
   - llms.txt: https://code.claude.com/docs/llms.txt
+- [xmcp](https://xmcp.dev): TypeScript framework for building and deploying MCP servers, with file-based tools, prompts and resources, hot reload and framework adapters. ✓
+  - llms.txt: https://xmcp.dev/llms.txt
 - [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/): OpenAI's provider-agnostic multi-agent SDK with handoffs, guardrails, sessions, tracing and voice agents. It replaces Swarm. ✓
   - llms.txt: https://openai.github.io/openai-agents-python/llms.txt
 

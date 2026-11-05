@@ -33,7 +33,7 @@ the dominant open-source ML ecosystem.
 
 **Features:**
 - Unified API for 1M+ model checkpoints on the Hugging Face Hub
-- PyTorch-based (v5 dropped TensorFlow and JAX); Python 3.10+, PyTorch 2.6+
+- PyTorch-based (v5 dropped TensorFlow and JAX); Python 3.11+, PyTorch 2.6+
 - Pipeline API, generate API and Trainer
 - Tokenizers, processors and feature extractors included
 - Model definitions reused by vLLM, SGLang, llama.cpp, MLX, Axolotl, Unsloth and others
@@ -882,6 +882,49 @@ its own UI or CLI rather than running Claude Code in a terminal.
 - Orchestrating multi-agent workflows within a single application
 - Adding Claude-powered automation to internal developer tools
 - Replacing ad-hoc Claude API loops with a structured agent framework
+
+---
+
+## xmcp
+
+**URL:** https://xmcp.dev
+**Repository:** https://github.com/basementstudio/xmcp
+**llms.txt:** https://xmcp.dev/llms.txt (published)
+**License:** open-source  |  **Deployment:** library
+**Tags:** mcp, mcp-server, typescript, framework, nextjs, sdk
+
+*TypeScript framework for building and deploying MCP servers, with file-based tools, prompts and resources, hot reload and framework adapters.*
+
+xmcp is an open-source (MIT) TypeScript framework from basement.studio
+for building Model Context Protocol (MCP) servers, the way AI agents and
+chat clients call outside tools and data. A tool is a file: export a
+schema, metadata and a function, and xmcp registers it; prompts and
+resources are discovered the same way. It handles the protocol, input
+validation and transport (HTTP or stdio from the same code).
+
+It adds middleware, authentication integrations (Better Auth, Clerk,
+Auth0, WorkOS, Descope, Scalekit, Supabase, API keys, JWT), monetization
+plugins (Polar, Commet, x402), MCP Apps with React UI, typed clients for
+external MCP servers, and adapters that run an xmcp server inside
+Next.js, Express, NestJS, Fastify, Hono, TanStack Start, Nuxt, SvelteKit,
+React Router or Astro. Deployment guides cover Vercel, Cloudflare, Alpic,
+Replit, Railway and Render. Its docs are also available to agents through
+a free, read-only MCP server at https://xmcp.dev/mcp. The CLI sends
+anonymous build telemetry by default; set XMCP_TELEMETRY_DISABLED=true to
+turn it off.
+
+**Features:**
+- File-system discovery of tools, prompts and resources, with hot reload
+- HTTP and stdio transports from the same code
+- Middleware and auth integrations (OAuth providers, API keys, JWT)
+- Adapters for Next.js, Express, NestJS, Hono, Nuxt, SvelteKit and more
+- MCP Apps (React UI) and typed clients for external MCP servers
+- Free read-only docs search MCP server at xmcp.dev/mcp
+
+**Use cases:**
+- Expose an existing TypeScript app's functions to AI agents as MCP tools
+- Add an MCP endpoint to a Next.js or Express app instead of running a separate server
+- Scaffold, test and deploy a new MCP server to Vercel or Cloudflare
 
 ---
 

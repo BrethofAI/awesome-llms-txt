@@ -1,0 +1,39 @@
+name: Social Expert
+slug: social-expert
+url: https://socialexpert.app
+llms_txt: https://socialexpert.app/llms.txt
+llms_txt_status: published
+category: web-search-for-agents
+subcategory: tiktok-content-research
+tagline: TikTok content research and timestamped draft feedback through a hosted OAuth MCP server.
+description: |
+  Social Expert is a proprietary service by ForUsApps, LLC for TikTok content
+  research and draft video analysis. Creators can use its website or connect
+  an MCP client to research trends, posting times, topic-based content ideas,
+  known sounds, keywords and hashtags. Public setup instructions and capability
+  documentation are available without signing in; tool use requires a Social
+  Expert account and OAuth authorization.
+
+  Uploaded MP4 or MOV drafts can receive timestamped feedback, and saved reports
+  can be retrieved during their 14-day retention period. New accounts include
+  10 one-time research lookups and 3 one-time video reviews; paid monthly plans
+  are available, with shared usage across the web and connected clients. Tool
+  calls can consume allowance and create saved analysis state. Social Expert
+  does not publish or schedule posts, edit videos, provide private follower
+  analytics or guarantee growth. It is independent of TikTok.
+features:
+  - Hosted Streamable HTTP MCP endpoint with OAuth and documented client setup
+  - TikTok trends, posting times, topic-based ideas, keywords and hashtags
+  - Known sound details and links when available
+  - Uploaded draft analysis with timestamped feedback and saved reports
+  - Public dated trend articles with TikTok source links and monthly archives
+use_cases:
+  - Research a TikTok content brief before writing or filming a post
+  - Compare ideas, keywords and posting windows for an audience market
+  - Review a draft and prioritize timestamped edits before posting
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [tiktok, mcp, oauth, content-research, video-analysis, creator-tools]
+maintainer: ForUsApps, LLC
+added: '2026-10-30'

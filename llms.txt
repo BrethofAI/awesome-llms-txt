@@ -227,6 +227,8 @@
   - llms.txt: https://carejobs.now/llms.txt
 - [Parallel](https://parallel.ai): Web APIs for AI agents — Search, Extract, Task / Deep Research, FindAll and Monitor — returning LLM-optimized excerpts. ✓
   - llms.txt: https://docs.parallel.ai/llms.txt
+- [Social Expert](https://socialexpert.app): TikTok content research and timestamped draft feedback through a hosted OAuth MCP server. ✓
+  - llms.txt: https://socialexpert.app/llms.txt
 - [Brave Search API](https://brave.com/search/api/): Independent web search API with no tracking — alternative to Google / Bing for agent use. ✓
   - llms.txt: https://api-dashboard.search.brave.com/llms.txt
 - [Exa](https://exa.ai): Neural search API built for AI agents — semantic search across the web with content retrieval. ✓

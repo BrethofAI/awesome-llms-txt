@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**129 entries** — 72 with full descriptions, 57 stubs. **101** currently publish a working `llms.txt`.
+**130 entries** — 73 with full descriptions, 57 stubs. **102** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -43,7 +43,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [Observability](#observability) (7)
 - [Evaluation](#evaluation) (4)
 - [Training & Fine-tuning](#training--fine-tuning) (7)
-- [Web Search for Agents](#web-search-for-agents) (8)
+- [Web Search for Agents](#web-search-for-agents) (9)
 - [OCR & Document Parsing](#ocr--document-parsing) (4)
 - [Deployment & Hosting](#deployment--hosting) (11)
 - [Desktop Applications](#desktop-applications) (5)
@@ -371,6 +371,8 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
   <sub>★ 3 · last push 2026-10-18</sub>
 - **[Parallel](https://parallel.ai)** — ✅ llms.txt  
   Web APIs for AI agents — Search, Extract, Task / Deep Research, FindAll and Monitor — returning LLM-optimized excerpts.
+- **[Social Expert](https://socialexpert.app)** — ✅ llms.txt  
+  TikTok content research and timestamped draft feedback through a hosted OAuth MCP server.
 - **[Brave Search API](https://brave.com/search/api/)** — ✅ llms.txt 🚧 stub  
   Independent web search API with no tracking — alternative to Google / Bing for agent use.
 - **[Exa](https://exa.ai)** — ✅ llms.txt 🚧 stub  

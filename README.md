@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**130 entries** — 73 with full descriptions, 57 stubs. **102** currently publish a working `llms.txt`.
+**131 entries** — 74 with full descriptions, 57 stubs. **103** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -46,7 +46,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [Web Search for Agents](#web-search-for-agents) (9)
 - [OCR & Document Parsing](#ocr--document-parsing) (4)
 - [Deployment & Hosting](#deployment--hosting) (11)
-- [Desktop Applications](#desktop-applications) (5)
+- [Desktop Applications](#desktop-applications) (6)
 - [Shell Tools](#shell-tools) (1)
 
 ## Inference Runtimes
@@ -433,6 +433,8 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - **[OpenClaw](https://openclaw.ai)** — ✅ llms.txt  
   Open-source (MIT) personal AI assistant that runs on your own machine and answers you in the chat apps you already use — one self-hosted Gateway, any model.  
   <sub>★ 393.6k · v2026.10.9 (2026-10-29)</sub>
+- **[Retrace](https://juw12.github.io/retrace/)** — ✅ llms.txt  
+  Finds the AI, prompt, model and settings behind an image, a text, a website or a chatbot API, locally.
 - **[Orkas](https://orkas.ai)** — ✅ llms.txt 🚧 stub  
   Open-source (MIT) multi-agent desktop app for macOS and Windows — a Commander plans a goal and dispatches specialist and CLI agents; built-in models (free starter credits) or your own keys, files stay on your disk.  
   <sub>★ 7.2k · v2026.10.27 (2026-10-27)</sub>

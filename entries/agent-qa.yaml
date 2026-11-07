@@ -1,0 +1,32 @@
+name: agent-qa
+slug: agent-qa
+url: https://vostride.com
+repository: https://github.com/vostride/agent-qa
+llms_txt: https://vostride.com/llms.txt
+llms_txt_status: published
+category: evaluation
+subcategory: gui-qa-agent
+tagline: Natural-language web and mobile QA with persistent memory, self-improvement, and step evidence.
+description: |
+  agent-qa tests web, Android and iOS apps from natural-language instructions
+  through a CLI, dashboard or MCP server. memidex stores persistent facts and
+  working procedures, while reviewable self-improvement validates lessons and
+  retires stale knowledge. Run digests, screenshots and step evidence help
+  developers investigate failures.
+
+  The public source is licensed under FSL-1.1-ALv2. Model API usage and device
+  environments may incur separate costs.
+features:
+  - Natural-language test authoring and execution for web, Android and iOS
+  - Persistent memidex memory and reviewable self-improvement
+  - Run digests, screenshots and per-step evidence for failure diagnosis
+  - CLI, dashboard, MCP server and bundled agent skills
+use_cases:
+  - Run functional QA journeys from an agent workflow
+  - Reuse verified app procedures across test runs
+  - Investigate failed steps using screenshots and run evidence
+license: source-available
+deployment: self-hosted
+tags: [qa, testing, mcp, android, ios, memidex]
+maintainer: vostride
+added: 2026-11-08

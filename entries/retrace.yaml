@@ -45,4 +45,5 @@ platforms: [windows, macos, linux, web]
 tags: [ai-detection, c2pa, prompt-recovery, website-scanner, llms-txt, privacy]
 
 maintainer: juw12
-added: 2026-11-07
+added: '2026-11-07'
+verified: '2026-11-07'

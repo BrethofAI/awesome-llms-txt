@@ -1,0 +1,48 @@
+name: Retrace
+slug: retrace
+url: https://juw12.github.io/retrace/
+repository: https://github.com/juw12/retrace
+llms_txt: https://juw12.github.io/retrace/llms.txt
+llms_txt_status: published
+
+category: desktop-apps
+subcategory: ai-provenance-detection
+
+tagline: Finds the AI, prompt, model and settings behind an image, a text, a website or a chatbot API, locally.
+
+description: |
+  Retrace is a free, open-source local app that answers "which AI made
+  this, and how?". For images that still carry metadata it recovers the
+  exact prompt, negative prompt, seed, sampler, model and LoRAs, and reads
+  C2PA Content Credentials and IPTC "AI-generated" flags.
+
+  For text it looks for direct traces such as ChatGPT citation tokens,
+  self-identification and hidden Unicode payloads before giving a
+  heuristic AI-likelihood. For websites it lists the AI chat widgets,
+  browser-side AI APIs and AI site builders found in the page code, the
+  site's AI-crawler rules and llms.txt, and prints a dated evidence report.
+
+  It runs on the user's own computer with the Python standard library only;
+  nothing is uploaded except lookups the user asks for. Results are labelled
+  evidence with confidence levels, not verdicts.
+
+features:
+  - Prompt, seed, sampler, model and LoRA recovery from PNG/JPEG/WebP metadata
+  - C2PA Content Credentials and IPTC AI-generated flag reader
+  - Website scan for AI chat widgets, AI APIs, site builders, robots.txt AI-crawler rules and llms.txt
+  - Printable, dated AI-transparency evidence report per website
+  - Text checks for chatbot artifacts and hidden Unicode payloads
+  - Fingerprinting of the model behind an OpenAI-compatible API you own
+
+use_cases:
+  - Checking whether an image was AI-generated and recovering its prompt
+  - Listing the AI tools a website uses before an audit or a client review
+  - Spotting hidden characters or chatbot artifacts in pasted text
+
+license: open-source
+deployment: local
+platforms: [windows, macos, linux, web]
+tags: [ai-detection, c2pa, prompt-recovery, website-scanner, llms-txt, privacy]
+
+maintainer: juw12
+added: 2026-11-07

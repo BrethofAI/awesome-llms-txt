@@ -29,4 +29,5 @@ license: source-available
 deployment: self-hosted
 tags: [qa, testing, mcp, android, ios, memidex]
 maintainer: vostride
-added: 2026-11-08
+added: '2026-11-08'
+verified: '2026-11-08'

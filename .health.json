@@ -818,6 +818,14 @@
    },
    "ok_streak": 2
   },
+  "retrace": {
+   "ok_streak": 1,
+   "fail_streak": 0,
+   "last": {
+    "state": "ok",
+    "code": 200
+   }
+  },
   "runpod": {
    "fail_streak": 0,
    "last": {
@@ -973,8 +981,8 @@
   "vercel-ai-sdk": {
    "fail_streak": 0,
    "last": {
-    "state": "ok",
-    "code": 200
+    "state": "transient",
+    "code": -1
    },
    "ok_streak": 2
   },

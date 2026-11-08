@@ -199,6 +199,8 @@
 
 ## Evaluation
 
+- [agent-qa](https://vostride.com): Natural-language web and mobile QA with persistent memory, self-improvement, and step evidence. ✓
+  - llms.txt: https://vostride.com/llms.txt
 - [Inspect](https://inspect.aisi.org.uk): Open-source (MIT) framework for frontier LLM and agent evaluations from the UK AI Security Institute — 200+ pre-built evals, sandboxing and a log viewer. ✓
   - llms.txt: https://inspect.aisi.org.uk/llms.txt
 - [Braintrust](https://www.braintrust.dev): Evals and observability platform for agents that traces production, runs evaluations and catches regressions before release. ✓

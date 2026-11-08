@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**131 entries** — 74 with full descriptions, 57 stubs. **103** currently publish a working `llms.txt`.
+**132 entries** — 75 with full descriptions, 57 stubs. **104** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -41,7 +41,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [Agent Memory](#agent-memory) (3)
 - [Embeddings](#embeddings) (4)
 - [Observability](#observability) (7)
-- [Evaluation](#evaluation) (4)
+- [Evaluation](#evaluation) (5)
 - [Training & Fine-tuning](#training--fine-tuning) (7)
 - [Web Search for Agents](#web-search-for-agents) (9)
 - [OCR & Document Parsing](#ocr--document-parsing) (4)
@@ -329,6 +329,8 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 
 ## Evaluation
 
+- **[agent-qa](https://vostride.com)** — ✅ llms.txt  
+  Natural-language web and mobile QA with persistent memory, self-improvement, and step evidence.
 - **[Inspect](https://inspect.aisi.org.uk)** — ✅ llms.txt  
   Open-source (MIT) framework for frontier LLM and agent evaluations from the UK AI Security Institute — 200+ pre-built evals, sandboxing and a log viewer.  
   <sub>★ 3.1k · 0.3.287 (2026-10-31)</sub>

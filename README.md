@@ -284,7 +284,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 ## Agent Memory
 
 - **[Brethof Brain](https://brethof.ai/brain/)** — ✅ llms.txt  
-  Memory for AI agents that is already there when a session starts — curated records, rules and the full history of what was said; it processes your memory and never stores it. Disclosure: maintained by us.  
+  Memory for AI agents that is already there when a session starts — curated records, rules and the full history of what was said; on your own machine or in our cloud, encrypted under a key only you hold. Disclosure: maintained by us.  
   <sub>★ 3 · last push 2026-10-23</sub>
 - **[Claude Code memory (built in)](https://code.claude.com/docs/en/memory)** — ✅ llms.txt  
   Claude Code's own memory: CLAUDE.md (or AGENTS.md) instruction files you write, plus auto memory — notes Claude writes itself from your corrections — both loaded at the start of every session.

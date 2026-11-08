@@ -8,7 +8,7 @@ llms_txt_status: published
 category: agent-memory
 subcategory: agent-memory-system
 
-tagline: 'Memory for AI agents that is already there when a session starts — curated records, rules and the full history of what was said; it processes your memory and never stores it. Disclosure: maintained by us.'
+tagline: 'Memory for AI agents that is already there when a session starts — curated records, rules and the full history of what was said; on your own machine or in our cloud, encrypted under a key only you hold. Disclosure: maintained by us.'
 
 description: |
   Brethof Brain is a memory system for AI agents: memory that is already

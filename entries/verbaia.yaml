@@ -1,0 +1,46 @@
+name: Verbaia
+slug: verbaia
+url: https://verbaia.com
+llms_txt: https://verbaia.com/llms.txt
+llms_txt_status: published
+
+category: desktop-apps
+subcategory: transcript-editing
+
+tagline: Second-pass editing for transcripts — reads your text against its audio and hands back clean text.
+
+description: |
+  Verbaia is a Windows desktop tool that takes a transcript and its audio
+  and goes over them a second time: it reads the words against the sound
+  and catches what the first pass left behind — the wrong words, names,
+  and numbers — then hands back a clean text copy. It is not a first-pass
+  transcription service; it is the second pass after any transcription
+  source, human or machine.
+
+  It runs entirely on the buyer's own machine — no internet connection
+  needed to use it — and works on text alone or text paired with its
+  audio. The free trial is the full product for 7 days on a light account
+  (email and password, no credit card). Buying is a one-time purchase —
+  $149 introductory, $250 list — and the license key never expires.
+  Agents can also buy Verbaia directly through the agent door described
+  in its llms.txt, at 10% under the human price.
+
+features:
+  - Second-pass checking of transcript text against its audio
+  - Catches wrong words, names, and numbers left by the first pass
+  - Works with transcripts from any source, text alone or paired with audio
+  - Runs fully locally on Windows 10/11 — no internet needed to use it
+  - Free 7-day full-product trial; one-time purchase, license never expires
+
+use_cases:
+  - Cleaning up AI or human transcripts before publishing or captioning
+  - Podcasters and creators fixing names and numbers in episode transcripts
+  - Accessibility workflows that need verified, accurate text
+  - Anyone who needs a second pair of ears on recorded speech
+
+license: commercial
+deployment: local
+platforms: [windows]
+tags: [transcription, transcript-editing, audio, proofreading, desktop-app, offline, windows]
+maintainer: Scott Pincus Design
+added: 2026-11-09

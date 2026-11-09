@@ -1,17 +1,38 @@
 {
- "checked": "2026-11-02",
+ "checked": "2026-11-09",
  "entries": {
+  "agent-qa": {
+   "checked": "2026-11-09",
+   "github": {
+    "archived": false,
+    "description": "Open-source self-improving QA agent for software teams. A test harness with memory. Write tests in natural language for web and mobile. agent-qa learns from every run, adapts to UI changes, and catches regressions before you ship.",
+    "licence": "NOASSERTION",
+    "pushed": "2026-11-08",
+    "release": "v0.3.3",
+    "released": "2026-11-07",
+    "repo": "vostride/agent-qa",
+    "stars": 847
+   },
+   "github_ref": "vostride/agent-qa",
+   "name": "agent-qa",
+   "url": "https://vostride.com",
+   "web": {
+    "final": "https://vostride.com/",
+    "status": 200,
+    "title": "AI Testing Agent | vostride"
+   }
+  },
   "agno": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "The self-driving agent platform",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-08",
     "release": "v3.1.12",
     "released": "2026-10-29",
     "repo": "agno-agi/agno",
-    "stars": 43009
+    "stars": 43109
    },
    "github_ref": "agno-agi/agno",
    "name": "Agno",
@@ -23,7 +44,7 @@
    }
   },
   "aider": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "aider is AI pair programming in your terminal",
@@ -32,7 +53,7 @@
     "release": "v0.86.0",
     "released": "2025-08-09",
     "repo": "Aider-AI/aider",
-    "stars": 49885
+    "stars": 50027
    },
    "github_ref": "Aider-AI/aider",
    "name": "Aider",
@@ -44,16 +65,16 @@
    }
   },
   "anthropic-sdk": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": null,
     "licence": "Apache-2.0",
-    "pushed": "2026-10-23",
-    "release": "v2.3.0",
-    "released": "2026-10-23",
+    "pushed": "2026-11-05",
+    "release": "v2.6.0",
+    "released": "2026-11-05",
     "repo": "anthropics/anthropic-sdk-python",
-    "stars": 4031
+    "stars": 4058
    },
    "github_ref": "anthropics/anthropic-sdk-python",
    "name": "Anthropic SDK",
@@ -65,7 +86,7 @@
    }
   },
   "anything-llm": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "AnythingLLM",
    "url": "https://anythingllm.com",
    "web": {
@@ -75,16 +96,16 @@
    }
   },
   "arize-phoenix": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "AI Observability & Evaluation",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-08",
     "release": "arize-phoenix-v21.0.0",
     "released": "2026-10-30",
     "repo": "Arize-ai/phoenix",
-    "stars": 12095
+    "stars": 12204
    },
    "github_ref": "Arize-ai/phoenix",
    "name": "Arize Phoenix",
@@ -96,16 +117,16 @@
    }
   },
   "axolotl": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Go ahead and axolotl questions",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-09",
     "release": "v0.21.1",
     "released": "2026-10-27",
     "repo": "axolotl-ai-cloud/axolotl",
-    "stars": 12653
+    "stars": 12674
    },
    "github_ref": "axolotl-ai-cloud/axolotl",
    "name": "Axolotl",
@@ -117,17 +138,17 @@
    }
   },
   "baseten": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Baseten",
    "url": "https://www.baseten.co",
    "web": {
     "final": "https://www.baseten.co/",
     "status": 200,
-    "title": "Inference Platform: Deploy AI models in production | Baseten"
+    "title": "The platform for inference, training, and execution | Baseten"
    }
   },
   "bge": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Retrieval and Retrieval-augmented LLMs",
@@ -136,7 +157,7 @@
     "release": "v1.4.2",
     "released": "2026-08-24",
     "repo": "FlagOpen/FlagEmbedding",
-    "stars": 12292
+    "stars": 12304
    },
    "github_ref": "FlagOpen/FlagEmbedding",
    "name": "BGE / FlagEmbedding",
@@ -148,7 +169,7 @@
    }
   },
   "braintrust": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Braintrust",
    "url": "https://www.braintrust.dev",
    "web": {
@@ -158,7 +179,7 @@
    }
   },
   "brave-search": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Brave Search API",
    "url": "https://brave.com/search/api/",
    "web": {
@@ -168,16 +189,16 @@
    }
   },
   "brethof-brain": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
-    "description": "brethof-brain client — long-term memory for AI agents: the Claude Code plugin, a Gemini CLI extension and adapters for 20 coding harnesses. Source-available.",
+    "description": "brethof-brain client — long-term memory for AI agents: the Claude Code plugin and adapters for 19 coding harnesses. Source-available.",
     "licence": "NOASSERTION",
-    "pushed": "2026-10-23",
+    "pushed": "2026-11-06",
     "release": null,
     "released": null,
     "repo": "BrethofAI/brethof-brain-client",
-    "stars": 3
+    "stars": 2
    },
    "github_ref": "BrethofAI/brethof-brain-client",
    "name": "Brethof Brain",
@@ -185,11 +206,11 @@
    "web": {
     "final": "https://brethof.ai/brain/",
     "status": 200,
-    "title": "brethof-brain — memory for AI agents we only process, never store"
+    "title": "brethof-brain — memory for AI agents that answers before you ask"
    }
   },
   "brethof-voice-pro": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Brethof Voice Pro",
    "url": "https://brethof.ai/voice/",
    "web": {
@@ -199,7 +220,7 @@
    }
   },
   "carejobs-now": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Free, hosted, read-only MCP server for US healthcare jobs and posted pay (CareJobs.Now). Endpoint: https://carejobs.now/api/mcp",
@@ -220,7 +241,7 @@
    }
   },
   "cerebras-inference": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Cerebras Inference",
    "url": "https://www.cerebras.ai/inference",
    "web": {
@@ -230,16 +251,16 @@
    }
   },
   "chroma": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Search infrastructure for AI",
     "licence": "Apache-2.0",
-    "pushed": "2026-10-30",
+    "pushed": "2026-11-07",
     "release": "1.5.9",
     "released": "2026-05-05",
     "repo": "chroma-core/chroma",
-    "stars": 29618
+    "stars": 29655
    },
    "github_ref": "chroma-core/chroma",
    "name": "Chroma",
@@ -251,16 +272,16 @@
    }
   },
   "claude-agent-sdk": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": null,
     "licence": "MIT",
-    "pushed": "2026-10-31",
-    "release": "v0.2.176",
-    "released": "2026-10-31",
+    "pushed": "2026-11-06",
+    "release": "v0.2.179",
+    "released": "2026-11-06",
     "repo": "anthropics/claude-agent-sdk-python",
-    "stars": 8403
+    "stars": 8492
    },
    "github_ref": "anthropics/claude-agent-sdk-python",
    "name": "Claude Agent SDK",
@@ -272,7 +293,7 @@
    }
   },
   "claude-code": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Claude Code",
    "url": "https://claude.com/product/claude-code",
    "web": {
@@ -282,7 +303,7 @@
    }
   },
   "claude-code-memory": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Claude Code memory (built in)",
    "url": "https://code.claude.com/docs/en/memory",
    "web": {
@@ -292,26 +313,26 @@
    }
   },
   "claude-desktop": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Claude Desktop",
    "url": "https://claude.com/download",
    "web": {
     "final": "https://claude.com/download",
     "status": 200,
-    "title": null
+    "title": "Download Claude | Claude by Anthropic"
    }
   },
   "cline": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
     "licence": "Apache-2.0",
-    "pushed": "2026-10-31",
+    "pushed": "2026-11-07",
     "release": "v4.1.26",
     "released": "2026-10-26",
     "repo": "cline/cline",
-    "stars": 71184
+    "stars": 71473
    },
    "github_ref": "cline/cline",
    "name": "Cline",
@@ -323,7 +344,7 @@
    }
   },
   "cloudflare-ai-gateway": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Cloudflare AI Gateway",
    "url": "https://developers.cloudflare.com/ai-gateway/",
    "web": {
@@ -333,16 +354,16 @@
    }
   },
   "comfyui": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
     "licence": "GPL-3.0",
-    "pushed": "2026-11-01",
-    "release": "v0.43.0",
-    "released": "2026-10-27",
+    "pushed": "2026-11-08",
+    "release": "v0.44.0",
+    "released": "2026-11-04",
     "repo": "Comfy-Org/ComfyUI",
-    "stars": 144484
+    "stars": 145797
    },
    "github_ref": "Comfy-Org/ComfyUI",
    "name": "ComfyUI",
@@ -354,7 +375,7 @@
    }
   },
   "coqui-tts": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
@@ -363,7 +384,7 @@
     "release": "v0.28.0",
     "released": "2026-10-19",
     "repo": "idiap/coqui-ai-TTS",
-    "stars": 2349
+    "stars": 2351
    },
    "github_ref": "idiap/coqui-ai-TTS",
    "name": "Coqui TTS",
@@ -375,16 +396,16 @@
    }
   },
   "crewai": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
     "licence": "MIT",
-    "pushed": "2026-11-01",
-    "release": "1.15.34",
-    "released": "2026-11-01",
+    "pushed": "2026-11-08",
+    "release": "1.15.38",
+    "released": "2026-11-08",
     "repo": "crewAIInc/crewAI",
-    "stars": 60393
+    "stars": 60657
    },
    "github_ref": "crewAIInc/crewAI",
    "name": "CrewAI",
@@ -396,7 +417,7 @@
    }
   },
   "cursor": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Cursor",
    "url": "https://cursor.com",
    "web": {
@@ -406,7 +427,7 @@
    }
   },
   "deepeval": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "DeepEval",
    "url": "https://deepeval.com",
    "web": {
@@ -416,7 +437,7 @@
    }
   },
   "deepgram": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Deepgram",
    "url": "https://deepgram.com",
    "web": {
@@ -426,7 +447,7 @@
    }
   },
   "devin-desktop": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Devin Desktop",
    "url": "https://devin.ai/desktop",
    "web": {
@@ -436,16 +457,16 @@
    }
   },
   "diffusers": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
     "licence": "Apache-2.0",
-    "pushed": "2026-10-31",
+    "pushed": "2026-11-08",
     "release": "v0.42.1",
     "released": "2026-10-27",
     "repo": "huggingface/diffusers",
-    "stars": 34844
+    "stars": 34887
    },
    "github_ref": "huggingface/diffusers",
    "name": "Diffusers",
@@ -457,16 +478,16 @@
    }
   },
   "dify": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-01",
-    "release": "1.18.0",
-    "released": "2026-10-23",
+    "pushed": "2026-11-08",
+    "release": "1.19.0",
+    "released": "2026-11-04",
     "repo": "langgenius/dify",
-    "stars": 160171
+    "stars": 160690
    },
    "github_ref": "langgenius/dify",
    "name": "Dify",
@@ -478,16 +499,16 @@
    }
   },
   "docling": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Get your documents ready for gen AI",
     "licence": "MIT",
-    "pushed": "2026-11-01",
-    "release": "v2.145.0",
-    "released": "2026-10-29",
+    "pushed": "2026-11-08",
+    "release": "v2.149.0",
+    "released": "2026-11-08",
     "repo": "docling-project/docling",
-    "stars": 69970
+    "stars": 70304
    },
    "github_ref": "docling-project/docling",
    "name": "Docling",
@@ -499,7 +520,7 @@
    }
   },
   "dspy": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "DSPy",
    "url": "https://dspy.ai",
    "web": {
@@ -509,7 +530,7 @@
    }
   },
   "elevenlabs": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "ElevenLabs",
    "url": "https://elevenlabs.io",
    "web": {
@@ -519,7 +540,7 @@
    }
   },
   "exa": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Exa",
    "url": "https://exa.ai",
    "web": {
@@ -529,48 +550,48 @@
    }
   },
   "exllamav3": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "An optimized quantization and inference library for running LLMs locally on modern consumer-class GPUs ",
     "licence": "MIT",
-    "pushed": "2026-10-31",
+    "pushed": "2026-11-08",
     "release": "v1.6.6",
     "released": "2026-10-31",
     "repo": "turboderp-org/exllamav3",
-    "stars": 1776
+    "stars": 1804
    },
    "github_ref": "turboderp-org/exllamav3",
    "name": "ExLlamaV3",
    "url": "https://github.com/turboderp-org/exllamav3"
   },
   "f5-tts": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Official code for \"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching\"",
     "licence": "MIT",
-    "pushed": "2026-10-23",
+    "pushed": "2026-11-03",
     "release": "1.1.22",
     "released": "2026-07-23",
     "repo": "SWivid/F5-TTS",
-    "stars": 15499
+    "stars": 15536
    },
    "github_ref": "SWivid/F5-TTS",
    "name": "F5-TTS",
    "url": "https://github.com/SWivid/F5-TTS"
   },
   "fastembed": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Fast, Accurate, Lightweight Python library to make State of the Art Embedding",
     "licence": "Apache-2.0",
-    "pushed": "2026-10-28",
+    "pushed": "2026-11-04",
     "release": "v0.9.1",
     "released": "2026-10-24",
     "repo": "qdrant/fastembed",
-    "stars": 3276
+    "stars": 3287
    },
    "github_ref": "qdrant/fastembed",
    "name": "FastEmbed",
@@ -582,16 +603,16 @@
    }
   },
   "firecrawl": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
     "licence": "AGPL-3.0",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-08",
     "release": "v2.11.0",
     "released": "2026-06-19",
     "repo": "firecrawl/firecrawl",
-    "stars": 197672
+    "stars": 199816
    },
    "github_ref": "firecrawl/firecrawl",
    "name": "Firecrawl",
@@ -603,7 +624,7 @@
    }
   },
   "fireworks-ai": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Fireworks AI",
    "url": "https://fireworks.ai",
    "web": {
@@ -613,16 +634,16 @@
    }
   },
   "gemini-cli": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
-    "release": "v0.66.0",
-    "released": "2026-10-27",
+    "pushed": "2026-11-08",
+    "release": "v0.67.0",
+    "released": "2026-11-04",
     "repo": "google-gemini/gemini-cli",
-    "stars": 108655
+    "stars": 108787
    },
    "github_ref": "google-gemini/gemini-cli",
    "name": "Gemini CLI",
@@ -634,21 +655,21 @@
    }
   },
   "github-copilot": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "GitHub Copilot",
    "url": "https://github.com/features/copilot"
   },
   "google-adk": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
-    "release": "v2.13.0",
-    "released": "2026-10-23",
+    "pushed": "2026-11-08",
+    "release": "v2.14.0",
+    "released": "2026-11-07",
     "repo": "google/adk-python",
-    "stars": 22074
+    "stars": 22149
    },
    "github_ref": "google/adk-python",
    "name": "Agent Development Kit (ADK)",
@@ -660,7 +681,7 @@
    }
   },
   "groq": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Groq",
    "url": "https://groq.com",
    "web": {
@@ -670,16 +691,16 @@
    }
   },
   "haystack": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
     "licence": "Apache-2.0",
-    "pushed": "2026-10-31",
+    "pushed": "2026-11-07",
     "release": "v3.4.1",
     "released": "2026-10-21",
     "repo": "deepset-ai/haystack",
-    "stars": 26902
+    "stars": 26944
    },
    "github_ref": "deepset-ai/haystack",
    "name": "Haystack",
@@ -691,7 +712,7 @@
    }
   },
   "helicone": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
@@ -700,7 +721,7 @@
     "release": "v2025.08.21-1",
     "released": "2025-08-21",
     "repo": "Helicone/helicone",
-    "stars": 6249
+    "stars": 6273
    },
    "github_ref": "Helicone/helicone",
    "name": "Helicone",
@@ -712,16 +733,16 @@
    }
   },
   "huggingface-transformers": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-02",
-    "release": "v5.22.1",
-    "released": "2026-10-30",
+    "pushed": "2026-11-09",
+    "release": "v5.22.2",
+    "released": "2026-11-06",
     "repo": "huggingface/transformers",
-    "stars": 168419
+    "stars": 168667
    },
    "github_ref": "huggingface/transformers",
    "name": "HuggingFace Transformers",
@@ -733,16 +754,16 @@
    }
   },
   "inspect-ai": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Inspect: A framework for large language model evaluations",
     "licence": "MIT",
-    "pushed": "2026-11-01",
-    "release": "0.3.287",
-    "released": "2026-10-31",
+    "pushed": "2026-11-08",
+    "release": "0.3.288",
+    "released": "2026-11-07",
     "repo": "UKGovernmentBEIS/inspect_ai",
-    "stars": 3150
+    "stars": 3204
    },
    "github_ref": "UKGovernmentBEIS/inspect_ai",
    "name": "Inspect",
@@ -754,7 +775,7 @@
    }
   },
   "invokeai": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "InvokeAI",
    "url": "https://invoke.ai",
    "web": {
@@ -764,16 +785,16 @@
    }
   },
   "jan": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
     "licence": "NOASSERTION",
-    "pushed": "2026-10-31",
+    "pushed": "2026-11-05",
     "release": "v0.8.8",
     "released": "2026-10-28",
     "repo": "janhq/jan",
-    "stars": 45237
+    "stars": 45606
    },
    "github_ref": "janhq/jan",
    "name": "Jan",
@@ -785,16 +806,16 @@
    }
   },
   "kilo-code": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
     "licence": "MIT",
-    "pushed": "2026-10-31",
-    "release": "v7.8.18",
-    "released": "2026-10-26",
+    "pushed": "2026-11-08",
+    "release": "v7.8.27",
+    "released": "2026-11-05",
     "repo": "Kilo-Org/kilocode",
-    "stars": 27828
+    "stars": 27910
    },
    "github_ref": "Kilo-Org/kilocode",
    "name": "Kilo Code",
@@ -806,16 +827,16 @@
    }
   },
   "kiro": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Kiro is an agentic IDE that works alongside you from prototype to production.",
     "licence": null,
-    "pushed": "2026-10-18",
+    "pushed": "2026-11-05",
     "release": null,
     "released": null,
     "repo": "kirodotdev/Kiro",
-    "stars": 4428
+    "stars": 4452
    },
    "github_ref": "kirodotdev/Kiro",
    "name": "Kiro",
@@ -823,20 +844,20 @@
    "web": {
     "final": "https://kiro.dev/",
     "status": 200,
-    "title": "Kiro: Move beyond AI coding to agentic engineering"
+    "title": "Kiro: Ship quality software"
    }
   },
   "koboldcpp": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "KoboldCpp - Run GGUF AI models locally with a KoboldAI UI. One File. Zero Install.",
     "licence": "AGPL-3.0",
-    "pushed": "2026-11-01",
-    "release": "v1.124.1",
+    "pushed": "2026-11-08",
+    "release": "v1.124.2",
     "released": "2026-10-31",
     "repo": "LostRuins/koboldcpp",
-    "stars": 12126
+    "stars": 12194
    },
    "github_ref": "LostRuins/koboldcpp",
    "name": "KoboldCpp",
@@ -848,32 +869,32 @@
    }
   },
   "krita-ai-diffusion": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, no tweaking required.",
     "licence": "GPL-3.0",
-    "pushed": "2026-10-03",
+    "pushed": "2026-11-06",
     "release": "v1.53.0",
     "released": "2026-08-22",
     "repo": "Acly/krita-ai-diffusion",
-    "stars": 10823
+    "stars": 10860
    },
    "github_ref": "Acly/krita-ai-diffusion",
    "name": "Krita AI Diffusion",
    "url": "https://github.com/Acly/krita-ai-diffusion"
   },
   "lancedb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-08",
     "release": "v0.41.0",
     "released": "2026-10-29",
     "repo": "lancedb/lancedb",
-    "stars": 11824
+    "stars": 11860
    },
    "github_ref": "lancedb/lancedb",
    "name": "LanceDB",
@@ -885,16 +906,16 @@
    }
   },
   "langchain": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "The agent engineering platform.",
     "licence": "MIT",
-    "pushed": "2026-11-02",
-    "release": "langchain==1.4.7",
-    "released": "2026-10-21",
+    "pushed": "2026-11-08",
+    "release": "langchain==1.4.9",
+    "released": "2026-11-04",
     "repo": "langchain-ai/langchain",
-    "stars": 148839
+    "stars": 149219
    },
    "github_ref": "langchain-ai/langchain",
    "name": "LangChain",
@@ -906,16 +927,16 @@
    }
   },
   "langflow": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
     "licence": "MIT",
-    "pushed": "2026-11-01",
-    "release": "v1.13.0",
-    "released": "2026-10-22",
+    "pushed": "2026-11-08",
+    "release": "v1.13.1",
+    "released": "2026-11-04",
     "repo": "langflow-ai/langflow",
-    "stars": 156230
+    "stars": 156449
    },
    "github_ref": "langflow-ai/langflow",
    "name": "Langflow",
@@ -927,16 +948,16 @@
    }
   },
   "langfuse": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-01",
-    "release": "v4.72.0",
-    "released": "2026-10-29",
+    "pushed": "2026-11-08",
+    "release": "v4.76.0",
+    "released": "2026-11-05",
     "repo": "langfuse/langfuse",
-    "stars": 36844
+    "stars": 37163
    },
    "github_ref": "langfuse/langfuse",
    "name": "Langfuse",
@@ -948,16 +969,16 @@
    }
   },
   "langgraph": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Build resilient agents.",
     "licence": "MIT",
-    "pushed": "2026-11-01",
-    "release": "1.2.19",
-    "released": "2026-10-30",
+    "pushed": "2026-11-08",
+    "release": "1.2.20",
+    "released": "2026-11-05",
     "repo": "langchain-ai/langgraph",
-    "stars": 44286
+    "stars": 44663
    },
    "github_ref": "langchain-ai/langgraph",
    "name": "LangGraph",
@@ -969,7 +990,7 @@
    }
   },
   "langsmith": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "LangSmith",
    "url": "https://www.langchain.com/langsmith",
    "web": {
@@ -979,16 +1000,16 @@
    }
   },
   "litellm": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-01",
-    "release": "v1.106.6",
-    "released": "2026-10-28",
+    "pushed": "2026-11-09",
+    "release": "v1.108.3",
+    "released": "2026-11-07",
     "repo": "BerriAI/litellm",
-    "stars": 62500
+    "stars": 62919
    },
    "github_ref": "BerriAI/litellm",
    "name": "LiteLLM",
@@ -1000,16 +1021,16 @@
    }
   },
   "llama-cpp": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "LLM inference in C/C++",
     "licence": "MIT",
-    "pushed": "2026-11-01",
-    "release": "v0.8.0",
-    "released": "2026-10-28",
+    "pushed": "2026-11-08",
+    "release": "v0.9.0",
+    "released": "2026-11-04",
     "repo": "ggml-org/llama.cpp",
-    "stars": 133084
+    "stars": 133767
    },
    "github_ref": "ggml-org/llama.cpp",
    "name": "llama.cpp",
@@ -1021,32 +1042,32 @@
    }
   },
   "llama-factory": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
     "licence": "Apache-2.0",
-    "pushed": "2026-10-31",
+    "pushed": "2026-11-06",
     "release": "v0.9.5",
     "released": "2026-05-30",
     "repo": "hiyouga/LlamaFactory",
-    "stars": 75824
+    "stars": 75945
    },
    "github_ref": "hiyouga/LlamaFactory",
    "name": "LlamaFactory",
    "url": "https://github.com/hiyouga/LlamaFactory"
   },
   "llamaindex": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "LlamaIndex is the document processing platform for AI",
     "licence": "MIT",
-    "pushed": "2026-10-26",
+    "pushed": "2026-11-08",
     "release": "v0.14.25",
     "released": "2026-09-21",
     "repo": "run-llama/llama_index",
-    "stars": 52772
+    "stars": 52848
    },
    "github_ref": "run-llama/llama_index",
    "name": "LlamaIndex",
@@ -1058,7 +1079,7 @@
    }
   },
   "lm-studio": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "LM Studio",
    "url": "https://lmstudio.ai",
    "web": {
@@ -1068,16 +1089,16 @@
    }
   },
   "localai": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
     "licence": "MIT",
-    "pushed": "2026-11-02",
+    "pushed": "2026-11-08",
     "release": "v4.12.1",
     "released": "2026-10-23",
     "repo": "mudler/LocalAI",
-    "stars": 50115
+    "stars": 50259
    },
    "github_ref": "mudler/LocalAI",
    "name": "LocalAI",
@@ -1089,7 +1110,7 @@
    }
   },
   "magentic": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Magentic",
    "url": "https://magentic.dev",
    "web": {
@@ -1099,7 +1120,7 @@
    }
   },
   "marker": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Convert PDF to markdown + JSON quickly with high accuracy",
@@ -1108,23 +1129,23 @@
     "release": "v2.1.0",
     "released": "2026-10-29",
     "repo": "datalab-to/marker",
-    "stars": 40741
+    "stars": 40818
    },
    "github_ref": "datalab-to/marker",
    "name": "Marker",
    "url": "https://github.com/datalab-to/marker"
   },
   "mastra": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-01",
-    "release": "@mastra/core@1.80.0",
-    "released": "2026-10-28",
+    "pushed": "2026-11-09",
+    "release": "@mastra/core@1.82.0",
+    "released": "2026-11-04",
     "repo": "mastra-ai/mastra",
-    "stars": 29260
+    "stars": 29414
    },
    "github_ref": "mastra-ai/mastra",
    "name": "Mastra",
@@ -1136,16 +1157,16 @@
    }
   },
   "mem0": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
     "licence": "Apache-2.0",
-    "pushed": "2026-10-30",
+    "pushed": "2026-11-06",
     "release": "v2.2.1",
     "released": "2026-09-25",
     "repo": "mem0ai/mem0",
-    "stars": 68242
+    "stars": 68647
    },
    "github_ref": "mem0ai/mem0",
    "name": "Mem0",
@@ -1157,16 +1178,16 @@
    }
   },
   "microsoft-agent-framework": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
     "licence": "MIT",
-    "pushed": "2026-11-01",
-    "release": "dotnet-1.27.0",
-    "released": "2026-10-30",
+    "pushed": "2026-11-08",
+    "release": "dotnet-1.28.0",
+    "released": "2026-11-06",
     "repo": "microsoft/agent-framework",
-    "stars": 14482
+    "stars": 14594
    },
    "github_ref": "microsoft/agent-framework",
    "name": "Microsoft Agent Framework",
@@ -1178,16 +1199,16 @@
    }
   },
   "milvus": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-09",
     "release": "v3.0.5",
     "released": "2026-10-30",
     "repo": "milvus-io/milvus",
-    "stars": 46551
+    "stars": 46609
    },
    "github_ref": "milvus-io/milvus",
    "name": "Milvus",
@@ -1199,7 +1220,7 @@
    }
   },
   "mistral-ai": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Mistral AI",
    "url": "https://mistral.ai",
    "web": {
@@ -1209,7 +1230,7 @@
    }
   },
   "mlc-llm": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "MLC LLM",
    "url": "https://llm.mlc.ai",
    "web": {
@@ -1219,7 +1240,7 @@
    }
   },
   "modal": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Modal",
    "url": "https://modal.com",
    "web": {
@@ -1229,32 +1250,32 @@
    }
   },
   "ms-swift": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.8, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM5.3, Gemma4, Llava, Phi4, ...) (AAAI 2025).",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-08",
     "release": "v4.6.0",
     "released": "2026-10-13",
     "repo": "modelscope/ms-swift",
-    "stars": 16008
+    "stars": 16058
    },
    "github_ref": "modelscope/ms-swift",
    "name": "MS-Swift",
    "url": "https://github.com/modelscope/ms-swift"
   },
   "n8n": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-01",
-    "release": "n8n@2.45.7",
-    "released": "2026-10-30",
+    "pushed": "2026-11-09",
+    "release": "n8n@2.46.6",
+    "released": "2026-11-04",
     "repo": "n8n-io/n8n",
-    "stars": 209300
+    "stars": 209851
    },
    "github_ref": "n8n-io/n8n",
    "name": "n8n",
@@ -1266,7 +1287,7 @@
    }
   },
   "noveum": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Noveum",
    "url": "https://noveum.ai",
    "web": {
@@ -1276,16 +1297,16 @@
    }
   },
   "ollama": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "licence": "MIT",
-    "pushed": "2026-10-31",
-    "release": "v0.40.13",
-    "released": "2026-10-28",
+    "pushed": "2026-11-08",
+    "release": "v0.40.15",
+    "released": "2026-11-03",
     "repo": "ollama/ollama",
-    "stars": 185595
+    "stars": 186383
    },
    "github_ref": "ollama/ollama",
    "name": "Ollama",
@@ -1297,7 +1318,7 @@
    }
   },
   "ollama-cloud": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Ollama Cloud",
    "url": "https://docs.ollama.com/cloud",
    "web": {
@@ -1307,16 +1328,16 @@
    }
   },
   "open-interpreter": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "A coding agent for open models like Kimi K3 and GLM 5.3",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
-    "release": "rust-v0.0.58",
-    "released": "2026-11-01",
+    "pushed": "2026-11-08",
+    "release": "rust-v0.0.59",
+    "released": "2026-11-04",
     "repo": "openinterpreter/openinterpreter",
-    "stars": 68772
+    "stars": 68842
    },
    "github_ref": "openinterpreter/openinterpreter",
    "name": "Open Interpreter",
@@ -1328,16 +1349,16 @@
    }
   },
   "openai-agents-sdk": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "A lightweight, powerful framework for multi-agent workflows",
     "licence": "MIT",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-09",
     "release": "v0.24.0",
     "released": "2026-10-15",
     "repo": "openai/openai-agents-python",
-    "stars": 30440
+    "stars": 30561
    },
    "github_ref": "openai/openai-agents-python",
    "name": "OpenAI Agents SDK",
@@ -1349,16 +1370,16 @@
    }
   },
   "openai-codex": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Lightweight coding agent that runs in your terminal",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
-    "release": "rust-v0.166.0",
-    "released": "2026-10-29",
+    "pushed": "2026-11-09",
+    "release": "rust-v0.167.0",
+    "released": "2026-11-06",
     "repo": "openai/codex",
-    "stars": 132739
+    "stars": 133830
    },
    "github_ref": "openai/codex",
    "name": "OpenAI Codex",
@@ -1370,16 +1391,16 @@
    }
   },
   "openclaw": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
     "licence": "MIT",
-    "pushed": "2026-11-02",
-    "release": "v2026.10.9",
-    "released": "2026-10-29",
+    "pushed": "2026-11-09",
+    "release": "v2026.11.2",
+    "released": "2026-11-08",
     "repo": "openclaw/openclaw",
-    "stars": 393640
+    "stars": 394215
    },
    "github_ref": "openclaw/openclaw",
    "name": "OpenClaw",
@@ -1391,16 +1412,16 @@
    }
   },
   "opencode": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "The open source coding agent.",
     "licence": "MIT",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-08",
     "release": "v1.19.5",
     "released": "2026-10-28",
     "repo": "anomalyco/opencode",
-    "stars": 223848
+    "stars": 225530
    },
    "github_ref": "anomalyco/opencode",
    "name": "OpenCode",
@@ -1408,11 +1429,11 @@
    "web": {
     "final": "https://opencode.ai/",
     "status": 200,
-    "title": "OpenCode | The open source AI coding agent"
+    "title": "OpenCode | The open source coding agent for any model"
    }
   },
   "openrouter": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "OpenRouter",
    "url": "https://openrouter.ai",
    "web": {
@@ -1422,16 +1443,16 @@
    }
   },
   "openwebui": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-01",
-    "release": "v0.12.5",
-    "released": "2026-10-29",
+    "pushed": "2026-11-08",
+    "release": "v0.13.3",
+    "released": "2026-11-08",
     "repo": "open-webui/open-webui",
-    "stars": 157482
+    "stars": 158138
    },
    "github_ref": "open-webui/open-webui",
    "name": "Open WebUI",
@@ -1443,16 +1464,16 @@
    }
   },
   "opik": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
-    "release": "2.2.137",
-    "released": "2026-10-30",
+    "pushed": "2026-11-09",
+    "release": "2.2.143",
+    "released": "2026-11-06",
     "repo": "comet-ml/opik",
-    "stars": 23098
+    "stars": 23263
    },
    "github_ref": "comet-ml/opik",
    "name": "Opik",
@@ -1464,16 +1485,16 @@
    }
   },
   "orkas": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys.",
     "licence": "MIT",
-    "pushed": "2026-11-01",
-    "release": "v2026.10.27",
-    "released": "2026-10-27",
+    "pushed": "2026-11-08",
+    "release": "v2026.11.4",
+    "released": "2026-11-04",
     "repo": "Orkas-AI/Orkas",
-    "stars": 7214
+    "stars": 9110
    },
    "github_ref": "Orkas-AI/Orkas",
    "name": "Orkas",
@@ -1485,23 +1506,23 @@
    }
   },
   "ostris-ai-toolkit": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "The ultimate training toolkit for finetuning diffusion models",
     "licence": "MIT",
-    "pushed": "2026-10-31",
+    "pushed": "2026-11-04",
     "release": null,
     "released": null,
     "repo": "ostris/ai-toolkit",
-    "stars": 12535
+    "stars": 12586
    },
    "github_ref": "ostris/ai-toolkit",
    "name": "AI Toolkit (Ostris)",
    "url": "https://github.com/ostris/ai-toolkit"
   },
   "parallel": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Parallel",
    "url": "https://parallel.ai",
    "web": {
@@ -1511,7 +1532,7 @@
    }
   },
   "perplexity-api": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Perplexity API",
    "url": "https://docs.perplexity.ai",
    "web": {
@@ -1521,23 +1542,23 @@
    }
   },
   "pgvector": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Open-source vector similarity search for Postgres",
     "licence": "NOASSERTION",
-    "pushed": "2026-10-31",
+    "pushed": "2026-11-09",
     "release": null,
     "released": null,
     "repo": "pgvector/pgvector",
-    "stars": 23558
+    "stars": 23624
    },
    "github_ref": "pgvector/pgvector",
    "name": "pgvector",
    "url": "https://github.com/pgvector/pgvector"
   },
   "pinecone": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Pinecone",
    "url": "https://www.pinecone.io",
    "web": {
@@ -1547,32 +1568,32 @@
    }
   },
   "piper": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Fast and local neural text-to-speech engine",
     "licence": "GPL-3.0",
-    "pushed": "2026-10-30",
+    "pushed": "2026-11-07",
     "release": "v1.8.0",
     "released": "2026-09-04",
     "repo": "OHF-Voice/piper1-gpl",
-    "stars": 6127
+    "stars": 6219
    },
    "github_ref": "OHF-Voice/piper1-gpl",
    "name": "Piper",
    "url": "https://github.com/OHF-Voice/piper1-gpl"
   },
   "privategpt": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
     "licence": "Apache-2.0",
-    "pushed": "2026-10-29",
+    "pushed": "2026-11-03",
     "release": "v1.0.1",
     "released": "2026-06-18",
     "repo": "zylon-ai/private-gpt",
-    "stars": 57625
+    "stars": 57635
    },
    "github_ref": "zylon-ai/private-gpt",
    "name": "PrivateGPT",
@@ -1584,16 +1605,16 @@
    }
   },
   "promptfoo": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
     "licence": "MIT",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-08",
     "release": "0.125.1",
     "released": "2026-10-25",
     "repo": "promptfoo/promptfoo",
-    "stars": 26704
+    "stars": 26969
    },
    "github_ref": "promptfoo/promptfoo",
    "name": "Promptfoo",
@@ -1605,7 +1626,7 @@
    }
   },
   "pydantic-ai": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Pydantic AI",
    "url": "https://pydantic.dev/docs/ai/overview/",
    "web": {
@@ -1615,16 +1636,16 @@
    }
   },
   "qdrant": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-08",
     "release": "v1.20.0",
     "released": "2026-10-22",
     "repo": "qdrant/qdrant",
-    "stars": 35370
+    "stars": 35477
    },
    "github_ref": "qdrant/qdrant",
    "name": "Qdrant",
@@ -1636,16 +1657,16 @@
    }
   },
   "qwen-code": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "An open-source AI coding agent that lives in your terminal.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
-    "release": "v0.26.5",
-    "released": "2026-11-01",
+    "pushed": "2026-11-09",
+    "release": "v0.27.0",
+    "released": "2026-11-07",
     "repo": "QwenLM/qwen-code",
-    "stars": 28859
+    "stars": 29108
    },
    "github_ref": "QwenLM/qwen-code",
    "name": "Qwen Code",
@@ -1657,7 +1678,7 @@
    }
   },
   "raycast-ai": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Raycast AI",
    "url": "https://www.raycast.com/core-features/ai",
    "web": {
@@ -1667,7 +1688,7 @@
    }
   },
   "reducto": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Reducto",
    "url": "https://reducto.ai",
    "web": {
@@ -1677,7 +1698,7 @@
    }
   },
   "replicate": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Replicate",
    "url": "https://replicate.com",
    "web": {
@@ -1686,8 +1707,29 @@
     "title": "Replicate - Run AI with an API"
    }
   },
+  "retrace": {
+   "checked": "2026-11-09",
+   "github": {
+    "archived": false,
+    "description": "Find the AI behind anything: prompt, model, tools & settings behind an image, text, website or chatbot API. Local app, zero dependencies.",
+    "licence": "MIT",
+    "pushed": "2026-11-07",
+    "release": "v1.1.0",
+    "released": "2026-11-07",
+    "repo": "juw12/retrace",
+    "stars": 0
+   },
+   "github_ref": "juw12/retrace",
+   "name": "Retrace",
+   "url": "https://juw12.github.io/retrace/",
+   "web": {
+    "final": "https://juw12.github.io/retrace/",
+    "status": 200,
+    "title": "Retrace — find the AI behind anything"
+   }
+  },
   "runpod": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Runpod",
    "url": "https://runpod.io",
    "web": {
@@ -1697,23 +1739,23 @@
    }
   },
   "sd-next": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-08",
     "release": null,
     "released": null,
     "repo": "vladmandic/sdnext",
-    "stars": 7364
+    "stars": 7372
    },
    "github_ref": "vladmandic/sdnext",
    "name": "SD.Next",
    "url": "https://github.com/vladmandic/sdnext"
   },
   "sentence-transformers": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Sentence Transformers",
    "url": "https://sbert.net",
    "web": {
@@ -1723,7 +1765,7 @@
    }
   },
   "serpapi": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "SerpAPI",
    "url": "https://serpapi.com",
    "web": {
@@ -1733,7 +1775,7 @@
    }
   },
   "sglang": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "SGLang",
    "url": "https://docs.sglang.io",
    "web": {
@@ -1743,7 +1785,7 @@
    }
   },
   "shellgpt": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "A command-line productivity tool powered by AI large language models like GPT-5, will help you accomplish your tasks faster and more efficiently.",
@@ -1752,14 +1794,14 @@
     "release": "1.5.1",
     "released": "2026-05-06",
     "repo": "TheR1D/shell_gpt",
-    "stars": 12297
+    "stars": 12307
    },
    "github_ref": "TheR1D/shell_gpt",
    "name": "ShellGPT",
    "url": "https://github.com/TheR1D/shell_gpt"
   },
   "smolagents": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "smolagents",
    "url": "https://huggingface.co/docs/smolagents",
    "web": {
@@ -1769,7 +1811,7 @@
    }
   },
   "smry": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "smry",
    "url": "https://smry.ai",
    "web": {
@@ -1778,8 +1820,18 @@
     "title": "smry: Agentic News & RSS Reader"
    }
   },
+  "social-expert": {
+   "checked": "2026-11-09",
+   "name": "Social Expert",
+   "url": "https://socialexpert.app",
+   "web": {
+    "final": "https://socialexpert.app/",
+    "status": 200,
+    "title": "Social Expert â Know what to post on TikTok"
+   }
+  },
   "sourcegraph-cody": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Sourcegraph Cody",
    "url": "https://sourcegraph.com/docs/cody",
    "web": {
@@ -1789,16 +1841,16 @@
    }
   },
   "surrealdb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "licence": "NOASSERTION",
-    "pushed": "2026-10-29",
-    "release": "v3.3.5",
-    "released": "2026-10-29",
+    "pushed": "2026-11-03",
+    "release": "v4.0.0",
+    "released": "2026-11-03",
     "repo": "surrealdb/surrealdb",
-    "stars": 33256
+    "stars": 33294
    },
    "github_ref": "surrealdb/surrealdb",
    "name": "SurrealDB",
@@ -1806,11 +1858,11 @@
    "web": {
     "final": "https://surrealdb.com/",
     "status": 200,
-    "title": "The context and memory layer for AI agents | SurrealDB"
+    "title": "The database and memory for every agent | SurrealDB"
    }
   },
   "tavily": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Tavily",
    "url": "https://tavily.com",
    "web": {
@@ -1820,7 +1872,7 @@
    }
   },
   "textgen": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private.",
@@ -1829,23 +1881,23 @@
     "release": "v4.9",
     "released": "2026-05-20",
     "repo": "oobabooga/textgen",
-    "stars": 47725
+    "stars": 47734
    },
    "github_ref": "oobabooga/textgen",
    "name": "TextGen",
    "url": "https://github.com/oobabooga/textgen"
   },
   "tinker": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Post-training with Tinker",
     "licence": "Apache-2.0",
-    "pushed": "2026-10-30",
-    "release": "v0.5.9",
-    "released": "2026-10-27",
+    "pushed": "2026-11-06",
+    "release": "v0.6.1",
+    "released": "2026-11-06",
     "repo": "thinking-machines-lab/tinker-cookbook",
-    "stars": 4231
+    "stars": 4242
    },
    "github_ref": "thinking-machines-lab/tinker-cookbook",
    "name": "Tinker",
@@ -1857,7 +1909,7 @@
    }
   },
   "together-ai": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Together AI",
    "url": "https://www.together.ai",
    "web": {
@@ -1867,16 +1919,16 @@
    }
   },
   "trl": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Train transformer language models with reinforcement learning.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
+    "pushed": "2026-11-08",
     "release": "v1.17.1",
     "released": "2026-10-30",
     "repo": "huggingface/trl",
-    "stars": 19652
+    "stars": 19692
    },
    "github_ref": "huggingface/trl",
    "name": "TRL (HuggingFace)",
@@ -1888,7 +1940,7 @@
    }
   },
   "turbopuffer": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "turbopuffer",
    "url": "https://turbopuffer.com",
    "web": {
@@ -1898,16 +1950,16 @@
    }
   },
   "unsloth": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-01",
-    "release": "v0.1.913-beta",
-    "released": "2026-10-30",
+    "pushed": "2026-11-08",
+    "release": "v0.1.916-beta",
+    "released": "2026-11-06",
     "repo": "unslothai/unsloth",
-    "stars": 78925
+    "stars": 79208
    },
    "github_ref": "unslothai/unsloth",
    "name": "Unsloth",
@@ -1919,16 +1971,16 @@
    }
   },
   "unstructured": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding.",
     "licence": "Apache-2.0",
-    "pushed": "2026-10-30",
-    "release": "0.27.36",
-    "released": "2026-10-30",
+    "pushed": "2026-11-06",
+    "release": "0.27.37",
+    "released": "2026-11-06",
     "repo": "Unstructured-IO/unstructured",
-    "stars": 15658
+    "stars": 15700
    },
    "github_ref": "Unstructured-IO/unstructured",
    "name": "Unstructured",
@@ -1940,7 +1992,7 @@
    }
   },
   "vercel-ai-sdk": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Vercel AI SDK",
    "url": "https://ai-sdk.dev",
    "web": {
@@ -1950,16 +2002,16 @@
    }
   },
   "vllm": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-02",
-    "release": "v0.32.0",
-    "released": "2026-10-18",
+    "pushed": "2026-11-08",
+    "release": "v0.33.0rc3",
+    "released": "2026-11-02",
     "repo": "vllm-project/vllm",
-    "stars": 96078
+    "stars": 96559
    },
    "github_ref": "vllm-project/vllm",
    "name": "vLLM",
@@ -1971,23 +2023,23 @@
    }
   },
   "voxcpm": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
     "licence": "Apache-2.0",
-    "pushed": "2026-10-08",
+    "pushed": "2026-11-05",
     "release": "2.0.3",
     "released": "2026-05-11",
     "repo": "OpenBMB/VoxCPM",
-    "stars": 40943
+    "stars": 41795
    },
    "github_ref": "OpenBMB/VoxCPM",
    "name": "VoxCPM",
    "url": "https://github.com/OpenBMB/VoxCPM"
   },
   "voyage-ai": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "Voyage AI",
    "url": "https://www.voyageai.com",
    "web": {
@@ -1997,16 +2049,16 @@
    }
   },
   "wandb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",
     "licence": "MIT",
-    "pushed": "2026-10-30",
+    "pushed": "2026-11-07",
     "release": "v0.31.0",
     "released": "2026-10-16",
     "repo": "wandb/wandb",
-    "stars": 11311
+    "stars": 11314
    },
    "github_ref": "wandb/wandb",
    "name": "Weights & Biases",
@@ -2018,16 +2070,16 @@
    }
   },
   "weaviate": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-01",
-    "release": "v1.40.3",
-    "released": "2026-10-28",
+    "pushed": "2026-11-08",
+    "release": "v1.40.4",
+    "released": "2026-11-05",
     "repo": "weaviate/weaviate",
-    "stars": 16934
+    "stars": 16943
    },
    "github_ref": "weaviate/weaviate",
    "name": "Weaviate",
@@ -2039,29 +2091,50 @@
    }
   },
   "whisper-cpp": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "github": {
     "archived": false,
     "description": "Port of OpenAI's Whisper model in C/C++",
     "licence": "MIT",
-    "pushed": "2026-10-30",
+    "pushed": "2026-11-08",
     "release": "v1.9.5",
     "released": "2026-10-06",
     "repo": "ggml-org/whisper.cpp",
-    "stars": 54846
+    "stars": 55024
    },
    "github_ref": "ggml-org/whisper.cpp",
    "name": "whisper.cpp",
    "url": "https://github.com/ggml-org/whisper.cpp"
   },
   "xai": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "name": "SpaceXSI (xAI)",
    "url": "https://x.ai",
    "web": {
     "final": "https://x.ai/",
     "status": 200,
     "title": "SpaceXSI"
+   }
+  },
+  "xmcp": {
+   "checked": "2026-11-09",
+   "github": {
+    "archived": false,
+    "description": "The TypeScript MCP framework",
+    "licence": "MIT",
+    "pushed": "2026-10-28",
+    "release": "@xmcp-dev/compiler@1.9.0",
+    "released": "2026-10-22",
+    "repo": "basementstudio/xmcp",
+    "stars": 1350
+   },
+   "github_ref": "basementstudio/xmcp",
+   "name": "xmcp",
+   "url": "https://xmcp.dev",
+   "web": {
+    "final": "https://xmcp.dev/",
+    "status": 200,
+    "title": "xmcp — The TypeScript MCP framework"
    }
   }
  }

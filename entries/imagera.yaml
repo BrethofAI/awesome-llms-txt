@@ -1,0 +1,44 @@
+name: Imagera
+slug: imagera
+url: https://imagera.ai
+llms_txt: https://imagera.ai/llms.txt
+llms_txt_status: published
+
+category: video-gen
+subcategory: multi-model-creative-studio
+
+tagline: Browser studio that runs many AI image, video, voice and music models side by side, with the price shown before each run.
+
+description: |
+  Imagera is a browser-based AI studio for images, video, voice and music.
+  Its Sandbox puts many image and video models on one card, shows only the
+  settings each model accepts, and shows the credit price or estimate
+  before a job runs. Character, Object and Location IDs keep the same face,
+  product or place consistent across images and clips.
+
+  The same models run from code through a public API (OpenAPI spec at
+  https://api.imagera.ai/openapi.json) and inside AI assistants through a
+  remote MCP server (https://mcp.imagera.ai/mcp). Pricing is credit-based,
+  with paid plans and credit packs ([pricing](https://imagera.ai/pricing)).
+  The site publishes llms.txt and llms-full.txt.
+
+features:
+  - Many image and video models side by side in one workspace
+  - Credit price or estimate shown before each job
+  - Character, Object and Location IDs for consistent faces, products and places
+  - Image editing, text-to-video, image-to-video, voice and music
+  - Public API with an OpenAPI spec, plus a remote MCP server
+
+use_cases:
+  - Product photography and ad creatives that keep the same product across shots
+  - Short-form video with a consistent character
+  - Comparing several image or video models on the same prompt
+  - Generating media from an AI assistant over MCP
+
+license: paid
+deployment: saas
+platforms: [web]
+tags: [image-generation, video-generation, text-to-video, image-to-video, ai-voice, ai-music, mcp, api]
+maintainer: Imagera
+added: '2026-11-10'
+verified: '2026-11-10'

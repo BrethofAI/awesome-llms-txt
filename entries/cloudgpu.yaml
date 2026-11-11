@@ -1,0 +1,44 @@
+name: CloudGPU
+slug: cloudgpu
+url: https://cloudgpu.app
+llms_txt: https://cloudgpu.app/llms.txt
+llms_full_txt: https://cloudgpu.app/llms-full.txt
+llms_txt_status: published
+
+category: deployment
+subcategory: gpu-cloud
+
+tagline: RTX 4090/5090 GPU rental and an OpenAI-compatible model API.
+
+description: |
+  CloudGPU is a web platform for renting RTX 4090 and RTX 5090 GPUs
+  and for calling an OpenAI-compatible model API from the same
+  product. Developers use it for AI training, model inference, and
+  ComfyUI workflows. REST and MCP tools are available so an agent or
+  application can quote a GPU, start a job after confirmation,
+  download results, and shut the instance down.
+
+  Access uses a CloudGPU account and API key, or a browser-approved
+  connect-account flow with a spending limit. Job files and prompts
+  are sent to CloudGPU's API. Usage is paid and metered; current rates
+  are on the official pricing page.
+
+features:
+  - RTX 4090/5090 GPU rental for training, inference, and ComfyUI workflows
+  - OpenAI-compatible model API
+  - REST and MCP tools for quoting, starting, and shutting down GPU jobs
+  - Confirmation required before a billable GPU is started
+  - Official llms.txt and llms-full.txt at the site root
+
+use_cases:
+  - Renting a GPU to run a training or inference job and shutting it down after
+  - Pointing an OpenAI-compatible client at a model API
+  - Driving GPU jobs from an MCP client with an explicit confirmation step
+  - Running ComfyUI workflows on a rented GPU
+
+license: paid
+deployment: saas
+platforms: [web]
+tags: [gpu-cloud, gpu-rental, openai-compatible, model-api, mcp, comfyui, training, inference, saas]
+maintainer: CloudGPU
+added: 2026-11-11

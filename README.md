@@ -412,7 +412,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - **[Cerebras Inference](https://www.cerebras.ai/inference)** — ✅ llms.txt  
   Wafer-scale inference cloud with an OpenAI-compatible API — thousands of tokens per second on open models, plus dedicated endpoints for custom weights.
 - **[CloudGPU](https://cloudgpu.app)** — ✅ llms.txt  
-  RTX 4090/5090 GPU rental and an OpenAI-compatible model API.
+  Per-minute GPU rental (RTX 4090, RTX 5090, A100) and an OpenAI-compatible model API on one prepaid balance.
 - **[Fireworks AI](https://fireworks.ai)** — ✅ llms.txt  
   Training and inference platform for open models — serverless and dedicated GPU deployments, fine-tuning, and Fireworks Nexus model routers for coding agents.
 - **[Groq](https://groq.com)** — ✅ llms.txt  

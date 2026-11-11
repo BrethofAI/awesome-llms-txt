@@ -8,23 +8,26 @@ llms_txt_status: published
 category: deployment
 subcategory: gpu-cloud
 
-tagline: RTX 4090/5090 GPU rental and an OpenAI-compatible model API.
+tagline: Per-minute GPU rental (RTX 4090, RTX 5090, A100) and an OpenAI-compatible model API on one prepaid balance.
 
 description: |
-  CloudGPU is a web platform for renting RTX 4090 and RTX 5090 GPUs
-  and for calling an OpenAI-compatible model API from the same
-  product. Developers use it for AI training, model inference, and
+  CloudGPU is a marketplace for renting GPUs (RTX 4090, RTX 5090 and
+  A100) by the minute, and an OpenAI-compatible model API, both paid from
+  one prepaid balance. The machines come from CloudGPU's partner
+  suppliers and independent hosts. Developers use it for AI training, model inference, and
   ComfyUI workflows. REST and MCP tools are available so an agent or
   application can quote a GPU, start a job after confirmation,
   download results, and shut the instance down.
 
   Access uses a CloudGPU account and API key, or a browser-approved
   connect-account flow with a spending limit. Job files and prompts
-  are sent to CloudGPU's API. Usage is paid and metered; current rates
-  are on the official pricing page.
+  are sent to CloudGPU's API. Usage is paid and metered, from a balance
+  topped up by card or USDT (TRC-20)
+  ([pricing](https://cloudgpu.app/pricing)). Destroying an instance erases
+  its local disk, so results must be downloaded first.
 
 features:
-  - RTX 4090/5090 GPU rental for training, inference, and ComfyUI workflows
+  - Per-minute RTX 4090, RTX 5090 and A100 rental for training, inference, and ComfyUI workflows
   - OpenAI-compatible model API
   - REST and MCP tools for quoting, starting, and shutting down GPU jobs
   - Confirmation required before a billable GPU is started
@@ -41,4 +44,5 @@ deployment: saas
 platforms: [web]
 tags: [gpu-cloud, gpu-rental, openai-compatible, model-api, mcp, comfyui, training, inference, saas]
 maintainer: CloudGPU
-added: 2026-11-11
+added: '2026-11-11'
+verified: '2026-11-11'

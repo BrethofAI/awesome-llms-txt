@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**133 entries** — 76 with full descriptions, 57 stubs. **105** currently publish a working `llms.txt`.
+**134 entries** — 77 with full descriptions, 57 stubs. **106** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -45,7 +45,7 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - [Training & Fine-tuning](#training--fine-tuning) (7)
 - [Web Search for Agents](#web-search-for-agents) (9)
 - [OCR & Document Parsing](#ocr--document-parsing) (4)
-- [Deployment & Hosting](#deployment--hosting) (11)
+- [Deployment & Hosting](#deployment--hosting) (12)
 - [Desktop Applications](#desktop-applications) (7)
 - [Shell Tools](#shell-tools) (1)
 
@@ -411,6 +411,8 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
   Inference and training platform — hosted Model APIs (OpenAI- and Anthropic-compatible), dedicated deployments of your own models, and fine-tuning on production GPUs.
 - **[Cerebras Inference](https://www.cerebras.ai/inference)** — ✅ llms.txt  
   Wafer-scale inference cloud with an OpenAI-compatible API — thousands of tokens per second on open models, plus dedicated endpoints for custom weights.
+- **[CloudGPU](https://cloudgpu.app)** — ✅ llms.txt  
+  RTX 4090/5090 GPU rental and an OpenAI-compatible model API.
 - **[Fireworks AI](https://fireworks.ai)** — ✅ llms.txt  
   Training and inference platform for open models — serverless and dedicated GPU deployments, fine-tuning, and Fireworks Nexus model routers for coding agents.
 - **[Groq](https://groq.com)** — ✅ llms.txt  

@@ -1975,7 +1975,7 @@ connections — all in one SurrealQL statement.
 
 SurrealDB runs embedded (in-process, WASM-compatible for browser /
 Node.js), as a standalone server, or in distributed cluster mode
-(SurrealDB Cloud, or self-hosted with TiKV). It's used increasingly
+(SurrealDB Cloud, or self-hosted with TiKV, which since 4.0 runs from the separate `surreal-tikv` build). It's used increasingly
 as the backing store for agent memory, RAG systems, and real-time
 applications that need multi-model data without the operational
 overhead of multiple databases.
@@ -2707,8 +2707,8 @@ supported model.
 It supports agent evaluations with built-in agents, multi-agent
 primitives, and the ability to run external agents such as Claude
 Code, Codex CLI and Gemini CLI. Tool calling covers custom and MCP
-tools plus built-in bash, Python, text editing, web search, browsing
-and computer tools. Untrusted model code runs in sandboxes (Docker,
+tools plus built-in bash, Python, text editing, web search and
+computer tools. Untrusted model code runs in sandboxes (Docker,
 Kubernetes, Modal, Proxmox, Vagrant and others). Inspect View and a
 VS Code extension help monitor and debug runs.
 
@@ -2716,7 +2716,7 @@ VS Code extension help monitor and debug runs.
 - Composable datasets, solvers, tools and scorers
 - 200+ pre-built evaluations
 - Agent evals, including external agents (Claude Code, Codex CLI, Gemini CLI)
-- MCP and built-in bash, python, web, browser and computer tools
+- MCP and built-in bash, python, text editing, web search and computer tools
 - Sandboxing via Docker, Kubernetes, Modal, Proxmox, Vagrant and extensions
 - Inspect View log viewer and VS Code extension
 

@@ -26,7 +26,7 @@ description: |
 
   SurrealDB runs embedded (in-process, WASM-compatible for browser /
   Node.js), as a standalone server, or in distributed cluster mode
-  (SurrealDB Cloud, or self-hosted with TiKV). It's used increasingly
+  (SurrealDB Cloud, or self-hosted with TiKV, which since 4.0 runs from the separate `surreal-tikv` build). It's used increasingly
   as the backing store for agent memory, RAG systems, and real-time
   applications that need multi-model data without the operational
   overhead of multiple databases.
@@ -56,4 +56,4 @@ platforms: [linux, macos, windows, web]
 tags: [database, multi-model, vector, graph, document, surrealdb, rust]
 maintainer: SurrealDB
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-11-12'

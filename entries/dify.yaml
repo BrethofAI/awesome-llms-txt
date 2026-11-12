@@ -52,4 +52,4 @@ platforms: [linux]
 tags: [llm-platform, dify, rag, agent-builder, self-hosted, visual-ide]
 maintainer: LangGenius
 added: 2026-04-24
-verified: '2026-10-05'
+verified: '2026-11-12'

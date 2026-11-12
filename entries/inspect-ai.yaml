@@ -20,8 +20,8 @@ description: |
   It supports agent evaluations with built-in agents, multi-agent
   primitives, and the ability to run external agents such as Claude
   Code, Codex CLI and Gemini CLI. Tool calling covers custom and MCP
-  tools plus built-in bash, Python, text editing, web search, browsing
-  and computer tools. Untrusted model code runs in sandboxes (Docker,
+  tools plus built-in bash, Python, text editing, web search and
+  computer tools. Untrusted model code runs in sandboxes (Docker,
   Kubernetes, Modal, Proxmox, Vagrant and others). Inspect View and a
   VS Code extension help monitor and debug runs.
 
@@ -29,7 +29,7 @@ features:
   - Composable datasets, solvers, tools and scorers
   - 200+ pre-built evaluations
   - Agent evals, including external agents (Claude Code, Codex CLI, Gemini CLI)
-  - MCP and built-in bash, python, web, browser and computer tools
+  - MCP and built-in bash, python, text editing, web search and computer tools
   - Sandboxing via Docker, Kubernetes, Modal, Proxmox, Vagrant and extensions
   - Inspect View log viewer and VS Code extension
 
@@ -44,4 +44,4 @@ platforms: [linux, macos, windows]
 tags: [evaluation, evals, agents, benchmarks, sandbox, aisi, python]
 maintainer: UK AI Security Institute
 added: 2026-10-05
-verified: '2026-10-21'
+verified: '2026-11-12'

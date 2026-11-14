@@ -1005,8 +1005,8 @@
   "vercel-ai-sdk": {
    "fail_streak": 0,
    "last": {
-    "state": "transient",
-    "code": -1
+    "state": "ok",
+    "code": 200
    },
    "ok_streak": 2
   },

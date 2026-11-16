@@ -1,216 +1,240 @@
 {
- "checked": "2026-11-09",
+ "checked": "2026-11-16",
  "since": true,
  "changes": [
+  {
+   "slug": "agent-qa",
+   "name": "agent-qa",
+   "kind": "release",
+   "detail": "v0.3.3 → v0.3.9 (2026-11-14)"
+  },
+  {
+   "slug": "agno",
+   "name": "Agno",
+   "kind": "release",
+   "detail": "v3.1.12 → v3.2.0 (2026-11-12)"
+  },
   {
    "slug": "anthropic-sdk",
    "name": "Anthropic SDK",
    "kind": "release",
-   "detail": "v2.3.0 → v2.6.0 (2026-11-05)"
+   "detail": "v2.6.0 → v2.8.0 (2026-11-10)"
+  },
+  {
+   "slug": "arize-phoenix",
+   "name": "Arize Phoenix",
+   "kind": "release",
+   "detail": "arize-phoenix-v21.0.0 → arize-phoenix-v21.1.0 (2026-11-13)"
   },
   {
    "slug": "claude-agent-sdk",
    "name": "Claude Agent SDK",
    "kind": "release",
-   "detail": "v0.2.176 → v0.2.179 (2026-11-06)"
+   "detail": "v0.2.179 → v0.2.182 (2026-11-13)"
   },
   {
    "slug": "comfyui",
    "name": "ComfyUI",
    "kind": "release",
-   "detail": "v0.43.0 → v0.44.0 (2026-11-04)"
+   "detail": "v0.44.0 → v0.45.0 (2026-11-10)"
   },
   {
    "slug": "crewai",
    "name": "CrewAI",
    "kind": "release",
-   "detail": "1.15.34 → 1.15.38 (2026-11-08)"
+   "detail": "1.15.38 → 1.15.41 (2026-11-12)"
   },
   {
-   "slug": "dify",
-   "name": "Dify",
+   "slug": "diffusers",
+   "name": "Diffusers",
    "kind": "release",
-   "detail": "1.18.0 → 1.19.0 (2026-11-04)"
+   "detail": "v0.42.1 → v0.43.0 (2026-11-12)"
   },
   {
    "slug": "docling",
    "name": "Docling",
    "kind": "release",
-   "detail": "v2.145.0 → v2.149.0 (2026-11-08)"
+   "detail": "v2.149.0 → v2.150.1 (2026-11-14)"
+  },
+  {
+   "slug": "exllamav3",
+   "name": "ExLlamaV3",
+   "kind": "release",
+   "detail": "v1.6.6 → v1.6.7 (2026-11-13)"
   },
   {
    "slug": "gemini-cli",
    "name": "Gemini CLI",
    "kind": "release",
-   "detail": "v0.66.0 → v0.67.0 (2026-11-04)"
+   "detail": "v0.67.0 → v0.68.0 (2026-11-10)"
   },
   {
    "slug": "google-adk",
    "name": "Agent Development Kit (ADK)",
    "kind": "release",
-   "detail": "v2.13.0 → v2.14.0 (2026-11-07)"
+   "detail": "v2.14.0 → v2.14.1 (2026-11-12)"
+  },
+  {
+   "slug": "haystack",
+   "name": "Haystack",
+   "kind": "release",
+   "detail": "v3.4.1 → v3.5.0 (2026-11-10)"
   },
   {
    "slug": "huggingface-transformers",
    "name": "HuggingFace Transformers",
    "kind": "release",
-   "detail": "v5.22.1 → v5.22.2 (2026-11-06)"
+   "detail": "v5.22.2 → v5.23.0 (2026-11-13)"
   },
   {
    "slug": "inspect-ai",
    "name": "Inspect",
    "kind": "release",
-   "detail": "0.3.287 → 0.3.288 (2026-11-07)"
-  },
-  {
-   "slug": "kilo-code",
-   "name": "Kilo Code",
-   "kind": "release",
-   "detail": "v7.8.18 → v7.8.27 (2026-11-05)"
-  },
-  {
-   "slug": "koboldcpp",
-   "name": "KoboldCpp",
-   "kind": "release",
-   "detail": "v1.124.1 → v1.124.2 (2026-10-31)"
+   "detail": "0.3.288 → 0.3.290 (2026-11-14)"
   },
   {
    "slug": "langchain",
    "name": "LangChain",
    "kind": "release",
-   "detail": "langchain==1.4.7 → langchain==1.4.9 (2026-11-04)"
+   "detail": "langchain==1.4.9 → langchain==1.5.0 (2026-11-11)"
   },
   {
    "slug": "langflow",
    "name": "Langflow",
    "kind": "release",
-   "detail": "v1.13.0 → v1.13.1 (2026-11-04)"
+   "detail": "v1.13.1 → v1.13.2 (2026-11-10)"
   },
   {
    "slug": "langfuse",
    "name": "Langfuse",
    "kind": "release",
-   "detail": "v4.72.0 → v4.76.0 (2026-11-05)"
+   "detail": "v4.76.0 → v4.80.0 (2026-11-13)"
   },
   {
    "slug": "langgraph",
    "name": "LangGraph",
    "kind": "release",
-   "detail": "1.2.19 → 1.2.20 (2026-11-05)"
+   "detail": "1.2.20 → 1.2.22 (2026-11-14)"
   },
   {
    "slug": "litellm",
    "name": "LiteLLM",
    "kind": "release",
-   "detail": "v1.106.6 → v1.108.3 (2026-11-07)"
+   "detail": "v1.108.3 → v1.109.1 (2026-11-12)"
   },
   {
    "slug": "llama-cpp",
    "name": "llama.cpp",
    "kind": "release",
-   "detail": "v0.8.0 → v0.9.0 (2026-11-04)"
+   "detail": "v0.9.0 → v1.0.0 (2026-11-13)"
+  },
+  {
+   "slug": "llamaindex",
+   "name": "LlamaIndex",
+   "kind": "release",
+   "detail": "v0.14.25 → v0.14.26 (2026-11-13)"
+  },
+  {
+   "slug": "marker",
+   "name": "Marker",
+   "kind": "release",
+   "detail": "v2.1.0 → v2.2.0 (2026-11-12)"
   },
   {
    "slug": "mastra",
    "name": "Mastra",
    "kind": "release",
-   "detail": "@mastra/core@1.80.0 → @mastra/core@1.82.0 (2026-11-04)"
+   "detail": "@mastra/core@1.82.0 → @mastra/core@1.83.0 (2026-11-13)"
   },
   {
    "slug": "microsoft-agent-framework",
    "name": "Microsoft Agent Framework",
    "kind": "release",
-   "detail": "dotnet-1.27.0 → dotnet-1.28.0 (2026-11-06)"
+   "detail": "dotnet-1.28.0 → python-1.26.0 (2026-11-13)"
+  },
+  {
+   "slug": "milvus",
+   "name": "Milvus",
+   "kind": "release",
+   "detail": "v3.0.5 → v3.0.6 (2026-11-11)"
+  },
+  {
+   "slug": "ms-swift",
+   "name": "MS-Swift",
+   "kind": "release",
+   "detail": "v4.6.0 → v4.6.1 (2026-11-13)"
   },
   {
    "slug": "n8n",
    "name": "n8n",
    "kind": "release",
-   "detail": "n8n@2.45.7 → n8n@2.46.6 (2026-11-04)"
+   "detail": "n8n@2.46.6 → n8n@2.47.7 (2026-11-13)"
   },
   {
    "slug": "ollama",
    "name": "Ollama",
    "kind": "release",
-   "detail": "v0.40.13 → v0.40.15 (2026-11-03)"
+   "detail": "v0.40.15 → v0.40.16 (2026-11-09)"
   },
   {
    "slug": "open-interpreter",
    "name": "Open Interpreter",
    "kind": "release",
-   "detail": "rust-v0.0.58 → rust-v0.0.59 (2026-11-04)"
+   "detail": "rust-v0.0.59 → rust-v0.0.61 (2026-11-11)"
   },
   {
    "slug": "openai-codex",
    "name": "OpenAI Codex",
    "kind": "release",
-   "detail": "rust-v0.166.0 → rust-v0.167.0 (2026-11-06)"
+   "detail": "rust-v0.167.0 → rust-v0.169.0 (2026-11-13)"
   },
   {
    "slug": "openclaw",
    "name": "OpenClaw",
    "kind": "release",
-   "detail": "v2026.10.9 → v2026.11.2 (2026-11-08)"
+   "detail": "v2026.11.2 → v2026.11.3 (2026-11-10)"
   },
   {
-   "slug": "openwebui",
-   "name": "Open WebUI",
+   "slug": "qdrant",
+   "name": "Qdrant",
    "kind": "release",
-   "detail": "v0.12.5 → v0.13.3 (2026-11-08)"
-  },
-  {
-   "slug": "opik",
-   "name": "Opik",
-   "kind": "release",
-   "detail": "2.2.137 → 2.2.143 (2026-11-06)"
-  },
-  {
-   "slug": "orkas",
-   "name": "Orkas",
-   "kind": "release",
-   "detail": "v2026.10.27 → v2026.11.4 (2026-11-04)"
+   "detail": "v1.20.0 → v1.20.1 (2026-11-13)"
   },
   {
    "slug": "qwen-code",
    "name": "Qwen Code",
    "kind": "release",
-   "detail": "v0.26.5 → v0.27.0 (2026-11-07)"
+   "detail": "v0.27.0 → v0.27.4 (2026-11-15)"
   },
   {
    "slug": "surrealdb",
    "name": "SurrealDB",
    "kind": "release",
-   "detail": "v3.3.5 → v4.0.0 (2026-11-03)"
+   "detail": "v4.0.0 → v4.0.1 (2026-11-09)"
   },
   {
-   "slug": "tinker",
-   "name": "Tinker",
+   "slug": "trl",
+   "name": "TRL (HuggingFace)",
    "kind": "release",
-   "detail": "v0.5.9 → v0.6.1 (2026-11-06)"
+   "detail": "v1.17.1 → v1.18.0 (2026-11-13)"
   },
   {
    "slug": "unsloth",
    "name": "Unsloth",
    "kind": "release",
-   "detail": "v0.1.913-beta → v0.1.916-beta (2026-11-06)"
-  },
-  {
-   "slug": "unstructured",
-   "name": "Unstructured",
-   "kind": "release",
-   "detail": "0.27.36 → 0.27.37 (2026-11-06)"
-  },
-  {
-   "slug": "vllm",
-   "name": "vLLM",
-   "kind": "release",
-   "detail": "v0.32.0 → v0.33.0rc3 (2026-11-02)"
+   "detail": "v0.1.916-beta → v0.1.917-beta (2026-11-11)"
   },
   {
    "slug": "weaviate",
    "name": "Weaviate",
    "kind": "release",
-   "detail": "v1.40.3 → v1.40.4 (2026-11-05)"
+   "detail": "v1.40.4 → v1.40.5 (2026-11-10)"
+  },
+  {
+   "slug": "xmcp",
+   "name": "xmcp",
+   "kind": "release",
+   "detail": "@xmcp-dev/compiler@1.9.0 → @xmcp-dev/compiler@1.10.0 (2026-11-13)"
   }
  ]
 }

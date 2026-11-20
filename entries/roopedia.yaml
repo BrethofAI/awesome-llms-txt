@@ -1,0 +1,41 @@
+name: Roopedia
+slug: roopedia
+url: https://roopedia.com
+repository: https://github.com/hajejbusiness/roopedia-mcp
+llms_txt: https://roopedia.com/llms.txt
+llms_full_txt: https://roopedia.com/llms-full.txt
+llms_txt_status: published
+
+category: web-search-for-agents
+subcategory: ai-tool-and-mcp-catalog
+
+tagline: Bilingual (EN/FR) AI tools, verified SaaS pricing, and MCP security registry with open JSON APIs.
+
+description: |
+  Roopedia is an independent bilingual (English and French) catalog of 786+ AI software tools
+  and Model Context Protocol (MCP) servers with verified pricing tiers, credit-card requirement
+  checks (/free), and MCP transport/security profiles (/mcp). It contains zero affiliate links
+  and enforces a 100% SFW editorial scope.
+
+  For AI agents, Roopedia publishes both concise and full machine-readable indexes (/llms.txt
+  and /llms-full.txt), keyless public JSON endpoints (/api/tools and /api/stats under CC-BY 4.0),
+  and an MIT-licensed stdio MCP connector (roopedia-mcp).
+
+features:
+  - Keyless JSON search API (/api/tools) and CC-BY 4.0 ecosystem telemetry (/api/stats)
+  - Published /llms.txt and /llms-full.txt indexes plus an installable MIT stdio MCP server
+  - Verified free tiers without credit-card gates (/free) and MCP server security evaluations (/mcp)
+  - Full English and French parity across 786+ documented tools with zero affiliate links
+
+use_cases:
+  - Letting coding or research agents query current SaaS pricing tiers and free-plan constraints
+  - Auditing third-party MCP server transport boundaries (stdio vs remote HTTP/SSE) before installation
+  - Comparing bilingual (EN/FR) AI software options for enterprise or academic teams
+
+license: freemium
+deployment: saas
+platforms: [web, linux, macos, windows]
+tags: [mcp, directory, pricing, open-data, llms-txt, bilingual]
+
+maintainer: Roopedia
+added: 2026-11-17

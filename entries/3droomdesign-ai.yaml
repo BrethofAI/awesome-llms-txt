@@ -1,0 +1,34 @@
+name: 3DRoomDesign.ai
+slug: 3droomdesign-ai
+url: https://3droomdesign.ai/
+llms_txt: https://3droomdesign.ai/llms.txt
+llms_txt_status: published
+
+category: image-gen
+subcategory: interior-design
+tagline: AI-assisted floor planning, editable 3D room design, and interior visualisation.
+
+description: |
+  3DRoomDesign.ai is a browser-based platform for spatial design and interior
+  visualisation. Its floor plan workflow converts clear plan images into
+  editable 3D room layouts where users can adjust furniture and finishes.
+  Separate photo-based design tools generate visual concepts for interiors and
+  renovations. AI generation uses credits, and the 2D floor plan creator
+  supports manual drawing and editing.
+
+features:
+  - Editable 2D floor plans with drawing tools and templates
+  - Conversion of floor plan images into editable 3D room layouts
+  - Furniture placement and material refinement in the 3D workspace
+  - AI-generated interior design previews from room photos
+
+use_cases:
+  - Explore furniture layouts and finishes before renovating a room
+  - Turn a clear floor plan image into a 3D visual design study
+  - Compare interior design concepts for client presentations
+
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [interior-design, floor-plan, 3d-visualization, image-generation]
+added: 2026-11-20

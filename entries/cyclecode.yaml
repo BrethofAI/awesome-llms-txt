@@ -1,0 +1,21 @@
+name: CycleCode
+slug: cyclecode
+url: https://vedacarrier.com/en/tools/cyclecode
+repository: https://github.com/cyclecode-labs/releases
+llms_txt: https://vedacarrier.com/llms.txt
+llms_txt_status: published
+category: coding-agents
+tagline: Local-first desktop workspace for structured AI-assisted software development.
+description: |
+  CycleCode is a local-first desktop workspace for developers and small teams building with AI agents. It connects product artifacts (Vision, PRD, Architecture, Stories, Acceptance Criteria) to scoped work items with approval gates, isolated Git worktrees, and recorded validation checks.
+features:
+  - Approval-gated SDLC workflow from Discovery and PRD to Architecture and Work Items
+  - Isolated Git worktrees and allowed_files scope enforcement for AI-generated edits
+  - Mandatory validation profiles and app-start verification checks before accepting changes
+use_cases:
+  - Structuring multi-step AI coding tasks with explicit specs and reviewable diffs
+  - Preparing a backlog and scoped changes for existing repositories
+license: freemium
+deployment: local
+tags: [ai-coding, sdlc, worktrees, desktop, java]
+added: 2026-11-16

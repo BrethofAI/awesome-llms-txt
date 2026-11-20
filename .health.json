@@ -597,8 +597,8 @@
   "mlc-llm": {
    "fail_streak": 3,
    "last": {
-    "state": "gone",
-    "code": 404
+    "state": "transient",
+    "code": 503
    },
    "ok_streak": 0
   },

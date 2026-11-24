@@ -1,0 +1,36 @@
+name: MidiTake
+slug: miditake
+url: https://miditake.com/
+llms_txt: https://miditake.com/llms.txt
+llms_txt_status: published
+category: voice
+subcategory: audio-to-midi
+tagline: MP3, WAV, video and song to editable MIDI in the browser, checked note by note before download.
+description: |
+  MidiTake converts audio to MIDI inside the browser tab. Drop an MP3, WAV,
+  video or song and it writes MIDI notes with pitch, timing and velocity that
+  can be inspected and corrected note by note, then downloaded as a
+  bar-aligned MIDI file for a DAW. The audio is never uploaded.
+
+  The MP3, WAV, video and song converters are free and need no account.
+  Piano recordings can use Piano HQ: a free 30-second preview and a summary of
+  the full result come first, then a one-time price of $1.99 per song or $4.99
+  for a six-song pack after an email sign-in. There is no subscription, and
+  MIDI to MP3 is offered as well.
+features:
+  - MP3, WAV, video and song to MIDI
+  - Editable pitch, timing and velocity per note
+  - Bar-aligned MIDI export for DAWs
+  - MIDI to MP3 conversion
+  - On-device processing with no upload
+use_cases:
+  - Turn a hummed or recorded idea into notes for a DAW
+  - Lift a melody out of a track for practice or arrangement
+  - Get bar-aligned MIDI from a video soundtrack
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [midi, mp3-to-midi, audio-to-midi, daw, piano, transcription]
+maintainer: MidiTake
+added: '2026-11-24'
+verified: '2026-11-24'

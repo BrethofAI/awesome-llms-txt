@@ -1,0 +1,46 @@
+name: Apidly Cloud
+slug: apidly-cloud
+url: https://apidly.com
+llms_txt: https://apidly.com/llms.txt
+llms_full_txt: https://apidly.com/llms-full.txt
+llms_txt_status: published
+
+category: deployment
+subcategory: gpu-cloud
+
+tagline: Managed GPU servers and serverless GPU endpoints, billed by the second from a prepaid balance.
+
+description: |
+  Apidly Cloud runs managed GPU servers for AI work. A user picks a
+  template (Jupyter, ComfyUI, Ollama, Open WebUI, vLLM, llama.cpp or
+  Whisper) and a GPU configuration, sees the price before launch, and is
+  billed by the second from a prepaid balance. Serverless endpoints start
+  GPU workers when requests arrive and release them when idle.
+
+  Access uses an Apidly Cloud account and API key. A REST API, a CLI and
+  Python and JavaScript SDKs cover servers, endpoints, templates and
+  billing. Usage is paid, with top-ups from $10
+  ([pricing](https://apidly.com/pricing)). Spending limits and idle
+  auto-stop can be set per server.
+
+features:
+  - GPU servers billed by the second from prepaid credit
+  - Ready-made templates for Jupyter, ComfyUI, Ollama, Open WebUI, vLLM, llama.cpp and Whisper
+  - Serverless GPU endpoints that scale to zero
+  - REST API, CLI, Python and JavaScript SDKs
+  - Spending limits and idle auto-stop
+  - Official llms.txt and llms-full.txt at the site root
+
+use_cases:
+  - Running an open model behind an OpenAI-compatible endpoint with vLLM
+  - Generating images with ComfyUI on a rented GPU
+  - Running a GPU notebook for training or fine-tuning
+  - Serving a model that scales to zero between requests
+
+license: paid
+deployment: saas
+platforms: [web]
+tags: [gpu-cloud, gpu-rental, serverless, comfyui, vllm, ollama, training, inference, saas]
+maintainer: Apidly
+added: '2026-11-23'
+verified: '2026-11-23'

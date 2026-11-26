@@ -55,6 +55,7 @@ CATEGORY_LABELS: dict[str, str] = {
     "evaluation": "Evaluation",
     "training": "Training & Fine-tuning",
     "web-search-for-agents": "Web Search for Agents",
+    "tool-directories": "Tool Directories",
     "ocr-doc-parsing": "OCR & Document Parsing",
     "deployment": "Deployment & Hosting",
     "desktop-apps": "Desktop Applications",

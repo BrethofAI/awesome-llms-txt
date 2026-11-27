@@ -2,7 +2,7 @@ name: Sourcegraph Cody
 slug: sourcegraph-cody
 url: https://sourcegraph.com/docs/cody
 llms_txt: https://sourcegraph.com/docs/llms.txt
-llms_txt_status: missing
+llms_txt_status: published
 status: stub
 
 category: coding-agents

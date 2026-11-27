@@ -1314,6 +1314,16 @@ performance.
 
 ---
 
+## Sourcegraph Cody
+
+**URL:** https://sourcegraph.com/docs/cody
+**llms.txt:** https://sourcegraph.com/docs/llms.txt (published)
+**License:** commercial  |  **Deployment:** local
+
+*AI coding assistant for Sourcegraph Enterprise that pulls context from Sourcegraph code search across local and remote codebases.*
+
+---
+
 ## Open Interpreter
 
 **URL:** https://www.openinterpreter.com
@@ -1322,16 +1332,6 @@ performance.
 **License:** open-source  |  **Deployment:** cli
 
 *Open-source (Apache-2.0) terminal coding agent forked from OpenAI's Codex, tuned for low-cost and open-weight models with switchable harness emulation.*
-
----
-
-## Sourcegraph Cody
-
-**URL:** https://sourcegraph.com/docs/cody
-**llms.txt:** https://sourcegraph.com/docs/llms.txt (missing)
-**License:** commercial  |  **Deployment:** local
-
-*AI coding assistant for Sourcegraph Enterprise that pulls context from Sourcegraph code search across local and remote codebases.*
 
 ---
 

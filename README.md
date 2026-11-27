@@ -2,7 +2,7 @@
 
 > A curated list of AI tools, platforms, and services that publish `llms.txt` — making them discoverable to AI agents doing research on behalf of human users.
 
-**134 entries** — 77 with full descriptions, 57 stubs. **106** currently publish a working `llms.txt`.
+**134 entries** — 77 with full descriptions, 57 stubs. **107** currently publish a working `llms.txt`.
 
 ## Why this list exists
 
@@ -181,11 +181,11 @@ The `llms.txt` status is re-derived daily from what each URL actually serves —
 - **[OpenCode](https://opencode.ai)** — ✅ llms.txt 🚧 stub  
   Open-source terminal coding agent (OpenCode 2), with a desktop app, web UI and ACP for editors; models from the models.dev catalog or local Ollama, LM Studio and vLLM.  
   <sub>★ 227.1k · v1.19.5 (2026-10-28)</sub>
+- **[Sourcegraph Cody](https://sourcegraph.com/docs/cody)** — ✅ llms.txt 🚧 stub  
+  AI coding assistant for Sourcegraph Enterprise that pulls context from Sourcegraph code search across local and remote codebases.
 - **[Open Interpreter](https://www.openinterpreter.com)** — ❌ llms.txt 🚧 stub  
   Open-source (Apache-2.0) terminal coding agent forked from OpenAI's Codex, tuned for low-cost and open-weight models with switchable harness emulation.  
   <sub>★ 68.9k · rust-v0.0.61 (2026-11-11)</sub>
-- **[Sourcegraph Cody](https://sourcegraph.com/docs/cody)** — ❌ llms.txt 🚧 stub  
-  AI coding assistant for Sourcegraph Enterprise that pulls context from Sourcegraph code search across local and remote codebases.
 
 ## Workflow Tools
 

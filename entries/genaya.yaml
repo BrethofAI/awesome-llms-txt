@@ -25,9 +25,11 @@ description: |
   hosted MCP server at https://api.genaya.com/mcp (Streamable HTTP, seven
   tools): an assistant such as Claude or ChatGPT signs in with OAuth 2.1
   and can ask about the member's appointments, clients, invoices and
-  calls, and prepare changes that run only after the member confirms
-  them. A Genaya API key with MCP allowed reads and asks only. The public
-  REST API is documented at https://developer.genaya.com.
+  calls, and prepare changes for the member to confirm, in the chat for
+  routine record changes and on a signed Genaya page for texts, emails
+  and other sensitive changes. A Genaya API key with MCP allowed reads
+  and asks only. The public REST API is documented at
+  https://developer.genaya.com.
 
   Genaya is a paid product with no free plan; every plan starts with a
   14-day free trial. The llms.txt on www.genaya.com lists the products,

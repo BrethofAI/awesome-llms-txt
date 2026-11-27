@@ -1,0 +1,26 @@
+name: FastScribe
+slug: fastscribe
+url: https://fastscribe.org/
+llms_txt: https://fastscribe.org/llms.txt
+llms_full_txt: https://fastscribe.org/llms-full.txt
+llms_txt_status: published
+category: voice
+tagline: Transcribe recordings and public video links into editable text and timed captions.
+description: |
+  FastScribe accepts audio files, video files and supported public video links
+  and produces a transcript that can be reviewed in the browser. The output
+  includes timestamps and speaker labels. A remote MCP server can transcribe
+  supported public video links and retrieve completed transcripts.
+features:
+  - Export transcripts as TXT, DOCX or XLSX and captions as SRT.
+  - Review timestamped text with automatically assigned speaker labels.
+  - Retrieve transcripts and subtitle files from a compatible MCP client.
+use_cases:
+  - Extract interview quotations from a recording.
+  - Create subtitle files for training videos and recorded presentations.
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [transcription, speech-to-text, subtitles, mcp]
+maintainer: FastScribe
+added: 2026-11-25

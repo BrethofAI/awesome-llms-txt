@@ -1,0 +1,57 @@
+name: Genaya
+slug: genaya
+url: https://www.genaya.com
+llms_txt: https://www.genaya.com/llms.txt
+llms_full_txt: https://www.genaya.com/llms-full.txt
+llms_txt_status: published
+
+category: desktop-apps
+subcategory: business-operations
+
+tagline: One app and one AI that run a service business, with an AI receptionist and a hosted MCP server.
+
+description: |
+  Genaya is business operations software for service companies: field
+  services (HVAC, plumbing, cleaning, chimney, garage door, contractors),
+  clinics, financial advisors, agencies and construction. One app, on the
+  web, iOS and Android, holds the calls and texts, the schedule, the CRM,
+  estimates and invoices, payments, email and SMS campaigns, online
+  booking and forms, payroll and commissions, e-sign and video rooms, and
+  one AI, also called Genaya, works across all of it.
+
+  The AI answers phone calls, texts and website chats as an AI
+  receptionist and books appointments, and members ask it questions about
+  their own business in plain language. For agents, Genaya Connect is a
+  hosted MCP server at https://api.genaya.com/mcp (Streamable HTTP, seven
+  tools): an assistant such as Claude or ChatGPT signs in with OAuth 2.1
+  and can ask about the member's appointments, clients, invoices and
+  calls, and prepare changes that run only after the member confirms
+  them. A Genaya API key with MCP allowed reads and asks only. The public
+  REST API is documented at https://developer.genaya.com.
+
+  Genaya is a paid product with no free plan; every plan starts with a
+  14-day free trial. The llms.txt on www.genaya.com lists the products,
+  plans and prices, and the Help Center publishes its own at
+  https://help.genaya.com/llms.txt.
+
+features:
+  - AI receptionist that answers calls, texts and website chats and books appointments
+  - Call center, shared inbox and call flows in the browser and on iOS and Android
+  - Scheduling, CRM, estimates, invoices and payments on the same customer records
+  - Hosted MCP server (Streamable HTTP, OAuth 2.1 or a read-only API key) with seven tools
+  - Public REST API, plus Zapier and Make connectors
+  - Imports from 28 systems, including Jobber, Housecall Pro, ServiceTitan, QuickBooks and HubSpot
+
+use_cases:
+  - A plumbing or HVAC company wants calls answered and jobs booked when nobody can pick up
+  - A clinic or an advisory firm wants scheduling, client records and billing in one app
+  - An assistant needs a service business's appointments, clients or invoices over MCP
+
+license: paid
+deployment: saas
+platforms: [web]
+tags: [ai-receptionist, crm, field-service, scheduling, invoicing, mcp, small-business]
+
+maintainer: Genaya LLC
+added: 2026-11-27
+verified: '2026-11-27'

@@ -1,0 +1,30 @@
+name: Kunavo
+slug: kunavo
+url: https://kunavo.com
+llms_txt: https://kunavo.com/llms.txt
+llms_txt_status: published
+category: llm-gateways
+tagline: Prepaid AI API gateway with client key groups and usage exports.
+description: |
+  Kunavo is a hosted AI API gateway for developers building applications
+  and client automations. It provides OpenAI-compatible access through a
+  prepaid account, with named API keys and groups for organizing client
+  usage. Its public documentation covers authentication and integration.
+
+  Usage reporting can be filtered by key, group and date and exported as
+  CSV. Groups share the account balance; they do not create separate
+  customer logins or wallets. Its llms.txt provides a public API reference
+  for agents and other tools that consume machine-readable documentation.
+features:
+  - OpenAI-compatible API access with API-key authentication
+  - Named API keys organized into client groups
+  - Usage reporting by key, group and date
+  - CSV cost exports and a public llms.txt API reference
+use_cases:
+  - Integrating a hosted model API into developer applications
+  - Reviewing client API costs while using one prepaid account
+license: paid
+deployment: saas
+platforms: [web]
+tags: [api, gateway, usage-reporting, cost-tracking]
+added: 2026-11-27

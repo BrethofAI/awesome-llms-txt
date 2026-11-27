@@ -1,0 +1,37 @@
+name: WatchToText
+slug: watchtotext
+url: https://watchtotext.com/
+llms_txt: https://watchtotext.com/llms.txt
+llms_txt_status: published
+category: voice
+subcategory: video-transcription
+tagline: Public YouTube, TikTok and Instagram captions as readable text, with TXT, SRT and VTT download.
+description: |
+  WatchToText turns captions that already exist on public videos into clean,
+  searchable text. Paste a YouTube link or video ID, or a TikTok or Instagram
+  link, and the page returns the published caption track as paragraphs rather
+  than raw subtitle lines. The result can be copied or downloaded as TXT, SRT
+  or VTT; TikTok and Instagram output also supports VTT.
+
+  Most videos are free and need no account. Videos whose owners block free
+  third-party readers are covered by one-time credit packs, one credit per
+  video, and a failed attempt does not use a credit. YouTube captions fetched
+  this way may be cached for up to 24 hours. Nothing is uploaded and no video
+  is downloaded: the tool reads captions the platform already serves.
+features:
+  - YouTube, TikTok and Instagram caption pages
+  - Paragraph rebuilding from caption timings
+  - Copy, or download TXT, SRT or VTT
+  - Credit packs only for videos that block free readers
+  - No sign-up and no upload
+use_cases:
+  - Pull a transcript out of a public video for reading or quoting
+  - Feed an agent a clean text copy of a talk or clip
+  - Save captions as SRT for editing or subtitling
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [transcript, youtube, captions, srt, vtt, tiktok, instagram]
+maintainer: WatchToText
+added: '2026-11-24'
+verified: '2026-11-24'

@@ -1,0 +1,43 @@
+name: ReadyCheck
+slug: readycheck
+url: https://audit.runglab.dev
+llms_txt: https://audit.runglab.dev/llms.txt
+llms_txt_status: published
+
+category: evaluation
+subcategory: aeo-website-auditor
+
+tagline: Instant 100-point live website auditor for AI Search/AEO readiness, email deliverability, and web security headers.
+
+description: |
+  ReadyCheck audits any public domain in seconds over Cloudflare
+  DNS-over-HTTPS and SSRF-hardened HTTP probes, scoring 100 points across
+  three pillars: AEO & AI Search Readiness (40 pts), Email Deliverability &
+  Anti-Spoofing (35 pts), and Web Trust & Security Headers (25 pts).
+
+  It parses RFC 9309 robots.txt rules across 12 AI search vs. training
+  crawlers, verifies /llms.txt, /llms-full.txt, A2A agent-card.json, MCP
+  discovery, Schema.org JSON-LD, and Accept: text/markdown negotiation, plus
+  SPF lookup budgets, DMARC, DKIM selectors, MTA-STS, BIMI, HSTS, CSP, and
+  security.txt. No signup is required for live web or API audits; an optional
+  paid Fix Pack provides generated remediation bundles.
+
+features:
+  - 40-pt AEO audit covering 12 AI crawlers, llms.txt, A2A agent-card.json, MCP, and JSON-LD
+  - 35-pt email deliverability check for SPF lookup count, DMARC, 6 DKIM selectors, MX, MTA-STS, and BIMI
+  - 25-pt web security headers audit (HSTS, CSP, clickjacking, CAA, and RFC 9116 security.txt)
+  - Public JSON API endpoint at audit-api.runglab.dev/api/audit without signup
+  - Official llms.txt published at the site root
+
+use_cases:
+  - Checking whether a site allows AI search crawlers while blocking model-training bots
+  - Verifying llms.txt, A2A agent cards, and Schema.org structured data in one pass
+  - Auditing SPF 10-lookup limits, DMARC alignment, and HTTPS security headers after deploy
+
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [aeo, geo, llms-txt, robots-txt, dns, spf, dmarc, security-headers, audit]
+
+maintainer: RungLab
+added: '2026-11-26'

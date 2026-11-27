@@ -1,0 +1,43 @@
+name: FMF Tools
+slug: fmf-tools
+url: https://tools.fmf-x402.workers.dev/?ref=awesome-llms-txt
+repository: https://github.com/GeminiGeorge22/fmf-tools
+llms_txt: https://tools.fmf-x402.workers.dev/llms.txt?ref=awesome-llms-txt
+llms_txt_status: published
+
+category: tool-directories
+subcategory: mcp-and-paid-api-catalog
+
+tagline: Catalog of remote MCP servers and pay-per-call APIs for agents. tools/list is free; tools/call is pay-per-call.
+
+description: |
+  FMF Tools is a catalog of remote MCP servers and pay-per-call APIs for
+  agents. Discovery is free: agents can call tools/list, search the catalog,
+  or read llms.txt and OpenAPI docs with no account and no API key. Paid
+  tools/call requests are settled with x402 on Base or MPP on Tempo; invalid
+  input is not charged.
+
+  As of 26 Nov 2026 the catalog lists 37,467 live-tested MCP servers and
+  3,709 live-tested paid APIs, including 130 first-party tools (144,026
+  verified or registry MCP catalog entries). Listings are retested daily.
+  Counts are published at /api/summary.json and /api/coverage.json.
+
+features:
+  - Free Streamable HTTP MCP directory at /mcp (search_tools, best_tool_for, get_tool, list_categories)
+  - Pay-per-call APIs over x402 (Base USDC) and MPP (Tempo), with no account or API key
+  - Daily live retests of listed MCP servers and paid APIs
+  - Public llms.txt, OpenAPI, and JSON summary/coverage endpoints
+  - Installable agent skills under GeminiGeorge22/fmf-tools
+
+use_cases:
+  - An agent needs to find a live MCP server or pay-per-call API for a task
+  - An agent wants to call a tool without creating an account or holding an API key
+  - A developer wants a single MCP URL that can search a live-tested catalog
+
+license: freemium
+deployment: saas
+platforms: [web]
+tags: [mcp, x402, mpp, pay-per-call, directory, catalog, agents]
+
+maintainer: FMF Tools
+added: 2026-11-26

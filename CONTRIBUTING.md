@@ -98,6 +98,7 @@ Use one of these exact strings for `category`:
 - `evaluation` — eval frameworks and harnesses
 - `training` — fine-tuning and training tools
 - `web-search-for-agents` — search APIs built for LLM consumption
+- `tool-directories` — catalogs and directories of tools, MCP servers, or APIs that agents can search and call
 - `ocr-doc-parsing` — document and PDF extraction
 - `deployment` — hosting platforms and model endpoints
 - `desktop-apps` — end-user AI applications
